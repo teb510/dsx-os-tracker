@@ -1,9 +1,17 @@
 {
- "generated_at": "2026-11-26T20:16:36.306993+00:00",
+ "generated_at": "2026-11-26T20:21:19.414119+00:00",
  "items": [
   {
    "first_seen": "2026-11-26T20:16:01.311589+00:00",
    "id": "17819fca9ff04333",
+   "llm": {
+    "category": "business",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Nvidia has halted AI server shipments to four Southeast Asian countries."
+   },
    "origin": "google:\"Run:ai\" NVIDIA",
    "origins": [
     "google:\"Run:ai\" NVIDIA"
@@ -82,6 +90,14 @@
   {
    "first_seen": "2026-11-26T20:16:01.311589+00:00",
    "id": "37d7a79e2734bc43",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "HP launched the OmniBook Ultra 16 laptop with NVIDIA RTX Spark in India."
+   },
    "origin": "google:\"Run:ai\" NVIDIA",
    "origins": [
     "google:\"Run:ai\" NVIDIA"
@@ -221,6 +237,14 @@
   {
    "first_seen": "2026-11-26T20:16:01.311589+00:00",
    "id": "39df3cee26f86e38",
+   "llm": {
+    "category": "analysis_opinion",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Article discusses how Jensen Huang's return to Nvidia could affect Anthropic's competitive position."
+   },
    "origin": "google:\"Run:ai\" NVIDIA",
    "origins": [
     "google:\"Run:ai\" NVIDIA"
@@ -1424,6 +1448,14 @@
   {
    "first_seen": "2026-11-26T20:16:01.311589+00:00",
    "id": "1edec654c4c45f8b",
+   "llm": {
+    "category": "business",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Report on questions about AI's future following the Nvidia CEO's resignation."
+   },
    "origin": "google:\"Run:ai\" NVIDIA",
    "origins": [
     "google:\"Run:ai\" NVIDIA"
@@ -1553,6 +1585,14 @@
   {
    "first_seen": "2026-11-26T20:12:09.141421+00:00",
    "id": "966b9c71372ad1cf",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Tom's Guide lists seven AI laptops tested for running models locally."
+   },
    "origin": "google:\"Run:ai\" NVIDIA",
    "origins": [
     "google:\"Run:ai\" NVIDIA"
@@ -1562,6 +1602,27 @@
    "source": "Tom's Guide",
    "title": "These are the 7 best AI laptops we've tested to run models locally and handle tasks",
    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5SWTNwU3RrbUlRdTdhaEFKdW9oQ2xoVXhvcnZLRVlfWm9RUXhOS1ItcmVXRTYxNGRLaHVEY195N0hWZWtvUm54MVFaay15Q2g3bHZHMEVnRUxhTG1yeDA0bg?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T20:21:19.414119+00:00",
+   "id": "ea4cebdcb7e32ec1",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Report claims a network of 400 fake accounts defended Jensen Huang online."
+   },
+   "origin": "google:\"Fleet Intelligence\" NVIDIA",
+   "origins": [
+    "google:\"Fleet Intelligence\" NVIDIA"
+   ],
+   "published": "2026-11-11T08:00:00+00:00",
+   "snippet": "",
+   "source": "explainx.ai",
+   "title": "400 Fake Accounts Defended Jensen Huang: Koios Network (Nov)",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNY0lNc2RIMUdBY0pkZVAxSkZBd0VtMXpkQmpyMXE5QVpZenhRXzNROERIa2JPLUpaYmItcDg5MWdudGQ1dkhLV1NiWWtnU1NVXzRXNm5oQ0s1bFdqLU9hdnRIMXJQeS1Mc1FOUXZFR2pHdGNURUZEWVVVdEc2d0drV19lZDRrN25UTmZuQzNFV3FGcXM?oc=5"
   },
   {
    "first_seen": "2026-11-26T00:14:47.750228+00:00",
@@ -1802,6 +1863,27 @@
    "source": "varindia",
    "title": "E2E Networks unveils Blaze, a pay-per-token inference service for open AI models",
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZHRuZHVBcnV4bC1XVEJrOGVxQ1NoazYteHF2b3hLRXBQUnpma21adFFEMGVUT0xGLXlld3dnOTVaZDVsV2Y3X3NrSTZXLVBPNUhLaTNTbWM3QUVhVDZraHE2RnRiT3Q0M0dzOVRmX3ZvUjJsdTdiSUZHNUw0cHl6TFQtZGdjT2pZbFU4U0pqQ19lUXM4TjVDNXJWVkVUTXZoWFh2WWVxb29IbnNKdlE?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T20:21:19.414119+00:00",
+   "id": "a05430c6635da6db",
+   "llm": {
+    "category": "launch",
+    "importance": "high",
+    "model": "claude-opus-5-5",
+    "relevant": true,
+    "repos": [],
+    "summary": "NVIDIA donated OpenShell to CNCF and released additional open-source AI factory tools."
+   },
+   "origin": "google:\"AI factory\" NVIDIA open source Kubernetes",
+   "origins": [
+    "google:\"AI factory\" NVIDIA open source Kubernetes"
+   ],
+   "published": "2026-11-10T08:00:00+00:00",
+   "snippet": "",
+   "source": "Unite.AI",
+   "title": "NVIDIA Donates OpenShell to CNCF and Adds Open-Source AI Factory Tools",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSXcxRmRGdmhodUhtY0VRWkRzanFzTG9nUjJfTVdnXzJISFJmSlZfYUIzNlZZMXRvd3dOY180MklTa1k4TXdhVTVaM3UzR000Mmk5STZFbV9NRjRMTzBBazU5WkFVLWNVZm1uSlJwanRtaWRrSnJVRTd4NEM4X0RmTDJvRGtYSkVwUUI3eFZUR2F5dzhGaFVB?oc=5"
   },
   {
    "first_seen": "2026-11-26T00:14:47.750228+00:00",
@@ -2450,6 +2532,16 @@
   {
    "first_seen": "2026-11-26T20:16:01.311589+00:00",
    "id": "fdad158594c7758a",
+   "llm": {
+    "category": "partnership",
+    "importance": "medium",
+    "model": "claude-opus-5-5",
+    "relevant": true,
+    "repos": [
+     "dynamo"
+    ],
+    "summary": "Supermicro launched a KV cache solution with IBM and NVIDIA showing inference performance gains."
+   },
    "origin": "google:\"NVIDIA Dynamo\"",
    "origins": [
     "google:\"NVIDIA Dynamo\""
