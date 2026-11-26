@@ -1,0 +1,3332 @@
+{
+ "generated_at": "2026-11-26T20:16:36.306993+00:00",
+ "items": [
+  {
+   "first_seen": "2026-11-26T20:16:01.311589+00:00",
+   "id": "17819fca9ff04333",
+   "origin": "google:\"Run:ai\" NVIDIA",
+   "origins": [
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-11-26T16:46:20+00:00",
+   "snippet": "",
+   "source": "The Hindu",
+   "title": "Nvidia stops shipping AI servers to four Southeast Asian nations",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQemV5bG5URkZMVERmUG03dmtHVkZnNDBIbmExUGRKVE5qUnhZWVg4U05oQkh3ZTlOLW5aLWNKbkxiNi1CMVZWTTJpR2ZraDU3YXdzN0xLaWZXSlVScG9EbGozTURzYWhMRDBXSUJnOUdOMVdhWndwa0RKeGE0TWtnd3llYjFabU5YWDRDTEY0WG81OWlxa25hVHNabF9MWC1yTm9BUXBtTDhFQW93OHdXQ1dpMXV5b1cwbTVMb0NJTDVkMG84ZlVWc0FpOUNNZ9IBzgFBVV95cUxQemV5bG5URkZMVERmUG03dmtHVkZnNDBIbmExUGRKVE5qUnhZWVg4U05oQkh3ZTlOLW5aLWNKbkxiNi1CMVZWTTJpR2ZraDU3YXdzN0xLaWZXSlVScG9EbGozTURzYWhMRDBXSUJnOUdOMVdhWndwa0RKeGE0TWtnd3llYjFabU5YWDRDTEY0WG81OWlxa25hVHNabF9MWC1yTm9BUXBtTDhFQW93OHdXQ1dpMXV5b1cwbTVMb0NJTDVkMG84ZlVWc0FpOUNNZw?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T20:12:09.141421+00:00",
+   "id": "aeecd5cf2e1ae074",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "HP launches PCs based on NVIDIA RTX Spark."
+   },
+   "origin": "google:\"Run:ai\" NVIDIA",
+   "origins": [
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-11-26T14:43:20+00:00",
+   "snippet": "",
+   "source": "91Mobiles",
+   "title": "HP officially enters the NVIDIA RTX Spark race",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORHVHRmwtdGFTaU1RZ2g2b2JxT1ZFYkJvVmxKTFRob253bWpxUzhKMmFPQ3VyX0p0LW01RUF6VnFTVWRnaWZzLWRxZWtNbnhyYjZYYXF4MUlNY1hkTThHeUR2WFdYU01NYi1xTk9kZUk3bHJfaThqZlRBbktSZ3ZVTVFRVdIBiAFBVV95cUxNX1cxczE0eDlvSV9DWWJmRFdUQlhCaTNoRmlqalczdTVCUWFnUWF0NV9MV1gxdkdLR0JJU0NVMzY1LTluVVZNT3V6SHctMDU1aEpaNmhKMWhVTm53RUJsYmJDZWhLOHkyVVNxZ24wTTF5UW1idkYtZWF2SUhfQUcwZHF1d2dsREY1?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T20:12:09.141421+00:00",
+   "id": "9697ec6223a070ee",
+   "llm": {
+    "category": "partnership",
+    "importance": "medium",
+    "model": "claude-opus-5-5",
+    "relevant": true,
+    "repos": [],
+    "summary": "Eaton debuts Beam Rubin DSX platform for NVIDIA AI factories."
+   },
+   "origin": "google:\"DSX AI Factory\"",
+   "origins": [
+    "google:\"DSX AI Factory\"",
+    "google:\"NVIDIA DSX\""
+   ],
+   "published": "2026-11-26T14:10:18+00:00",
+   "snippet": "",
+   "source": "Wisevoter",
+   "title": "Eaton Debuts Beam Rubin DSX for AI Factories",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPaTZhRXBuSUkxSmZibWlkVG9VcUhFTS1VLVhGdzRYcGRpdHFZZzFjeEVlNWxYcHVwODNFQ0ZoeHdEd3RiRVBIWUVGMnczT0FZbThFNG10XzZxeXB6LUlYOWFaQng0OUQxWk0xaFo5QThOZFNNZ0kwWFhyeGFNbWRCU3MwM2U3QQ?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T20:12:09.141421+00:00",
+   "id": "e68158332daeddda",
+   "llm": {
+    "category": "partnership",
+    "importance": "medium",
+    "model": "claude-opus-5-5",
+    "relevant": true,
+    "repos": [],
+    "summary": "Eaton unveils Beam Rubin DSX platform developed with NVIDIA for AI factory power infrastructure."
+   },
+   "origin": "google:\"DSX AI Factory\"",
+   "origins": [
+    "google:\"DSX AI Factory\"",
+    "google:\"NVIDIA DSX\""
+   ],
+   "published": "2026-11-26T10:55:27+00:00",
+   "snippet": "",
+   "source": "Techerati",
+   "title": "Eaton unveils Beam Rubin DSX Platform with NVIDIA",
+   "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPZEhYa3V2X0ptaWd1QWI4NENCWVJ1LXJNTjgwZ1lPaDhKeHJnNnl6M3FoaGpvOUxid1BGRTljdmY0cmhVdS1MWTFfN1RrQkwzc0R3QWZ2dHZBSHAwblVSYW0wQ19VQ3E3RGY1YkVmQlRSS1NjdFFEZk8xUGI1Q0NZLTdFR1NnTWJLbnBkT0RqNDlUX1F4QUVtWGJtbUU3c0FCS05TRWNhWENYaDhkY2pSYWJxb0tad2NGY05ab3FQWU5jMWN0MkRDYWt4di1KWkVJaW96VUdsN3pELVZ6OEM5eDFjU29iZEFoVExJeE9OTTE4TURSQTF0aDFHVm1PSkFfanFNVVRpdTVSNnkzcm9OaERGUE1EYjRjUXdfcXI2MFRkZw?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T20:16:01.311589+00:00",
+   "id": "37d7a79e2734bc43",
+   "origin": "google:\"Run:ai\" NVIDIA",
+   "origins": [
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-11-26T10:05:45+00:00",
+   "snippet": "",
+   "source": "The Economic Times",
+   "title": "HP launches OmniBook Ultra 16 with NVIDIA RTX Spark in India at Rs 5,49,999",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQWHU4Mnp6c2tQVDJOcm1GenpNRWo0bk8xcnlDR1c5dVhHVGF4RU42NkxwTFd4UmdCX0dCWG9DZmFNbWc4dVZRUHJ5WXBCdUtKVWVsRExZWXZfRkM1eVhZeHNOUjcwLXIxRThtakFkSVFPd3RKZThySnU4Z0xCWU44Yk8ycUZ4TnllYXRfdEljOEg1aUpTbTd2VWRCUmNqUjdXckZmYnYzQjJNdHE5cFZaeVBJTUVYM2VHZ0lnbkZ6dVUtNTB5RG81Rm16ZHR4eWl0a01OSEc2d3RrUUhGYWfSAeMBQVVfeXFMTU9TR2VJbkNIZ1EwU3RuZXcyUVIyVWR6X043alRMbW9XMm1nN0xmTjIyUkNKbU1JVUVVLThydk5IZzlmOU1HTnR0ZUs1V3lMdEt2bkQ5bXlYTzZZNF9TSjBtb0RyRnE3TmMxaUVTSU1NMWNXZXdJN0ZocmpGR2pSaWk0MEI5QW1DanJ5WmFNU25rRTdYU3JzLTdlTl92dVJBNzRCbUhaVTdBOXNhcjZRY0w4bUdQa05BeHNjQUdlTWlmWDRHMGszWGZhWkNNbkJtRTQxS0VncXFRRklaUXladWcyWTg?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "44ff243d5c7d403b",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "NVIDIA RTX Spark PCs launch in India starting at \u20b92.99 lakh."
+   },
+   "origin": "google:\"Run:ai\" NVIDIA",
+   "origins": [
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-11-25T13:24:58+00:00",
+   "snippet": "",
+   "source": "Republic World",
+   "title": "NVIDIA RTX Spark PCs Bring Local AI Power to Indian Creators, Prices Start at \u20b92.99 Lakh",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPUEptV2JsSVppMTBKY1EtYUVPS2hnLWFsaWVDUGJIQWxFSnI2T21UQTdsQkhuWkd5T0NPd3JPcVpkdFpFMWsxamlMU0p4VWxNTi1MeUU0b1h1TnpCeHNkZWROTWRqX3hreUlCQlAtWGhCMnM0MGMxdTdyM1hNSzZlbm5JV2pmLThYUjVzT2JnWVpzYkRTVzhVTF9hMmVHcVJkZFFfOC0tbEQ0MDlDazloeDFTcDlFbHFXaXNVeFJxMUV2eVB5OGNtWUVHNDNjT29tSkZpRtIB2gFBVV95cUxOT1R3Wk9lWEp3MHcyZzREWjVOMlZkUkxhMWVLdEJlLXV6RmxaRUFTZmxrdG51eXZ4dFFZVG9IdFZtY09Vb25xQXF6cW82YUR0WTVoR3Jsc0czalJzLWRwSm9sTHdYVURmOWhobE92VEp2eUxUTEprclZNa3ZiSHhhQVp6NjZ1RnBOZ003TFV2VWJGSlJLbEF0bmROV1AtOGlPcV9COG45NTU0Q3Iyd0tncTFjbk15dWNUR2NaSDRhcVhUV0ZoQkxheWsyNC1vOWZjRjR4aDJ0dGt5UQ?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "fbb0184f1667fbbc",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Explainer on AI chips and Nvidia's position."
+   },
+   "origin": "google:\"Run:ai\" NVIDIA",
+   "origins": [
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-11-24T20:08:14+00:00",
+   "snippet": "",
+   "source": "The Conversation",
+   "title": "What are AI chips, and what\u2019s so special about Nvidia\u2019s?",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQWGZiVHdoQTRzVkdRbS0tZTBjVTdnZnA5RXRYU1lXWVNYbTFaNHlMdWdackFqUW5IZjZpenNBbUpqT0FCanhQYXN6cmFsYkVkdy04TC1CZVRNUFVBcnRaaThOTklhMDZ2QVExRDFNeExQLXJYWndReWR3Zng2WGJzUmFvM1lwcW1YYTNaOGlhVDc?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "61a64dae204ef668",
+   "llm": {
+    "category": "analysis_opinion",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Investor opinion arguing Nvidia's AI factory moat is widening."
+   },
+   "origin": "google:\"DSX AI Factory\"",
+   "origins": [
+    "google:\"DSX AI Factory\""
+   ],
+   "published": "2026-11-24T19:04:18+00:00",
+   "snippet": "",
+   "source": "Seeking Alpha",
+   "title": "Nvidia: Ignore The Drama, The AI Factory Moat Is Widening (NASDAQ:NVDA)",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTzhDbHIzV0pwRkVITmthMzJEUlRaNHFkTWJraTBaSGZWM1Z5NmxYd1lVaFhQdFNWcFdaeHZvRkxwZzF1bFVWbTFzdmhVQ0Z1U2lHMENjLUZ6cktwRTdReG5RWXhvVEQzbEUwRkZjOGg1YkpQNWEtYk8yUDhJRFZZcElPdzZ3UzhGTHBRWjM1UDFRSEJvZzk2Z2hzSnc?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "2f8068b9f629f2d2",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Nvidia RTX Spark laptops launch in India."
+   },
+   "origin": "google:\"Run:ai\" NVIDIA",
+   "origins": [
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-11-24T16:49:02+00:00",
+   "snippet": "",
+   "source": "Smartprix",
+   "title": "Nvidia just brought desktop-class AI to thin Windows laptops in India, starting at \u20b92.99 lakh.",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQcV8tYlZMUzJGaENuN24zQzlCZXVBMVloUE5BaXRXa2dtZWNyUkVSaUtxYWdJTFJpVGltR2pMSWxaSEtsejBDdUhMbm5xeGZqaGxNYXMzM01Ed1FnNVBvMjh3Tkw2eGQ2bDlMbU5ITDZpMkRQLTczRDNBeTF3TkV3R1N5M0dUVEZnZDRXQ0FIX1gtb3RBWkVfblhwWF9MN2NKV3Z6TjhSNXMyZ0NFMnBfWEZaaEhVSVVyZTR3YXM5cnlpWkJwLVUtZFZhRFJXUQ?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "faceac3e8818321c",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Palmer Luckey's view that most AI will run locally, framed as Apple bet."
+   },
+   "origin": "google:\"Run:ai\" NVIDIA",
+   "origins": [
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-11-24T16:45:28+00:00",
+   "snippet": "",
+   "source": "TIKR.com",
+   "title": "Anduril\u2019s Palmer Luckey Thinks \u201cMost AI Is Going to Run Locally.\u201d That\u2019s a Bet on Apple",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPTzZEMGZXVF9pU0RabXgyVXZORVBmTjkxY3d2WUNSYnh4aVcxTTMyWnEzRVNVY2lWZHpuM3pGS2F2TWhFdFpiOGNaYkFDWjZLV2NmbzAtajc3aUtoRllEX1ZKTVg2Z05fbkdmRG9nb2JJLVR3MzhYY1p5eVJGdVN6dXVTV3ZXUmQ2eDAwazliTExOT1U2Z3Zzc0FWaXRNQ2lCNlljdHozelNFdHZvVG9Qc1VMa3FRVTVkZ3hfSTZB?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "c54a74c82662e00e",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Business Insider on AI hardware dynamics threatening Nvidia."
+   },
+   "origin": "google:\"Run:ai\" NVIDIA",
+   "origins": [
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-11-24T10:00:00+00:00",
+   "snippet": "",
+   "source": "Business Insider",
+   "title": "The AI hardware loop that threatens Nvidia's future, even with Jensen Huang back",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRFl5SmFsSF9vTHJRTHRObUprWG5EUHpzTTBNQkpmMHNKYndvRTdDZjNXcjZqdkh6VElwZ3U0b3NBVzFSQ0Q2MUtuay0zaXN1Y0FsVVluWVZDX0djb19QTUhPbWptYnZ3dDZuTkN1bmxIemh5Tkw1VW9LMktCZEtmVGVGNjExUVlYSlNRd21rNktaVG5UZDZMXzZWdVNicGo5Y0I4OA?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T20:16:01.311589+00:00",
+   "id": "39df3cee26f86e38",
+   "origin": "google:\"Run:ai\" NVIDIA",
+   "origins": [
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-11-24T08:21:54+00:00",
+   "snippet": "",
+   "source": "NEWS.am TECH",
+   "title": "Jensen Huang\u2019s Return to Nvidia Could Complicate Anthropic\u2019s Position in the Battle for the AI Market",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFB1TzBVSFlhQzRDbzZOZjdHOWQyeV9SVGtnZUtmTmQ1R3E0SFhfaXRYZ0J4czFrWTV1cVg0Z2dKVVljMnEwdHlPTg?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "460a65fe1cf6ba22",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Marlowe raises $277M seed to run AI on non-Nvidia chips."
+   },
+   "origin": "google:\"Run:ai\" NVIDIA",
+   "origins": [
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-11-23T19:49:59+00:00",
+   "snippet": "",
+   "source": "Dealroom",
+   "title": "Marlowe raises $277M seed at $1.15B to run AI on non-Nvidia chips",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPblhqaXV4VWxQeTNqcjh6eTR2b2VzUzNGenJVTG9OZUxLU01KYmNNT01hMnhQZkpjNl9oNXktWkJQQmRzWUNoTWFjeThvUzR6bDJxR21GTWhfbHlRUFlTQVV3bjQ2cnN0SGNaRXYtSEJ1Q1FpdjNVcTB6eVZCNzJ2dXAzRWdyazlMa2IzTkQxU1hNekg5bURWNEZHbVRiUQ?oc=5"
+  },
+  {
+   "discussion_url": "https://news.ycombinator.com/item?id=50611280",
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "4b65979db68cf86c",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Okteto blog on running AI coding agents on Kubernetes."
+   },
+   "origin": "hn:\"Run:ai\"",
+   "origins": [
+    "hn:\"Run:ai\""
+   ],
+   "points": 2,
+   "published": "2026-11-23T13:30:39+00:00",
+   "snippet": "",
+   "source": "Hacker News",
+   "title": "How to Run AI Coding Agents on Kubernetes: Sandbox vs. Environment",
+   "url": "https://www.okteto.com/blog/how-to-run-ai-coding-agents-on-kubernetes/"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "1e6bdc4cb4eadc85",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Marlowe raises $277M seed led by Accel for non-Nvidia inference."
+   },
+   "origin": "google:\"Run:ai\" NVIDIA",
+   "origins": [
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-11-23T12:35:25+00:00",
+   "snippet": "",
+   "source": "MLQ.ai",
+   "title": "Marlowe raises a $277 million seed round led by Accel to run AI inference on non-Nvidia chips",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZG5lT0p5ZTNLbnEzMTI4SzE2Mm9SSGFzcWVvQlE5UWg5X253NDMwSEZlSGFod2RnQm9HbU9DME53NmpmNmNrWlJzNVBZRzVicy1mdV95NmZrOHVydERVVjFkTVJUUGQ4UVFpMmliTmVTMG5QSXR4a25DMldKQldyX1NLMVNobzJlRHdRVHVLMXUwNGRwWWhqRDJrS1ZCYWZfSDdNSHFFNGd4bGs2WktTck81UQ?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "5cf4ff4ef3d32cb6",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Reuters on Nvidia's China business amid Huang's exit."
+   },
+   "origin": "google:\"Run:ai\" NVIDIA",
+   "origins": [
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-11-23T11:50:53+00:00",
+   "snippet": "",
+   "source": "Reuters",
+   "title": "How Nvidia\u2019s billion-dollar turnaround in China is threatened by Huang\u2019s exit",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMzBhLWJfeFVoaXlNajJPVmVaNHl3bFFPR3lveEhDV3dlNXU3MTNlcm1MNVp0OGM5MmtvcmVxVHg2SXBCZ0U1WkdBX0NGYmNZR1NrUXI2MVZFdXQtQnlhUXN6bm9SRGJOSnYxb1QzRklGZWd1bm9tdnlSNnVGLUpLWllkZFB2MVF0UXd3T3NDbWRUQUtmVzZkUml4cXJjdmhXVXFkYWdLZ3o4TGI0T2tIZG5KMHZlSWpSczNIVg?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "63e3b08e7e0e9f51",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Vertiv opens ATLAS lab to test AI factory infrastructure with NVIDIA."
+   },
+   "origin": "google:\"DSX AI Factory\"",
+   "origins": [
+    "google:\"DSX AI Factory\"",
+    "google:\"NVIDIA DSX\""
+   ],
+   "published": "2026-11-23T11:34:35+00:00",
+   "snippet": "",
+   "source": "Manufacturing Today India",
+   "title": "Vertiv opens ATLAS Lab to test AI factory infrastructure with NVIDIA",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5LTXZobnBGTllFS0FTZ3ZFa3FXWFRsUkJoMFdzWW9NZEpSZFhlME9DdWhfRmJ2Y1E1MkxYMGVOOF94OEdYby1sdVZ6T1Y2bFlCc3V3Rll6ZENIT2h6WnZOWmpMNEVqaVJNYm82MDNENA?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T20:12:09.141421+00:00",
+   "id": "d77c0a46143ece22",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Vertiv ATLAS lab coverage on AI infrastructure pace."
+   },
+   "origin": "google:\"DSX AI Factory\"",
+   "origins": [
+    "google:\"DSX AI Factory\""
+   ],
+   "published": "2026-11-23T09:30:24+00:00",
+   "snippet": "",
+   "source": "Bisinfotech",
+   "title": "Vertiv ATLAS Shows AI Infrastructure Outpacing Silicon Innovation",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOQkZsOGUxb3poUmsyUXY0d1g3dUFYOEZ6clg0TGVKUmZhZDREcngteWMzTU5WQUh2c3ZvRW1JaDF1NUZuZTJvVmkzaVU5TzlxR3ZFZlk4RXZlX1pITWs1c29MZ0pTdXRzSzk5RGYzUFRpSHFpV2dvbUF4Wkl5OGJLb3NYdXo4VUVnT0lz?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "b1441f97cc34f021",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Amazon's chip lab challenges Nvidia."
+   },
+   "origin": "google:\"Run:ai\" NVIDIA",
+   "origins": [
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-11-23T02:14:00+00:00",
+   "snippet": "",
+   "source": "The Australian",
+   "title": "Amazon\u2019s secretive chip lab is challenging Nvidia with $25b revenue and 1 million AI chips",
+   "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPb1VtWk9tYTdHOVg0WnVLaXNIelBmNXV4UEpGMnhQU2V6a05iZFQ3M0NJUG14VUJZU1dVQXV0dmRDakdGMzVtbWxwZFpUSVlxZHRidXRFWTdGYWZvSjh5RzNSRjB6X0JjZldhNEItbHJyN1pGNDROWW5kQ3FpNG04V3NscFNhVzZjeEZuMk5QUHNhMXRPNm1vd2IyRWluTlJSWEJXNVdjMkpzTzFVcXlEb08xQ3NLUE1XMy01N1hoZUNTUFNjcUpaT1lFa0FnRFZJd1NaMWVSdjZXb05xVWJQMW90OFRuREczdE55WXVkUzNvS2diLTgyMzVCZ1Z5NWtjSHYwQU9ZdjRBV1U?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "6887d9dce114618d",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "PCWorld covers RTX Spark mini PCs."
+   },
+   "origin": "google:\"Run:ai\" NVIDIA",
+   "origins": [
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-11-20T16:41:52+00:00",
+   "snippet": "",
+   "source": "PCWorld",
+   "title": "Nvidia\u2019s RTX Spark mini PCs are supercomputers in a tiny box",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQd1ozZERuMnhUUEVpWE5oUFR5R0VfRnJZTkFJOFpxT3hXcGF0cmlTNXRXV3hjcjdKa3NtSWpUWXBwQl94dmpOY3NwOC1FdjlOeF9nYkVxRE1YMzhsbG4xNk1MTzlubjR0elBrUHhtbEJwVVpvNmhoczlONXNtd1Zhbkhia1VETWZYQ2VpQ1IxLUttMmFheG9xNy1Hd1h4ZFZHVVRkU3NMdnhHMG55?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "ab5dfc498d5f6951",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Buyer considerations for Nvidia 128GB AI desktops."
+   },
+   "origin": "google:\"Run:ai\" NVIDIA",
+   "origins": [
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-11-20T13:56:13+00:00",
+   "snippet": "",
+   "source": "TechRepublic",
+   "title": "Nvidia\u2019s 128GB AI Desktops Could Reduce Cloud Costs: What Buyers Should Consider",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTTV6RFhYcWRRMGYwOVFIY0lkbWdDTktGQjdaQTdZb0hPZEtxanQ1QTBWMGZoT3R3Sl9KRHp3M0d0OWV1ZmRscWRTTU1ZSHFRakl0U21EbHZnNjlLS1VKY3J3cll5aEtGSVZlN3p1RVVsaVB5bWhtNzBNWlo0VHIya29jWnRDNEZpalM0?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "0b0f7af74e31d61a",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Enterprise AI constrained by power and cooling rather than GPU supply."
+   },
+   "origin": "google:\"Run:ai\" NVIDIA",
+   "origins": [
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-11-20T12:55:00+00:00",
+   "snippet": "",
+   "source": "SiliconANGLE",
+   "title": "Enterprise AI hits a wall of power and cooling, not GPU supply",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZXlicnY0MGpLOEthdnlKNjJ1dVdPdlpWbjVWcDgxc2pXYkR5MHViRW1rRGI3UjZhS2F4SVVUVGx1QWxneE9CNVZPN0FwdmNkYXU2YkI4QUE4dGZpVzN6ZERzTmRoblY1a0lRTVFOZ0RBSVBOU1UtS0lwN3dYcmFmd01QcE9fdHo0N0pHYjRsbDFERzIzNWhfTw?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "8404530aa239f026",
+   "llm": {
+    "category": "technical_deep_dive",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": true,
+    "repos": [
+     "run-ai"
+    ],
+    "summary": "Report on AWS EKS GPU sharing guide behavior where over-cap pods end Completed without OOMKilled alerts."
+   },
+   "origin": "google:\"Run:ai\" NVIDIA",
+   "origins": [
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-11-20T11:47:07+00:00",
+   "snippet": "",
+   "source": "Tech Times",
+   "title": "Amazon EKS GPU Sharing: AWS Guide Shows Pod Over 8 GiB Cap Ends Completed, Skipping OOMKilled Alerts",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOVXBIMXdZT0JXOWZTU2xQdnVrdWcyZzRGeHNZQnJrUDZlaDFDVHM3V1p4MFphNjdHd01DSmpkaERUdExfZ2lOcmh2V184a3B2NmNSaVB3bXMwdUlHaUo5U2NyZXJyWmFZY0plMkUtem9QcWZaTDQ0MnJSbGtxRVR1dUJld1BlZzQwTHlENUdEdTRzeUZpVG00UFp1cmVlWklVMUZ4SWgxUHZGdUJwNWtyMDk4SFE5ajlrUFI5bHkyUGcwSWhJcGNtc3BoeEU3LWZKOTBYaHdnWm1EVTdfRHkyYnptZjNjMDZa?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "c78916994fb13271",
+   "llm": {
+    "category": "analysis_opinion",
+    "importance": "medium",
+    "model": "claude-opus-5-5",
+    "relevant": true,
+    "repos": [],
+    "summary": "Analysis of NVIDIA's DSX POD and implications for modular data centers."
+   },
+   "origin": "google:\"NVIDIA DSX\"",
+   "origins": [
+    "google:\"NVIDIA DSX\""
+   ],
+   "published": "2026-11-20T11:12:09+00:00",
+   "snippet": "",
+   "source": "Data Center Frontier",
+   "title": "What NVIDIA\u2019s DSX POD Tells Us About the Future of Modular Data Centers",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPTnlVNDkxaVdFZmFGN09neEc5bFpQOGJnTDFfby1XRURYWHpBVGttdGNGMXVWdGl6cS1nSmtiYVctSlBHSVZ4SFdNM2xmR0xaSFRLX1NjZ3lpU0ZOYnZ2SlZMMjF1V0c3ODVLcG1QN2NZWXpsNFdJLUU0ckIwTklDZFE5cU9aQUZ2dnJ3X2NENURlUEJHN0FyN1FSRDV4ZXpqSUdPbHVGYWNzTkRpQkNoSXg2eS1OenprRWdsd215NWtNSHY1V2JPZlQ0bHY?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "33a87fabac7c1076",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "GIGABYTE launches RTX Spark compact desktop AI TOP AERO."
+   },
+   "origin": "google:\"Run:ai\" NVIDIA",
+   "origins": [
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-11-20T06:48:10+00:00",
+   "snippet": "",
+   "source": "Newswav",
+   "title": "GIGABYTE joins NVIDIA RTX Spark compact desktop lineup with AI TOP AERO",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORmpLT3luSGVWQkY0WEp1T2J4cjZUMTdyc2ZMdExMUmQzeUVGQ25UR2t0Q0dJQTFlSjRISlJveS1zd3dBeFh6UW03Y2Y0emhsaHF0OE5KdjNwNDE4X1ZvRWYwV19IYjdvdnZ1N0IxS2o2bHhoYXpwbEZTQkoxeGdHOWF4dTRGUlBQMWlPaVBLSHU5WS1rbUVBSUt1cXBTWUFCeXhoZUhVVXFFZUd3c0FZSzRB?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "fa64d27ca03e8b03",
+   "llm": {
+    "category": "technical_deep_dive",
+    "importance": "medium",
+    "model": "claude-opus-5-5",
+    "relevant": true,
+    "repos": [
+     "dynamo"
+    ],
+    "summary": "NVIDIA blog on building Rust tool-calling parsers with AI agents, likely for Dynamo."
+   },
+   "origin": "google:\"NVIDIA Dynamo\"",
+   "origins": [
+    "google:\"NVIDIA Dynamo\""
+   ],
+   "published": "2026-11-19T16:36:15+00:00",
+   "snippet": "",
+   "source": "NVIDIA Developer",
+   "title": "Build Tool-Calling Parsers in Rust with AI Agents | NVIDIA Technical Blog",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOVEtXUHZ5VUNialNvT1R5aFN3ZExuM3huZlZzSEgyRDc1Q0JHWGVlR3pPTmJ2eEpQamN0TG5LTVpQMmktNDdVT1BwVDRrQmFmeE54TXVNYWhudExfQ2tBQXhEaVRQMjduYzFoczZmQjFhSkNpVWd2aWNXNUs0VkhVUHBGMlpuaE84aWFuZg?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "db531fecbf39fcd3",
+   "llm": {
+    "category": "tutorial",
+    "importance": "medium",
+    "model": "claude-opus-5-5",
+    "relevant": true,
+    "repos": [
+     "run-ai"
+    ],
+    "summary": "AWS guide on using NVIDIA Run:ai GPU fractioning on Amazon EKS."
+   },
+   "origin": "google:\"Run:ai\" NVIDIA",
+   "origins": [
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-11-19T16:13:51+00:00",
+   "snippet": "",
+   "source": "Amazon Web Services",
+   "title": "Using NVIDIA Run:ai GPU Fractioning on Amazon EKS",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZWpaNjNiMnhDNjhDelJ2c3lmeGFFUC14VmZmM1VyMW40ZnF3cTF6cDh3QVFMMVJEOXUteTZaSmVJTHBOT3l0VTNNWlo2bTZSeVZmUjA4c2xwSVF1dWdiVlJ4d2c5U2RKN1ZIc2h3ZmFxa0Y4eEJzMk1id0xqVGpyaDRyUDBxZU55bUxHd3h4Z1A2Y3dJVnNMM01jcw?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "b6cb3ac47ea7aead",
+   "llm": {
+    "category": "tutorial",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": true,
+    "repos": [
+     "run-ai"
+    ],
+    "summary": "Repost of AWS guide on Run:ai GPU fractioning on EKS."
+   },
+   "origin": "google:\"Run:ai\" NVIDIA",
+   "origins": [
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-11-19T16:13:00+00:00",
+   "snippet": "",
+   "source": "London School of Business and Research (LSBR)",
+   "title": "Using NVIDIA Run:ai GPU Fractioning on Amazon EKS",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1sSG85YzlRT1A5Q2JhdERhVmV4Wk9HZ180dmJmdDl4cjZfcHlvM0pzOHJNdy1qQktvWGlDZng2QUJQeTBEWGJONW1hSEpRMHh4ak9GQzNzQm9GTkFUR0VGZ0YxNFRxTkFkSG5KWjZGaFNpWEZmNlFrY01iaUtfZDQ?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "1210ed10927f1751",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Vertiv ATLAS lab tests power and cooling for NVIDIA."
+   },
+   "origin": "google:\"NVIDIA DSX\"",
+   "origins": [
+    "google:\"NVIDIA DSX\""
+   ],
+   "published": "2026-11-19T11:32:49+00:00",
+   "snippet": "",
+   "source": "Data Centre Magazine",
+   "title": "Vertiv ATLAS Lab Tests AI Power and Cooling for NVIDIA",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOelVZcmN6VGs5ZzJEVE5MMWN3clhsSDM1NUNlaTdTVFdBckFTczZzOTVha1FFQXVOWjJzTTVScmVaYTFBZElfZkRhVzhZbkl0N0lmUWhVSl9XOU9SU0hLUFVka016ZWJWVmhDazVHUGNWVTJxNXVHQWJiQ2xtVXZXcmJDNXRoZmZIcnM3QmZHaWRnbFJp?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "601f41230ab5843a",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "ASUS ramps Vera Rubin NVL72 shipments at SC26."
+   },
+   "origin": "google:\"NVIDIA DSX\"",
+   "origins": [
+    "google:\"NVIDIA DSX\""
+   ],
+   "published": "2026-11-19T02:20:15+00:00",
+   "snippet": "",
+   "source": "ASUS Pressroom",
+   "title": "ASUS Ramps Up NVIDIA Vera Rubin NVL72 Shipments at SC26",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYU1yenhUWTZPX256UW12c1BkNEdlUXA5ZEg5LXJtY2M5QUpjN0ZOcFd1UndhRlRjMVFQcVRBM3VQYUt1R3BwXzBoa1FHVk9uVEY0NHJXMzVQRGszSFlaSjVuejhZNXRxVzQ3b3NwMGlHdy1EQmJ3QlZDRmozVF9fQkhMa21vY0lWQ085N3lEZXpGeUgzVVJUVktxMVM?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "a70e498be58a0d28",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "ASUS announces ProArt GR1X mini PC with RTX Spark."
+   },
+   "origin": "google:\"Run:ai\" NVIDIA",
+   "origins": [
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-11-19T01:50:05+00:00",
+   "snippet": "",
+   "source": "ASUS Pressroom",
+   "title": "ASUS Announces ProArt GR1X Mini PC with NVIDIA RTX Spark",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVXN6NHBuUl84MFhDaHMwTW5IdE5QTUtaV3Jlak1uekNyOUVRa29RR2d5RlEzRDJmSVRTZE8wZ1FldFdZZ0Yxek1fVWVXWklGSWQ1RlJtXy14ZHFuTUcxZDYwbUtKdmRxZ3hHUUVpa3F2a0JvaldLdmFOdTVEd3hFQlVTSndIWnIxODNiMXZhU0Q4ZVQwbXpBd2FHMlAzZHl6cE5j?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "1dde6d3279b1e992",
+   "llm": {
+    "category": "technical_deep_dive",
+    "importance": "medium",
+    "model": "claude-opus-5-5",
+    "relevant": true,
+    "repos": [
+     "dynamo"
+    ],
+    "summary": "NVIDIA Dynamo RL feature reportedly delivers up to 15x faster weight updates."
+   },
+   "origin": "google:\"NVIDIA Dynamo\"",
+   "origins": [
+    "google:\"NVIDIA Dynamo\""
+   ],
+   "published": "2026-11-19T00:00:00+00:00",
+   "snippet": "",
+   "source": "explainx.ai",
+   "title": "NVIDIA Dynamo RL: Up to 15x Faster Weight Updates",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNOTRfaXZPMkJFaG1ENXM4WFhYYlhUdzR3UDBMWV9FWnliaUNwRzNIak1lSE02Mm51WVdDRkItTDQ1SUFZck5uREtXcEdoUzBzZWplRXhpR0FBM2piUDI0WGlmQXZMRWY1cFRQSXFNUDM5RWJZQndtQm9sVmFDLWxxaEJ1YTRYOVNzRTN1LTRUc3ZSeFZkTFZ1MVZHQnhuNzhQbTdvWHF0Zw?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "083af7e3e7067873",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "NVIDIA announces RTX Spark compact desktops availability."
+   },
+   "origin": "google:\"Run:ai\" NVIDIA",
+   "origins": [
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-11-18T14:06:51+00:00",
+   "snippet": "",
+   "source": "NVIDIA Blog",
+   "title": "NVIDIA RTX Spark Compact Desktops Out Now",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9wLTQ0TXQ3UWpsQkx5MHNhRnhQdXJZbnFuUnNVcGZabU9fdDA5NXFfSHc0QmxOaTZaTmp1dG9QZTJpaVlrNEJyV0M5MFl3UUR6UHN2NmlGMmlqb1VFaWhIS2VORVVLNE5MLUVRRVlQaU1lUTFjdE5YWjJIbw?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "9bc51cc3fb644256",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "ASUS announces ProArt GR1X availability."
+   },
+   "origin": "google:\"Run:ai\" NVIDIA",
+   "origins": [
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-11-18T14:03:00+00:00",
+   "snippet": "",
+   "source": "FinancialContent",
+   "title": "ASUS Announces Availability of ProArt GR1X",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbmN2OVFTd1VsSGY4Z2FtRUI3ckMxMjhvMlBZX3NYRWNSY0FVem4tVHM4b3JqbmFmNUVfUjNiZi1vb0pBQ3h6cEFzb252akNYMTV0X2Q5TEFnMGFVQmwyc3QwVDdVRml3M2hVakNkRkZ4d3doaGNqSlFZVGpPM0NfSldfQlYwN0p6cy1JcEZXZ01CRHlDZ3h6ZWxKTk03VXdaSjRCQg?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "41c33ffe0376997b",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Nvidia and Microsoft bring RTX Spark to compact desktops."
+   },
+   "origin": "google:\"Run:ai\" NVIDIA",
+   "origins": [
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-11-18T14:00:00+00:00",
+   "snippet": "",
+   "source": "PCMag Australia",
+   "title": "Nvidia and Microsoft Bring RTX Spark to Compact Desktops",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQOFVLQ3BHaVcxOGdWWFRrd3RPbHNzcHJ0bXdQY2xsQWlpTUdDWGxGSVAwZFM3cS0zWHMxZ041UnRTZ0ZSNnVpcXlrMzRXd3Z5X2lKTGZ3czB4cFZOWnZWWUE1VFNVbXpzdmZTNVBNTk5iU0plaDhvQjI5b04tRjZGd01DX2Vhem1sbFl0MFIwcHE?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "d30ffd2df02c008b",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "NVIDIA blog introduces Science per Joule metric for HPC energy efficiency."
+   },
+   "origin": "google:\"NVIDIA DSX\"",
+   "origins": [
+    "google:\"NVIDIA DSX\""
+   ],
+   "published": "2026-11-18T08:00:00+00:00",
+   "snippet": "",
+   "source": "NVIDIA Developer",
+   "title": "Connecting Energy Use to Scientific Output with Science per Joule | NVIDIA Technical Blog",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQLTNDajZwcXRybDlCbmRFcjJ3U19LTm5aaXZsT0hES2ZsQkV0bWpqQzNSS2VzWnJ0XzZTdkJ0THlvWFNVMUFtTlRTWGFTclpGTThyMFFWTnZGZG5ZTmxGT0JnSjRoTEEwYnh3TWY4S0VQcVhIektjZjA0RUVXb1pMbDNncXRZVjZPT29PUThmNVJfVkhmV0xCX25UbjlVQlV5OGc?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "0ed9f6e6d751bed2",
+   "llm": {
+    "category": "customer_adoption",
+    "importance": "high",
+    "model": "claude-opus-5-5",
+    "relevant": true,
+    "repos": [
+     "dynamo"
+    ],
+    "summary": "AWS adds managed NVIDIA Dynamo to SageMaker HyperPod Inference."
+   },
+   "origin": "google:\"NVIDIA Dynamo\"",
+   "origins": [
+    "google:\"NVIDIA Dynamo\""
+   ],
+   "published": "2026-11-17T23:51:05+00:00",
+   "snippet": "",
+   "source": "Unite.AI",
+   "title": "AWS Adds Managed NVIDIA Dynamo to SageMaker HyperPod Inference",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUm9fajJBbjA3aVN6aDUxMXpad1ZDZTlfTTJWTnVBdDhoNFNBWk1DaGk0N1Q5TXJmTy1maVRFeW9uejgwVmpKTFd5TEUtaUpkb21aZjNRWDlOQ1d1SkNuTktaYVFDdENrSkl3YzRoakE0cWhUckJwM19wUEhPQm1NbVpGaC0tU0pzOVdsaA?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "2771ff3c1e8d44a3",
+   "llm": {
+    "category": "customer_adoption",
+    "importance": "high",
+    "model": "claude-opus-5-5",
+    "relevant": true,
+    "repos": [
+     "dynamo"
+    ],
+    "summary": "AWS announces managed NVIDIA Dynamo support on SageMaker HyperPod Inference."
+   },
+   "origin": "google:\"NVIDIA Dynamo\"",
+   "origins": [
+    "google:\"NVIDIA Dynamo\""
+   ],
+   "published": "2026-11-17T23:33:26+00:00",
+   "snippet": "",
+   "source": "Amazon Web Services",
+   "title": "Managed NVIDIA Dynamo on Amazon SageMaker HyperPod Inference | Artificial Intelligence",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPeWdCazZOYnVibDBlMXJoVDZYaDdidjB1WlI3QWVvSUJGTXJNQ0paQmdvRk9hWDV6TmhEMmlyZlFTamJMWXcxbmVCYXN2czBtcUdNVGJaamh4LWd2ZHY2eGVTX2Iyb3BKb1NPejZZSVlEVlFXc1VndHhfdEY3clE0eU9QQ3c4ZFZWOHYwR0pNYlowWVBqSlVnSFN2M0g3WHJRRThWSmpfeTVJalU?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "6b90c66ce166a25b",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Video about Farshad Azad, philanthropy and martial arts."
+   },
+   "origin": "google:\"NVIDIA Cloud Functions\" OR NVCF",
+   "origins": [
+    "google:\"NVIDIA Cloud Functions\" OR NVCF"
+   ],
+   "published": "2026-11-17T22:18:35+00:00",
+   "snippet": "",
+   "source": "YouTube",
+   "title": "Farshad Azad: Giving From the Heart and Martial Arts",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBwVmhqN2w2Qll2eS1VXzd5OGxTR3FMLXd0bjJvWGYydG5hWE1uZUFFYlJveVZRa2pLalRxS1NOYWV2ZWRKa3lnZGZSRGphVzFxV2wzbFA4aVluY0hY?oc=5"
+  },
+  {
+   "discussion_url": "https://news.ycombinator.com/item?id=50533978",
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "7c741ef2e8239d08",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Okteto blog on why to run AI coding agents on Kubernetes."
+   },
+   "origin": "hn:\"Run:ai\"",
+   "origins": [
+    "hn:\"Run:ai\""
+   ],
+   "points": 1,
+   "published": "2026-11-17T16:37:26+00:00",
+   "snippet": "",
+   "source": "Hacker News",
+   "title": "Why Run AI Coding Agents on Kubernetes?",
+   "url": "https://www.okteto.com/blog/why-run-ai-coding-agents-on-kubernetes/"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "3e6770c254d4e3a3",
+   "llm": {
+    "category": "launch",
+    "importance": "high",
+    "model": "claude-opus-5-5",
+    "relevant": true,
+    "repos": [
+     "nvke",
+     "nvkr"
+    ],
+    "summary": "NVIDIA open-sources NVKE and NVKR for managed Kubernetes on GPU infrastructure."
+   },
+   "origin": "google:\"NVIDIA DSX\"",
+   "origins": [
+    "google:\"NVIDIA DSX\"",
+    "google:\"NVIDIA Kubernetes Engine\" OR NVKE",
+    "google:\"Infra Controller\" NVIDIA",
+    "google:\"AI factory\" NVIDIA open source Kubernetes"
+   ],
+   "published": "2026-11-17T10:37:11+00:00",
+   "snippet": "",
+   "source": "MarkTechPost",
+   "title": "NVIDIA Open-Sources NVKE and NVKR for Managed Kubernetes on GPU Infrastructure",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZXNMdlFjNVVDSzM5eVdKT2E3N0JvdC1MYjc4SlY0bzRHYmtOMHJwbGpndjcyc3JXMDVUZ2F5V20xSHlaRExjX3JTREh3S0V6WTR6aUx1a0FhaDVtS3JPTHgxcl8zMkV5ekpZcUN4LXVaN2xKMHlGb2V1aXN3bE13ZDBvcFJMRlHSAYcBQVVfeXFMT2VzTHZRYzVVQ0szOXlXSk9hNzdCb3QtTGI3OEpWNG80R2JrTjBycGxqZ3Y3MnNyVzA1VGdheVdtMUh5WkRMY19yU0RId0tFelk0emlMdWtBYWg1bUtyT0x4MXJfMzJFeXpKWXFDeC11WjdsSjB5Rm9ldWlzd2xNd2Qwb3BSTEZR?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "b56de9d7877d5d66",
+   "llm": {
+    "category": "partnership",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Vertiv opens ATLAS lab to test AI cooling and power systems with NVIDIA."
+   },
+   "origin": "google:\"NVIDIA DSX\"",
+   "origins": [
+    "google:\"NVIDIA DSX\""
+   ],
+   "published": "2026-11-17T08:00:00+00:00",
+   "snippet": "",
+   "source": "Refindustry",
+   "title": "Vertiv Opens ATLAS Lab to Test AI Cooling and Power Systems with NVIDIA",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSkd5WVlBMmNVQTdjSGVRX0lOUGU0ZzBIb0R1cHduWGxWUWk1YmxESnR3bE1BNTdGQURrb2JKZUFnRzJyTDQ5UlZZaXMtUDZYYU4xTHpiMEtUWnU0ZFFwTXpobzEzNXdOUUoxQkJKZHRTNzRibWFkVTlmYXpWdUl4TFlOb2M4WkNHb0kzSVhiNXBHTFlpN09fSVQtVnFDZ3I2N25z?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "66395cf5113bd2bc",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "NVIDIA blog profiles operations chief Deb Shoquist and its AI infrastructure supply chain."
+   },
+   "origin": "blog:blogs.nvidia.com",
+   "origins": [
+    "blog:blogs.nvidia.com"
+   ],
+   "published": "2026-11-16T20:00:37+00:00",
+   "snippet": "Deb Shoquist leads operations at NVIDIA, overseeing the supply chain and manufacturing behind its AI platforms. That description sums up the job, but it doesn\u2019t begin to encompass what Shoquist has made possible over decades. Shoquist, her team and their global network of manufacturing partners enable NVIDIA to introduce world-leading technologies year-round. Much of the [\u2026]",
+   "source": "blogs.nvidia.com",
+   "title": "How the World\u2019s Most Advanced AI Infrastructure Supply Chain Invents the Future",
+   "url": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain/"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "f149dc1a48ff445d",
+   "llm": {
+    "category": "customer_adoption",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Lambda uses NVIDIA Photonics co-packaged optics switches to connect GB300 NVL72 racks."
+   },
+   "origin": "blog:blogs.nvidia.com",
+   "origins": [
+    "blog:blogs.nvidia.com"
+   ],
+   "published": "2026-11-16T16:00:51+00:00",
+   "snippet": "To train an AI model, thousands of GPUs have to work together, requiring a network that\u2019s fast, efficient and resilient. Lambda is tackling the network piece of the puzzle with NVIDIA Photonics co-packaged optics (CPO) switches. The cloud provider is using the switches to connect NVIDIA GB300 NVL72 racks with more than 10,000 GPUs, delivering [\u2026]",
+   "source": "blogs.nvidia.com",
+   "title": "Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics",
+   "url": "https://blogs.nvidia.com/blog/lambda-photonics/"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "208e03ea20332a23",
+   "llm": {
+    "category": "partnership",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Daikin cooling system supports NVIDIA AI factory platform data centers."
+   },
+   "origin": "google:\"DSX AI Factory\"",
+   "origins": [
+    "google:\"DSX AI Factory\""
+   ],
+   "published": "2026-11-16T16:00:00+00:00",
+   "snippet": "",
+   "source": "ACHR News",
+   "title": "Daikin Cooling System Supports NVIDIA AI Factory Platform Data Centers",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVV8wTW9VLWpmVEwxVWxEakY4VmR4WHF4cGdlYlRROGxCeXRLQmJyTFFtcGtGWkwxZjJwUDNRdm05Wjd1WDVISjB2c2UyTm9zVWcyd0dtX2lmaDBlcEU1WG1pM05xa3J5V3lLLW5waHA1QkZjVFF2QmVSLVRRRG1PeUNjeFl2WXpMd24yWi10ekdjNUh2eXFwNWF6UE1lLTJmQzVMbUNYa3ZVTDFCcTM4WQ?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "73d6117e875d3f35",
+   "llm": {
+    "category": "partnership",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Vertiv opens ATLAS lab to test AI infrastructure with NVIDIA."
+   },
+   "origin": "google:\"NVIDIA DSX\"",
+   "origins": [
+    "google:\"NVIDIA DSX\""
+   ],
+   "published": "2026-11-16T13:33:01+00:00",
+   "snippet": "",
+   "source": "StreetInsider",
+   "title": "Vertiv opens ATLAS lab to test AI infrastructure with Nvidia",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNMkJWMjFuM2VBOG80TjdqX2xDcHhtUnJWSVJxUmJzUnVZNkVQei0yTlhJU1p2UVpvZUxaVHJ4U3RBVUxxdVozYnlhbDFOWkN4V3RTVnFFR25iVlZyTDh6aktVYU1CUnpmMFV2ZjZhOFVlTm1qTGxjTjNLZEpNanFLNy1PTXRPT2tzeFBpdjdPU041QjFaLW40cm96SGtxRnl5OU94aWEycFdKRndQalV3VUstSUJGMEF6Q1Q4?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "ec90db6cc9599456",
+   "llm": {
+    "category": "partnership",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Vertiv ATLAS lab validates AI infrastructure designs ahead of silicon availability."
+   },
+   "origin": "google:\"DSX AI Factory\"",
+   "origins": [
+    "google:\"DSX AI Factory\"",
+    "google:\"NVIDIA DSX\""
+   ],
+   "published": "2026-11-16T13:30:00+00:00",
+   "snippet": "",
+   "source": "TradingView",
+   "title": "Vertiv ATLAS Proves AI Infrastructure Ahead of Silicon",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSjMxMXJiQjdpZXVaNEszTk8xTTJXNUdLaVU3UlBNNlVDTFN4OHRTUDAyWlB1bkE1ZTdxOXNkck9pbC0yb3poWEloempqRmJtS0hGTWRKdUxtajl4aWt1ZEoxcmk1UjFCWTRkTlBGMHhVVHp1a25SMkhNMUVFRkNmeDZHcVZWR1lPR05rTUtDWTdJODR4TEZ4eF9xb0ZFSFlOcDFQckF6dDlfS3o4czc5YUZfN3JwUQ?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "c6585dc8c5c58b60",
+   "llm": {
+    "category": "business",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "ASUS ramps Vera Rubin NVL72 shipments and shows AI factory reference architecture at SC26."
+   },
+   "origin": "google:\"DSX AI Factory\"",
+   "origins": [
+    "google:\"DSX AI Factory\""
+   ],
+   "published": "2026-11-16T08:00:00+00:00",
+   "snippet": "",
+   "source": "Yahoo Finance Singapore",
+   "title": "ASUS Ramps Up NVIDIA Vera Rubin NVL72 Shipments in Q4 Amid Strong Demand, Showcasing AI Factory Reference Architecture at SC26",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQWM0NW5SeW11N2lrZlltOGxPLWI4TE1ZVkgya2YwazlzUVVaT1ZPQTF2U0t5NHRySHBmaWg5VmozLXZ3Y2VIVXZlT0paUk9VSTZCVk5CaUJjX2xzeE85MnpMMWdZbks4Tjlxd0pWeWlCeS11TWREWmVHUVJsQzdFa1liMA?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "f74271bc1b316549",
+   "llm": {
+    "category": "business",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "German startup Daisytuner raises \u20ac6 million for chip-agnostic AI efficiency."
+   },
+   "origin": "google:\"Run:ai\" NVIDIA",
+   "origins": [
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-11-16T08:00:00+00:00",
+   "snippet": "",
+   "source": "EU-Startups",
+   "title": "Beyond NVIDIA: German startup Daisytuner raises \u20ac6 million to make AI run efficiently on any chip",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOanlwenBlQk1rX2dHSThDdE00dkxydUhxVEI4MUNiSm1MTUp6TEZPTy0yWE9sZHpibC1uTUh2VjlyR2p5UFhFUk5NUjZ4eDRkM1JxaE9PcFljcmx3djFkVUJLaklQZnpxX2dnMUpXX2lHQTdPa2JZVC1kUWZFZ0pFRjhxWXM2SERib01FT1laMmRNLXlKZ3loeERWRUZ2NzNKUU1MWkdRX2Y1cWZXaUhrWUF3NHYxRGFzRE5TVjRXRWIwdTdMUjlVWFpRVVZkd3VaS3llakZhQQ?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T20:12:09.141421+00:00",
+   "id": "9245d5de496c5877",
+   "llm": {
+    "category": "business",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "ASUS ramps Vera Rubin NVL72 shipments and shows AI factory reference architecture at SC26."
+   },
+   "origin": "google:\"DSX AI Factory\"",
+   "origins": [
+    "google:\"DSX AI Factory\""
+   ],
+   "published": "2026-11-16T08:00:00+00:00",
+   "snippet": "",
+   "source": "Yahoo Finance",
+   "title": "ASUS Ramps Up NVIDIA Vera Rubin NVL72 Shipments in Q4 Amid Strong Demand, Showcasing AI Factory Reference Architecture at SC26",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSEpMaVFjTjRBZVE1azFyd3hKRWpGUTc5NVFwbUwtNFZJYmwwdWN1ZkhDT1lORVFKYUFyaW52ZWdPLVdiQWdNNWd2T081dUFiWDV0bi1jOWtnZkVTS3ZHcjA1dWdlbnV1a2djeHM0QXNoeDFUeW02dEp1bGN2TlNtZldObkt2enl2ZUkwemUta04yQ0wtVlJj?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "e1079ca0e1f506d0",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "US Treasury chief seeks answers from Nvidia."
+   },
+   "origin": "google:\"Run:ai\" NVIDIA",
+   "origins": [
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-11-15T08:00:00+00:00",
+   "snippet": "",
+   "source": "Yahoo News Singapore",
+   "title": "US Treasury chief wants answers soon from Nvidia",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE12am14WTFDZ1RsSzMzdnRUZm1FbmdEeVdsWVdiWGF1NVNXWDNIc2wzcHU2QXNwSzBweDhtbkVhZThEU0NiZ0ZVRVBBejQwQWxCVDF1dFRxZjdxNkI1ZnNJQmxObGRtaTNYaTRHUW90eXdfem0yQmMzTW9EaE4?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "3c692a4e546ed5fc",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "PlayStation 4 runs a 9B AI model on its GPU at up to 39 tokens per second."
+   },
+   "origin": "google:\"Run:ai\" NVIDIA",
+   "origins": [
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-11-15T08:00:00+00:00",
+   "snippet": "",
+   "source": "VideoCardz.com",
+   "title": "PlayStation 4 can now run 9B AI model on its GCN GPU at up to 39 tokens per second",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcmdpX1JwV1VBT1hfRHpCWFh3Mk9ob1hBZ3VQR1BoaDZDMTZuR2VuV2dwdVlJOFc5OGQ5SE0wUVMwZlJMa2x5VU5zdUI0QS1vbTVZOFJPRUtDTlZHaERjdHZZVG9QYkNNRXd2V1BFY3BOS2JLVVpQNGZyd1dYOXFzblNKenNSUEhLU2k2SUlIU0R2c1VxakNleEZnNzlLR3J2cU9tMUlMcWlQR2dCTlJz?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "de30f5ce599d1860",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Article checks WSJ report about Nvidia and Southeast Asia data centers."
+   },
+   "origin": "google:\"Fleet Intelligence\" NVIDIA",
+   "origins": [
+    "google:\"Fleet Intelligence\" NVIDIA"
+   ],
+   "published": "2026-11-15T08:00:00+00:00",
+   "snippet": "",
+   "source": "explainx.ai",
+   "title": "Nvidia SE Asia Data Centers: WSJ Report Checked (2026)",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOS3hVQThablh2dzNDVlJlR3ZDQmRZNXBBOGlXaU5nUUNpamVxMm1LNmEwNEEyaU14NmJXLWttZC1qdHFmYUlsWXpQc09HTDNRSmdZTXYxWndFVUdSQ1BFOFBPSV9jMHFCaFRVamQ2R0VqVnpGblhHVTJ0VDZSRUUtMlkyaTVtbUVNRkJINzJnQlF5Q2ZkbHVtY3ZybzVkSG8xZWtfTy1R?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "5e029062ec119955",
+   "llm": {
+    "category": "launch",
+    "importance": "medium",
+    "model": "claude-opus-5-5",
+    "relevant": true,
+    "repos": [
+     "nvke"
+    ],
+    "summary": "NVIDIA open-sources OpenShell and the NVKE GPU Kubernetes stack."
+   },
+   "origin": "google:\"NVIDIA Kubernetes Engine\" OR NVKE",
+   "origins": [
+    "google:\"NVIDIA Kubernetes Engine\" OR NVKE"
+   ],
+   "published": "2026-11-14T13:23:54+00:00",
+   "snippet": "",
+   "source": "CASRAI",
+   "title": "NVIDIA Open-Sources OpenShell and NVKE GPU Stack",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUTFxc0x6dHZtWVd0T2NpY0Rxd2dxZWpRZTUzME5EN1Q0c1RaMlpwaWZrR2kyZGJTUm5ZNjNyeTgyLURJUWFGdElDSkJHSlFEV1E2bHlhUy04dVpCQUdSNDVBQllvU0ZmVHVuQV96cC1IeE5qYXctb3dONDg2SVF4eXNJakFZQkc2?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T20:12:09.141421+00:00",
+   "id": "98b4ae8b43803827",
+   "llm": {
+    "category": "business",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Luminal raises $25M to run AI beyond Nvidia hardware."
+   },
+   "origin": "google:\"Run:ai\" NVIDIA",
+   "origins": [
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-11-14T08:00:00+00:00",
+   "snippet": "",
+   "source": "FourWeekMBA",
+   "title": "Luminal Gets $25M to Run AI Beyond Nvidia; 3 Rounds Hit $75M",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPTUVrZDNCVGp0NzlQQlJUUnlqMGNaUVE1NW1sbGQ3SkMxTERUZXNoakN4b2NadHRSX1ZkVWkzeU5mUWcxeEl2cm5oV1M1eFIzdjFJV19hV0xnMloyQjFVN3ZicTBFczBsdnR3YWxMS0NIY2FTMlQ0RXJIeHNzYnN3VXhPUDJuYzRxbl9nZlN3?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "cdb1e7bb1f848ece",
+   "llm": {
+    "category": "launch",
+    "importance": "medium",
+    "model": "claude-opus-5-5",
+    "relevant": true,
+    "repos": [
+     "nvke"
+    ],
+    "summary": "NVIDIA promotes open source Kubernetes tooling for AI infrastructure."
+   },
+   "origin": "google:\"AI factory\" NVIDIA open source Kubernetes",
+   "origins": [
+    "google:\"AI factory\" NVIDIA open source Kubernetes"
+   ],
+   "published": "2026-11-13T19:21:24+00:00",
+   "snippet": "",
+   "source": "Brief IA",
+   "title": "NVIDIA Promotes Open Source Kubernetes for AI",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOT09OcmFqR3Z5UERCZ05sVkFHUDRXTGI4LWFHVG9ZQ29EOVM2ZHY0U1VxVnpGTFU4aHRfaDBKTEhuSlpmMDJnZDBhMXp4YXlTV3haSjJ0aEZKZ0hESFAtRVZOX1QxTzE5YVZsdzRVMlZOVlNGcUxESm1FTXduUWozbHRwcWc3dw?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "79079caa13b0d3af",
+   "llm": {
+    "category": "tutorial",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "NVIDIA blog shows serving GLM-5.3 across two DGX Stations with vLLM."
+   },
+   "origin": "google:\"Run:ai\" NVIDIA",
+   "origins": [
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-11-13T08:00:00+00:00",
+   "snippet": "",
+   "source": "NVIDIA Developer",
+   "title": "When One GPU Isn\u2019t Enough: Serving GLM-5.3 Across Two NVIDIA DGX Stations with vLLM | NVIDIA Technical Blog",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdUR2MEJKSkpVY3dOMlNYdjREYWdMdXRqXzkyakN2QmQxcVJ2YWxMcEhYdjV2ZmswcXBsbEdwX0F5c0dGOVIxZlNfOHE4Z1hRODI4akNUSTVrWUpLUXlTWFFQeUxneW8tY05sZHpuWHJFNHFQME9haWxobFFkczVVTFAxRnJZbEREZE9idTlSTE9vVGpudVhaXzdDdlZvMG9McU5Ka0pLMHpXVnl6cjRBUzRoY1VPY00?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "7414b6e4348695fd",
+   "llm": {
+    "category": "analysis_opinion",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Explainer on Nvidia's AI chip dominance and rivals' prospects."
+   },
+   "origin": "google:\"Run:ai\" NVIDIA",
+   "origins": [
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-11-13T08:00:00+00:00",
+   "snippet": "",
+   "source": "The Straits Times",
+   "title": "Why is Nvidia king of the AI chip hill and how soon can rivals catch up?",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQOFZDeGFka2ZxaC1OWW4ycVdibUZ3eTN5OUdwczhjZk9Ua1h4WGd4OFZLcFE4amh5SXAtX0FkOHFYRkd6Q1ViUTV4clFCYUxkTGFMeXppQTlPNzFDa05GN0JDVFRTRnVPeEtLeWZnWVVkRnBfeW82VjFvUkF0cjNHVHhvWlNRMFBNLWFaczJ4V3F2XzFpaUpOdjBMN0pDb3ljN2k0VVFMRmY?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "2086a96fa1a16b8e",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Report on Jensen Huang scandal and potential effect on AI boom."
+   },
+   "origin": "google:\"Run:ai\" NVIDIA",
+   "origins": [
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-11-13T08:00:00+00:00",
+   "snippet": "",
+   "source": "Connected to India",
+   "title": "Jensen Huang\u2019s affairs and Nvidia spy scandal may dampen mood around AI boom",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQNVA0d2RqcnBpeE5LbjdzNm9LcGtFcGpaSUZXRnpYYzNNLTl3LXR2d0w5NWtmZXRXdGFXa3h2aUtESTRXM3d4bHdXOW9ZOF9vZlpmQlN4MTJ2akR6b2NicVFBM1RGQlFjaDMzRVZUbGI4blp5TERqbk11UVBwQjlPZWZwbUQza1FCNGtuMDZqRVY5UHdnc2RWSnY2LTgzeVZCWkgyZVFXbjVYYllNd0E?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "3a856f7528ea8b5a",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "North Valley Community Foundation accepts Camp Fire recovery grant applications."
+   },
+   "origin": "google:\"NVIDIA Cloud Functions\" OR NVCF",
+   "origins": [
+    "google:\"NVIDIA Cloud Functions\" OR NVCF"
+   ],
+   "published": "2026-11-13T08:00:00+00:00",
+   "snippet": "",
+   "source": "Chico Enterprise-Record",
+   "title": "North Valley Community Foundation accepting Camp Fire recovery grant applications",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWXlnbGhrM05WUWp1QkVJV2lRdWp2c1UwWHV3bG1oQUxXYmxqeEgzT0ZfVUhGZHVNUkVQeXo5Vld5UEQyTnJnTEROVDliVmJBSS1iOGJCRGgtYVI5ZndrSTlJMWttTVM5RWV1OWFyTUxlOFV1MVU4YlBHTVZucnlqa1R3WmFzZllEUktPZFctTlhROEtPUzZDMVJuZWlYNDdXZVJSQUptVFFPcjM4SlJ3cy1PUzRxZVEx?oc=5"
+  },
+  {
+   "discussion_url": "https://news.ycombinator.com/item?id=50479603",
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "264f7dd6db79105c",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Runitlocal.io offers running AI on personal hardware."
+   },
+   "origin": "hn:\"Run:ai\"",
+   "origins": [
+    "hn:\"Run:ai\""
+   ],
+   "points": 1,
+   "published": "2026-11-13T07:24:51+00:00",
+   "snippet": "",
+   "source": "Hacker News",
+   "title": "Runitlocal.io \u2013 Run AI on your own hardware",
+   "url": "https://runitlocal.io/"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "f108f79c123d4d6f",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Nvidia scandal fallout may dampen AI boom enthusiasm."
+   },
+   "origin": "google:\"Run:ai\" NVIDIA",
+   "origins": [
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-11-12T08:00:00+00:00",
+   "snippet": "",
+   "source": "ABC News - Breaking News, Latest News and Videos",
+   "title": "Fallout from the Nvidia scandal may dampen the exuberance around the AI boom",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOU1FlXy1zTXFoeFhTakZjX0RTVUJTZkFPLTN6bFNmZW10OUFmQ1NoSzRhcWlVOWZfQ2Fqczdla2dxLW1zTHNHNW9SOWh3NzFlUkdZTEVyZTlITHBCbm9lejVCWGYyb3ZIQWZ5b1BDV2FBa0JNNEhrUEo1YURULUVIX01weUxlc2JvY2VtbS1ISVVzM1IxWnfSAZsBQVVfeXFMTUhrNnVfLWg0bXpMNTB0X2RGUVBYOUFlUGVwdzl1TnM0WXZtMlkwdVpVclZzYzZUalotQjBiWEJOUjl6cFVsRmZRcThNNDN4RmIzRmdDZ0VyM1lrT244OVctLU8zRDcyS1RuQVRUNTFwVU9RUWp2ckZvSHFmalMwaGFUY05BNVpnZG9NQ2FCYTk1ZGJpSGpSa2hQY0k?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "f4114bc469d1977e",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Questions about AI's future after Nvidia CEO resigns."
+   },
+   "origin": "google:\"Run:ai\" NVIDIA",
+   "origins": [
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-11-12T08:00:00+00:00",
+   "snippet": "",
+   "source": "WKYT",
+   "title": "Future of AI faces new questions after Nvidia CEO resigns",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSW9pS2thbW5vU3dSN25CbDFicGRMTFFub1VJNXJGX1pYYXRBYUJKeGpMUllDVE8xTTVVMmlWczFqblczbjZRZGU2dUdidXIzck5BSjRxN2k4VXh6S2c5NTRMRVFnNEl1cW5ueUpBWlh4VnctQTJmZE56bEVVaWhjdmRUaWRFdm1ybUFIZnFCeWc?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "52822dd61179bc30",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Nvidia CEO Jensen Huang resigns amid China spy allegations."
+   },
+   "origin": "google:\"Run:ai\" NVIDIA",
+   "origins": [
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-11-12T08:00:00+00:00",
+   "snippet": "",
+   "source": "TechRepublic",
+   "title": "Nvidia CEO Jensen Huang Resigns Amid China Spy Allegations",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9hSlBTckhxVV9RUVdMa3EzN0VXbUNvc3ZLbmdJOXdZaF9lMHpKQ2J4cW1oV21UQ1lUY1l4a0ZWbkdQVEdXclBJUzlZTE5VVXRCaUE0bTJhTTNqQk1QNDg0REN1S3NHN2RhTUxURjRyZTF3QWFZaUw2MXJR?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "068c100711953db9",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Review of Asus ProArt P14 laptop with Nvidia RTX Spark."
+   },
+   "origin": "google:\"Run:ai\" NVIDIA",
+   "origins": [
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-11-12T08:00:00+00:00",
+   "snippet": "",
+   "source": "Business Standard",
+   "title": "Asus ProArt P14 review: Nvidia RTX Spark shines, but comes at a price",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNdWJJc2ZURS1acUh5TkZOUHprQTNpdUVRSVlERlRnZnVXV2tJRlNHekNUUUFQbEF5dzR5bWg5NmRnSWhLekdKMVdTOEZ6VEJzR1U1NDFLbkx1SW9CU0RNMGxESy13cXlxVExoLTVEaXk5bW9rb1RLUF9sSi15el94a0FWeF85N3pqM3JITFJpYk9iS3N2U1YtZmMzUHNwWHFYeWFybmhQaHZWWTRLeVRaOTV1WDZvbzFOd2pvTTJXN0JITWo5Z2d5YWhaT0JlaS0zaEdsLUFn0gHbAUFVX3lxTE81Q3RYM2JOSnFzck54dFRYT0Vya0lyam9HdUJ1dnpKVkVuTGFFX3EydENDNGxWTjM3cTlObkZ0aFN2TGd4a20tS2R2OHczYkpTQmVXQmtOQ3FhSWpnMHFYbHI2REpPUXk4QU40S3lMN1RETlpvOEhmamtONEZnS2N2ck12WUlQcDBBR0FFVWRkV3liNC1hczlmeFRxUEZvUkMya1R2X3N4UWVHQmZ2elExdzRPLTYtVzcyNExMeU15Vjd0ZVpLSkdjVXlIZzg3X3pncmxoWFJuYUdBSQ?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "cfa0c593ef520bdd",
+   "llm": {
+    "category": "business",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Hive targets $500 million annual revenue run-rate by early 2027."
+   },
+   "origin": "google:\"Run:ai\" NVIDIA",
+   "origins": [
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-11-12T08:00:00+00:00",
+   "snippet": "",
+   "source": "TheStreet",
+   "title": "Hive sets $500 million annual revenue run-rate goal for early 2027",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPLWJjMC1BY2tDUWQtTEFXNDdZWURrUTZtbml2cXc2ay1iSmE1OThWWWhzblVuRUNOQkZCTVpEbGFRWVh2d2tSakhxNmhqckdDVHJSbUJLRUZRMC1VVW91YlRXQ29KNVpCUHVmV1RPX3RfUDhBUWVPSTlxdEJTaGZTNlN4TFJRUXpiTlpyalBFYU5WWUduX1RsX2RNQk8xSXl3bHhFblR1SjNURHdBS2c?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "9fe51eafcc75aab4",
+   "llm": {
+    "category": "launch",
+    "importance": "high",
+    "model": "claude-opus-5-5",
+    "relevant": true,
+    "repos": [
+     "nvke",
+     "nvkr"
+    ],
+    "summary": "Nvidia open-sources NVKE and NVKR to manage Kubernetes on GPU infrastructure."
+   },
+   "origin": "google:\"NVIDIA Kubernetes Engine\" OR NVKE",
+   "origins": [
+    "google:\"NVIDIA Kubernetes Engine\" OR NVKE"
+   ],
+   "published": "2026-11-12T08:00:00+00:00",
+   "snippet": "",
+   "source": "TechTarget",
+   "title": "Nvidia opens NVKE and NVKR to manage Kubernetes on GPU infrastructure",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNellJWUF0YS1qNnZMRG8yTFd6SDRVbkg0Z0hsR3JqYWRxRVBXOHhYUXFjdmhhYlphT2t4OWhGNE5IcUV2ZEFNOVM3OThDSWtxejNuY2hXd2x4WmZxRzlFTnQwd2h6Z2xtSGZmRTBNeUxIVjNGV0hDaU1QMmViNVpGTTAyS2dsazdjODdOdTVIeW1LaEJqX3dralpuajlOb1NEbFJrSW5BTGdWMjV5Y0E?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T20:16:01.311589+00:00",
+   "id": "1edec654c4c45f8b",
+   "origin": "google:\"Run:ai\" NVIDIA",
+   "origins": [
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-11-12T08:00:00+00:00",
+   "snippet": "",
+   "source": "WKYT",
+   "title": "Future of AI faces new questions after Nvidia CEO resigns",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSW9pS2thbW5vU3dSN25CbDFicGRMTFFub1VJNXJGX1pYYXRBYUJKeGpMUllDVE8xTTVVMmlWczFqblczbjZRZGU2dUdidXIzck5BSjRxN2k4VXh6S2c5NTRMRVFnNEl1cW5ueUpBWlh4VnctQTJmZE56bEVVaWhjdmRUaWRFdm1ybUFIZnFCeWfSAaQBQVVfeXFMTjlpQlBJZThQUDgzdkVTcUZWWXhDa3BYU0REVTRmSUIwZE1tSmRDZGFWYnhQbGF4bHZtdlVWeVB2NjQ5bjU3YkEzNzZsMlN0VS1UbUh2SGxRaEVhc25CNjFoMmY0dlNEbFUtRUx0MDI4Z3BMdWQ4RTVHZWVLb1RyVHlSU1plSWtLZGljSnRRM0hvbjJNZXRiZ0Z3MDluSlh1VXpqZDM?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "f586ad49303f4f78",
+   "llm": {
+    "category": "business",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Daikin unveils standard cooling design for NVIDIA-based AI data centers."
+   },
+   "origin": "google:\"NVIDIA DSX\"",
+   "origins": [
+    "google:\"NVIDIA DSX\""
+   ],
+   "published": "2026-11-12T02:26:00+00:00",
+   "snippet": "",
+   "source": "BigGo Finance",
+   "title": "Daikin Unveils Standard Cooling Design for NVIDIA-Based AI Data Centers, Laying Groundwork for \u00a5800 Billion Target",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBHcjBSM09xM0N3eWlaYlB6YlpZem9lN2VLQzdFMkRMR1l3Y3RUVXpSaXlKaGFCSEsxY25ZM01XXzdkWnRjUTIzWXlFLV81SnpvWGUwT0MwOXEtQ0VzUmxucDNWZ3RPNDFhMnBHeGRBN2RXOVk4OUE?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "b57c9466762d3840",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "NVIDIA explores shipping-container-based AI factories."
+   },
+   "origin": "google:\"NVIDIA DSX\"",
+   "origins": [
+    "google:\"NVIDIA DSX\""
+   ],
+   "published": "2026-11-11T14:44:47+00:00",
+   "snippet": "",
+   "source": "WorldCargo News",
+   "title": "NVIDIA looks to shipping containers for new AI factories",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdDNUTFZMeklFUnhuNXFabjdyTjB0ZEpJUlN6dmFLOXdxY05DLUtLbHliYXF1SFFIMUVOX2t2YXp4WndDRDg0Z19NQjFvSEQyYk5rd1BfenVyTlpvUmJKRzQ5cDFkaHprM19pQmFsRkFLZEJfaG50TGhWVlVQemYycUxCUmhENk1WNnRMbXEwUGZnN1VZU0syMGY5WnI2U3JsTjBubEI5YnZ4Z3VLeldDMjVvTUw4UQ?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "bbfa81cc4c4d53fb",
+   "llm": {
+    "category": "technical_deep_dive",
+    "importance": "medium",
+    "model": "claude-opus-5-5",
+    "relevant": true,
+    "repos": [
+     "ai-cloud-validation",
+     "health-validation"
+    ],
+    "summary": "NVIDIA blog explains validating GPU platforms with runtime AI inventory via DSX AI Factory."
+   },
+   "origin": "google:\"DSX OS\" NVIDIA",
+   "origins": [
+    "google:\"DSX OS\" NVIDIA",
+    "google:\"DSX AI Factory\"",
+    "google:\"NVIDIA DSX\"",
+    "google:\"NVIDIA Dynamo\"",
+    "google:\"NVIDIA Kubernetes Engine\" OR NVKE",
+    "google:\"AI factory\" NVIDIA open source Kubernetes"
+   ],
+   "published": "2026-11-11T08:00:00+00:00",
+   "snippet": "",
+   "source": "NVIDIA Developer",
+   "title": "Validating GPU Platforms with Runtime AI Inventory via the NVIDIA DSX AI Factory | NVIDIA Technical Blog",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPLWNVcnZJbFJvVWlUZjFEOUladm5ad0lmZTZnSmE0TjFSRGFiQzB5XzBVRUpTNVdTMzk2ZUlsOXFyWHRIaTFMX09rdTNyZFRuNm1nbkowQ2RLTDlxdUhxZXd1clRxT3RQV0ZLUmxBWjJTenV0N1FZaXZwRTZfaDI4dzJ0MmxlN3RoUzJ1ZHpfNnRZQTRFa00zQUhuODhjT2JpV0pCLUw2VThCUzJ5RUNYa1g5bnNqUQ?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "f684dbb5f8c24f6f",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Guide to AWS re:Invent 2026 AI/ML track sessions."
+   },
+   "origin": "google:\"Run:ai\" NVIDIA",
+   "origins": [
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-11-11T08:00:00+00:00",
+   "snippet": "",
+   "source": "Amazon Web Services",
+   "title": "The attendee\u2019s guide to the AWS re:Invent 2026 AI/ML track | Amazon Web Services",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNT0V5dEFiMGNyVlg1MVE2MWVoS0hsdG1aVzk1anlGRDZLa0FsLUt4eEIxeUIxS2ZvaENLNDkyU29vVFZYRjctamJOSnZvMWFlbDJNRVoxVmlXNVlVTVIzWjN1VUJlNWl1YkVvUWt2NWRraW4tc2FuRHE2OTVQWXZlQ3J2aVB6UTVlR2QzNHpTVFNMXzhmZWpfd2pDRFZWSndSZGxTeHhn?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "9f5de20771e732d1",
+   "llm": {
+    "category": "launch",
+    "importance": "medium",
+    "model": "claude-opus-5-5",
+    "relevant": true,
+    "repos": [
+     "nvke",
+     "nvkr"
+    ],
+    "summary": "NVIDIA expands open-source contributions for AI agents and Kubernetes infrastructure."
+   },
+   "origin": "google:\"AI factory\" NVIDIA open source Kubernetes",
+   "origins": [
+    "google:\"AI factory\" NVIDIA open source Kubernetes"
+   ],
+   "published": "2026-11-11T08:00:00+00:00",
+   "snippet": "",
+   "source": "varindia",
+   "title": "NVIDIA expands open-source contributions for AI agents and Kubernetes infrastructure",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVGVKb1I1aUtaVEx1RmVEbTBmRmoyZTRnWXFIb1dyRWFMU2RZRFdQZkFNYzlnWF9lanFyZDRnQ3ZlNGRSVjBmNEdlQ2liVVpXbWJzQWJmMEszQ0tNX2l1VFBrcW9jME5hVEg4bUZKNUdCS20xOXlnS0ZENEZaNlpKWHNqV2ItSTlpS0dEWHhBVFFmekJiOWpTQl9NLXliajBBNTN2bjJycTUzMjFhemNJa1dNVFY?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T20:12:09.141421+00:00",
+   "id": "966b9c71372ad1cf",
+   "origin": "google:\"Run:ai\" NVIDIA",
+   "origins": [
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-11-11T08:00:00+00:00",
+   "snippet": "",
+   "source": "Tom's Guide",
+   "title": "These are the 7 best AI laptops we've tested to run models locally and handle tasks",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5SWTNwU3RrbUlRdTdhaEFKdW9oQ2xoVXhvcnZLRVlfWm9RUXhOS1ItcmVXRTYxNGRLaHVEY195N0hWZWtvUm54MVFaay15Q2g3bHZHMEVnRUxhTG1yeDA0bg?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "a6754cfa860397c6",
+   "llm": {
+    "category": "launch",
+    "importance": "medium",
+    "model": "claude-opus-5-5",
+    "relevant": true,
+    "repos": [
+     "nvke",
+     "nvkr"
+    ],
+    "summary": "Nvidia donates OpenShell to CNCF and adds Kubernetes tools for AI factories."
+   },
+   "origin": "google:\"AI factory\" NVIDIA open source Kubernetes",
+   "origins": [
+    "google:\"AI factory\" NVIDIA open source Kubernetes"
+   ],
+   "published": "2026-11-10T16:54:22+00:00",
+   "snippet": "",
+   "source": "MLQ.ai",
+   "title": "Nvidia donates OpenShell agent-security runtime to the CNCF and adds Kubernetes tools for AI factories",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMWJBd1B3c25GdXFWU001ODZ6UF9TWExWZElrSkZTSC1wZU1XeWhSUFo5b0I2NGw0X2RjZGpUZ2VtZGJad3F1QWZSYTVWbkZZdHFUTnFQeTkyVUNuWENOOFI2bVI1clFOU1YySE9ZYmwtQk1IcG4xV0xocG53cFE2dUNrdlhuSEEzN3BiS2NWTnJpNXBmMGtZOTZ3ZGFySUUtcXh1QUR0dk9fMVVzeG9iVTJFZHlnNW9fdlBpRVNHSGo?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "126c3942bc192463",
+   "llm": {
+    "category": "partnership",
+    "importance": "medium",
+    "model": "claude-opus-5-5",
+    "relevant": true,
+    "repos": [],
+    "summary": "Dorado joins the NVIDIA DSX AI Factory ecosystem."
+   },
+   "origin": "google:\"DSX AI Factory\"",
+   "origins": [
+    "google:\"DSX AI Factory\"",
+    "google:\"NVIDIA DSX\""
+   ],
+   "published": "2026-11-10T16:00:00+00:00",
+   "snippet": "",
+   "source": "EIN Presswire",
+   "title": "Dorado Joins NVIDIA DSX AI Factory Ecosystem",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOb0JQbmk1M2RBVjJnVnFuZloxaVlZSG45eEV1eEZobWhxV3BJM0NLX1UzOUNEZkRaUzJ5V0F4dm10R3k3TzRkRUJ3cEpSSXdTb1FHRUxkN25xc3JIX0ZwVEFUZjZ3dmxsMnRadWJZVGRYUmFZUDd2cFBKQXRKRXVEM1NraE5aMEdqZW5HTVZWbWtiTXhZU2c?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "bb7340fcaa4538c2",
+   "llm": {
+    "category": "technical_deep_dive",
+    "importance": "high",
+    "model": "claude-opus-5-5",
+    "relevant": true,
+    "repos": [
+     "nvke"
+    ],
+    "summary": "NVIDIA blog introduces managing GPU Kubernetes clusters with NVIDIA Kubernetes Engine."
+   },
+   "origin": "google:\"DSX OS\" NVIDIA",
+   "origins": [
+    "google:\"DSX OS\" NVIDIA",
+    "google:\"DSX AI Factory\"",
+    "google:\"NVIDIA DSX\"",
+    "google:\"NVIDIA Kubernetes Engine\" OR NVKE",
+    "google:\"Infra Controller\" NVIDIA",
+    "google:\"AI factory\" NVIDIA open source Kubernetes"
+   ],
+   "published": "2026-11-10T08:00:00+00:00",
+   "snippet": "",
+   "source": "NVIDIA Developer",
+   "title": "Manage Kubernetes Clusters for GPU Infrastructure with NVIDIA Kubernetes Engine | NVIDIA Technical Blog",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOX1FPWk5LdW9ENDJ2R1BKSWl2aXlmeDRra2dsV0xiQ1g3UlFwd0V0ZVVXaTA2MEFEa0E3VmVlSDB5TFlQZXVCUGh2VzdkTDdPWi1OQnFLR2FuSnU2a0JlYk8zZ081clotS3oyR0xqZzNKTTVlYmNOTndLZHNPcGNvTmFtR1dwSlJqd3IwV3VfS2dFeUJnWmJlWUhrS1NhM253REhOb3FFVVVMNWJMMlV0MHp3aEw?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "c838cf46ed13302e",
+   "llm": {
+    "category": "technical_deep_dive",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "NVIDIA blog introduces Agent Substrate for running agents at scale on Kubernetes."
+   },
+   "origin": "google:\"DSX OS\" NVIDIA",
+   "origins": [
+    "google:\"DSX OS\" NVIDIA",
+    "google:\"NVIDIA DSX\"",
+    "google:\"NVIDIA Dynamo\"",
+    "google:\"AI factory\" NVIDIA open source Kubernetes",
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-11-10T08:00:00+00:00",
+   "snippet": "",
+   "source": "NVIDIA Developer",
+   "title": "Agent Substrate: Advancing Kubernetes for Agents at Scale | NVIDIA Technical Blog",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTkxoc2xfQkZDalg4QjU3TUJDNmRiLVFGVTVZOGkxZ05yN0d1RkVya3RqYkV2bTdPUmM3UW5FTGp2SUJvQURGN0pTa3ZwT1lBcDlaYWZmYUgyOHdtdUFhcGFEbk9hZk9lU2JPR1NqRFE3VGNsZ1hfUExZbHAzazdpNjZaS3luSjFZUWpITEFUUnVYZWxQTHc?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "602e872509a97b4f",
+   "llm": {
+    "category": "analysis_opinion",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": true,
+    "repos": [
+     "dynamo"
+    ],
+    "summary": "Explainer covers Agent Substrate CNCF sandbox and Dynamo router integration."
+   },
+   "origin": "google:\"DSX OS\" NVIDIA",
+   "origins": [
+    "google:\"DSX OS\" NVIDIA",
+    "google:\"NVIDIA Dynamo\""
+   ],
+   "published": "2026-11-10T08:00:00+00:00",
+   "snippet": "",
+   "source": "explainx.ai",
+   "title": "Agent Substrate: CNCF Sandbox + Dynamo Router",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZ0d1bEtuVzZwU2RYYkpvNXdDQmtaWUluckx5YzNDLUQ3UTQ5N0FyNWZTek5RQ19YbE1XMnpXTjFQTXpYTWZKZndRLWJHSXI5c0diZTczbkY2ZkVSalF2Ym9UeVU3amdad1NYTVZqWFJrQzlpVjV2QWM0QlFCeW13cQ?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "5d2f7526f28cb7fc",
+   "llm": {
+    "category": "technical_deep_dive",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "NVIDIA Snapshot enables starting and restoring GPU workloads in seconds."
+   },
+   "origin": "google:\"DSX AI Factory\"",
+   "origins": [
+    "google:\"DSX AI Factory\"",
+    "google:\"NVIDIA DSX\"",
+    "google:\"NVIDIA Dynamo\"",
+    "google:\"NVIDIA Kubernetes Engine\" OR NVKE",
+    "google:\"AI factory\" NVIDIA open source Kubernetes",
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-11-10T08:00:00+00:00",
+   "snippet": "",
+   "source": "NVIDIA Developer",
+   "title": "Start and Restore GPU Workloads in Seconds with NVIDIA Snapshot | NVIDIA Technical Blog",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPaENkaHJuU0tyckNldmtZbF9SZF9zaEktX0tHQWZzaGpsRkk5YU9nUnUtcGF6TUtXUzhPUkJFRllQS3JJUkt5UUJyNHRYOU9GZnkxZjUyQzl0d3hSMkk5cnJ0ei1kQlZXcUE5Uk1DalpuRkxjT1FLYWpGMUYyNlA3RmNCN1ZmYk1kcEtnZTRtRFRacldTUzhDZTcxWkkyZzA?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "ae6aba596441e0e7",
+   "llm": {
+    "category": "launch",
+    "importance": "high",
+    "model": "claude-opus-5-5",
+    "relevant": true,
+    "repos": [
+     "nvke",
+     "nvkr"
+    ],
+    "summary": "NVIDIA announces OpenShell contribution and new open-source AI infrastructure including Kubernetes tools."
+   },
+   "origin": "google:\"DSX AI Factory\"",
+   "origins": [
+    "google:\"DSX AI Factory\"",
+    "google:\"NVIDIA DSX\"",
+    "google:\"Run:ai\" NVIDIA",
+    "google:\"NVIDIA Kubernetes Engine\" OR NVKE",
+    "google:\"AI factory\" NVIDIA open source Kubernetes"
+   ],
+   "published": "2026-11-10T08:00:00+00:00",
+   "snippet": "",
+   "source": "NVIDIA Blog",
+   "title": "NVIDIA Expands Open Source Commitment With OpenShell Contribution and New AI Infrastructure",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE02ejIwRkM1MEFBdlp4WUlTMlNwVGZ4eHAzRklON3VDU0Jkd3ptOV9ocTdkTm5MRkV0V1E1OVJIbmNHTHkxcDhvcGJRdEl1NmdkcnJMMkI0dU90YzdfTEVTRVU0WDBoYlZac2cyVmgxY0xQblp0d0E?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "34254df67fb2595c",
+   "llm": {
+    "category": "technical_deep_dive",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Crusoe reports restoring GLM-5.3 in 31 seconds on NVIDIA HGX B300 using NVIDIA Snapshot."
+   },
+   "origin": "google:\"NVIDIA DSX\"",
+   "origins": [
+    "google:\"NVIDIA DSX\""
+   ],
+   "published": "2026-11-10T08:00:00+00:00",
+   "snippet": "",
+   "source": "Crusoe",
+   "title": "NVIDIA Snapshot: GLM-5.3 restored in 31 s on NVIDIA HGX B300",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBjZFVscjhOM3NBMjF2VkZlbzcyQUhsVDNPcHhtY3g1Tk9XRmthMERLX2VMOHdTRUtOX1NmSW82OEpTdTJfZUZlaDFmUG92bWhsSFhUT2hNeVJSSXFiTEgxSEVjSzV2NENPWnFIcWZpeEVQRms?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T20:12:09.141421+00:00",
+   "id": "5970ddcc070cf13b",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Google releases specialized AI chip versions to compete with Nvidia."
+   },
+   "origin": "google:\"Run:ai\" NVIDIA",
+   "origins": [
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-11-10T08:00:00+00:00",
+   "snippet": "",
+   "source": "The Japan Times",
+   "title": "Google escalates Nvidia rivalry with specialized versions of AI chips",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZFkzdGRaclZmelIwWlVGQzFtMC1CZXgyYUhsXzRIOWN3M05GSnJFQWZfdFg4aFVuUkdpbFVXVTJUd0NSNnJuRlFlNzg1a2haV1kza1J5VGpuTm40VktnblMyWVpWajYta2p0emhWNm1pM1RhQW9TOGdqNlVaU01udG5wVEN6UkpjMjZpUXVB?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T20:12:09.141421+00:00",
+   "id": "258f45af5a3ccd48",
+   "llm": {
+    "category": "launch",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "E2E Networks unveils Blaze, a pay-per-token inference service for open AI models."
+   },
+   "origin": "google:\"Infra Controller\" NVIDIA",
+   "origins": [
+    "google:\"Infra Controller\" NVIDIA"
+   ],
+   "published": "2026-11-10T08:00:00+00:00",
+   "snippet": "",
+   "source": "varindia",
+   "title": "E2E Networks unveils Blaze, a pay-per-token inference service for open AI models",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZHRuZHVBcnV4bC1XVEJrOGVxQ1NoazYteHF2b3hLRXBQUnpma21adFFEMGVUT0xGLXlld3dnOTVaZDVsV2Y3X3NrSTZXLVBPNUhLaTNTbWM3QUVhVDZraHE2RnRiT3Q0M0dzOVRmX3ZvUjJsdTdiSUZHNUw0cHl6TFQtZGdjT2pZbFU4U0pqQ19lUXM4TjVDNXJWVkVUTXZoWFh2WWVxb29IbnNKdlE?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "d671045c5932778d",
+   "llm": {
+    "category": "partnership",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "NVIDIA and Rebellions plan NVLink Fusion setup where GPUs handle prefill and Rebellions chips handle decode."
+   },
+   "origin": "google:\"NVIDIA Dynamo\"",
+   "origins": [
+    "google:\"NVIDIA Dynamo\""
+   ],
+   "published": "2026-11-10T06:55:46+00:00",
+   "snippet": "",
+   "source": "Tech Times",
+   "title": "NVIDIA, Rebellions Announce NVLink Fusion Plan: GPUs Process Prompts, Korean Chips Generate Replies",
+   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNNk5RUTZBdzZCbUV4Yi1vcENwaTFwSFVVTUNCSEdxTnJIVTF6UlpFU1NLNkJvS1VYOS0ydVdqb0xMME9zdm0xX2hIdW5ZWVUyRGhCQ0pTLUNmcDY2djJTTFBRUkF2aTEyWEhKSDllMkVGUXNwVG9teXJxRUhQMDJ0RFBfSV9md0E5UGY0eEl6UXZRUVE0ZEl2RG54MGxjZ2gybHIyWHF4NG1oSTBsQ2lSazVFRi16WVltekFram1sNHVTaW1MbGF3UlllYkNHNVo5aTgtRXRwSFFod0pkaHg5NXd5N3AzQQ?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "392ee46f8f86f1e2",
+   "llm": {
+    "category": "release",
+    "importance": "medium",
+    "model": "claude-opus-5-5",
+    "relevant": true,
+    "repos": [
+     "dynamo"
+    ],
+    "summary": "NVIDIA releases Dynamo deployment recipes for leading Korean open models."
+   },
+   "origin": "google:\"NVIDIA Dynamo\"",
+   "origins": [
+    "google:\"NVIDIA Dynamo\""
+   ],
+   "published": "2026-11-09T08:00:00+00:00",
+   "snippet": "",
+   "source": "Mezha.net",
+   "title": "NVIDIA Releases Dynamo Deployment Recipes for Korea\u2019s Leading Open Models",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNeVBKbGVBT29TRnF2Snk1cmtmcE5FQVEwMFBuTkY2blRXdGNwWmdBUGVYanVZRFJPT0lXRnRNTThCM1pGUFo3Y3VhTS1jbEZFc0R1Zlk1SHItamNzSEpTWnlORGJ0TWcxdDhLMzBzMlBxVXE3Q3RMVGQ0ZmlSb3Jsajg4MTRYVGRM?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "ecec95b5992c5057",
+   "llm": {
+    "category": "customer_adoption",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Korean sovereign AI developers use NVIDIA technology across training and inference."
+   },
+   "origin": "google:\"NVIDIA Dynamo\"",
+   "origins": [
+    "google:\"NVIDIA Dynamo\""
+   ],
+   "published": "2026-11-09T08:00:00+00:00",
+   "snippet": "",
+   "source": "\ub514\uc9c0\ud138\ud22c\ub370\uc774",
+   "title": "Nvidia-backed Korean sovereign AI developers use Nvidia technology from training to inference",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZDdMaWZ1ZXNPMURHdHJ3YXdPOS1NYlo2R1lJYWNRTUdETWg3SExpSG11ZzR6ZGxXeURJcldUNjF6Z2lsb3VoeGNVZ3QyU3ZSTVpsLWsyYkVzb0lxSFVIeDdqcmRiQUpsYzlEQ0hUZU1oT01YMlpidHpRaG9qYW1BdGh4bEtPYVR4SzVUQXcyOUp5dU5VdEE1VF9qbXQ5SjBUODhrLVlDMXBnRlR4OTQ0ZWtSZ3FfMGttc254em5vSlA4dFJWeDJXNnk1U1Q?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "d77d3e32251f6678",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "NVIDIA blog live updates from AI Day Seoul on Korean sovereign, agentic and physical AI."
+   },
+   "origin": "google:\"NVIDIA Dynamo\"",
+   "origins": [
+    "google:\"NVIDIA Dynamo\""
+   ],
+   "published": "2026-11-09T08:00:00+00:00",
+   "snippet": "",
+   "source": "NVIDIA Blog",
+   "title": "NVIDIA AI Day Seoul Highlights Korea\u2019s Advances in Sovereign, Agentic and Physical AI \u2014 Live Updates",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1JLTQ2SGNUWVJmamVBcTF4RU5fM3lndGFYTTd5Q3paVEttV0hha1dLZi1NR3pZaWpidzFieTlXMFlPQXZnbm1LcXI1U3BiQ2xiblc0a19n?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T20:12:09.141421+00:00",
+   "id": "cd717db6a535601f",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Article on the cost of running AI locally on a personal computer."
+   },
+   "origin": "google:\"Run:ai\" NVIDIA",
+   "origins": [
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-11-09T08:00:00+00:00",
+   "snippet": "",
+   "source": "Metro State University",
+   "title": "What Does It Cost to Run AI on Your Own Computer? -",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1sVk9lOTJIbXRCRmJPbzVBLXhYX2Q2QkppREFvNVA0YjMxZGtEczlrVjIzOHJjR1Eyam5DQjRiOFdZWVptcUE2SkstNFdFMHVuUURHZldIWjg3Q290S3NsYy1XekdGUQ?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "ec4eb9a4bd840688",
+   "llm": {
+    "category": "release",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": true,
+    "repos": [
+     "dynamo"
+    ],
+    "summary": "Repost covering NVIDIA Dynamo recipes for deploying Korean open models at scale."
+   },
+   "origin": "google:\"NVIDIA Dynamo\"",
+   "origins": [
+    "google:\"NVIDIA Dynamo\""
+   ],
+   "published": "2026-11-09T05:38:41+00:00",
+   "snippet": "",
+   "source": "Blockchain News",
+   "title": "NVIDIA Dynamo Recipes Enable Scalable Deployment of Korea\u2019s Open Models",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1DSWotTkNuX0FjbjVMRzJ1ZFp3Q19UUFpNaWx1MHd1dmstNXdlTnUxUlFfcGpyMUR5Mm9UVE1GTEdTWGZVSm5FLVJoUC1VR1I2M1ZRLVVNSXFVWktXWjZiVWJvRDlqQWdDY2l1MVpkTzk5WW4zNWo0?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "793cfcffcc82c6f3",
+   "llm": {
+    "category": "release",
+    "importance": "high",
+    "model": "claude-opus-5-5",
+    "relevant": true,
+    "repos": [
+     "dynamo"
+    ],
+    "summary": "NVIDIA announces Dynamo recipes to bring Korea's leading open models into production deployment."
+   },
+   "origin": "google:\"NVIDIA Dynamo\"",
+   "origins": [
+    "google:\"NVIDIA Dynamo\""
+   ],
+   "published": "2026-11-08T08:00:00+00:00",
+   "snippet": "",
+   "source": "NVIDIA Blog",
+   "title": "NVIDIA Dynamo Recipes Bring Korea\u2019s Leading Open Models to Production",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1kdVViVi1KWVA2cGVWUW1UOFZTZ2pUdTBrc1BKN2hIek42bG1CN3NvdkNiaXpOYTRpdkE2cDhKMVZuamxwUjNqM2ZnaERRMjMyZGIzVmNScTlvUmJWOXZNbElvc3FWYk9OWUFJTXRLRQ?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T20:12:09.141421+00:00",
+   "id": "951dc2824cef891c",
+   "llm": {
+    "category": "partnership",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Nvidia, Rebellions and SK Telecom partner on sovereign AI infrastructure."
+   },
+   "origin": "google:\"DSX AI Factory\"",
+   "origins": [
+    "google:\"DSX AI Factory\""
+   ],
+   "published": "2026-11-08T08:00:00+00:00",
+   "snippet": "",
+   "source": "TradingView",
+   "title": "Nvidia, Rebellions and SK Telecom team up on sovereign AI infrastructure",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNX2RObXVpR3VEM0VoV3hEYXZVUGJ1T2JhMDlYNmM0cGNZeWtWTUo2dV9VcjN0d2lqZXJiejJZX3JNU0VsWXIxalNsXy1HY0x2RGlHSFhEMFYxdHNRUFd2RThfanNuVTM0OEFKZjBlY3FpWFhCQ2N5RlVORDFHVHRkY3dpX3BGOG1SMkJpN0pQSGlJQzVfYVZTWVBoVXlzMjVhU012bU9UMlhlTjk3UFNiT1J6X0UzbFlRZEtnaXRDNlBNT01yNU9WLWlyNHlKT2UwbVE?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "8df0441c9c0670c5",
+   "llm": {
+    "category": "analysis_opinion",
+    "importance": "medium",
+    "model": "claude-opus-5-5",
+    "relevant": true,
+    "repos": [
+     "nvke"
+    ],
+    "summary": "Explainer on NVIDIA Kubernetes Engine (NVKE), a managed GPU Kubernetes offering in preview."
+   },
+   "origin": "google:\"DSX AI Factory\"",
+   "origins": [
+    "google:\"DSX AI Factory\"",
+    "google:\"NVIDIA DSX\"",
+    "google:\"NVIDIA Kubernetes Engine\" OR NVKE",
+    "google:\"AI factory\" NVIDIA open source Kubernetes",
+    "google:\"Infra Controller\" NVIDIA"
+   ],
+   "published": "2026-11-07T08:00:00+00:00",
+   "snippet": "",
+   "source": "explainx.ai",
+   "title": "NVIDIA NVKE Explained: Managed GPU Kubernetes, In Preview",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPNVFwUmhsVEplVlRIMk0xMG01SmxpQ1NZcHU2bGRRWlFQN2Vfa1R6RHUyZkNocVRBeWdtemxTVEVOMGNMOUg2bjl4Wlpqb2J3UTFDMHFHYWJSV2NPTU93T0FwRlV0MmJLZjIyQmV0eVk5c2VtU1FQYVVsOTJOd0ZDZ0pHb1VrM09MMW5wSHc2Z21fVzBvcU1wbmN5OXRBMGxXWmNtRkNCTXI?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "72c387ed7ba1b064",
+   "llm": {
+    "category": "customer_adoption",
+    "importance": "medium",
+    "model": "claude-opus-5-5",
+    "relevant": true,
+    "repos": [],
+    "summary": "Lambda uses NVIDIA DSX MaxLPS to improve AI factory efficiency."
+   },
+   "origin": "google:\"NVIDIA DSX\"",
+   "origins": [
+    "google:\"NVIDIA DSX\""
+   ],
+   "published": "2026-11-06T14:36:48+00:00",
+   "snippet": "",
+   "source": "NVIDIA",
+   "title": "Lambda Boosts AI Factory Efficiency With DSX MaxLPS",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9JTXEzYVNwVXpkdWFYTWhuUWlPU1dWbml0Z056SkJUQkFkSzhRNnYyM3hHVGpMaDNhT3hTajNyMlg4V2RmZWxBSHBkZ181WW9xN2x0WTNib3NKMkxJRFE?oc=5"
+  },
+  {
+   "discussion_url": "https://news.ycombinator.com/item?id=50391571",
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "54a7fcc7cbd35a32",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "CLI tool for running large AI models on low-VRAM GPUs."
+   },
+   "origin": "hn:\"Run:ai\"",
+   "origins": [
+    "hn:\"Run:ai\""
+   ],
+   "points": 6,
+   "published": "2026-11-06T12:29:42+00:00",
+   "snippet": "",
+   "source": "Hacker News",
+   "title": "Lowvram: A CLI tool to run large AI models in low VRAM GPUs",
+   "url": "https://soarhen.com/how-run-ai-in-low-vram/"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "108a6f853b16b12b",
+   "llm": {
+    "category": "partnership",
+    "importance": "medium",
+    "model": "claude-opus-5-5",
+    "relevant": true,
+    "repos": [],
+    "summary": "SovAI joins NVIDIA Inception to build behind-the-meter AI factories per the NVIDIA DSX reference architecture."
+   },
+   "origin": "google:\"NVIDIA DSX\"",
+   "origins": [
+    "google:\"NVIDIA DSX\""
+   ],
+   "published": "2026-11-06T08:00:00+00:00",
+   "snippet": "",
+   "source": "Yahoo Finance",
+   "title": "SovAI Joins NVIDIA Inception to Build Behind-the-Meter AI Factories to the NVIDIA DSX Reference Architecture",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTFM1VVAwdHhBMGhLM3RnNGtKUHh2UGtJbEVhWnFYcVRVZGpGUkFxUFA1QzNqNGpjQXV1U09IQURBdEF1REk0bjhVbE9oSzVNRjdCczR2YnVmcGFfTVRXbDVSaGxpdzBLeFhQUGs4VzhJcHBaM2lQLXdfNHg3aFc4NF9hZHk5YTRrd21naUN6SmRZai1VazJsbnFoQjVHams?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "bb5cf6fccc4b1c4f",
+   "llm": {
+    "category": "business",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Nvidia increases chip tracking in Southeast Asia to combat smuggling."
+   },
+   "origin": "google:\"Fleet Intelligence\" NVIDIA",
+   "origins": [
+    "google:\"Fleet Intelligence\" NVIDIA"
+   ],
+   "published": "2026-11-06T08:00:00+00:00",
+   "snippet": "",
+   "source": "Bloomberg",
+   "title": "Nvidia Boosts Chip Tracking in Southeast Asia to Fight Smuggling",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZ0lJLXdrVkh1Znk1NVctYlYwdjhzR2hySkctbHliLW03bmQ3WGtJT3FFQ1dUb2RSZEZVZXRNNkVPcFgxdnVfUU0zYm5xMklxekQyejBTa0JzT19uT0o1d1N6WVlzZkNNTkxiZUN3dlhwMDc2ZUZHMzlackpiVjVUU2wxNnBnSm9DOTkyc2FQdTZLaWFIUV9OYkN4eDBJdGxDY2JCVS1XNVJLSmowYzgwSGlOak5UZw?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "f942a3727ba1f1c7",
+   "llm": {
+    "category": "business",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Report says Nvidia requires Southeast Asian cloud partners to join GPU monitoring program."
+   },
+   "origin": "google:\"Fleet Intelligence\" NVIDIA",
+   "origins": [
+    "google:\"Fleet Intelligence\" NVIDIA"
+   ],
+   "published": "2026-11-06T08:00:00+00:00",
+   "snippet": "",
+   "source": "Tom's Hardware",
+   "title": "Nvidia tightens tracking of AI GPUs in Southeast Asia as Chinese chip smuggling draws scrutiny, report claims \u2014 cloud providers must join monitoring program to qualify for official partner status",
+   "url": "https://news.google.com/rss/articles/CBMi4gJBVV95cUxOZTRjUHRxYnZGOVR3am5JaDAyVERJWVlUV3pLT1E5dE1TWVJCc2EwYzExSzVuNmVpaVB4a0VNay1HODVvNktTRXIxRnV5b2pBSUpOMkxuLTRjT1NHMlQxWnlzOUZKY2N3QWhVOXFpT2tfNnhfRElEZG1pQnJrQjZxQ3NUdGNtUkNQYVdudVA4LUdGd25VT1Zpc0JOY1dZWnhEMjdRWjNrLWxta1p6cmpobnVCLUNzT2tXMUhHZno2Q191WTJqUU9XWlU1b20yaEhRVkhscW1DNGFwV3dxN091X0JZOXhuVTlZdnR4TXJ0TVYzMlZsenZXZE5CdEJkekxCeEpmWU1DRXlYR2FoVGhicUJEcklEUk85RE0yR3BQdzJaSENsMmFTaEkzZkNOUktCMHlTU21GWVRXMDY3enQyTVZIenhhQWtlbGZNci0xd3BEaVZ0WURFWFZNVE5lMFExZHc?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "30943608548cbff5",
+   "llm": {
+    "category": "business",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Nvidia tightens AI chip tracking in Southeast Asia amid China smuggling concerns."
+   },
+   "origin": "google:\"Fleet Intelligence\" NVIDIA",
+   "origins": [
+    "google:\"Fleet Intelligence\" NVIDIA"
+   ],
+   "published": "2026-11-06T08:00:00+00:00",
+   "snippet": "",
+   "source": "TechRepublic",
+   "title": "Nvidia Tightens AI Chip Tracking in Southeast Asia as China Smuggling Concerns Grow",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOX0N3YXlhbHE3dlc0VHZ2OTNDYkdtSjA4M21ja3QtbmRmRFJHNkZVQV9GYUlpU21GeFZTX0NKOGF0d3RmTWxqN1FHaGZwMlIyTUxQa1VkRVpVNzJZT01qTDcxV0Uza0RZZ1hJUUc2QUVaUXdwSVZ0ek44QVlQNERkTzZhRlhOc3lHc0JnOFl4di0?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "f95224915362b06b",
+   "llm": {
+    "category": "business",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Nvidia reportedly requires GPU tracking for Southeast Asian cloud partner status."
+   },
+   "origin": "google:\"Fleet Intelligence\" NVIDIA",
+   "origins": [
+    "google:\"Fleet Intelligence\" NVIDIA"
+   ],
+   "published": "2026-11-06T08:00:00+00:00",
+   "snippet": "",
+   "source": "Superpower Daily",
+   "title": "Nvidia reportedly requires GPU tracking for Southeast Asian cloud partner status",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZHAtdW1GLWRoN3FUSUdtX1VVcnFEbVNKanNWd3M0T0E1eHFMVkRqYUlhQ3M0WVpBbGRXYmNlXzlQZ0xjV2hFMi1ETkNRWVpGODdtM2RlM09FNXI4UWkwRGpBbHBaa2Q2LXRiZjNUbkQ2eUpRcm9WU2dIU3I0czlaTWRlaWZYSEk1X0s4bVc5WEZSXzZEUG5QWTdPUnlNRlplTXZaQkpIZ1hlY2QtQWRzU3FLbXM?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "0a60d994cebdddbc",
+   "llm": {
+    "category": "business",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Nvidia changes chip policy amid China smuggling scrutiny."
+   },
+   "origin": "google:\"Fleet Intelligence\" NVIDIA",
+   "origins": [
+    "google:\"Fleet Intelligence\" NVIDIA"
+   ],
+   "published": "2026-11-06T08:00:00+00:00",
+   "snippet": "",
+   "source": "TradingView",
+   "title": "Nvidia makes major chip policy change as China scrutiny grows",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZlkxYWJfaVBUM3dBaHhqRzgwX2EtWmVpWUNJdk5SMHRGVjZCYUVTUDVGWXVCanVZZWFrcEZFWWpZR0JoNF9iZl9rdHVHM0JLQzRjdlhqS3FSWXd6R0p4V3FiSFdHa0VBekZCLU5kNE9PMTRMVVAwSDhNVVZzNmtxTTc2Mm9FUlkxeV8yOHl3QWtISGlTRlRub3hMM0RRMWtMMGpITjlGVkVNRWNQVTJqUm1Hand6SkJPVHd3NEZB?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "970ac83156794d9a",
+   "llm": {
+    "category": "analysis_opinion",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Explainer separating reported versus confirmed details of Nvidia's Southeast Asia chip tracking requirement."
+   },
+   "origin": "google:\"Fleet Intelligence\" NVIDIA",
+   "origins": [
+    "google:\"Fleet Intelligence\" NVIDIA"
+   ],
+   "published": "2026-11-06T08:00:00+00:00",
+   "snippet": "",
+   "source": "explainx.ai",
+   "title": "Nvidia Reportedly Requires Chip Tracking for Southeast Asian Cloud Partners: What Is Reported vs Confirmed",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNLTBOSmlTTTVqUzlxV0FVOVBGQkdfSnVQTXE2SGpCNHNhdll3X1hObXYzWTk4U3RtYjdHTVRrMmJqYmtCME1YTlg1T1ZMa2R3SHp6cURHa2tXZlpnV2tscGZ1ZGpSb1FEQXhud1hSa0xVVG1Pcm1pRFJVRkN3ejlxcXpPQkhoOS1qTmM5dmxFMEZPalpKT1VQb1VHZXZMcUUtOHVpTXVxQXp0RlFnOV9xbTJWRmJBY1c4X0p2ZE5LRDJiMi0wQUdWanIwY3ZDTHc?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "5fc516edfd541306",
+   "llm": {
+    "category": "business",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Nvidia's new tracking requirement aimed at stopping China chip smuggling."
+   },
+   "origin": "google:\"Fleet Intelligence\" NVIDIA",
+   "origins": [
+    "google:\"Fleet Intelligence\" NVIDIA"
+   ],
+   "published": "2026-11-06T08:00:00+00:00",
+   "snippet": "",
+   "source": "TradingView",
+   "title": "Nvidia's Quiet New Ultimatum to Stop China Chip Smuggling",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdW45bVRpaDVhMGpLbU5paU44WkRtUEU3T1hwd2xuNkVscFRZTzhsclA4VEthTnhvS2FNR0JibG9idmg1NmRiQl91VURZTjU2TXBKdW9QUV8zVGpoNk5ERHNaRlc5S2ZibUVoeXZEOHEwV2hyQXhBSzRUc0JTaWFvaGhqdkVzREdEdE9iS291MzNkWGtLdk9KRHRHSU1CM0twa3Y2NUpoQVoySWJTMmFpZ05ZaXV6TklK?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "3e7b0065e2f9aaaa",
+   "llm": {
+    "category": "analysis_opinion",
+    "importance": "medium",
+    "model": "claude-opus-5-5",
+    "relevant": true,
+    "repos": [
+     "health-validation"
+    ],
+    "summary": "DSX OS guide notes slow GPU nodes pass validation tests unless operators configure performance thresholds."
+   },
+   "origin": "google:\"DSX OS\" NVIDIA",
+   "origins": [
+    "google:\"DSX OS\" NVIDIA",
+    "google:\"NVIDIA DSX\""
+   ],
+   "published": "2026-11-06T06:10:05+00:00",
+   "snippet": "",
+   "source": "Tech Times",
+   "title": "NVIDIA DSX OS Guide Says Slow GPU Nodes Pass Tests Until Operators Set Thresholds",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNU01JUWRCNEx4TEs2R1ZsLVRiWXgzWVZ1a1lGUkp2WjNIVlVfdGtQcmJqVHdFSnZraHBncnlGcFdsd2E1dDRGQTlyRmVuNUJlcHcxVTZGSDRQWVkzVlgwZTlLd2podUg2SDFGTk9QR0dYSkI1VWxNYXNOOGZTMnA5OG0weTlpYXl1RE0wWnJwemhIRXRmdVJLVkdiVllvUVRvZGlLSFhuaUtGS3NnNm03dzNURzk4ajU3b3h3V1g0aDF3SjhHM05lc2xWNVlLNG4xTXc?oc=5"
+  },
+  {
+   "discussion_url": "https://news.ycombinator.com/item?id=50387738",
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "b95f6aa29001e5a7",
+   "llm": {
+    "category": "community",
+    "importance": "medium",
+    "model": "claude-opus-5-5",
+    "relevant": true,
+    "repos": [
+     "nvke"
+    ],
+    "summary": "Hacker News post linking the NVKE GitHub repository."
+   },
+   "origin": "hn:\"DSX AI Factory\"",
+   "origins": [
+    "hn:\"DSX AI Factory\"",
+    "hn:\"dsx-ai-factory\"",
+    "hn:\"NVKE\""
+   ],
+   "points": 124,
+   "published": "2026-11-06T03:16:26+00:00",
+   "snippet": "",
+   "source": "Hacker News",
+   "title": "Nvidia Kubernetes Engine (NVKE)",
+   "url": "https://github.com/dsx-ai-factory/nvke"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "61b25639c151a521",
+   "llm": {
+    "category": "tutorial",
+    "importance": "high",
+    "model": "claude-opus-5-5",
+    "relevant": true,
+    "repos": [
+     "nvke",
+     "nvkr",
+     "health-validation"
+    ],
+    "summary": "NVIDIA technical blog explains configuring, certifying and operating Kubernetes GPU clusters with DSX OS."
+   },
+   "origin": "google:\"DSX OS\" NVIDIA",
+   "origins": [
+    "google:\"DSX OS\" NVIDIA",
+    "google:\"DSX AI Factory\"",
+    "google:\"NVIDIA DSX\"",
+    "google:\"NVIDIA Kubernetes Engine\" OR NVKE",
+    "google:\"AI factory\" NVIDIA open source Kubernetes"
+   ],
+   "published": "2026-11-05T08:00:00+00:00",
+   "snippet": "",
+   "source": "NVIDIA Developer",
+   "title": "Configure, Certify, and Operate Kubernetes GPU Clusters with NVIDIA DSX OS",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRGtOeWpBblRrTVNIRmlMYlhxVi1ENzNyMEUtTnFvOEtjazNzS1gwc2R0TmpEMlhRczRyQXNDRE1EZUdDSnNsTS1kUWFqbGpDSmU5TElkQ1BxUm1BLTU3UFdEZkFYSDZxMThjempUVGgzaTN0blFWMmxHZkJ1eHRmdnBLcXZad0llZnJ0aDVNa0pRRlJhRG1DMUZ1ODZOcWlkbjVDRVNJekp3MXc?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "304972f547fba456",
+   "llm": {
+    "category": "partnership",
+    "importance": "medium",
+    "model": "claude-opus-5-5",
+    "relevant": true,
+    "repos": [],
+    "summary": "DayOne endorses NVIDIA's DSX AI data centre design standard."
+   },
+   "origin": "google:\"NVIDIA DSX\"",
+   "origins": [
+    "google:\"NVIDIA DSX\""
+   ],
+   "published": "2026-11-05T08:00:00+00:00",
+   "snippet": "",
+   "source": "DataCenterNews Asia Pacific",
+   "title": "DayOne backs NVIDIA's AI data centre design standard",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRWZNNWtSNmNvRUl5V1picnpxaGNxUEhZWnFJcF9uZ21XYTVDQ0xzNENjTW5jNzNtRlg4aU5rak0yM3U1WDZRM3dHUTBVamQ0UHRRM3R2WFU5bFlHZUJ3S3JfRldBSjJGcjFValRwNzl2YTRZX0prVlhvNjNPNTBnVVF6ZzZGWlYxem5yZ19qTQ?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "a60df53e42353a69",
+   "llm": {
+    "category": "business",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Nvidia chips accumulate in Hong Kong as China withholds import approval."
+   },
+   "origin": "google:\"NVIDIA DSX\"",
+   "origins": [
+    "google:\"NVIDIA DSX\""
+   ],
+   "published": "2026-11-05T08:00:00+00:00",
+   "snippet": "",
+   "source": "Kuwait Times",
+   "title": "Nvidia chips pile up in Hong Kong as China withholds import approval",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWkU5VnBaZHkwVmg4UDBqc29IbDUwR1ByZmFoU3NyTnJOUmJBcmpLbzRsUVNnd0l0TElINFpiYWsxZGo0TDFTdjQ4Vkh4WUxjLVdJUFJDRTdteUs1cy1OX2d1R0hob2pNWmJYZC1yZzlBMGJhZTU4T0t1cWd4SnNZMGtaYkZZOGNXRGtMWDJURXZhejRDMGpvM0k4OW9YUTBlUEhMZVVwRGl4WmlXblFwQUIwb25CQTjSAbsBQVVfeXFMTS13T2Q3VU1xQ2dIeEhoVms1dXh6ckszTmIxV2thQnJVazZ6Zlc4a3dSQUhrVGx3WEl0VFdzLVRFWkcwaElsdktkUy13YlhwR2lvMVdKWTBlZ1poOEM2Y25NRC1CcGVoMUJHU1RiLVBZdVZORWZDTFpXYXMyR0g3Zk1JLV9OV3k4b2l5NVpicjRGMW1iVzRVVXlCNUphTlRvVmxwM0o1MFNocm5jOHB5eklmSjRRR0ptX1cwaw?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "8af7948f31ac486a",
+   "llm": {
+    "category": "partnership",
+    "importance": "medium",
+    "model": "claude-opus-5-5",
+    "relevant": true,
+    "repos": [
+     "dynamo"
+    ],
+    "summary": "Supermicro KV cache platform with IBM Storage Scale and NVIDIA Dynamo claims 56x faster TTFT at 130K tokens."
+   },
+   "origin": "google:\"NVIDIA Dynamo\"",
+   "origins": [
+    "google:\"NVIDIA Dynamo\""
+   ],
+   "published": "2026-11-05T08:00:00+00:00",
+   "snippet": "",
+   "source": "StorageReview.com",
+   "title": "Supermicro KV Cache Platform With IBM Storage Scale and NVIDIA Dynamo Claims 56x Faster TTFT at 130K Tokens",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOaDVqZjJzQUtLMUxyeWpxaFhHQmRiQlJCTlV1ZjdfZkt5NmZzYkFnTXYxaFR5clJyMDdBdnhFOENiWDZOanRCeHJRN2ZuaDBDRnNvdENkU3A2VXBzM09VTnh3dW02ZkVsNkdtTnp0MGFxUVpYeDhkd2d2VHhIclRaZGljN01QYTZydElTdFdib2lJd1ZQNnBqakZick1ibDEwbC1WdUVUc9IBrAFBVV95cUxNQTYwZmluU2tBQUk5NzFtSGNMTnd1THBUeVRjZC1Ta0dSSlBRUDg2ZDBVRjdhQ29DTnVTTm1pWHVWanBBSnJYbUxSakdyREdheEdrWjZobUtsclYtZXJrbzBKMVlrbEdJUUZEUDdPUFdablpSWEhUTGIycWYyNG96YUs0ZjktTFZsTUQxeV8tbi1aY0F3Ymw0VUpHZlh2WTlnd3VRTnl5WFpJaG5J?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "b6660bf97427e30f",
+   "llm": {
+    "category": "business",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Stock article noting Nvidia decline and IBM-Supermicro AI deal speedup."
+   },
+   "origin": "google:\"NVIDIA Dynamo\"",
+   "origins": [
+    "google:\"NVIDIA Dynamo\""
+   ],
+   "published": "2026-11-05T08:00:00+00:00",
+   "snippet": "",
+   "source": "TradingView",
+   "title": "Nvidia Stock Tumbles. IBM and Supermicro AI Deal Delivers 56x Speed Boost",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbllMMDA0MFd1UW1OZFp6WVRnaFZPbnNSTXF6d0ZRQVlCZjA4YUpKbDYxck9UdmE2NUFKaEQ3TFZfdU9hd0dnZHVTajRUQnA5VkwyclM0empORWpxNXZvamQ2VDNDSS1pWjVuYUViT2JFcFY0dDU1QnY1R3RldVlJcUFvTUtYcmxTdnMtS2FaOFAtVGIwaTNrQzZPclNSOWVneFFGczJMaURwOFVDSzZDNmVKTVNPQi1YOUsxQ2lBaW90bDRKbnZsYlFnamw?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "1929056c4d8faad5",
+   "llm": {
+    "category": "launch",
+    "importance": "medium",
+    "model": "claude-opus-5-5",
+    "relevant": true,
+    "repos": [
+     "dynamo"
+    ],
+    "summary": "Supermicro launches KV cache solution with IBM and NVIDIA Dynamo showing inference performance gains."
+   },
+   "origin": "google:\"NVIDIA Dynamo\"",
+   "origins": [
+    "google:\"NVIDIA Dynamo\""
+   ],
+   "published": "2026-11-05T08:00:00+00:00",
+   "snippet": "",
+   "source": "Supermicro",
+   "title": "Supermicro Launches KV Cache Solution with IBM and NVIDIA Demonstrating Significant Inference Performance Benefits",
+   "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNYU1hOTBIaFFPa2g4SjdkaXRzVVJMWVU1cW9VUHZvSktCdVBFYUQ2a0xHTHR0Vzg1TmpjYVBTdWExSGRGc3hyUnY4QlluUWVjbnpFY1Z2OElaN19PLWE2d3BMcnUtcTlkQV9qVXUteXcxblBvNTFiUU5kSGhYb05LUTFNaTJkZjlWVTUtR1Z4dE1TM0dYUk41RjlHWkQwSlM1RUNHU3FCNU0yeVY1MXRRTlk5RHpWVVNrbmpxd0tOWVVXLVdPZGhUZUVmNmg1aERwWFNFNzR1LURnTnprQTdscWtaWER2WmE2dEczYnJOa1lEeUtaM1dtTW5WY1l1R2xtb2NXWE10WQ?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "cc289ca270f8549f",
+   "llm": {
+    "category": "technical_deep_dive",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "NVIDIA blog describes five co-design approaches for memory efficiency in AI factories."
+   },
+   "origin": "google:\"NVIDIA Dynamo\"",
+   "origins": [
+    "google:\"NVIDIA Dynamo\""
+   ],
+   "published": "2026-11-05T08:00:00+00:00",
+   "snippet": "",
+   "source": "NVIDIA Developer",
+   "title": "Five Ways NVIDIA Co-Design Maximizes the Value of Every Byte in the AI Factory | NVIDIA Technical Blog",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMEdkRXVudzY3bUpTNmFSMklHRXJvOU5mN01QQVNWOXEzR0xCbUtBMEpYS19NWGFxczhIcDdqQUVEbDE1OXU0STlKOHVtLVNPZkRLWDRFTVI5WEE2bDdwQldsQ3ROX2FzS0M4UklPRUlBa2Zhb212Y2VUSkV4bTJJWkg5NUVReU5oYld5eXZJaXdYU3NlTDNuUm96dEtYdGUxN2JRYzl5bk9VNnJHZmpoWmkwRQ?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "7fc12ea12c042659",
+   "llm": {
+    "category": "analysis_opinion",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Explainer on NVIDIA's claim of 30x throughput per megawatt for Vera Rubin."
+   },
+   "origin": "google:\"NVIDIA Dynamo\"",
+   "origins": [
+    "google:\"NVIDIA Dynamo\""
+   ],
+   "published": "2026-11-05T08:00:00+00:00",
+   "snippet": "",
+   "source": "explainx.ai",
+   "title": "NVIDIA Says Vera Rubin Gets 30x Throughput per Megawatt From the Same 288 GB: Five Levers Explained",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVUN2VWU1YkY5RU9ZNWpxQmVsNnJPclJZWDJJalFMc21jeWxCUTRRNTU5NEZSVVA1WjBjYTVDcGFQcHlHU181VFRUV2gzaDB0U1BIMndiUGxPOXJqMkE2bVBUcWcwWUVfdXF3MjFxaF9sWkZSZVJ6M053RTROYnlPNllIUXh5enc3QjFqY0xUcEY4OEVPeWZlOURqbFZnSDNENEdRT2hpM25FdF9ySkFSZVBuOFp3YWxpMDBfU0VvNTE?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T20:16:01.311589+00:00",
+   "id": "fdad158594c7758a",
+   "origin": "google:\"NVIDIA Dynamo\"",
+   "origins": [
+    "google:\"NVIDIA Dynamo\""
+   ],
+   "published": "2026-11-05T08:00:00+00:00",
+   "snippet": "",
+   "source": "Investing News Network",
+   "title": "Supermicro Launches KV Cache Solution with IBM and NVIDIA Demonstrating Significant Inference Performance Benefits",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOZG8ySDk5cXJJY193eFdQOFlHeVM4M21ES20zemVqbWVSV2I5YzFPdW5IQ0phZ25mNU1wUmdDWmU2cmN6VGJFZjc4bW9vSExVQjhaS1F2a3RvRnV4U0hUdmlLNy1mMTBFOXctU21PdjJKazVfZW1IbUZkdWgzamxkTnF6YVNwVEZmbkFBRU1DaDh4azRoUnE5RjlXWFVIYUhUQlFBY1BCNDhsSXpwb1BMZVNJbGNKaWhJQ1V5QVNUMjBmOGNkNmRaSElHNzJOdlYwc2xJbWN1Y1I?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "1868b4ce5a48f893",
+   "llm": {
+    "category": "launch",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "E2E Networks launches Blaze AI inference service with Nvidia."
+   },
+   "origin": "google:\"DSX OS\" NVIDIA",
+   "origins": [
+    "google:\"DSX OS\" NVIDIA",
+    "google:\"NVIDIA DSX\"",
+    "google:\"Infra Controller\" NVIDIA"
+   ],
+   "published": "2026-11-04T08:00:00+00:00",
+   "snippet": "",
+   "source": "ET Telecom",
+   "title": "E2E Networks launches Blaze AI inference service with Nvidia",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUkgyVXFZTTZXa1NlWE1fVWwtN3RFbVZScFdadU84cWVqSTllSUZCSFhJYmRuM1BhenBKTVRxZmRCSXpUNFVOal9HeFZlVFMza1k1MFdhTGllYy0xbmNhR0FGMUNqOWpDd1g1UkI5OFJMZ216ZnpCN2lfOVVKamFkT2xxTUlpOWF2Q0YwQ0RLQ2wzRlF6Zy1aYjROMUpvWG1OTzZZVG4zWnRGVmlFdnZmbnhBcUc0S0hsSDF6Q1prN3A4SDRfeTROONIBzgFBVV95cUxPU0lyanJ3QVp6ZVRwZ3hlX2tNaG9BRWdhYzdsOU5xOW9NT19IbHRDaUhRaFhYRzZ5NEhQUE9BR1I4RjdMZ2dISzRJVjhiN1ItNTJlajl6RTlxZnVSb0lGYWNkNVNQS0FlemItbkw4UGwydklwc1R3WnZoQ2c5dTQzOW0tVkVXQ1ZiTGZRa1NTREdGdjhMcE5wWk13Q3V2Q0xURGpiZjVfVUhEWFJkNHdiblBHdWpKRzFidXk2UjVoMTB2LWdmbXVXeEg2WXdlUQ?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "9065c7ff9e108076",
+   "llm": {
+    "category": "launch",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "E2E Networks launches Blaze pay-per-token inference on India's Sovereign AI Factory."
+   },
+   "origin": "google:\"DSX AI Factory\"",
+   "origins": [
+    "google:\"DSX AI Factory\"",
+    "google:\"DSX OS\" NVIDIA"
+   ],
+   "published": "2026-11-04T08:00:00+00:00",
+   "snippet": "",
+   "source": "varindia",
+   "title": "E2E Networks launches Blaze, bringing pay-per-token AI inference to India's Sovereign AI Factory",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPX0c1aTJ1UkZ2QzVENWJpTTE3ZHdycEZtcm5EZ2ItakVCTWNCbmFsRjF6VXBDUVlvT0p0YlZHVUpTdnA1V3RfU1JfQ2FXY3JsYlN3R1NUWmdCWFk4TDVhd0J1VTd5Y1NfY21rVmR2WGNScnBSY3hoQVFmMHJVMHVBQkFuN3lEdVhrVlBTOFEyVHBNanlaaVlKU1hmaldaUERjWmZjb1I2TDNRZk10RnpxSUhOZVM5TGNzNWtVaTRYbTAwcnc?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "8ea5adbc478ce0a4",
+   "llm": {
+    "category": "launch",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "E2E Networks launches Blaze pay-per-token inference service in India."
+   },
+   "origin": "google:\"DSX OS\" NVIDIA",
+   "origins": [
+    "google:\"DSX OS\" NVIDIA",
+    "google:\"NVIDIA DSX\"",
+    "google:\"DSX AI Factory\""
+   ],
+   "published": "2026-11-03T17:08:00+00:00",
+   "snippet": "",
+   "source": "CXOToday.com",
+   "title": "E2E Networks launches Blaze, bringing pay-per-token AI inference to India's Sovereign AI Factory",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOaXFEa0x4cml6d2xWUlBSczVrSW9JTVRWU0h2OEdDOVktOWFUdnlwVkdzWk1GRDF5WkQyQVE0d3VQYzgwUDVZMW9UZVRUSGs2ajUySTdKMkZWenNfWE94SGxqYTNzWHBOWDNYRHVVN3pQVDlQZlMxWlhMWTJxZjJXZzlJZTF5b2p1d1oxQnpTWkwtYnRsYnRjaGxpb0c3ZW9mZVFtM3ZGcWgwVE5nSjBYOFVwWHlsSnRHX2Z3QnI4b2p1TTFLdUdtbjBCWQ?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "c287f03796f9c4ab",
+   "llm": {
+    "category": "launch",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "E2E Networks expands AI cloud services with Blaze launch."
+   },
+   "origin": "google:\"Infra Controller\" NVIDIA",
+   "origins": [
+    "google:\"Infra Controller\" NVIDIA"
+   ],
+   "published": "2026-11-03T09:05:43+00:00",
+   "snippet": "",
+   "source": "SMEStreet",
+   "title": "E2E Networks Expands AI Cloud Services With Blaze Launch",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMzh2TF83Z3ZHOVpEUU9oSjIyZENBaEozUFpLVk5xLS1NaF9xR2Qta2d0c1NlU0VLZWo3NTU3bF90cC1pZXBPZWNWVEpDdF9TMURrdmN2dVJDcldyWUhXSVp6cnlpOTIwZ1dBTTZpVnBkNUZJZnYwTVhTSUh3OFptV2xDenlHQUstOEZ1NmxtV0VqZmIxZ056ZzBtVlpSd9IBngFBVV95cUxOMzh2TF83Z3ZHOVpEUU9oSjIyZENBaEozUFpLVk5xLS1NaF9xR2Qta2d0c1NlU0VLZWo3NTU3bF90cC1pZXBPZWNWVEpDdF9TMURrdmN2dVJDcldyWUhXSVp6cnlpOTIwZ1dBTTZpVnBkNUZJZnYwTVhTSUh3OFptV2xDenlHQUstOEZ1NmxtV0VqZmIxZ056ZzBtVlpSdw?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "f5dfa25d5e1ddff6",
+   "llm": {
+    "category": "business",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Fireworks expands European capacity with NVIDIA Vera Rubin and Grace Blackwell."
+   },
+   "origin": "google:\"NVIDIA DSX\"",
+   "origins": [
+    "google:\"NVIDIA DSX\""
+   ],
+   "published": "2026-11-03T08:00:00+00:00",
+   "snippet": "",
+   "source": "Fortune",
+   "title": "Fireworks Expands European Capacity With NVIDIA Vera Rubin and Grace Blackwell Platforms",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaDlJek5fYjBubGFqb0hfMVVDQU1LcjRDbFhfOEZQaThZc0U4YV9sSE5BY0lnR0tEUWtaRUlsVmg3enVIOWM0VUFKSGl4QWZUZldBS1BUbXd3NWxxTDVHc0N4NXJsbHpzV1RCcWJfMm1LcWhVbU5nT0w5VzFjaVpJUDVOaGZSMFZtTTJWNDdfRzZSRENtTklrbm1DOTk2bkktckNocEdVQTA?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "0189e30a91175550",
+   "llm": {
+    "category": "launch",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "E2E Networks launches Blaze for pay-per-token AI inference."
+   },
+   "origin": "google:\"Infra Controller\" NVIDIA",
+   "origins": [
+    "google:\"Infra Controller\" NVIDIA"
+   ],
+   "published": "2026-11-03T08:00:00+00:00",
+   "snippet": "",
+   "source": "Analytics India Magazine",
+   "title": "E2E Networks Launches Blaze To Offer Pay-Per-Token AI Inference Services",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPeDV6YjFic1NRc3A4RGc3Mm4wT0dYSFREN0s3T1c1QlNZS1JHOEZqZFZjZnloOTFyVjE1VXp1SGdiWFBscW1oTTBPSnBMeGd0Z01jbWlJTERmN2tibnF5akpQeTE0VW1FZ0k2MGlzZkhKOEhGSEhzVUwwUHdKMnUwQUtTNDVGdVAwNDc0RWJaZzRmY3BWRVctMnZqWUxNUjlEQ1RNY05lRFlWTmFNX0M0?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "6f5bba43cc380a9d",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Camp Fire Fund continues community recovery support after $67M."
+   },
+   "origin": "google:\"NVIDIA Cloud Functions\" OR NVCF",
+   "origins": [
+    "google:\"NVIDIA Cloud Functions\" OR NVCF"
+   ],
+   "published": "2026-11-02T18:10:08+00:00",
+   "snippet": "",
+   "source": "Action News Now",
+   "title": "$67M later, Camp Fire Fund is still helping communities recover",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOYUhyR0xuNjNneDdpa1BtLXpQMDdQVU5uWUFvUUxaa1dTTElSeXdvcmxPWW90NnVLUlZOSnJsUzd2UlUwUHBqTFpIZUpucTdNT2IwcmY3c1d2Mjhma3puWWJhM3BsN3BvQ1RkZmZGbWREcmlQelZ2QVhuZ0FwdXkwTTZDQ20tRGI0N1BjOUN5cmpScG1BbVJISVlrWGZ6dzVvMV9iRVV0bFpPalEwVnZwNWFNZXp0X0Frc1RhOTRGWjBGUmhEcnhQQTNqbFp1VnZESDBiaWdLcFUxeC1falRV?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "f5be768997261d8b",
+   "llm": {
+    "category": "technical_deep_dive",
+    "importance": "medium",
+    "model": "claude-opus-5-5",
+    "relevant": true,
+    "repos": [
+     "NVIDIA-Recovery"
+    ],
+    "summary": "NVIDIA blog describes automated workload recovery to keep distributed training jobs running."
+   },
+   "origin": "google:\"DSX OS\" NVIDIA",
+   "origins": [
+    "google:\"DSX OS\" NVIDIA",
+    "google:\"NVIDIA DSX\"",
+    "google:topograph NVIDIA"
+   ],
+   "published": "2026-11-02T08:00:00+00:00",
+   "snippet": "",
+   "source": "NVIDIA Developer",
+   "title": "Keep Distributed Training Running with Automated Workload Recovery | NVIDIA Technical Blog",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNdnFfR0tJdXZNZVdzTFpjMWU2RXRJYS1TNU5Janp1dFJ2eFZCSTdXWlhVX0N6UHByWnlnc3h6dldFZmtHQ296aGFmS2drY3RkVDM4UElrbVZDODZER0cxYzFaOXQxUjBvb21Pcjg0Zk5qbzZRWXo3NzdKTFdkV3pieHRmNGx4OE96R2d4VUlrcDlSTFAycEM1TndwY1FvVUtVS2JZ?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "540f6be42be164d9",
+   "llm": {
+    "category": "business",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "SWI Compute launches a European NVIDIA AI factory network targeting 2.3GW of capacity."
+   },
+   "origin": "google:\"DSX AI Factory\"",
+   "origins": [
+    "google:\"DSX AI Factory\""
+   ],
+   "published": "2026-11-02T08:00:00+00:00",
+   "snippet": "",
+   "source": "Intelligent CIO",
+   "title": "SWI Compute launches European NVIDIA AI factory network with 2.3GW target",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUkxwa0d3WFdESGh1WUozRWhXellBb2RTay04d2NqY19RRWdJSjVRQ3NMRXI5bnZQNXVBODBNM1pjbUJrdzlfemtPOW9EdDRCVkh0V1htOUJYVEh0WTVhaU9lTHpZMXlvaHgybjVrSFRnQ3RjUXNUTHZBdElHeW1WcTc0S2dlZEcwUnNLQ0EtLUJSM0hxZjBUd0FEQUlNdXRYZ2pVQ1htcUoxMVNJYXVVc0czN0xRSS1VbURZ?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "4ea97bc9f4d9af29",
+   "llm": {
+    "category": "technical_deep_dive",
+    "importance": "high",
+    "model": "claude-opus-5-5",
+    "relevant": true,
+    "repos": [
+     "workload-map"
+    ],
+    "summary": "NVIDIA technical blog explains how Workload Map translates Kubernetes framework CRDs to support new AI frameworks faster."
+   },
+   "origin": "google:\"DSX AI Factory\"",
+   "origins": [
+    "google:\"DSX AI Factory\"",
+    "google:\"NVIDIA DSX\"",
+    "google:\"NVIDIA Kubernetes Engine\" OR NVKE",
+    "google:\"AI factory\" NVIDIA open source Kubernetes",
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-11-02T08:00:00+00:00",
+   "snippet": "",
+   "source": "NVIDIA Developer",
+   "title": "Support New AI Frameworks Faster Using NVIDIA Workload Map | NVIDIA Technical Blog",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNeXpxbDZQMUZkNWlDT1N5WDg4U2NyMGJ4d0VlNmxHYWNEaUZrZUdVeHlKOTk1YV90MFdpOFpRTm5vYTgydWlCY3FHaVh0RFRKMXUyUUdjWkZWZFh1Y0NMQUtMVEhhUC1XX0g5N1NlMFlQSEczMU1PQjVVZ1ota0VwTDd2Q2FUWHRqb0xjUDg5d20tZlZoT0Qwbg?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "25dc1b1c3ca4afdc",
+   "llm": {
+    "category": "partnership",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": true,
+    "repos": [],
+    "summary": "Dynalene's PG-25 coolant qualifies as an NVIDIA DSX Ready coolant solution."
+   },
+   "origin": "google:\"DSX AI Factory\"",
+   "origins": [
+    "google:\"DSX AI Factory\""
+   ],
+   "published": "2026-11-02T08:00:00+00:00",
+   "snippet": "",
+   "source": "Lohud",
+   "title": "Dynalene PG-25 Qualifies as an NVIDIA DSX Ready Coolant Solution",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQmxLWXo2YXhHTlVHSWRRS18tRHpwRld1Y2tjUU1WaUlaWVRaWWY4WUxHcS1oM1dPc1BXS2dTZjA1Rzd6ZkplQW9MRXlEaER5OHlzUzFHbkZhMXlPc2U0dmRRZkxpTEt3VVpnb1FNSjR3RW9wUzcxdjNlT051VmhScUhLSmxqQi1pV3AwdW5WTEoxWXpsUnA4Y0pOTXI4Z3FROEVNRmhGR05OM1ViUXZkWWVVbHY?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "70331d2c589442b6",
+   "llm": {
+    "category": "partnership",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": true,
+    "repos": [],
+    "summary": "Press release: Dynalene PG-25 coolant qualifies as NVIDIA DSX Ready."
+   },
+   "origin": "google:\"NVIDIA DSX\"",
+   "origins": [
+    "google:\"NVIDIA DSX\""
+   ],
+   "published": "2026-11-02T08:00:00+00:00",
+   "snippet": "",
+   "source": "EIN Presswire",
+   "title": "Dynalene PG-25 Qualifies as an NVIDIA DSX Ready Coolant Solution",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOT3lVLS1mWWlIcDdwYnlCQWxLbUMySmUwQzM3OXRtYlAxZXFMNlVpTHR5WmpnYnoyRFoxUEZrdmVFUE95LUJoUXJyT0ZhYU9zU0w0TFNjU01SaWlzZFlENXJ5VEpEMV9KbkxEOHBtSS1DMTA2eTBSeVNEYTVSanR5bGdKNzhOTDJpLXFJOVNtcmFxTWtHTnYzWW5fS3BuMHNJcEhHcHVqOHpHT3hEZ2s0Tw?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "e96706874119626c",
+   "llm": {
+    "category": "technical_deep_dive",
+    "importance": "medium",
+    "model": "claude-opus-5-5",
+    "relevant": true,
+    "repos": [
+     "nvkr"
+    ],
+    "summary": "NVIDIA blog describes preparing Kubernetes stacks for Vera Rubin systems at launch."
+   },
+   "origin": "google:\"NVIDIA DSX\"",
+   "origins": [
+    "google:\"NVIDIA DSX\"",
+    "google:\"NVIDIA Kubernetes Engine\" OR NVKE",
+    "google:\"AI factory\" NVIDIA open source Kubernetes"
+   ],
+   "published": "2026-11-02T08:00:00+00:00",
+   "snippet": "",
+   "source": "NVIDIA Developer",
+   "title": "Making Kubernetes AI-Ready for NVIDIA Vera Rubin on Day One | NVIDIA Technical Blog",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSm9sT3U3a3RBZXl2ajhpa0ZVbmJ3cVZwUDdNNjVsc0xVc01VN05vajcxaXJmUjJFNTV5cF9tWi1xbkxLY2ZwdzdrX1UxeXJvSjRjbEgzU1ppMGZrYllHb3hMMVI3TVR2X0FuWk80VHZHM3YzVTJiM1U5TTQwbEM5aEJqUlVqMWNQV3FETmdOYmZLWTRpcUExd01R?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "0401be94f67ae2cc",
+   "llm": {
+    "category": "business",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Nvidia is set to become Naver's third-largest shareholder."
+   },
+   "origin": "google:\"NVIDIA DSX\"",
+   "origins": [
+    "google:\"NVIDIA DSX\""
+   ],
+   "published": "2026-11-02T08:00:00+00:00",
+   "snippet": "",
+   "source": "THE ELEC, Korea Electronics Industry Media",
+   "title": "Nvidia to Become Naver\u2019s Third-Largest Shareholder, Overtaking Founder",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9DT2dYMVRxaGpoRXRNOVZKdFIwcldtU2VINHlXT09kWjJSbWdMcWVPZGVJN0VaZ0tWY08tNFhUVTk2Y1E3U0xpN2M1RXJWaXdHS1ZzN3lrdndlSF9wcXdJNy1hWmliVlU?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "8e35045586396550",
+   "llm": {
+    "category": "partnership",
+    "importance": "medium",
+    "model": "claude-opus-5-5",
+    "relevant": true,
+    "repos": [],
+    "summary": "DayOne announces support for the NVIDIA DSX POD reference design for standardized AI infrastructure."
+   },
+   "origin": "google:\"NVIDIA DSX\"",
+   "origins": [
+    "google:\"NVIDIA DSX\""
+   ],
+   "published": "2026-11-02T08:00:00+00:00",
+   "snippet": "",
+   "source": "ANTARA News",
+   "title": "DayOne Supports NVIDIA DSX POD Reference Design, Advancing Standardized Infrastructure for AI",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNVEUwemZncnA0WXVoUDhSdVlWTW5WSmh2eEgwc0R5ZmV3V1ZhYkRqUnNyNGNpbGFjV25HYTBlemhTUGRHbFBmN0gtSmJXdkROeGRBYktpOVpIbnJ4cTBkUjZwc1c4Z0U2R2NUVlpJbnNXM05mMi1QdTg0YWkyUVBpTDdnUkVDbTAwLWRyMVlBSzRCc3dFTDdTN2R2OWI3cEJzcHBiLTVTdHNRUUVscUs1eVlUdDZKZ2txV3lfbmo4N2RQN0FIcWNld3VR0gHPAUFVX3lxTE5OVV9xV2UwaXBGM3FmWjBJb3d4Q0RsXzdkVjhzZklod3FHeFdqSzhxLVJJM2toS2FFZGZDRGZfa3JQaWhvOU4tZDlSZTdzQ2k5U0JwYThPNWNxeC1rUFR5TFlTbk9ibjZFN0dJWkxvZDRscmtJalE3OXI5MlpiQkZiaEJ0SDduWVBlZGhveTlRQVYtRlFjcWtkWXZOMnhzeTI2SUUteS15V2g0bzF2Sml4NlRlU3NfWjdyR3V0Q0tpejFVOUtyUmJrem9GbC11TQ?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "094894837d915fd7",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Nvidia will showcase AI infrastructure at AI Day Seoul 2026 starting November 9."
+   },
+   "origin": "google:\"NVIDIA DSX\"",
+   "origins": [
+    "google:\"NVIDIA DSX\""
+   ],
+   "published": "2026-11-02T08:00:00+00:00",
+   "snippet": "",
+   "source": "THE ELEC, Korea Electronics Industry Media",
+   "title": "Nvidia to Showcase Latest AI Infrastructure at AI Day Seoul 2026 Starting Nov. 9",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1uWTU5akxNMkZMZVROU3BkN3Q0enFUYnlPN2g1VXNGa1dUZmNHV3hybTJCcHNOY2JlQ19nd0JISWdDSXhnOGFZMVIyOS1BMVNXOGVsbVlmdEExdWE2cmRvMi1UOTlRRFE?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "116695d7e15f964c",
+   "llm": {
+    "category": "launch",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "E2E Networks launches Blaze, a pay-per-token AI inference service."
+   },
+   "origin": "google:\"Infra Controller\" NVIDIA",
+   "origins": [
+    "google:\"Infra Controller\" NVIDIA"
+   ],
+   "published": "2026-11-02T08:00:00+00:00",
+   "snippet": "",
+   "source": "scanx.trade",
+   "title": "E2E Networks launches Blaze pay-per-token AI inference service",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPSnBXM2xJSERya1hSOW1XVllodEpkdUw4NGJtUm1uWFA5bEhqNXBPZEdlR1ZBV3M3SzBQUlExRjh0QkJhV3kyNGduWlVQWFJZVktkUHU2YkFvOE04UlNaZkdyXzMxLWgzQk9qY0g1RXNzNV91NnVnNHpQZHRpQ004NnZNbkZTeXlyQ0loYnEyZmNoQUx5TGdWOEM2aDVkNTNnbG85Q1pQV2dkRkZhUjh6MTFNNUxqWnBTQThZ?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "0ad4d6238d358eb2",
+   "llm": {
+    "category": "technical_deep_dive",
+    "importance": "medium",
+    "model": "claude-opus-5-5",
+    "relevant": true,
+    "repos": [
+     "nvkr"
+    ],
+    "summary": "Article covers NVIDIA Kubernetes recipes for Vera Rubin NVL72 including an NCCL bandwidth validation gate."
+   },
+   "origin": "google:\"AI factory\" NVIDIA open source Kubernetes",
+   "origins": [
+    "google:\"AI factory\" NVIDIA open source Kubernetes"
+   ],
+   "published": "2026-11-02T08:00:00+00:00",
+   "snippet": "",
+   "source": "explainx.ai",
+   "title": "NVIDIA AICR: Kubernetes Recipes for Vera Rubin NVL72, With a 744.71 GB/s NCCL Gate",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPckNDc3EyRFItY19MajFKWjAzUkZtV1dnbFVKZkc2aUQ1cEQ1VkZHOVBPVkliaHlYQVlNRWZVaUx3NGdpaGlmd1VmWWhDUmNUVFk3ZDFHeHpETVhCOTdMQVVQWHlCT3UzVjhFTUN2VzlVX1NkWTRGajdLcHUxcnVRNDhFNGMwX0ZCeDdaMFpR?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T20:12:09.141421+00:00",
+   "id": "cd86ab3a8f40208d",
+   "llm": {
+    "category": "analysis_opinion",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "NVIDIA's Marc Hamilton argues nations should own their AI infrastructure."
+   },
+   "origin": "google:\"Run:ai\" NVIDIA",
+   "origins": [
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-11-02T08:00:00+00:00",
+   "snippet": "",
+   "source": "Certified Strategic",
+   "title": "NVIDIA's Marc Hamilton says nations should own their AI infrastructure",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMTFBOVFDaEN0VzhmWHV0Z1ZMdHVzSm51WS1YeTA3VWRxbEdhMDE0SFFhZ2dkU0k2bVZUaFJrVkYwSHV4NVZXZ29uc0VKYjlVZ0hlU2wwUERtWlFRZGd5T2REUkY5cGthU1ktUFhSSUVaV2Z6c0JGa3FIYlNXX1pjb3Q0Tm9lWGhEd3k3MmdBMUN1NDRTTTJuQktnSkVlOHNDbGhBQnVvX3M?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "7657a6d1fe41263d",
+   "llm": {
+    "category": "customer_adoption",
+    "importance": "medium",
+    "model": "claude-opus-5-5",
+    "relevant": true,
+    "repos": [],
+    "summary": "Nscale reports 49% more AI throughput using NVIDIA DSX MaxLPS."
+   },
+   "origin": "google:\"NVIDIA DSX\"",
+   "origins": [
+    "google:\"NVIDIA DSX\""
+   ],
+   "published": "2026-10-30T23:43:12+00:00",
+   "snippet": "",
+   "source": "NVIDIA",
+   "title": "Nscale: 49% More AI Throughput with NVIDIA DSX MaxLPS",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE03d3VxaS1sUUFKc0FFSDg5TXpRa1NaczN3UVJhLXlCcGtrQTdNMnN3MHVGX0MzOU1OcHNhcnVvbllpMW5TaHBQaHNZd3hfcGh2T2JDUEtrU1duYzBCQVE?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "45ed89503e6a27d0",
+   "llm": {
+    "category": "tutorial",
+    "importance": "medium",
+    "model": "claude-opus-5-5",
+    "relevant": true,
+    "repos": [
+     "dynamo"
+    ],
+    "summary": "NVIDIA blog shows how to build a validated Kubernetes runtime for NVIDIA Dynamo."
+   },
+   "origin": "google:\"NVIDIA DSX\"",
+   "origins": [
+    "google:\"NVIDIA DSX\"",
+    "google:\"NVIDIA Dynamo\"",
+    "google:\"AI factory\" NVIDIA open source Kubernetes"
+   ],
+   "published": "2026-10-30T07:00:00+00:00",
+   "snippet": "",
+   "source": "NVIDIA Developer",
+   "title": "Build a Validated Kubernetes Runtime for NVIDIA Dynamo | NVIDIA Technical Blog",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOQ3FjamI5ZFlnaWszaUE5Ny1udzltbXJMMzF0aEtTY2F0ejBBZzhUYk5lNVpSS2JLTGYwaVdjS3BNdUp2WFNfWFNTS1JTX2xtNV9iQlZ5Skl0YUQ0UVVROGJ4VFAwMGtOekk5Yzl2M3VETTJ2YTc2U0oyb2Zhd1ZXYWQxY0MwZWxlQkpJNHdHaHlySHM?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "cc930e5c2b31f51b",
+   "llm": {
+    "category": "tutorial",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "NVIDIA blog on running AI models for edge application development with few commands."
+   },
+   "origin": "google:\"Run:ai\" NVIDIA",
+   "origins": [
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-10-30T07:00:00+00:00",
+   "snippet": "",
+   "source": "NVIDIA Developer",
+   "title": "Run AI Models for Edge Application Development with Just a Few Commands",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRVh3Nk5LdkJMeDNycm05bW0zUDBVWkpRZTUyQkpjRzFGVE4yOFdtckk3UjBDQ0dYVFFKd182VnJpXy1fZzlncW9NVGpka09pTFhKbWgzYTNiOWlja29Pa1l3MWtEc0t6Ty1lV1lnVTdPSW4wdERWU3R3WVRNdDhqcGh6UnBfZnladExtY0otSXQ0R2VGS2c2b19GTkJRUml4R2FpeDRCTUxnZw?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "b73ea1242e3ff92a",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Google Cloud roundup of October AI infrastructure and orchestration updates."
+   },
+   "origin": "google:\"Model Streamer\" NVIDIA",
+   "origins": [
+    "google:\"Model Streamer\" NVIDIA"
+   ],
+   "published": "2026-10-30T07:00:00+00:00",
+   "snippet": "",
+   "source": "Google Cloud",
+   "title": "What\u2019s new in AI infrastructure and orchestration in October",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQeEJLWXRCYmZVWWdnRnoyMUh4dWktaWJEV1NJenBuRTNfMWQyd1RXTkx0V0wycnJFbmxxNHFnZFBsWFZKdl9SN1dXUjFTbVJ4Q1VYbjZCM0ZPMWNDcmRoM3R3ZmZNTUt4TE9vdHpEQTZFSF9oUXg5aXVZWEZhTGVJeURWOXBJaHF4MzE0N21TMW0tZmNTTUtXT19MUl8?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "dfb7ca566f263331",
+   "llm": {
+    "category": "partnership",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Dassault Syst\u00e8mes and Vertiv partner to speed AI factory design and deployment."
+   },
+   "origin": "google:\"DSX AI Factory\"",
+   "origins": [
+    "google:\"DSX AI Factory\""
+   ],
+   "published": "2026-10-29T07:00:00+00:00",
+   "snippet": "",
+   "source": "ARC Advisory Group",
+   "title": "Dassault Syst\u00e8mes and Vertiv Team to Accelerate AI Factory Design and Deployment",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZVB3LVpub3dhMnBFQ2Y2ODgzZHZ0b1BHdVluZUxlRlFraHMtUGxwU1RwbmJSYjV4SXFJYTZXQ0l2cmlmdjg2RHQxV3lBZWtHNTJQdkdGNy1sZ04yUEEyLVl2ZjBzMHoxaUtRNTdPX2o5cDhwUTM5TlA1OEdoSmtYVDNCZ1gtd2JSUUNaYlpJTEFQNWNUcXpfWW4zREdsUQ?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "f531bf062d62cbba",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Foxconn showcases its AI token factory ecosystem at Hon Hai Tech Day 2026."
+   },
+   "origin": "google:\"DSX AI Factory\"",
+   "origins": [
+    "google:\"DSX AI Factory\""
+   ],
+   "published": "2026-10-29T07:00:00+00:00",
+   "snippet": "",
+   "source": "Yahoo Finance",
+   "title": "Foxconn Ecosystem Enabling Token Factory For AI In Spotlight At Hon Hai Tech Day 2026",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZzFjbF9zWjdDQUxkeXgyOTI3enJlSEdVREJNWTk0X2szeC1DQnBCc2NzNUx0eFp0WnVQazRObzJFXzZZQW9ORndBdDFuTU9xd0NtdVNYRXVpaDJicVdEdDk5bHNoUmh6OHJYWkpodmQ1Tnhmc2lWck45b25kT1lOdUFMQV8xZmRQMkExV1JaVVVFZlNwQnQyN3ZIQW5uY2hESnFiUGtlOA?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "f775692f2eca2d40",
+   "llm": {
+    "category": "launch",
+    "importance": "high",
+    "model": "claude-opus-5-5",
+    "relevant": true,
+    "repos": [],
+    "summary": "Nvidia unveils modular DSX POD AI factory designs aimed at building data centres in 14 days."
+   },
+   "origin": "google:\"DSX AI Factory\"",
+   "origins": [
+    "google:\"DSX AI Factory\""
+   ],
+   "published": "2026-10-28T07:00:00+00:00",
+   "snippet": "",
+   "source": "Stockhead",
+   "title": "Nvidia unveils modular AI factory pods to build data centres in 14 days",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUnF2ajU1TnRiZHdjQXpIdEJrTTQ3aTNLeFcwZVp0NVhqekdDVXdyYkwzakJ3ejdZNXRSWmFBR1AwT2lOZE5SYWppcmtWUFVlQWw1UGsxSm55S0JxVTF0NHhnRzRZV0tLMlVTOHJmR1dvM1RXN3pFZXhyNldsOGRUZExfa01vRDk5amRhRVBLV2daTWNVbnZoV0l2Y3ZIRmR2dUJRTQ?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "b8e313c8eabaf169",
+   "llm": {
+    "category": "partnership",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": true,
+    "repos": [],
+    "summary": "Repost: DayOne supports the NVIDIA DSX POD reference design."
+   },
+   "origin": "google:\"NVIDIA DSX\"",
+   "origins": [
+    "google:\"NVIDIA DSX\""
+   ],
+   "published": "2026-10-28T07:00:00+00:00",
+   "snippet": "",
+   "source": "chinadailyhk",
+   "title": "DayOne Supports NVIDIA DSX POD Reference Design, Advancing Standardized Infrastructure for AI",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE12MUZiMTVsSHFSQ3E3ODZXRjdGZU5CTGNoNTJVb0gtVGtPSEx5TmNMbDE3LWZvOW5BbTJrdWY1dVh1eFpLV1Fxc1NZOUF2ZU5wYTBKQWdUZHI?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "1441eddbe549f3ad",
+   "llm": {
+    "category": "partnership",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": true,
+    "repos": [],
+    "summary": "A coolant distribution unit is qualified as NVIDIA DSX Ready."
+   },
+   "origin": "google:\"NVIDIA DSX\"",
+   "origins": [
+    "google:\"NVIDIA DSX\""
+   ],
+   "published": "2026-10-28T07:00:00+00:00",
+   "snippet": "",
+   "source": "Dataweek",
+   "title": "Coolant distribution unit qualified as NVIDIA DSX ready",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5YNU1zSkhta0dwNXVTUTB5M1VXWWRGSHhEWHh6UWR4RW9kYjd4UWphUjBWbHlaSjRPMGlRdThzSmxXak9DLXl6Ug?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T20:12:09.141421+00:00",
+   "id": "5bcf3317fa6b4a8b",
+   "llm": {
+    "category": "analysis_opinion",
+    "importance": "medium",
+    "model": "claude-opus-5-5",
+    "relevant": true,
+    "repos": [],
+    "summary": "Digitimes analyzes Nvidia DSX POD alongside Microsoft and AWS modular data center efforts."
+   },
+   "origin": "google:\"NVIDIA DSX\"",
+   "origins": [
+    "google:\"NVIDIA DSX\""
+   ],
+   "published": "2026-10-28T07:00:00+00:00",
+   "snippet": "",
+   "source": "digitimes",
+   "title": "Nvidia DSX POD targets AI factories as Microsoft and AWS push modular data centers to the edge",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPb3Rib3dIQmZRTWpOUWM0a3JvT0RnTTFRNHY0SGVYN1V3SXNTYUNfS3M5b2dVYjY0RWFSTHJhR3cyV1BQSzA1ZzhsWER2aHVTMWVjLUJCaHhQTG1IdVJaWmFhc3RIRmRPM0ljT3NXQ0p1YU5zeF81Y3RfalpnZzJwVUpTY3Z2ZDRGSnRGeEpBN3dteU5aZVJ1YVZxX0JNS0ROQWlKcUE4MVQ5QQ?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T20:12:09.141421+00:00",
+   "id": "8d743f5feaf20cbd",
+   "llm": {
+    "category": "business",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Reuters reports the US DOJ is inquiring about Nvidia's purchase of Hugging Face."
+   },
+   "origin": "google:\"Run:ai\" NVIDIA",
+   "origins": [
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-10-28T07:00:00+00:00",
+   "snippet": "",
+   "source": "Reuters",
+   "title": "EXCLUSIVE: US DOJ is inquiring about Nvidia's purchase of Hugging Face, sources say",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQi1pQlpXMFg0djlmZFhkcGFlc3hJWmxKNXIzeFlTOWRxSXd5YWtCX1FRdUdlWWM1NEZxQVpOWktKbVkyWWR1aFRhbFd3SnRRcW5SZTJ0YXRvQTZ6MjlmVmFMVThhSldFTUpseWRtblVrel8tM0VISmVOVmdVend5UTFOTHhKazBXalpIOHVUdkVmcm5YdTI4UWk3MUJObk9GMzRYOEpkeEFXVnhwZXc?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T20:12:09.141421+00:00",
+   "id": "eb22587726ae9ded",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "NVIDIA RTX Spark Windows laptops gain new models, agent tools and games."
+   },
+   "origin": "google:\"Run:ai\" NVIDIA",
+   "origins": [
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-10-28T07:00:00+00:00",
+   "snippet": "",
+   "source": "NVIDIA Blog",
+   "title": "Thin, Light and Built for Everything: NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcGFweEYxT3RjZUtNTkQ4QjVUSGVKRGhBSWRZMGlQNXBKd05JcDdtY0NiWEd5dmxSaDBQYlpJMVFLOE8tM29yOTZaZWhCQjRpREpJeHJUUDMxZG41QW5IYWlMSGxyU0hGdlFGbnA2OGVxa09VT3RrTEJuaFlrN0tRZzNXZl80Uko1dGZuYnFR?oc=5"
+  },
+  {
+   "discussion_url": "https://news.ycombinator.com/item?id=50258127",
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "b007bafd9ff10551",
+   "llm": {
+    "category": "business",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Nvidia invests in an Indian startup helping companies run AI models with fewer GPUs."
+   },
+   "origin": "hn:\"Run:ai\"",
+   "origins": [
+    "hn:\"Run:ai\""
+   ],
+   "points": 2,
+   "published": "2026-10-27T12:29:26+00:00",
+   "snippet": "",
+   "source": "Hacker News",
+   "title": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs",
+   "url": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "2e3914c437d96b6a",
+   "llm": {
+    "category": "business",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "SWI Group launches SWI Compute to build NVIDIA AI factories."
+   },
+   "origin": "google:\"DSX AI Factory\"",
+   "origins": [
+    "google:\"DSX AI Factory\"",
+    "google:\"NVIDIA DSX\""
+   ],
+   "published": "2026-10-27T07:00:00+00:00",
+   "snippet": "",
+   "source": "ET Datacenters",
+   "title": "SWI Group launches SWI Compute for NVIDIA AI factories",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQVUt5cFJZOVFITGJqdG1lSnM0X1BkOWJ4M2FOaWlQeUNhYV9WWk83aTlZZjk3SVl0S1I3U25xcFlkbTBkZUVhTURDRmZOZ0ktZ0haVW1wMDdVNUttOENwUF9RNWlFd0hlMi1PTzladnRVekd1a0dkbU1QUWVFTWZ0ZGNleFI2b2tEOENkX2N2R19MRF9xWUFfT3p6UXNzOXZ4eXlnbUFIaHB3SVpWNlpFdEdRZnZraHVQZGctNlRXd1ZHcmhZdWRVamlCdzFrMUdpTHpyOVZlSlI0dGw20gHiAUFVX3lxTFBZTnlQZ09TYTVrS3VfYm4xQUFQZ1Z1TFlBMklFWnRrSHBOMGM5cVp3aUQ1UlFwa2Q5R25jWEYxclp1cDJxbkJOWXE1Z0pONk5WMlQ4U05CTHB4SFFJRUVQRlI4UTZSaElnZTlIMTdRV29McnUxdXdETmNhVWxITlFyUXJMb1UxeUJ2NjhWaHdQSmFIejlXeVRZUWY0NUt2OVlGQU5PdjhFMEZoWWxnbW1sNC1zal81eEVsQk55bGdVdXltQkpWemE4S0Q5bWo1LXYzZEhHRTdwTm9KaWNPelNnaWc?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "8022d477f8bb58a6",
+   "llm": {
+    "category": "customer_adoption",
+    "importance": "medium",
+    "model": "claude-opus-5-5",
+    "relevant": true,
+    "repos": [],
+    "summary": "Schneider Electric, Nscale and Start Campus deploy the NVIDIA Omniverse DSX Blueprint in a live AI factory."
+   },
+   "origin": "google:\"NVIDIA DSX\"",
+   "origins": [
+    "google:\"NVIDIA DSX\""
+   ],
+   "published": "2026-10-27T07:00:00+00:00",
+   "snippet": "",
+   "source": "Yahoo Finance",
+   "title": "Schneider Electric, Nscale and Start Campus Bring the NVIDIA Omniverse DSX Blueprint into a Live AI Factory Environment",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSkRsdXBtU1JjM3JVa1B0Wk1GV0c3V3ZOUzJsVWl2VGNPYTVlR0YtYVItNHFsb283c0VSM1IzYThGX2FpOFhrcWVGZDRJY0lUcjJqMTl0ZkNTWUc4Tzc1XzktSFBqcW1kU3VyUFlxRkxnQWVuT3JXUDRMUlVTdUtKMkJ4aUZ2ZlFKY3FMc2w1dkIyYVU2QlVHRFBGWGhsMmtGQ29vbw?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "81cfc41bcf79f588",
+   "llm": {
+    "category": "partnership",
+    "importance": "medium",
+    "model": "claude-opus-5-5",
+    "relevant": true,
+    "repos": [],
+    "summary": "Schneider Electric commercialises an NVIDIA DSX digital twin offering for AI factories."
+   },
+   "origin": "google:\"NVIDIA DSX\"",
+   "origins": [
+    "google:\"NVIDIA DSX\""
+   ],
+   "published": "2026-10-27T07:00:00+00:00",
+   "snippet": "",
+   "source": "ET Datacenters",
+   "title": "Schneider Electric commercialises NVIDIA DSX digital twin for AI factories",
+   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPYnd6dU52MjJEYkJuakNsTXRqaFhWekdjWXllYjBfZ1VJTHVZUkljRnd3UWdxUFQ0U1g3SVpxX0hQSzhnM2FkeWdUNnlhRzlBdUl3aHVPMDBZTGxMV0xFLVNIOUxaa2RFbXExaGltWHZTTW0tc0xWQnJxTDZnbWxsdllpNW1VMDFLSmZtRWQ5UVM4WkRISFdNaUo0R2JPVDhNcDlfRS0xYndyTXBzVF9VQ2hEczMwbE5PSG5seVNWR0ZwS0k4RVk2MG9nOEJBNnVyUTJXeWhEdERWbnJGMXVybENVSEg0QlhrWDkwWDl2d3pLZ9IB9wFBVV95cUxQSGtvcDZXZ092VkVQdHQ2U1ZoZk9HMVZweWxWN3lMbGpYMWZrRWl1Y0Uwc0p3RlZWNW9fUUZiSnN2LUllM1VjV3VXYi1laHA4YmxXb09mdXZMZVMwM1lzRGlxUEd6TDFSaU11dXd5X25ZOU90MlN2cWFoOWoxSUFPVGhkWERWdFNPVnk5MlV5V1huV0dwMU1VLVd4Ui1kS0ROWGtnTDZmZUlQRVJlRXJubEJLRE1HbERGMy1SU0hKNDlCdTE5c0NNN2NvRTRrdnV4WGFORlltVlAwVFdUbTlwVi1YMXNaNFRHcDZwVW1UU25Ja29VdzJN?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "5b13145cbb960885",
+   "llm": {
+    "category": "launch",
+    "importance": "high",
+    "model": "claude-opus-5-5",
+    "relevant": true,
+    "repos": [],
+    "summary": "Nvidia unveils the DSX POD modular AI data center design, citing efficiency gains."
+   },
+   "origin": "google:\"NVIDIA DSX\"",
+   "origins": [
+    "google:\"NVIDIA DSX\""
+   ],
+   "published": "2026-10-27T07:00:00+00:00",
+   "snippet": "",
+   "source": "Mezha.net",
+   "title": "Nvidia unveils DSX POD modular AI data center design, touts efficiency gains",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZC1LajFjOUhSTGRJay11VFJpT3VWZFk0OFVhRTZ5bU9XYzMzZEk4QU5iMXJwZnc0aDB6YWcybXkyam1QQ1dlZDVPWFdtdE9vVDJhcEROc2VaOThGYm54Mmd6Vk8tcURaSjdjVzQ2dFFpYXkwcHFuYjhCT05DRTA5Mi1SRQ?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "f21dad5e91c8c6f0",
+   "llm": {
+    "category": "partnership",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Siemens and Nvidia advance industrial AI for data center optimisation."
+   },
+   "origin": "google:\"NVIDIA DSX\"",
+   "origins": [
+    "google:\"NVIDIA DSX\""
+   ],
+   "published": "2026-10-27T07:00:00+00:00",
+   "snippet": "",
+   "source": "ET Datacenters",
+   "title": "Siemens and Nvidia advance industrial AI for data center optimisation",
+   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQbTcyVzZMcDhvOXB2U1Y3QXNPemc4dExiOTh1d0VxR2o0MXlTdlNVc3VGTExrNUk3SUV4SEJMaUxXbmlWZVJSYkRGcmRVR3B2N0ZKYXVpRGYtazlHeGJIMzFpck5QbS1vN3hiRHZCRHVyNEJqbjR4dzczbWNTTDc4Mm9FdHd6MXNNT3MxSXdjaDN6WDFJZ0cwRmZIU2pRd1Z0WDQyaHpPUXFsaXBUTHhFSHhjVkFpZUVlNTlmTWtGaUhiOWo3cnRaRVJ6eFNJMVhXQ3NrYm1aX3J0NDZMaE9BalM3Z3BvNzkwT05RcmhUYTXSAfQBQVVfeXFMUFZHSFpwbUxWOGJqWjZKZVZ2dnFjWlk5WHJIdTdXbE1LeVMwUTNhTWo0Q1lfWEhyZXFIQ3YtaXdwSVNpUllYSkNQWWgxdk5jbm9xUk9DZHRKOUthLTlFd2tEeDRCWnB4VlNmUThtdUdibE5HN0h5YmcyR1FQb0ptYVdCMzR3anF2WVpNbjYxc2ZaWHRYLXh2amZYeTBVd2pOUlZoYTQtcDJTRHVDTE1QMnN1TTdsUXN0SXY5ZDQtMmo4N0sxUmhrR0RrcldWak1BNDBtVVNsM2xDRXV6TEwxUHAzWHZWc3JCN2NjVFptTzVvVzBCYQ?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "d1af5a47b52c9b87",
+   "llm": {
+    "category": "business",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "LG Energy Solution expands North American energy storage business with new orders and hubs."
+   },
+   "origin": "google:\"NVIDIA DSX\"",
+   "origins": [
+    "google:\"NVIDIA DSX\""
+   ],
+   "published": "2026-10-27T07:00:00+00:00",
+   "snippet": "",
+   "source": "Chosunbiz",
+   "title": "LG Energy Solution expands North America ESS push, wins orders and builds hubs",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOd2xKVDhwWW9Sc3lvZ29oTHNnSzhKdlgwa0hUTlZuR3FQcmZTZXd3QW05cnhMeURnSExGQXFzSVN0Unl0RGh0QURkaU5mVnl5NVoxQXJaN2xBUjFTeUtNQ3Y3Z2lUZUhmaWpKeGFBZWp6NVRkMlc0UWRRdkVuOWVvSVhR0gGWAUFVX3lxTE5IcmllMDNMamJsaW0xZWxXTFJNa1NVV0tIT2xULTBFYmEzNV9NMjNHVzNkaVBiYjk1X1E4VE1xR0RhMDF2ZlNlNTd3RFdDckxDZTVMVGhUR2RNeTRZWjlHb3ZsUEF5NERxTDlWZnVrSDl4QlYzanVMdl9Fam9fOS05MDNQdGFyTzZVamtFVzRVVGxIZUp6UQ?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "94b2b53254f68ff5",
+   "llm": {
+    "category": "business",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "TechCrunch reports Nvidia backing an Indian startup that reduces GPUs needed for AI models."
+   },
+   "origin": "google:\"Run:ai\" NVIDIA",
+   "origins": [
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-10-27T07:00:00+00:00",
+   "snippet": "",
+   "source": "TechCrunch",
+   "title": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVU1oenJIXzh6LWNpZ2tHNnh3RWptVTFTS25tOUtjd0RxaDE1eEJBT2MyVkRUOS1GSjFUS0xoQ0w0OUxiOEY0Q3ZjMlFEcG82UlU5ejlLSk1BOVpvRkRucldrM2tWV2lZQmtPZ1RFYkIycjZ6a1VKSUxzb3ZwZ1l0VW4tanZyc2lVNk9ESjB5MnVsLVJZbmYwRlFoMXhTeUZpWXpVY0IyUFZpS1FPOVNv?oc=5"
+  },
+  {
+   "first_seen": "2026-11-26T00:14:47.750228+00:00",
+   "id": "8dce6c3b04e1a9fc",
+   "llm": {
+    "category": "tutorial",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "NVIDIA blog gives three ways to boost MoE inference on DGX Spark."
+   },
+   "origin": "google:\"NVIDIA Kubernetes Engine\" OR NVKE",
+   "origins": [
+    "google:\"NVIDIA Kubernetes Engine\" OR NVKE"
+   ],
+   "published": "2026-10-27T07:00:00+00:00",
+   "snippet": "",
+   "source": "NVIDIA Developer",
+   "title": "3 Ways to Boost MoE Inference on NVIDIA DGX Spark | NVIDIA Technical Blog",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPNENrR3pnRjNOOWV1b2U0WS1qcXdhM3ZPcWlieGlEdmxvWVhsRWY3Zm1zUXVZQXNfYVE2cjFJd2w1X0hiUlBBYTJKSk1LR0R4ZTd0V1dtY0xHUk1MbVFJTW5HaGVpMHNWeFprdkFnZW1jdHBVaDczc1RRcXNkU1VYMFd1Z3d1eGJzbUY0aA?oc=5"
+  }
+ ]
+}

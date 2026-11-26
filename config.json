@@ -1,0 +1,63 @@
+{
+  "title": "DSX OS Project Tracker",
+  "orgs": [
+    "dsx-ai-factory"
+  ],
+  "extra_repos": [
+    "ai-dynamo/dynamo"
+  ],
+  "exclude_repos": [],
+  "internal_org_hint": "nvidia",
+  "news": {
+    "lookback_days": 120,
+    "google_news_queries": [
+      "\"DSX OS\" NVIDIA",
+      "\"DSX AI Factory\"",
+      "\"NVIDIA DSX\"",
+      "\"NVIDIA Dynamo\"",
+      "\"Run:ai\" NVIDIA",
+      "\"NVIDIA Kubernetes Engine\" OR NVKE",
+      "\"NVIDIA Cloud Functions\" OR NVCF",
+      "\"Infra Controller\" NVIDIA",
+      "\"Model Streamer\" NVIDIA",
+      "topograph NVIDIA",
+      "\"Fleet Intelligence\" NVIDIA",
+      "\"Exemplar Performance\" NVIDIA",
+      "\"DSX Exchange\" NVIDIA",
+      "\"AI factory\" NVIDIA open source Kubernetes"
+    ],
+    "hn_queries": [
+      "\"DSX OS\"",
+      "\"NVIDIA DSX\"",
+      "\"DSX AI Factory\"",
+      "\"NVIDIA Dynamo\"",
+      "\"ai-dynamo\"",
+      "\"Run:ai\"",
+      "\"dsx-ai-factory\"",
+      "\"NVKE\""
+    ],
+    "blog_feeds": [
+      "https://developer.nvidia.com/blog/feed/",
+      "https://blogs.nvidia.com/feed/"
+    ],
+    "blog_keywords": [
+      "DSX",
+      "Dynamo",
+      "Run:ai",
+      "NVKE",
+      "NVCF",
+      "Cloud Functions",
+      "Infra Controller",
+      "Model Streamer",
+      "Topograph",
+      "Fleet Intelligence",
+      "AI factory",
+      "AI Factory",
+      "Kubernetes"
+    ]
+  },
+  "classifier": {
+    "model": "claude-opus-5-5",
+    "batch_size": 40
+  }
+}

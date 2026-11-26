@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DSX OS Project Tracker</title>
+  <meta name="description" content="Daily GitHub stats and news for the open source projects in NVIDIA's DSX AI Factory organization.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap top-inner">
+      <div>
+        <h1>DSX OS Project Tracker</h1>
+        <p class="sub">Open source projects in <a href="https://github.com/dsx-ai-factory" target="_blank" rel="noopener">github.com/dsx-ai-factory</a>, plus <a href="https://github.com/ai-dynamo/dynamo" target="_blank" rel="noopener">ai-dynamo/dynamo</a>. Refreshed daily.</p>
+      </div>
+      <div class="meta">
+        <span id="updated">Loading…</span>
+        <button id="theme" class="ghost" type="button" aria-label="Toggle color theme">◐</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="kpis" id="kpis" aria-label="Totals"></section>
+
+    <section class="grid2">
+      <figure class="card">
+        <figcaption>
+          <h2>Total stars over time</h2>
+          <p class="hint" id="stars-hint"></p>
+        </figcaption>
+        <div class="chart" id="chart-stars"></div>
+      </figure>
+      <figure class="card">
+        <figcaption>
+          <h2>PRs merged, last 30 days</h2>
+          <p class="hint">Top 10 repos</p>
+        </figcaption>
+        <div class="chart" id="chart-merged"></div>
+      </figure>
+    </section>
+
+    <section class="card">
+      <div class="card-head">
+        <div>
+          <h2>Repositories</h2>
+          <p class="hint">Click a row for details. Internal and external contributor split is a heuristic: org membership, company field, or an @nvidia.com commit email.</p>
+        </div>
+        <input id="filter" type="search" placeholder="Filter repos" aria-label="Filter repositories">
+      </div>
+      <div class="table-wrap">
+        <table id="repos">
+          <thead>
+            <tr>
+              <th data-k="name" class="l">Repository</th>
+              <th data-k="stars">Stars</th>
+              <th data-k="stars_7d">Δ 7d</th>
+              <th data-k="forks">Forks</th>
+              <th data-k="open_prs">Open PRs</th>
+              <th data-k="prs_merged_30d">Merged 30d</th>
+              <th data-k="open_issues">Open issues</th>
+              <th data-k="contributors">Contributors</th>
+              <th data-k="active_external_90d">External 90d</th>
+              <th data-k="commits_30d">Commits 30d</th>
+              <th class="l nosort">13-week commits</th>
+              <th data-k="latest_release" class="l">Latest release</th>
+              <th data-k="pushed_at" class="l">Last push</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="card" id="contrib-card">
+      <figcaption>
+        <h2>Active contributors, last 90 days</h2>
+        <p class="hint">Commit and PR authors, bots excluded. Top 12 repos by active contributors.</p>
+      </figcaption>
+      <div class="legend" id="contrib-legend"></div>
+      <div class="chart" id="chart-contrib"></div>
+    </section>
+
+    <section class="card" id="news">
+      <div class="card-head">
+        <div>
+          <h2>News</h2>
+          <p class="hint" id="news-hint"></p>
+        </div>
+        <div class="filters">
+          <div class="seg" role="group" aria-label="Importance">
+            <button data-imp="high" type="button">High</button>
+            <button data-imp="medium" type="button" class="on">Medium+</button>
+            <button data-imp="all" type="button">All</button>
+          </div>
+          <select id="news-cat" aria-label="Category"><option value="">All categories</option></select>
+          <select id="news-repo" aria-label="Repository"><option value="">All repos</option></select>
+          <label class="check"><input type="checkbox" id="news-irrelevant"> Show filtered out</label>
+        </div>
+      </div>
+      <ul class="news" id="news-list"></ul>
+    </section>
+  </main>
+
+  <dialog id="detail" aria-labelledby="d-title">
+    <div class="d-head">
+      <div>
+        <h2 id="d-title"></h2>
+        <p class="hint" id="d-desc"></p>
+      </div>
+      <button class="ghost" type="button" id="d-close" aria-label="Close">✕</button>
+    </div>
+    <div id="d-body"></div>
+  </dialog>
+
+  <div class="tip" id="tip" role="tooltip" hidden></div>
+
+  <footer class="wrap foot">
+    Data from the GitHub API, Google News, Hacker News, and NVIDIA blogs. News relevance and importance are classified by Claude.
+    <a href="https://github.com/teb510/dsx-os-tracker" target="_blank" rel="noopener">Source</a>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
