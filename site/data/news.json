@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T03:29:36.634224+00:00",
+ "generated_at": "2026-11-27T04:37:07.432774+00:00",
  "items": [
   {
    "first_seen": "2026-11-26T20:16:01.311589+00:00",
@@ -275,6 +275,27 @@
    "source": "Dealroom",
    "title": "Marlowe raises $277M seed at $1.15B to run AI on non-Nvidia chips",
    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPblhqaXV4VWxQeTNqcjh6eTR2b2VzUzNGenJVTG9OZUxLU01KYmNNT01hMnhQZkpjNl9oNXktWkJQQmRzWUNoTWFjeThvUzR6bDJxR21GTWhfbHlRUFlTQVV3bjQ2cnN0SGNaRXYtSEJ1Q1FpdjNVcTB6eVZCNzJ2dXAzRWdyazlMa2IzTkQxU1hNekg5bURWNEZHbVRiUQ?oc=5"
+  },
+  {
+   "first_seen": "2026-11-27T04:37:07.432774+00:00",
+   "id": "a65d3f6d852fbb13",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Dell's Azure Local platform adds support for NVIDIA Blackwell GPUs."
+   },
+   "origin": "google:\"Run:ai\" NVIDIA",
+   "origins": [
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-11-23T16:17:00+00:00",
+   "snippet": "",
+   "source": "Blocks & Files",
+   "title": "Dell Azure Local gets Nvidia Blackwell support",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVGcyanJKM3FYdE1ycmpaU2RvUlRQSkQzaE9Vai1sZkNiblZ1c0tsSUlOSmJ2SEw0aFh4LXlSTFNYYXhWRFBaRHFqNHk3U2IzMnQxcmdZT1FwOWZsbWJBcVBwODdadmx4OHJMQlY4eUxhN2xXMXF4NFJOWFBtck4zN3lNRFJieUQyRlE1V3JsU2xBT3pjQ3dybEZyVHZhdWg1QU12QQ?oc=5"
   },
   {
    "discussion_url": "https://news.ycombinator.com/item?id=50611280",
@@ -689,6 +710,27 @@
    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNOTRfaXZPMkJFaG1ENXM4WFhYYlhUdzR3UDBMWV9FWnliaUNwRzNIak1lSE02Mm51WVdDRkItTDQ1SUFZck5uREtXcEdoUzBzZWplRXhpR0FBM2piUDI0WGlmQXZMRWY1cFRQSXFNUDM5RWJZQndtQm9sVmFDLWxxaEJ1YTRYOVNzRTN1LTRUc3ZSeFZkTFZ1MVZHQnhuNzhQbTdvWHF0Zw?oc=5"
   },
   {
+   "first_seen": "2026-11-27T04:37:07.432774+00:00",
+   "id": "77df0a41e240956e",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Nscale reports bringing up its first NVIDIA Vera Rubin NVL72 AI supercomputers."
+   },
+   "origin": "google:\"Run:ai\" NVIDIA",
+   "origins": [
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-11-18T16:03:59+00:00",
+   "snippet": "",
+   "source": "Nscale",
+   "title": "Nscale brings up its first NVIDIA Vera Rubin NVL72 AI supercomputers | Nscale",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQb0lLcmpWbXRxa0pfdWVrTFlkTlJ2Ty1JdDdkVUxTV01vWVdQdGc1bkpDVm56bW84aC1IU25Zd1l5dG9JQVRUX3FRRTg4T281cGhWSldsZ0laSlVUVjJKWl9Od2pQbGtHTUNOQVBHMWdUbHhGRWNwNmY3QVFMdjBFYVkzREhPV0VrT0VGUFd3?oc=5"
+  },
+  {
    "first_seen": "2026-11-26T00:14:47.750228+00:00",
    "id": "083af7e3e7067873",
    "llm": {
@@ -909,6 +951,27 @@
    "source": "Refindustry",
    "title": "Vertiv Opens ATLAS Lab to Test AI Cooling and Power Systems with NVIDIA",
    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSkd5WVlBMmNVQTdjSGVRX0lOUGU0ZzBIb0R1cHduWGxWUWk1YmxESnR3bE1BNTdGQURrb2JKZUFnRzJyTDQ5UlZZaXMtUDZYYU4xTHpiMEtUWnU0ZFFwTXpobzEzNXdOUUoxQkJKZHRTNzRibWFkVTlmYXpWdUl4TFlOb2M4WkNHb0kzSVhiNXBHTFlpN09fSVQtVnFDZ3I2N25z?oc=5"
+  },
+  {
+   "first_seen": "2026-11-27T04:37:07.432774+00:00",
+   "id": "80f0111d2674ef58",
+   "llm": {
+    "category": "analysis_opinion",
+    "importance": "low",
+    "model": "claude-opus-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Opinion piece on how Google's AI chip strategy could challenge NVIDIA's market dominance."
+   },
+   "origin": "google:\"Run:ai\" NVIDIA",
+   "origins": [
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-11-17T08:00:00+00:00",
+   "snippet": "",
+   "source": "WION",
+   "title": "This is how Google's new AI chip strategy could end Nvidia's dominance in the AI market",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcnpqa3ZrU0xWVXowOUhvTU1DNDEzdzNmRDNva0FFVW8yZnJKMDdYR1k1N1ExRjFFVG4zTVlRa1ZlUWY2LUZUYWJ3cUxFWUFoR29GdXBJNHBIY0swcl93WmM1ZUdjWFVJeThwcUt6ZjAzMzl5VHB3aWczMGdaQkx3X0lSYWFYWDZ4a1M5U3Z0Ym82N284TnNPZzh0MndsNE96QkJkZklKa04xNzQ1cVFYT01UNTcxX0hBV1N6Z242M2ZUVlZxZTcwbzhpSdIB0AFBVV95cUxOWEx5ZWRSQThWN3JqMWo1NFdROHpXYmtwQTg5WG9zTS1heHd5a3V2TGh3VXlFeUhKTDd1SjFNT1ZSZUNnLUtSQ1laOHlCSVRzbFNFMmUzWEdqQmw2c1l2VkxyR3RSYTA2MG5WdG5MRHlQR3pYLXhPNnBVOGc1M2NRV2t3dzFPZjNJdUNtWW52T2IzeEVUN01qOExYbVJFaW11V0pxTjhGb3RESmpySS1ybXFPWVdrUXZxSzNabndUQkhvYWo1SFgtbmk0OG1YejBZ?oc=5"
   },
   {
    "first_seen": "2026-11-26T00:14:47.750228+00:00",
@@ -1878,7 +1941,8 @@
    "origin": "google:\"AI factory\" NVIDIA open source Kubernetes",
    "origins": [
     "google:\"AI factory\" NVIDIA open source Kubernetes",
-    "google:\"DSX AI Factory\""
+    "google:\"DSX AI Factory\"",
+    "google:\"Infra Controller\" NVIDIA"
    ],
    "published": "2026-11-10T08:00:00+00:00",
    "snippet": "",
