@@ -53,10 +53,10 @@ For each person you get their GitHub profile fields, public org memberships, com
 
 Return for each person:
 - internal: true if they most likely work for NVIDIA or a company NVIDIA owns ({aliases}).
-- org: the employer's common company name (e.g. "Red Hat", "vCluster Labs", "Mirantis"), or "" if unknown or internal.
+- org: the employer's common company name (e.g. "Red Hat", "Mirantis", "CoreWeave"), or "" if unknown or internal.
 - domain: the employer's main web domain if known (e.g. "redhat.com"), else "".
 - confidence: "high" for a corporate email domain or an explicit profile company; "medium" for repeated commits to one company's GitHub org or a clear bio; "low" for weak hints such as a login suffix; "unknown" when nothing points to an employer.
-- evidence: a short phrase naming the deciding signal, e.g. "88 commits to loft-sh repos (vCluster Labs)". Never include an email address; a domain is fine.
+- evidence: a short phrase naming the deciding signal, e.g. "88 commits to Mirantis repos (Mirantis)". Never include an email address; a domain is fine.
 
 Rules:
 - An employer is a company, university, or lab, not a community. Foundations and community projects (kubernetes, kubernetes-sigs, cncf, apache, pytorch, and similar) and the person's own repos are not employers.
