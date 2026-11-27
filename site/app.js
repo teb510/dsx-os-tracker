@@ -359,7 +359,10 @@ function renderOrgs() {
   const total = co.external_contributions || orgs.reduce((s, o) => s + o.contributions, 0) + un.contributions;
   const top = orgs.slice(0, 3).map((o) => `<b class="org-name">${esc(o.org)}</b>`);
   $("#orgs-headline").innerHTML = `Attributed: <b>${pct((total - un.contributions) / total)}</b> of external contributions, across ${fmt(orgs.length)} organizations${top.length ? `, led by ${top.join(", ")}` : ""}.`;
-  $("#orgs-sub").textContent = `${pct(un.contributions / total)} unattributed: no work email, profile company, or other public signal · ${fmt(co.external_people)} external contributors, ${fmt(total)} commits and PRs in 90 days`;
+  const re = co.reclassified_internal || {};
+  const moved = (re.pr_email || 0) + (re.resolver || 0);
+  $("#orgs-sub").textContent = `${pct(un.contributions / total)} unattributed: no work email, profile company, or other public signal · ${fmt(co.external_people)} external contributors, ${fmt(total)} commits and PRs in 90 days`
+    + (moved ? ` · ${fmt(moved)} people counted as NVIDIA after checking PR commit emails and NVIDIA-org activity` : "");
 
   const rows = orgs.slice(0, 15).map((o) => ({ label: o.org, org: o.contributions, src: o }));
   rows.push({ label: "Unattributed", un: un.contributions, src: { ...un, repos: [] } });

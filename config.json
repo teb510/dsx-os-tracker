@@ -8,6 +8,7 @@
   ],
   "exclude_repos": [],
   "internal_org_hint": "nvidia",
+  "nvidia_github_orgs": ["NVIDIA", "NVIDIA-*", "nvidia-*", "run-ai", "runai", "ai-dynamo", "dsx-ai-factory", "triton-inference-server", "NVIDIA-NeMo", "NVIDIA-Merlin", "NVIDIA-AI-Blueprints", "NVIDIA-Omniverse", "nvidia-cosmos", "NVIDIA-ISAAC-ROS", "NVIDIA-Digital-Bio"],
   "internal_org_aliases": ["nvidia", "run.ai", "mellanox.com", "cumulusnetworks.com"],
   "news": {
     "lookback_days": 120,
@@ -64,7 +65,7 @@
     "features_refresh_hours": 20,
     "features_workers": 6,
     "affiliation_refresh_days": 30,
-    "affiliation_max_lookups": 500,
-    "affiliation_web_lookups": 150
+    "affiliation_max_lookups": 1000,
+    "affiliation_web_lookups": 300
   }
 }

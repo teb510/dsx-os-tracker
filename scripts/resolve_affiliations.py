@@ -8,6 +8,7 @@ is used instead. Results are cached in site/data/affiliations.json and rechecked
 after `affiliation_refresh_days`, so a daily run only looks up new people.
 """
 
+import fnmatch
 import json
 import os
 import re
@@ -23,6 +24,7 @@ CACHE = DATA / "affiliations.json"
 SEARCH_PAUSE = 2.1  # commit search allows 30 requests a minute
 NV_LOGIN = re.compile(r"(^nv-|-nv$|-nvidia$|^nvidia-|-nvda$)", re.I)
 CONFIDENCE = ["high", "medium", "low", "unknown"]
+VERSION = 2  # bump when the signals change so cached answers get one fresh look
 
 SCHEMA = {
     "type": "object",
@@ -61,7 +63,7 @@ Return for each person:
 
 Rules:
 - An employer is a company, university, or lab, not a community. Foundations and community projects (kubernetes, kubernetes-sigs, cncf, apache, pytorch, and similar) and the person's own repos are not employers.
-- Commits to NVIDIA's public open source orgs alone do not make someone an NVIDIA employee; many outside contributors work in them.
+- NVIDIA employment: heavy, sustained activity in NVIDIA-owned repos (nvidia_org_commits is an exact count; hundreds of commits is heavy), or write access to NVIDIA repos (associations COLLABORATOR or MEMBER) with real commit volume, is good evidence: mark internal with medium confidence, unless a corporate email or profile company names another employer. A handful of PRs to one public NVIDIA project is not. Run:ai addresses and the run-ai GitHub org count as NVIDIA.
 - Commits to a company's customer, production, or internal-tooling repos are strong evidence of employment there.
 - Do not guess. Prefer "unknown" to a weak inference."""
 
@@ -100,7 +102,24 @@ def org_profile(gh, owner, orgs):
     return orgs[owner]
 
 
-def signals(gh, login, emails, skip_owners, orgs):
+def is_nvidia_org(owner, patterns):
+    return any(fnmatch.fnmatch(owner.lower(), p.lower()) for p in patterns)
+
+
+def nvidia_commits(gh, login, patterns):
+    """Exact count of the person's commits in NVIDIA's GitHub orgs, plus distinct repos."""
+    named = [p for p in patterns if "*" not in p]
+    q = "+".join([f"author:{login}"] + [f"org:{o}" for o in named])  # repeated org: qualifiers OR together
+    try:
+        res = rest(gh, f"/search/commits?q={q}&per_page=100") or {"total_count": 0, "items": []}
+    except Exception:
+        return 0, 0
+    finally:
+        time.sleep(SEARCH_PAUSE)
+    return res.get("total_count", 0), len({c["repository"]["full_name"].lower() for c in res.get("items", [])})
+
+
+def signals(gh, login, emails, skip_owners, orgs, nv_patterns=(), assoc=(), contributor=False):
     profile = rest(gh, f"/users/{login}") or {}
     member_of = [o["login"] for o in rest(gh, f"/users/{login}/orgs") or []]
     try:
@@ -110,17 +129,30 @@ def signals(gh, login, emails, skip_owners, orgs):
     time.sleep(SEARCH_PAUSE)
 
     by_owner, repos, domains = Counter(), {}, Counter()
+    nv_commits, nv_repos, others = 0, set(), 0
     for c in found["items"]:
         full = c["repository"]["full_name"]
         owner = full.split("/")[0]
         email = (c["commit"]["author"] or {}).get("email") or ""
         if "@" in email and not email.endswith("users.noreply.github.com"):
             domains[email.rsplit("@", 1)[1].lower()] += 1
-        if owner.lower() == login.lower() or owner.lower() in skip_owners:
+        if owner.lower() == login.lower():
+            continue
+        others += 1
+        if is_nvidia_org(owner, nv_patterns):
+            nv_commits += 1
+            nv_repos.add(full.lower())
+        if owner.lower() in skip_owners:
             continue
         by_owner[owner] += 1
         repos.setdefault(owner, set()).add(full.split("/")[1])
 
+    if contributor and nv_patterns:
+        # The general search is capped at 100 relevance-ranked hits; ask NVIDIA's orgs directly.
+        total = found.get("total_count", others) or others
+        nv_commits, n_repos = nvidia_commits(gh, login, nv_patterns)
+        nv_repos = set(range(n_repos))
+        others = max(others, total)
     commits_to = []
     for owner, n in by_owner.most_common(5):
         org = org_profile(gh, owner, orgs)
@@ -137,6 +169,10 @@ def signals(gh, login, emails, skip_owners, orgs):
         "public_orgs": member_of,
         "commit_email_domains": sorted({e.rsplit("@", 1)[1].lower() for e in emails if "@" in e} | set(domains)),
         "commits_to_orgs": commits_to,
+        "nvidia_org_commits": nv_commits,
+        "nvidia_org_share": round(nv_commits / others, 2) if others else 0,
+        "nvidia_repos": len(nv_repos),
+        "associations": sorted(assoc),
     }
 
 
@@ -155,6 +191,11 @@ def heuristic(sig, aliases):
         internal = org_key(work[0]) in aliases
         return {"internal": internal, "org": "" if internal else work[0], "domain": work[0], "confidence": "medium",
                 "evidence": f"commits from an @{work[0]} address"}
+    nv = sig.get("nvidia_org_commits", 0)
+    write_access = {"COLLABORATOR", "MEMBER"} & set(sig.get("associations", ()))
+    if nv >= 100 or (write_access and nv >= 30):
+        return {"internal": True, "org": "", "domain": "", "confidence": "low",
+                "evidence": f"{nv} commits in NVIDIA GitHub orgs" + (" with write access" if write_access else "")}
     top = sig["commits_to_orgs"][:1]
     total = sum(o["commits"] for o in sig["commits_to_orgs"])
     if top and top[0]["commits"] >= 5 and top[0]["commits"] * 2 >= total:
@@ -267,7 +308,7 @@ def web_stage(gh, candidates, cache, cfg, aliases, refresh):
     log(f"Affiliations: web search placed {found} of {len(todo)} ({searches} searches)")
 
 
-def resolve(gh, candidates, cfg, aliases, skip_owners):
+def resolve(gh, candidates, cfg, aliases, skip_owners, nv_patterns=()):
     """candidates: {login: {"emails": set, "n": contributions}} for external people with no org yet.
 
     Returns the full cache of {login: {internal, org, domain, confidence, evidence, checked_at}}.
@@ -279,7 +320,7 @@ def resolve(gh, candidates, cfg, aliases, skip_owners):
     def is_stale(login):
         c = cache["people"].get(login)
         # Heuristic guesses get a proper look once a key is available.
-        return (c is None or NOW - datetime.fromisoformat(c["checked_at"]) > refresh
+        return (c is None or c.get("v") != VERSION or NOW - datetime.fromisoformat(c["checked_at"]) > refresh
                 or (use_claude and c.get("method") == "heuristic"))
 
     # Heaviest contributors first; forkers (n = 0) after them.
@@ -290,7 +331,8 @@ def resolve(gh, candidates, cfg, aliases, skip_owners):
     sigs = []
     for i, login in enumerate(stale):
         try:
-            sigs.append(signals(gh, login, candidates[login]["emails"], skip_owners, cache["orgs"]))
+            sigs.append(signals(gh, login, candidates[login]["emails"], skip_owners, cache["orgs"],
+                                nv_patterns, candidates[login].get("assoc", ()), candidates[login]["n"] > 0))
         except Exception as e:  # one profile shouldn't sink the run
             log(f"    {login}: {e}")
         if i % 50 == 49:
@@ -308,8 +350,15 @@ def resolve(gh, candidates, cfg, aliases, skip_owners):
         results.update({s["login"]: {**heuristic(s, aliases), "method": "heuristic"} for s in batch})
 
     for login, r in results.items():
-        if login in candidates:
-            cache["people"][login] = {**r, "checked_at": NOW.isoformat()}
+        if login not in candidates:
+            continue
+        old = cache["people"].get(login, {})
+        new = {**r, "checked_at": NOW.isoformat(), "v": VERSION}
+        # Keep a recent web search answer rather than paying for the same search again.
+        if not (new["internal"] or new["org"]) and old.get("web_checked_at"):
+            new = {**old, "checked_at": new["checked_at"], "v": VERSION} if old.get("method") == "web" else {
+                **new, "web_checked_at": old["web_checked_at"]}
+        cache["people"][login] = new
     known = sum(1 for r in results.values() if r["internal"] or r["org"])
     log(f"Affiliations: resolved {known} of {len(results)} looked up")
     if use_claude:

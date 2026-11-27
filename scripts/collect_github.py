@@ -60,6 +60,7 @@ query($owner: String!, $name: String!, $q_pr_opened: String!, $q_pr_merged: Stri
 fragment pr on PullRequest {
   createdAt authorAssociation
   author { login ... on User { company name } ... on Bot { id } }
+  commits(first: 5) { nodes { commit { author { email user { login } } } } }
 }
 """
 
@@ -75,6 +76,7 @@ query($owner: String!, $name: String!, $after: String) {
 fragment pr on PullRequest {
   createdAt authorAssociation
   author { login ... on User { company name } ... on Bot { id } }
+  commits(first: 5) { nodes { commit { author { email user { login } } } } }
 }
 """
 
@@ -155,9 +157,14 @@ def org_key(org):
     return re.sub(r"[^a-z0-9]", "", org)
 
 
-def add_person(people, key, internal, email=None, company=None, n=1, name=None, prs=0):
-    p = people.setdefault(key, {"internal": False, "org": None, "n": 0, "prs": 0, "emails": set(), "name": None})
+def add_person(people, key, internal, email=None, company=None, n=1, name=None, prs=0, assoc=None, via=None):
+    p = people.setdefault(key, {"internal": False, "org": None, "n": 0, "prs": 0, "emails": set(), "name": None,
+                                "assoc": set(), "via": None})
+    if internal and not p["internal"]:
+        p["via"] = via
     p["internal"] = p["internal"] or internal
+    if assoc:
+        p["assoc"].add(assoc)
     p["org"] = p["org"] or org_of(email, company)
     p["n"] += n
     p["prs"] += prs
@@ -167,9 +174,10 @@ def add_person(people, key, internal, email=None, company=None, n=1, name=None, 
 
 
 def merge_person(people, key, p):
-    add_person(people, key, p["internal"], n=p["n"], name=p["name"], prs=p["prs"])
+    add_person(people, key, p["internal"], n=p["n"], name=p["name"], prs=p["prs"], via=p["via"])
     people[key]["org"] = people[key]["org"] or p["org"]
     people[key]["emails"] |= p["emails"]
+    people[key]["assoc"] |= p["assoc"]
 
 
 RANK = {"high": 0, "medium": 1, "low": 2}
@@ -199,8 +207,12 @@ def org_breakdown(people, key_of=org_key, labels=None, weight="n"):
     return ranked, solo
 
 
+SERVICE_ACCOUNT = re.compile(r"(\[bot\]|-bot|-ops|-ci|-automation)$|^svc-", re.I)
+
+
 def is_bot(login):
-    return bool(login) and (login.endswith("[bot]") or login.endswith("-bot"))
+    """Bots and service accounts, which aren't people."""
+    return bool(login) and bool(SERVICE_ACCOUNT.search(login))
 
 
 def contributor_count(gh, full):
@@ -275,7 +287,17 @@ def collect_repo(gh, full, hint):
         if created < D90 or not login or is_bot(login) or "id" in author:
             continue
         internal = is_internal(hint, company=author.get("company"), association=pr["authorAssociation"], aliases=ALIASES)
-        add_person(people, login, internal, company=author.get("company"), name=author.get("name"), prs=1)
+        # Squash merges hide the author's email on the default branch; the PR's own commits keep it.
+        emails = sorted({(c["commit"]["author"] or {}).get("email") or "" for c in pr["commits"]["nodes"]
+                         if ((c["commit"]["author"] or {}).get("user") or {}).get("login") == login} - {""})
+        emails = [e for e in emails if not e.endswith("users.noreply.github.com")]
+        via = None
+        if not internal and any(is_internal(hint, email=e, aliases=ALIASES) for e in emails):
+            internal, via = True, "pr_email"
+        add_person(people, login, internal, company=author.get("company"), name=author.get("name"), prs=1,
+                   assoc=pr["authorAssociation"], via=via)
+        for e in emails:
+            add_person(people, login, False, email=e, n=0)
 
     weekly, commit_authors = commit_activity(gh, owner, name, hint)
     for key, p in commit_authors.items():
@@ -363,6 +385,7 @@ def summarize(repos, people_by_repo, forks_by_repo, resolved, org_names):
         if a and not p["internal"] and p["org"] is None and a.get("confidence") != "unknown":
             if a["internal"]:
                 p["internal"] = True
+                p["via"] = "resolver"
             elif a.get("org"):
                 p.update(org=a["org"], confidence=a["confidence"], evidence=a.get("evidence", ""))
 
@@ -376,6 +399,8 @@ def summarize(repos, people_by_repo, forks_by_repo, resolved, org_names):
             else:
                 e = everyone[key]
                 e["n"] += p["n"]
+                if p["internal"] and not e["internal"]:
+                    e["via"] = p.get("via")
                 e["internal"] = e["internal"] or p["internal"]
                 if e["org"] is None and p["org"]:
                     e.update(org=p["org"], confidence=p["confidence"], evidence=p.get("evidence", ""))
@@ -419,6 +444,11 @@ def summarize(repos, people_by_repo, forks_by_repo, resolved, org_names):
     fork_orgs, fork_solo = org_breakdown(fork_people, key_of, labels)
     return {
         "contributor_orgs": {
+            # People who looked external but turned out to be NVIDIA, by how we found out.
+            "reclassified_internal": {
+                via: sum(1 for p in everyone.values() if p["internal"] and p.get("via") == via)
+                for via in ("pr_email", "resolver")
+            },
             "external_people": len(external),
             "external_contributions": sum(p["n"] for _, p in external),
             "unattributed": solo,
@@ -473,15 +503,16 @@ def main():
     for people in people_by_repo.values():
         for key, p in people.items():
             if not p["internal"] and p["org"] is None and "@" not in key:
-                c = candidates.setdefault(key, {"emails": set(), "n": 0})
+                c = candidates.setdefault(key, {"emails": set(), "n": 0, "assoc": set()})
                 c["emails"] |= p["emails"]
+                c["assoc"] |= p["assoc"]
                 c["n"] += p["n"]
     for forks in forks_by_repo.values():
         for f in forks:
             if f["type"] == "User":
-                candidates.setdefault(f["login"], {"emails": set(), "n": 0})
+                candidates.setdefault(f["login"], {"emails": set(), "n": 0, "assoc": set()})
     skip = {o.lower() for o in cfg["orgs"]} | {x.split("/")[0].lower() for x in cfg.get("extra_repos", [])}
-    resolved = resolve(gh, candidates, cfg.get("classifier", {}), ALIASES, skip)
+    resolved = resolve(gh, candidates, cfg.get("classifier", {}), ALIASES, skip, cfg.get("nvidia_github_orgs", []))
     org_names = {}
     for forks in forks_by_repo.values():
         for f in forks:
