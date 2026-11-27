@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T03:22:20.746728+00:00",
+ "generated_at": "2026-11-27T03:26:52.570526+00:00",
  "repos": [
   {
    "active_contributors_90d": 282,
@@ -1557,8 +1557,8 @@
     163,
     183,
     187,
-    203,
-    145,
+    204,
+    144,
     147,
     128
    ],
@@ -2330,7 +2330,7 @@
    "commits_30d": 298,
    "commits_total": 1924,
    "commits_weekly": [
-    98,
+    97,
     126,
     102,
     39,
@@ -3016,8 +3016,8 @@
     125,
     39,
     35,
-    40,
-    15
+    41,
+    14
    ],
    "contributors": 221,
    "created_at": "2026-10-02T18:25:59Z",
@@ -3133,7 +3133,7 @@
    "archived": false,
    "closed_issues": 143,
    "closed_prs": 285,
-   "commits_30d": 1053,
+   "commits_30d": 1052,
    "commits_total": 2878,
    "commits_weekly": [
     0,
@@ -3522,7 +3522,7 @@
  ],
  "totals": {
   "active_external_90d": 474,
-  "commits_30d": 4314,
+  "commits_30d": 4313,
   "contributor_orgs": {
    "external_people": 413,
    "individuals": {
