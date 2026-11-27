@@ -24,22 +24,14 @@
   <main class="wrap">
     <section class="kpis" id="kpis" aria-label="Totals"></section>
 
-    <section class="card" id="flight-card" hidden>
-      <div class="card-head">
-        <div>
-          <h2>Biggest work in flight</h2>
-          <p class="hint" id="flight-hint"></p>
-        </div>
-        <label class="check"><input type="checkbox" id="flight-l"> Include L</label>
-      </div>
-      <ul class="flight-list" id="flight-list"></ul>
-    </section>
-
     <section class="grid2">
       <figure class="card">
-        <figcaption>
-          <h2>Total stars over time</h2>
-          <p class="hint" id="stars-hint"></p>
+        <figcaption class="card-head">
+          <div>
+            <h2><span id="stars-title">Total stars over time</span> <span class="title-delta" id="stars-delta"></span></h2>
+            <p class="hint" id="stars-hint"></p>
+          </div>
+          <select id="stars-repo" aria-label="Project"><option value="">All projects</option></select>
         </figcaption>
         <div class="chart" id="chart-stars"></div>
       </figure>
@@ -65,7 +57,6 @@
           <thead>
             <tr>
               <th data-k="name" class="l">Repository</th>
-              <th data-k="feature_weight" class="l">Biggest in flight</th>
               <th data-k="stars">Stars</th>
               <th data-k="stars_7d">Δ 7d</th>
               <th data-k="forks">Forks</th>
@@ -85,6 +76,17 @@
       </div>
     </section>
 
+    <section class="card" id="roadmap-card" hidden>
+      <div class="card-head">
+        <div>
+          <h2>Roadmap</h2>
+          <p class="hint" id="roadmap-hint"></p>
+        </div>
+        <select id="roadmap-repo" aria-label="Project"></select>
+      </div>
+      <div id="roadmap-view"></div>
+    </section>
+
     <section class="card" id="contrib-card">
       <figcaption>
         <h2>Active contributors, last 90 days</h2>
@@ -96,32 +98,41 @@
 
     <section class="card" id="orgs-card" hidden>
       <figcaption>
-        <h2>External contributors by organization</h2>
-        <p class="hint">Distinct external commit and PR authors in the last 90 days, counted once across repos. Organization comes from a work email domain or the GitHub company field; personal email domains and blank profiles count as individuals.</p>
+        <h2>Who contributes from outside NVIDIA</h2>
+        <p class="hint">External commits and PRs in the last 90 days. Organization comes from a work email, the GitHub profile, or where the person commits elsewhere, resolved by Claude; best effort.</p>
       </figcaption>
       <p class="headline" id="orgs-headline"></p>
-      <div class="legend" id="orgs-legend"></div>
+      <p class="hint" id="orgs-sub"></p>
+      <h3 class="sub-h">Share of external contributions by organization</h3>
       <div class="chart" id="chart-orgs"></div>
-    </section>
-
-    <section class="card" id="roadmaps" hidden>
-      <div class="card-head">
-        <div>
-          <h2>Roadmaps</h2>
-          <p class="hint" id="roadmap-hint"></p>
-        </div>
-        <div class="filters">
-          <div class="seg" id="size-seg" role="group" aria-label="Minimum feature size">
-            <button data-size="S" type="button">S+</button>
-            <button data-size="M" type="button" class="on">M+</button>
-            <button data-size="L" type="button">L+</button>
-            <button data-size="XL" type="button">XL+</button>
-            <button data-size="XXL" type="button">XXL</button>
-          </div>
-          <select id="roadmap-repo" aria-label="Repository"><option value="">All repos</option></select>
+      <div class="card-head sub-head">
+        <h3 class="sub-h">By repository</h3>
+        <div class="seg" id="orgs-mode" role="group" aria-label="Include NVIDIA">
+          <button data-mode="ext" type="button" class="on">External only</button>
+          <button data-mode="all" type="button">Include NVIDIA</button>
         </div>
       </div>
-      <div id="roadmap-list"></div>
+      <div class="legend" id="repo-orgs-legend"></div>
+      <div class="chart" id="chart-repo-orgs"></div>
+      <div id="top-ext-wrap" hidden>
+        <h3 class="sub-h">Top external contributors</h3>
+        <div class="table-wrap">
+          <table id="top-ext">
+            <thead><tr><th class="l nosort">Person</th><th class="l nosort">Organization</th><th class="l nosort">Repos</th><th class="nosort">Contributions</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        <button type="button" class="ghost more" id="top-ext-more" hidden></button>
+      </div>
+    </section>
+
+    <section class="card" id="forks-card" hidden>
+      <figcaption>
+        <h2>Who's forking, last 90 days</h2>
+        <p class="hint">GitHub doesn't publish who stars a repo, so forks are the closest public signal of who is trying a project. Fork owners are attributed the same way as contributors; best effort.</p>
+      </figcaption>
+      <p class="headline" id="forks-headline"></p>
+      <div class="chart" id="chart-forks"></div>
     </section>
 
     <section class="card" id="news">

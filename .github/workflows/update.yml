@@ -29,10 +29,11 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - name: Collect GitHub stats
+      - name: Collect GitHub stats and contributor affiliations
         if: github.event_name != 'push'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python scripts/collect_github.py
 
       - name: Collect news
