@@ -1675,10 +1675,20 @@
    "name": "Sashank",
    "type": "User"
   },
+  "Scientific-Python-Translations": {
+   "blog": "",
+   "name": "Scientific Python Translations",
+   "type": "Organization"
+  },
   "SearchSavior": {
    "blog": "",
    "name": "Emerson Tatelbaum",
    "type": "User"
+  },
+  "Semi-ATE": {
+   "blog": "",
+   "name": "Semi-ATE",
+   "type": "Organization"
   },
   "SemiAnalysisAI": {
    "blog": "https://inferencex.com/",
@@ -3108,6 +3118,11 @@
   "conda": {
    "blog": "https://conda.org",
    "name": "conda",
+   "type": "Organization"
+  },
+  "conda-forge": {
+   "blog": "https://conda-forge.org",
+   "name": "conda-forge",
    "type": "Organization"
   },
   "connectrpc": {
@@ -6625,6 +6640,11 @@
    "name": "Spotify",
    "type": "Organization"
   },
+  "spyder-ide": {
+   "blog": "https://www.spyder-ide.org/",
+   "name": "Spyder IDE",
+   "type": "Organization"
+  },
   "sreekanthvarmayadavalli": {
    "blog": "",
    "name": "sreekanthvarmayadavalli",
@@ -7851,6 +7871,16 @@
    "internal": true,
    "method": "claude",
    "org": "",
+   "v": 2
+  },
+  "BachNg311": {
+   "checked_at": "2026-11-27T21:29:02.610138+00:00",
+   "confidence": "low",
+   "domain": "iastate.edu",
+   "evidence": "Commit email from iastate.edu domain; no org commits or profile company",
+   "internal": false,
+   "method": "claude",
+   "org": "Iowa State University",
    "v": 2
   },
   "Bafoleco": {
@@ -11347,13 +11377,13 @@
    "v": 2
   },
   "fangyuchen86": {
-   "checked_at": "2026-11-27T05:17:22.859005+00:00",
-   "confidence": "low",
-   "domain": "ovn-kubernetes.io",
-   "evidence": "9 commits to ovn-kubernetes repos (OVN-Kubernetes)",
+   "checked_at": "2026-11-27T21:29:02.610138+00:00",
+   "confidence": "unknown",
+   "domain": "",
+   "evidence": "duplicate entry removed",
    "internal": false,
-   "method": "heuristic",
-   "org": "OVN-Kubernetes",
+   "method": "claude",
+   "org": "",
    "v": 2
   },
   "fanhaouu": {
@@ -11546,6 +11576,16 @@
    "internal": true,
    "method": "claude",
    "org": "",
+   "v": 2
+  },
+  "goanpeca": {
+   "checked_at": "2026-11-27T21:29:02.610138+00:00",
+   "confidence": "high",
+   "domain": "backblaze.com",
+   "evidence": "Explicit profile company Backblaze; backblaze-b2-samples in public orgs",
+   "internal": false,
+   "method": "claude",
+   "org": "Backblaze",
    "v": 2
   },
   "goingforstudying-ctrl": {

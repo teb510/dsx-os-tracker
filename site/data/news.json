@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T17:58:24.528964+00:00",
+ "generated_at": "2026-11-27T21:37:31.614705+00:00",
  "items": [
   {
    "first_seen": "2026-11-26T20:16:01.311589+00:00",
@@ -25,6 +25,14 @@
   {
    "first_seen": "2026-11-27T05:13:35.784397+00:00",
    "id": "80394f378e8501bc",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-haiku-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Reports Nvidia halting AI server shipments to four Southeast Asian nations; no tracked project is involved."
+   },
    "origin": "google:\"Run:ai\" NVIDIA",
    "origins": [
     "google:\"Run:ai\" NVIDIA"
@@ -229,6 +237,14 @@
   {
    "first_seen": "2026-11-27T17:58:24.528964+00:00",
    "id": "0a3d59629c6dc926",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-haiku-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Reports Amazon acquiring Decart AI optimization technology for Trainium competing with Nvidia; not about tracked projects."
+   },
    "origin": "google:\"Run:ai\" NVIDIA",
    "origins": [
     "google:\"Run:ai\" NVIDIA"
@@ -738,6 +754,14 @@
   {
    "first_seen": "2026-11-27T17:58:24.528964+00:00",
    "id": "4120fcdc611881eb",
+   "llm": {
+    "category": "tutorial",
+    "importance": "low",
+    "model": "claude-haiku-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Tutorial on a Rust tool-call parser from NVIDIA frontend-crates; the crates are not among tracked repositories."
+   },
    "origin": "google:\"NVIDIA Dynamo\"",
    "origins": [
     "google:\"NVIDIA Dynamo\""
@@ -1015,6 +1039,14 @@
   {
    "first_seen": "2026-11-27T05:13:35.784397+00:00",
    "id": "7279257f1bb21696",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-haiku-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Covers Nvidia's DGX Spark HPC Dev Kit hardware with 512 GB memory; no tracked open source project is involved."
+   },
    "origin": "google:\"Run:ai\" NVIDIA",
    "origins": [
     "google:\"Run:ai\" NVIDIA"
@@ -1742,6 +1774,16 @@
   {
    "first_seen": "2026-11-27T05:13:35.784397+00:00",
    "id": "73ed71b6cea21521",
+   "llm": {
+    "category": "release",
+    "importance": "high",
+    "model": "claude-haiku-5-5",
+    "relevant": true,
+    "repos": [
+     "nvidia-workload-identity"
+    ],
+    "summary": "NVIDIA announces donation of OpenShell and new AI infrastructure as part of expanded open source commitment; tracked repo linkage uncertain."
+   },
    "origin": "google:\"Run:ai\" NVIDIA",
    "origins": [
     "google:\"Run:ai\" NVIDIA"
@@ -1755,6 +1797,14 @@
   {
    "first_seen": "2026-11-27T17:58:24.528964+00:00",
    "id": "8cca42ee8280e306",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-haiku-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Daikin Applied unveils a 60MW cooling design for NVIDIA AI data centers; no tracked project is involved."
+   },
    "origin": "google:\"NVIDIA DSX\"",
    "origins": [
     "google:\"NVIDIA DSX\""
@@ -2180,6 +2230,16 @@
   {
    "first_seen": "2026-11-27T17:58:24.528964+00:00",
    "id": "c585c2ae23e7adaa",
+   "llm": {
+    "category": "tutorial",
+    "importance": "medium",
+    "model": "claude-haiku-5-5",
+    "relevant": true,
+    "repos": [
+     "dynamo"
+    ],
+    "summary": "Explores running Korean language models on NVIDIA B200 using Dynamo recipes, with untested results noted."
+   },
    "origin": "google:\"NVIDIA Dynamo\"",
    "origins": [
     "google:\"NVIDIA Dynamo\""
@@ -2788,7 +2848,8 @@
    "origin": "google:\"DSX AI Factory\"",
    "origins": [
     "google:\"DSX AI Factory\"",
-    "google:\"DSX OS\" NVIDIA"
+    "google:\"DSX OS\" NVIDIA",
+    "google:\"Infra Controller\" NVIDIA"
    ],
    "published": "2026-11-04T08:00:00+00:00",
    "snippet": "",
@@ -2799,6 +2860,14 @@
   {
    "first_seen": "2026-11-27T17:58:24.528964+00:00",
    "id": "20256f7f68caf6e3",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-haiku-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "E2E Networks launches Blaze pay-per-token AI inference; no tracked NVIDIA project is involved."
+   },
    "origin": "google:\"Infra Controller\" NVIDIA",
    "origins": [
     "google:\"Infra Controller\" NVIDIA"
@@ -3443,6 +3512,14 @@
   {
    "first_seen": "2026-11-27T06:34:05.680847+00:00",
    "id": "b2d4ff2014d9b76d",
+   "llm": {
+    "category": "business",
+    "importance": "low",
+    "model": "claude-haiku-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Reports Nvidia supplier agreements to expand AI capacity; no tracked open source project is involved."
+   },
    "origin": "google:\"Run:ai\" NVIDIA",
    "origins": [
     "google:\"Run:ai\" NVIDIA"

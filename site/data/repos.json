@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-11-27T16:45:37.894842+00:00",
+ "generated_at": "2026-11-27T21:29:02.610265+00:00",
  "repos": [
   {
-   "active_contributors_90d": 345,
-   "active_external_90d": 205,
+   "active_contributors_90d": 346,
+   "active_external_90d": 206,
    "active_internal_90d": 140,
    "archived": false,
-   "closed_issues": 2278,
+   "closed_issues": 2280,
    "closed_prs": 4443,
-   "commits_30d": 734,
-   "commits_total": 8912,
+   "commits_30d": 720,
+   "commits_total": 8914,
    "commits_weekly": [
-    160,
-    135,
-    173,
-    86,
-    122,
-    153,
-    197,
-    165,
-    182,
-    213,
-    133,
-    194,
-    106
+    159,
+    146,
+    158,
+    80,
+    130,
+    156,
+    192,
+    174,
+    180,
+    212,
+    125,
+    205,
+    93
    ],
    "contributors": 432,
    "created_at": "2025-03-03T18:40:07Z",
@@ -111,12 +111,6 @@
     {
      "confidence": "high",
      "contributions": 7,
-     "org": "barclays",
-     "people": 1
-    },
-    {
-     "confidence": "high",
-     "contributions": 7,
      "org": "cloudphysician-codehub @inxiteout-ai @compass-lab @a5g-networks @LUK-Lab",
      "people": 1
     },
@@ -124,6 +118,12 @@
      "confidence": "medium",
      "contributions": 7,
      "org": "Fluid Inference",
+     "people": 1
+    },
+    {
+     "confidence": "high",
+     "contributions": 6,
+     "org": "barclays",
      "people": 1
     },
     {
@@ -517,6 +517,12 @@
      "people": 1
     },
     {
+     "confidence": "low",
+     "contributions": 1,
+     "org": "Iowa State University",
+     "people": 1
+    },
+    {
      "confidence": "high",
      "contributions": 1,
      "org": "Linkedin",
@@ -723,7 +729,7 @@
    ],
    "external_prs_90d": 216,
    "external_unattributed": {
-    "contributions": 136,
+    "contributions": 137,
     "people": 45
    },
    "fork_orgs": [
@@ -908,6 +914,11 @@
      "org": "Inherent Laboratories"
     },
     {
+     "confidence": "low",
+     "forks": 1,
+     "org": "Iowa State University"
+    },
+    {
      "confidence": "high",
      "forks": 1,
      "org": "Lyceum Technology"
@@ -1063,11 +1074,6 @@
      "org": "Tesla"
     },
     {
-     "confidence": "high",
-     "forks": 1,
-     "org": "Tessl"
-    },
-    {
      "confidence": "low",
      "forks": 1,
      "org": "The AI Engineer"
@@ -1138,15 +1144,15 @@
      "org": "XGo"
     }
    ],
-   "forks": 1917,
+   "forks": 1918,
    "forks_90d": 200,
    "forks_internal_90d": 21,
    "forks_unattributed_90d": 86,
    "full_name": "ai-dynamo/dynamo",
    "homepage": "https://docs.nvidia.com/dynamo/latest",
-   "internal_contributions": 2211,
-   "issues_closed_30d": 364,
-   "issues_opened_30d": 570,
+   "internal_contributions": 2212,
+   "issues_closed_30d": 366,
+   "issues_opened_30d": 572,
    "language": "Rust",
    "language_color": "#dea584",
    "latest_release": {
@@ -1157,14 +1163,14 @@
     "url": "https://github.com/ai-dynamo/dynamo/releases/tag/v1.7.0"
    },
    "license": "NOASSERTION",
-   "merged_prs": 10578,
+   "merged_prs": 10580,
    "name": "dynamo",
    "open_issues": 981,
-   "open_prs": 1150,
+   "open_prs": 1153,
    "owner": "ai-dynamo",
-   "prs_merged_30d": 883,
-   "prs_opened_30d": 1565,
-   "pushed_at": "2026-11-27T16:17:50Z",
+   "prs_merged_30d": 885,
+   "prs_opened_30d": 1570,
+   "pushed_at": "2026-11-27T21:08:30Z",
    "recent_releases": [
     {
      "isPrerelease": false,
@@ -1231,15 +1237,15 @@
    "commits_30d": 18,
    "commits_total": 337,
    "commits_weekly": [
-    9,
+    6,
     5,
     14,
     8,
-    7,
-    10,
+    9,
+    8,
     14,
-    2,
-    1,
+    3,
+    0,
     10,
     0,
     5,
@@ -1403,19 +1409,19 @@
    "commits_30d": 77,
    "commits_total": 557,
    "commits_weekly": [
-    38,
     30,
-    127,
-    31,
-    69,
-    25,
+    44,
+    112,
+    30,
+    72,
     26,
-    18,
-    16,
-    19,
     22,
+    22,
+    13,
     23,
-    8
+    18,
+    24,
+    6
    ],
    "contributors": 24,
    "created_at": "2026-06-12T21:39:16Z",
@@ -1582,21 +1588,21 @@
    "archived": false,
    "closed_issues": 23,
    "closed_prs": 62,
-   "commits_30d": 24,
+   "commits_30d": 23,
    "commits_total": 216,
    "commits_weekly": [
-    12,
-    21,
-    20,
+    10,
+    28,
+    11,
     8,
     6,
     3,
     7,
-    11,
+    12,
     8,
-    7,
     6,
-    5,
+    7,
+    4,
     3
    ],
    "contributors": 20,
@@ -1757,9 +1763,9 @@
     1,
     0,
     0,
-    1,
-    3,
-    9,
+    2,
+    4,
+    7,
     3,
     2
    ],
@@ -1839,11 +1845,11 @@
    "commits_total": 107,
    "commits_weekly": [
     1,
-    3,
-    8,
+    4,
+    7,
     0,
-    0,
-    2,
+    1,
+    1,
     1,
     1,
     2,
@@ -1981,19 +1987,19 @@
    "archived": false,
    "closed_issues": 11,
    "closed_prs": 16,
-   "commits_30d": 52,
+   "commits_30d": 45,
    "commits_total": 243,
    "commits_weekly": [
     3,
     3,
     7,
     14,
-    5,
-    3,
+    7,
+    1,
     1,
     29,
-    19,
-    30,
+    20,
+    29,
     0,
     5,
     4
@@ -2098,8 +2104,8 @@
     0,
     1,
     2,
-    1,
-    1,
+    2,
+    0,
     1,
     0,
     0,
@@ -2224,21 +2230,21 @@
    "archived": false,
    "closed_issues": 8,
    "closed_prs": 44,
-   "commits_30d": 12,
+   "commits_30d": 10,
    "commits_total": 268,
    "commits_weekly": [
     1,
     4,
     3,
     3,
+    14,
+    0,
+    0,
+    1,
     8,
-    6,
-    0,
-    0,
-    9,
+    3,
     3,
     2,
-    3,
     0
    ],
    "contributors": 13,
@@ -2381,21 +2387,21 @@
    "archived": false,
    "closed_issues": 6,
    "closed_prs": 11,
-   "commits_30d": 29,
+   "commits_30d": 28,
    "commits_total": 115,
    "commits_weekly": [
     4,
-    1,
-    7,
-    4,
+    2,
+    8,
+    2,
     6,
     5,
     1,
-    3,
+    5,
     15,
-    7,
     5,
     8,
+    5,
     5
    ],
    "contributors": 7,
@@ -2481,22 +2487,22 @@
    "archived": false,
    "closed_issues": 45,
    "closed_prs": 31,
-   "commits_30d": 77,
+   "commits_30d": 75,
    "commits_total": 216,
    "commits_weekly": [
-    16,
-    7,
-    19,
-    2,
-    11,
-    23,
-    22,
     15,
-    19,
-    18,
+    6,
+    20,
+    1,
+    13,
+    25,
+    26,
+    11,
+    21,
+    13,
+    15,
     16,
-    10,
-    25
+    19
    ],
    "contributors": 28,
    "created_at": "2026-07-09T21:08:54Z",
@@ -2666,22 +2672,22 @@
    "archived": false,
    "closed_issues": 2505,
    "closed_prs": 877,
-   "commits_30d": 685,
+   "commits_30d": 672,
    "commits_total": 5269,
    "commits_weekly": [
-    132,
-    93,
-    231,
-    167,
-    165,
     140,
+    85,
+    237,
+    150,
+    174,
+    143,
     158,
-    186,
-    181,
-    209,
-    139,
-    155,
-    116
+    195,
+    173,
+    211,
+    148,
+    145,
+    102
    ],
    "contributors": 155,
    "created_at": "2025-11-05T22:23:34Z",
@@ -2727,6 +2733,12 @@
     {
      "confidence": "high",
      "contributions": 4,
+     "org": "Nutanix",
+     "people": 2
+    },
+    {
+     "confidence": "high",
+     "contributions": 4,
      "org": "AMD",
      "people": 1
     },
@@ -2735,12 +2747,6 @@
      "contributions": 4,
      "org": "IIIT Lucknow",
      "people": 1
-    },
-    {
-     "confidence": "high",
-     "contributions": 3,
-     "org": "Nutanix",
-     "people": 2
     },
     {
      "confidence": "high",
@@ -2803,7 +2809,7 @@
      "people": 1
     }
    ],
-   "external_prs_90d": 73,
+   "external_prs_90d": 74,
    "external_unattributed": {
     "contributions": 19,
     "people": 5
@@ -2923,20 +2929,15 @@
      "confidence": "high",
      "forks": 1,
      "org": "Tessian"
-    },
-    {
-     "confidence": "high",
-     "forks": 1,
-     "org": "Verda Cloud"
     }
    ],
-   "forks": 244,
-   "forks_90d": 67,
+   "forks": 243,
+   "forks_90d": 66,
    "forks_internal_90d": 14,
    "forks_unattributed_90d": 23,
    "full_name": "dsx-ai-factory/infra-controller",
    "homepage": "https://docs.nvidia.com/infra-controller",
-   "internal_contributions": 2829,
+   "internal_contributions": 2827,
    "issues_closed_30d": 360,
    "issues_opened_30d": 491,
    "language": "Rust",
@@ -2952,11 +2953,11 @@
    "merged_prs": 5145,
    "name": "infra-controller",
    "open_issues": 942,
-   "open_prs": 174,
+   "open_prs": 175,
    "owner": "dsx-ai-factory",
    "prs_merged_30d": 773,
-   "prs_opened_30d": 868,
-   "pushed_at": "2026-11-27T15:54:44Z",
+   "prs_opened_30d": 869,
+   "pushed_at": "2026-11-27T19:56:24Z",
    "recent_releases": [
     {
      "isPrerelease": false,
@@ -3003,8 +3004,8 @@
    "watchers": 15
   },
   {
-   "active_contributors_90d": 22,
-   "active_external_90d": 11,
+   "active_contributors_90d": 23,
+   "active_external_90d": 12,
    "active_internal_90d": 11,
    "archived": false,
    "closed_issues": 106,
@@ -3020,8 +3021,8 @@
     27,
     31,
     68,
-    8,
-    30,
+    9,
+    29,
     17,
     36,
     50
@@ -3058,6 +3059,12 @@
     {
      "confidence": "high",
      "contributions": 1,
+     "org": "Backblaze",
+     "people": 1
+    },
+    {
+     "confidence": "high",
+     "contributions": 1,
      "org": "Clarifai",
      "people": 1
     },
@@ -3080,7 +3087,7 @@
      "people": 1
     }
    ],
-   "external_prs_90d": 10,
+   "external_prs_90d": 11,
    "external_unattributed": {
     "contributions": 4,
     "people": 2
@@ -3090,6 +3097,11 @@
      "confidence": "high",
      "forks": 3,
      "org": "Google"
+    },
+    {
+     "confidence": "high",
+     "forks": 1,
+     "org": "Backblaze"
     },
     {
      "confidence": "high",
@@ -3122,8 +3134,8 @@
      "org": "Spotify"
     }
    ],
-   "forks": 75,
-   "forks_90d": 16,
+   "forks": 76,
+   "forks_90d": 17,
    "forks_internal_90d": 2,
    "forks_unattributed_90d": 5,
    "full_name": "dsx-ai-factory/model-streamer",
@@ -3144,10 +3156,10 @@
    "merged_prs": 180,
    "name": "model-streamer",
    "open_issues": 24,
-   "open_prs": 8,
+   "open_prs": 9,
    "owner": "dsx-ai-factory",
    "prs_merged_30d": 45,
-   "prs_opened_30d": 59,
+   "prs_opened_30d": 60,
    "pushed_at": "2026-11-26T18:35:37Z",
    "recent_releases": [
     {
@@ -3200,23 +3212,23 @@
    "active_internal_90d": 12,
    "archived": false,
    "closed_issues": 18,
-   "closed_prs": 95,
-   "commits_30d": 64,
-   "commits_total": 402,
+   "closed_prs": 97,
+   "commits_30d": 63,
+   "commits_total": 403,
    "commits_weekly": [
-    11,
-    7,
-    14,
+    13,
+    5,
     15,
+    14,
     10,
     15,
-    23,
-    23,
+    27,
+    20,
     17,
     12,
     2,
-    30,
-    12
+    35,
+    7
    ],
    "contributors": 18,
    "created_at": "2026-05-21T20:26:37Z",
@@ -3291,7 +3303,7 @@
    "forks_unattributed_90d": 1,
    "full_name": "dsx-ai-factory/nv-config-manager",
    "homepage": "https://docs.nvidia.com/switch-infrastructure/config-manager",
-   "internal_contributions": 420,
+   "internal_contributions": 423,
    "issues_closed_30d": 7,
    "issues_opened_30d": 9,
    "language": "Python",
@@ -3304,14 +3316,14 @@
     "url": "https://github.com/dsx-ai-factory/nv-config-manager/releases/tag/1.4.2"
    },
    "license": "Apache-2.0",
-   "merged_prs": 446,
+   "merged_prs": 447,
    "name": "nv-config-manager",
    "open_issues": 6,
    "open_prs": 32,
    "owner": "dsx-ai-factory",
-   "prs_merged_30d": 102,
-   "prs_opened_30d": 148,
-   "pushed_at": "2026-11-27T16:12:22Z",
+   "prs_merged_30d": 103,
+   "prs_opened_30d": 151,
+   "pushed_at": "2026-11-27T21:23:14Z",
    "recent_releases": [
     {
      "isPrerelease": false,
@@ -3367,18 +3379,18 @@
    "commits_30d": 17,
    "commits_total": 499,
    "commits_weekly": [
-    5,
-    5,
-    15,
+    6,
     4,
-    20,
+    15,
+    5,
+    19,
     4,
     3,
     27,
-    7,
-    7,
-    5,
+    10,
     4,
+    7,
+    2,
     0
    ],
    "contributors": 25,
@@ -3541,8 +3553,8 @@
     6,
     4,
     2,
-    0,
-    3,
+    1,
+    2,
     1
    ],
    "contributors": 12,
@@ -3614,10 +3626,10 @@
    "commits_30d": 4,
    "commits_total": 91,
    "commits_weekly": [
-    2,
+    1,
+    1,
     1,
     0,
-    1,
     1,
     4,
     2,
@@ -3725,20 +3737,20 @@
    "archived": false,
    "closed_issues": 0,
    "closed_prs": 3,
-   "commits_30d": 21,
+   "commits_30d": 20,
    "commits_total": 55,
    "commits_weekly": [
     1,
-    2,
-    3,
+    4,
+    1,
     3,
     0,
     0,
     0,
     3,
     9,
-    5,
-    5,
+    6,
+    4,
     3,
     5
    ],
@@ -3811,22 +3823,22 @@
    "archived": false,
    "closed_issues": 1193,
    "closed_prs": 238,
-   "commits_30d": 291,
-   "commits_total": 1926,
+   "commits_30d": 293,
+   "commits_total": 1928,
    "commits_weekly": [
-    104,
-    121,
-    91,
-    37,
+    103,
+    132,
+    81,
+    33,
     53,
-    71,
-    80,
-    78,
+    73,
+    81,
+    77,
     66,
-    84,
+    86,
     80,
-    55,
-    55
+    56,
+    52
    ],
    "contributors": 65,
    "created_at": "2026-04-01T19:22:14Z",
@@ -4025,33 +4037,47 @@
     }
    ],
    "forks": 112,
-   "forks_90d": 57,
-   "forks_internal_90d": 12,
+   "forks_90d": 56,
+   "forks_internal_90d": 11,
    "forks_unattributed_90d": 24,
    "full_name": "dsx-ai-factory/nvcf",
    "homepage": "https://docs.nvidia.com/nvcf/overview",
-   "internal_contributions": 1910,
+   "internal_contributions": 1911,
    "issues_closed_30d": 297,
-   "issues_opened_30d": 280,
+   "issues_opened_30d": 281,
    "language": "Go",
    "language_color": "#00ADD8",
    "latest_release": {
     "isPrerelease": false,
-    "name": "src/control-plane-services/instance-cluster-management/v0.17.1",
-    "publishedAt": "2026-11-27T09:40:18Z",
-    "tagName": "src/control-plane-services/instance-cluster-management/v0.17.1",
-    "url": "https://github.com/dsx-ai-factory/nvcf/releases/tag/src/control-plane-services/instance-cluster-management/v0.17.1"
+    "name": "src/compute-plane-services/nvsnap/v0.8.0",
+    "publishedAt": "2026-11-27T19:28:31Z",
+    "tagName": "src/compute-plane-services/nvsnap/v0.8.0",
+    "url": "https://github.com/dsx-ai-factory/nvcf/releases/tag/src/compute-plane-services/nvsnap/v0.8.0"
    },
    "license": "Apache-2.0",
-   "merged_prs": 1734,
+   "merged_prs": 1736,
    "name": "nvcf",
-   "open_issues": 384,
-   "open_prs": 169,
+   "open_issues": 385,
+   "open_prs": 170,
    "owner": "dsx-ai-factory",
-   "prs_merged_30d": 406,
-   "prs_opened_30d": 486,
-   "pushed_at": "2026-11-27T09:40:17Z",
+   "prs_merged_30d": 408,
+   "prs_opened_30d": 489,
+   "pushed_at": "2026-11-27T20:26:16Z",
    "recent_releases": [
+    {
+     "isPrerelease": false,
+     "name": "src/compute-plane-services/nvsnap/v0.8.0",
+     "publishedAt": "2026-11-27T19:28:31Z",
+     "tagName": "src/compute-plane-services/nvsnap/v0.8.0",
+     "url": "https://github.com/dsx-ai-factory/nvcf/releases/tag/src/compute-plane-services/nvsnap/v0.8.0"
+    },
+    {
+     "isPrerelease": false,
+     "name": "src/compute-plane-services/nvsnap/v0.7.5",
+     "publishedAt": "2026-11-27T18:11:46Z",
+     "tagName": "src/compute-plane-services/nvsnap/v0.7.5",
+     "url": "https://github.com/dsx-ai-factory/nvcf/releases/tag/src/compute-plane-services/nvsnap/v0.7.5"
+    },
     {
      "isPrerelease": false,
      "name": "src/control-plane-services/instance-cluster-management/v0.17.1",
@@ -4072,23 +4098,9 @@
      "publishedAt": "2026-11-26T21:00:05Z",
      "tagName": "src/compute-plane-services/nvsnap/v0.7.3",
      "url": "https://github.com/dsx-ai-factory/nvcf/releases/tag/src/compute-plane-services/nvsnap/v0.7.3"
-    },
-    {
-     "isPrerelease": false,
-     "name": "deploy/helm/nvca-operator/v1.40.0",
-     "publishedAt": "2026-11-26T18:23:49Z",
-     "tagName": "deploy/helm/nvca-operator/v1.40.0",
-     "url": "https://github.com/dsx-ai-factory/nvcf/releases/tag/deploy/helm/nvca-operator/v1.40.0"
-    },
-    {
-     "isPrerelease": false,
-     "name": "src/compute-plane-services/nvca/v3.22.0",
-     "publishedAt": "2026-11-26T18:23:01Z",
-     "tagName": "src/compute-plane-services/nvca/v3.22.0",
-     "url": "https://github.com/dsx-ai-factory/nvcf/releases/tag/src/compute-plane-services/nvca/v3.22.0"
     }
    ],
-   "releases": 3529,
+   "releases": 3531,
    "stars": 272,
    "stars_30d": 1,
    "stars_7d": 1,
@@ -4124,8 +4136,8 @@
     4,
     2,
     6,
-    8,
-    6
+    9,
+    5
    ],
    "contributors": 10,
    "created_at": "2026-10-19T14:06:06Z",
@@ -4239,22 +4251,22 @@
    "archived": false,
    "closed_issues": 14,
    "closed_prs": 14,
-   "commits_30d": 41,
+   "commits_30d": 40,
    "commits_total": 334,
    "commits_weekly": [
-    4,
+    2,
     4,
     4,
     2,
     15,
-    6,
-    2,
+    8,
+    0,
     15,
-    9,
-    24,
-    7,
+    10,
+    27,
     3,
-    3
+    4,
+    2
    ],
    "contributors": 18,
    "created_at": "2026-09-18T00:25:35Z",
@@ -4346,22 +4358,22 @@
    "archived": false,
    "closed_issues": 217,
    "closed_prs": 363,
-   "commits_30d": 250,
+   "commits_30d": 240,
    "commits_total": 1687,
    "commits_weekly": [
+    100,
+    117,
     104,
-    111,
-    115,
-    137,
-    79,
-    155,
-    198,
-    147,
-    95,
-    57,
-    58,
-    57,
-    37
+    134,
+    81,
+    165,
+    205,
+    135,
+    90,
+    65,
+    53,
+    53,
+    35
    ],
    "contributors": 81,
    "created_at": "2026-08-04T15:42:58Z",
@@ -4675,7 +4687,7 @@
    "forks_unattributed_90d": 68,
    "full_name": "dsx-ai-factory/nvke",
    "homepage": "https://docs.nvidia.com/nvke/",
-   "internal_contributions": 2187,
+   "internal_contributions": 2185,
    "issues_closed_30d": 65,
    "issues_opened_30d": 149,
    "language": "Go",
@@ -4754,22 +4766,22 @@
    "archived": false,
    "closed_issues": 2,
    "closed_prs": 12,
-   "commits_30d": 109,
+   "commits_30d": 108,
    "commits_total": 302,
    "commits_weekly": [
-    13,
-    9,
-    20,
-    21,
-    35,
-    41,
+    12,
+    10,
     22,
+    17,
+    40,
+    39,
+    21,
+    17,
     19,
-    19,
-    32,
-    30,
+    37,
+    27,
     20,
-    15
+    13
    ],
    "contributors": 11,
    "created_at": "2026-10-22T13:07:58Z",
@@ -4883,18 +4895,18 @@
    "commits_total": 413,
    "commits_weekly": [
     0,
-    6,
-    21,
-    23,
-    11,
-    34,
-    56,
-    42,
+    10,
+    18,
+    22,
+    12,
+    35,
+    60,
+    36,
     31,
-    71,
-    45,
-    65,
-    8
+    74,
+    42,
+    66,
+    7
    ],
    "contributors": 21,
    "created_at": "2026-09-09T17:26:36Z",
@@ -5036,6 +5048,149 @@
    "watchers": 1
   },
   {
+   "active_contributors_90d": 81,
+   "active_external_90d": 48,
+   "active_internal_90d": 33,
+   "archived": false,
+   "closed_issues": 2,
+   "closed_prs": 0,
+   "commits_30d": 192,
+   "commits_total": 23686,
+   "commits_weekly": [
+    184,
+    26,
+    65,
+    34,
+    28,
+    1757,
+    167,
+    106,
+    102,
+    36,
+    32,
+    47,
+    8
+   ],
+   "contributors": 221,
+   "created_at": "2026-10-02T18:25:59Z",
+   "default_branch": "main",
+   "description": "Open Virtual Network (OVN) SDN Based Kubernetes Networking Platform",
+   "external_orgs": [
+    {
+     "confidence": "high",
+     "contributions": 335,
+     "org": "Red Hat",
+     "people": 40
+    },
+    {
+     "confidence": "high",
+     "contributions": 10,
+     "org": "str08.net",
+     "people": 1
+    },
+    {
+     "confidence": "high",
+     "contributions": 3,
+     "org": "dgude-mlt.client.nvidia.com",
+     "people": 1
+    },
+    {
+     "confidence": "high",
+     "contributions": 3,
+     "org": "dtucker.co.uk",
+     "people": 1
+    },
+    {
+     "confidence": "high",
+     "contributions": 1,
+     "org": "Big Tech",
+     "people": 1
+    },
+    {
+     "confidence": "high",
+     "contributions": 1,
+     "org": "Google",
+     "people": 1
+    },
+    {
+     "confidence": "high",
+     "contributions": 1,
+     "org": "ovn.org",
+     "people": 1
+    }
+   ],
+   "external_prs_90d": 0,
+   "external_unattributed": {
+    "contributions": 13,
+    "people": 2
+   },
+   "fork_orgs": [],
+   "forks": 1,
+   "forks_90d": 1,
+   "forks_internal_90d": 1,
+   "forks_unattributed_90d": 0,
+   "full_name": "dsx-ai-factory/ovn-kubernetes",
+   "homepage": "",
+   "internal_contributions": 2206,
+   "issues_closed_30d": 0,
+   "issues_opened_30d": 0,
+   "language": "Go",
+   "language_color": "#00ADD8",
+   "latest_release": {
+    "isPrerelease": false,
+    "name": "v2.4.3",
+    "publishedAt": "2026-11-23T01:16:06Z",
+    "tagName": "v2.4.3",
+    "url": "https://github.com/dsx-ai-factory/ovn-kubernetes/releases/tag/v2.4.3"
+   },
+   "license": "Apache-2.0",
+   "merged_prs": 0,
+   "name": "ovn-kubernetes",
+   "open_issues": 0,
+   "open_prs": 0,
+   "owner": "dsx-ai-factory",
+   "prs_merged_30d": 0,
+   "prs_opened_30d": 0,
+   "pushed_at": "2026-11-27T16:52:27Z",
+   "recent_releases": [
+    {
+     "isPrerelease": false,
+     "name": "v2.4.3",
+     "publishedAt": "2026-11-23T01:16:06Z",
+     "tagName": "v2.4.3",
+     "url": "https://github.com/dsx-ai-factory/ovn-kubernetes/releases/tag/v2.4.3"
+    },
+    {
+     "isPrerelease": false,
+     "name": "v2.4.2",
+     "publishedAt": "2026-10-16T08:05:30Z",
+     "tagName": "v2.4.2",
+     "url": "https://github.com/dsx-ai-factory/ovn-kubernetes/releases/tag/v2.4.2"
+    },
+    {
+     "isPrerelease": false,
+     "name": "v2.4.1",
+     "publishedAt": "2026-10-15T14:54:51Z",
+     "tagName": "v2.4.1",
+     "url": "https://github.com/dsx-ai-factory/ovn-kubernetes/releases/tag/v2.4.1"
+    },
+    {
+     "isPrerelease": false,
+     "name": "v2.4.0",
+     "publishedAt": "2026-10-13T21:50:20Z",
+     "tagName": "v2.4.0",
+     "url": "https://github.com/dsx-ai-factory/ovn-kubernetes/releases/tag/v2.4.0"
+    }
+   ],
+   "releases": 4,
+   "stars": 15,
+   "stars_30d": 0,
+   "stars_7d": 0,
+   "topics": [],
+   "url": "https://github.com/dsx-ai-factory/ovn-kubernetes",
+   "watchers": 1
+  },
+  {
    "active_contributors_90d": 59,
    "active_external_90d": 16,
    "active_internal_90d": 43,
@@ -5051,8 +5206,8 @@
     248,
     325,
     340,
-    233,
-    254,
+    234,
+    253,
     235,
     264,
     360,
@@ -5513,19 +5668,19 @@
    "archived": false,
    "closed_issues": 93,
    "closed_prs": 27,
-   "commits_30d": 37,
+   "commits_30d": 36,
    "commits_total": 599,
    "commits_weekly": [
-    19,
+    18,
     16,
     14,
     2,
     9,
     2,
-    3,
-    20,
-    21,
-    11,
+    4,
+    19,
+    22,
+    10,
     5,
     7,
     8
@@ -5914,12 +6069,23 @@
   }
  ],
  "totals": {
-  "active_external_90d": 388,
-  "commits_30d": 4028,
+  "active_external_90d": 438,
+  "commits_30d": 4167,
   "contributor_orgs": {
-   "external_contributions": 1242,
-   "external_people": 343,
+   "external_contributions": 1612,
+   "external_people": 393,
    "orgs": [
+    {
+     "confidence": "high",
+     "contributions": 346,
+     "org": "Red Hat",
+     "people": 43,
+     "repos": [
+      "infra-controller",
+      "nv-rms",
+      "ovn-kubernetes"
+     ]
+    },
     {
      "confidence": "high",
      "contributions": 86,
@@ -6042,22 +6208,23 @@
     {
      "confidence": "high",
      "contributions": 16,
+     "org": "Google",
+     "people": 4,
+     "repos": [
+      "dynamo",
+      "model-streamer",
+      "ovn-kubernetes"
+     ]
+    },
+    {
+     "confidence": "high",
+     "contributions": 16,
      "org": "Tessian",
      "people": 1,
      "repos": [
       "dynamo",
       "nvke",
       "run-ai"
-     ]
-    },
-    {
-     "confidence": "high",
-     "contributions": 15,
-     "org": "Google",
-     "people": 3,
-     "repos": [
-      "dynamo",
-      "model-streamer"
      ]
     },
     {
@@ -6101,16 +6268,6 @@
     {
      "confidence": "high",
      "contributions": 11,
-     "org": "Red Hat",
-     "people": 3,
-     "repos": [
-      "infra-controller",
-      "nv-rms"
-     ]
-    },
-    {
-     "confidence": "high",
-     "contributions": 11,
      "org": "Atoma AI",
      "people": 1,
      "repos": [
@@ -6135,6 +6292,15 @@
      "people": 1,
      "repos": [
       "dynamo"
+     ]
+    },
+    {
+     "confidence": "high",
+     "contributions": 10,
+     "org": "str08.net",
+     "people": 1,
+     "repos": [
+      "ovn-kubernetes"
      ]
     },
     {
@@ -6240,15 +6406,6 @@
     {
      "confidence": "high",
      "contributions": 7,
-     "org": "barclays",
-     "people": 1,
-     "repos": [
-      "dynamo"
-     ]
-    },
-    {
-     "confidence": "high",
-     "contributions": 7,
      "org": "cloudphysician-codehub @inxiteout-ai @compass-lab @a5g-networks @LUK-Lab",
      "people": 1,
      "repos": [
@@ -6292,6 +6449,15 @@
      "repos": [
       "dynamo",
       "topograph"
+     ]
+    },
+    {
+     "confidence": "high",
+     "contributions": 6,
+     "org": "barclays",
+     "people": 1,
+     "repos": [
+      "dynamo"
      ]
     },
     {
@@ -6463,6 +6629,15 @@
     {
      "confidence": "high",
      "contributions": 4,
+     "org": "Nutanix",
+     "people": 2,
+     "repos": [
+      "infra-controller"
+     ]
+    },
+    {
+     "confidence": "high",
+     "contributions": 4,
      "org": "CMU Silicon Valley",
      "people": 1,
      "repos": [
@@ -6572,15 +6747,6 @@
     {
      "confidence": "high",
      "contributions": 3,
-     "org": "Nutanix",
-     "people": 2,
-     "repos": [
-      "infra-controller"
-     ]
-    },
-    {
-     "confidence": "high",
-     "contributions": 3,
      "org": "Oracle",
      "people": 2,
      "repos": [
@@ -6641,6 +6807,24 @@
      "people": 1,
      "repos": [
       "dynamo"
+     ]
+    },
+    {
+     "confidence": "high",
+     "contributions": 3,
+     "org": "dgude-mlt.client.nvidia.com",
+     "people": 1,
+     "repos": [
+      "ovn-kubernetes"
+     ]
+    },
+    {
+     "confidence": "high",
+     "contributions": 3,
+     "org": "dtucker.co.uk",
+     "people": 1,
+     "repos": [
+      "ovn-kubernetes"
      ]
     },
     {
@@ -7142,6 +7326,15 @@
     {
      "confidence": "high",
      "contributions": 1,
+     "org": "Backblaze",
+     "people": 1,
+     "repos": [
+      "model-streamer"
+     ]
+    },
+    {
+     "confidence": "high",
+     "contributions": 1,
      "org": "Barcelona Supercomputing Center",
      "people": 1,
      "repos": [
@@ -7164,6 +7357,15 @@
      "people": 1,
      "repos": [
       "dynamo"
+     ]
+    },
+    {
+     "confidence": "high",
+     "contributions": 1,
+     "org": "Big Tech",
+     "people": 1,
+     "repos": [
+      "ovn-kubernetes"
      ]
     },
     {
@@ -7296,6 +7498,15 @@
      "confidence": "high",
      "contributions": 1,
      "org": "Inherent Laboratories",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "confidence": "low",
+     "contributions": 1,
+     "org": "Iowa State University",
      "people": 1,
      "repos": [
       "dynamo"
@@ -7479,6 +7690,15 @@
      "people": 1,
      "repos": [
       "infra-controller"
+     ]
+    },
+    {
+     "confidence": "high",
+     "contributions": 1,
+     "org": "ovn.org",
+     "people": 1,
+     "repos": [
+      "ovn-kubernetes"
      ]
     },
     {
@@ -7752,6 +7972,28 @@
     },
     {
      "confidence": "high",
+     "contributions": 76,
+     "evidence": "email domain or profile company",
+     "login": "tssurya",
+     "name": "Surya Seetharaman",
+     "org": "Red Hat",
+     "repos": [
+      "ovn-kubernetes"
+     ]
+    },
+    {
+     "confidence": "high",
+     "contributions": 47,
+     "evidence": "email domain or profile company",
+     "login": "kyrtapz",
+     "name": "Patryk Diak",
+     "org": "Red Hat",
+     "repos": [
+      "ovn-kubernetes"
+     ]
+    },
+    {
+     "confidence": "high",
      "contributions": 40,
      "evidence": "email domain or profile company",
      "login": "TechWizard9999",
@@ -7828,6 +8070,28 @@
     },
     {
      "confidence": "high",
+     "contributions": 21,
+     "evidence": "email domain or profile company",
+     "login": "qinqon",
+     "name": "Enrique Llorente Pastora",
+     "org": "redhat.com",
+     "repos": [
+      "ovn-kubernetes"
+     ]
+    },
+    {
+     "confidence": "high",
+     "contributions": 20,
+     "evidence": "email domain or profile company",
+     "login": "raphaelvrosa",
+     "name": "Raphael Rosa",
+     "org": "redhat.com",
+     "repos": [
+      "ovn-kubernetes"
+     ]
+    },
+    {
+     "confidence": "high",
      "contributions": 19,
      "evidence": "email domain or profile company",
      "login": "mehrdadmoradi-crusoe",
@@ -7847,6 +8111,17 @@
      "org": "Loft Labs",
      "repos": [
       "infra-controller"
+     ]
+    },
+    {
+     "confidence": "high",
+     "contributions": 19,
+     "evidence": "email domain or profile company",
+     "login": "ormergi",
+     "name": "Or Mergi",
+     "org": "redhat.com",
+     "repos": [
+      "ovn-kubernetes"
      ]
     },
     {
@@ -7908,6 +8183,17 @@
     },
     {
      "confidence": "high",
+     "contributions": 13,
+     "evidence": "email domain or profile company",
+     "login": "dcbw",
+     "name": "Dan Williams",
+     "org": "redhat.com",
+     "repos": [
+      "ovn-kubernetes"
+     ]
+    },
+    {
+     "confidence": "high",
      "contributions": 12,
      "evidence": "daocloud.io commit email domain",
      "login": "bzsuni",
@@ -7937,6 +8223,39 @@
      "org": null,
      "repos": [
       "infra-controller"
+     ]
+    },
+    {
+     "confidence": "high",
+     "contributions": 12,
+     "evidence": "email domain or profile company",
+     "login": "martinkennelly",
+     "name": "Martin Kennelly",
+     "org": "redhat.com",
+     "repos": [
+      "ovn-kubernetes"
+     ]
+    },
+    {
+     "confidence": "high",
+     "contributions": 12,
+     "evidence": "email domain or profile company",
+     "login": "pperiyasamy",
+     "name": "Periyasamy Palanisamy",
+     "org": "redhat.com",
+     "repos": [
+      "ovn-kubernetes"
+     ]
+    },
+    {
+     "confidence": "unknown",
+     "contributions": 12,
+     "evidence": "",
+     "login": "fangyuchen86",
+     "name": "Fang YuChen",
+     "org": null,
+     "repos": [
+      "ovn-kubernetes"
      ]
     },
     {
@@ -7972,6 +8291,39 @@
       "fleet-intelligence-agent",
       "health-validation",
       "nvke-telemetry-pipeline"
+     ]
+    },
+    {
+     "confidence": "high",
+     "contributions": 11,
+     "evidence": "email domain or profile company",
+     "login": "jcaamano",
+     "name": "Jaime Caama\u00f1o Ruiz",
+     "org": "redhat.com",
+     "repos": [
+      "ovn-kubernetes"
+     ]
+    },
+    {
+     "confidence": "high",
+     "contributions": 11,
+     "evidence": "email domain or profile company",
+     "login": "Jaanki",
+     "name": "Janki Chhatbar",
+     "org": "redhat.com",
+     "repos": [
+      "ovn-kubernetes"
+     ]
+    },
+    {
+     "confidence": "high",
+     "contributions": 11,
+     "evidence": "email domain or profile company",
+     "login": "arkadeepsen",
+     "name": "Arkadeep Sen (Aurko)",
+     "org": "redhat.com",
+     "repos": [
+      "ovn-kubernetes"
      ]
     },
     {
@@ -8017,6 +8369,17 @@
      "repos": [
       "cluster-api-provider-nico",
       "nvke"
+     ]
+    },
+    {
+     "confidence": "high",
+     "contributions": 10,
+     "evidence": "email domain or profile company",
+     "login": "Soli0222",
+     "name": "Soli",
+     "org": "str08.net",
+     "repos": [
+      "ovn-kubernetes"
      ]
     },
     {
@@ -8103,6 +8466,17 @@
      ]
     },
     {
+     "confidence": "high",
+     "contributions": 9,
+     "evidence": "email domain or profile company",
+     "login": "jluhrsen",
+     "name": "Jamo Luhrsen",
+     "org": "Red Hat",
+     "repos": [
+      "ovn-kubernetes"
+     ]
+    },
+    {
      "confidence": "unknown",
      "contributions": 8,
      "evidence": "",
@@ -8160,6 +8534,28 @@
      ]
     },
     {
+     "confidence": "high",
+     "contributions": 8,
+     "evidence": "email domain or profile company",
+     "login": "ayushich76",
+     "name": "Ayushi Chouhan",
+     "org": "redhat.com",
+     "repos": [
+      "ovn-kubernetes"
+     ]
+    },
+    {
+     "confidence": "high",
+     "contributions": 8,
+     "evidence": "email domain or profile company",
+     "login": "maiqueb",
+     "name": "Miguel Duarte Barroso",
+     "org": "redhat.com",
+     "repos": [
+      "ovn-kubernetes"
+     ]
+    },
+    {
      "confidence": "unknown",
      "contributions": 7,
      "evidence": "",
@@ -8188,17 +8584,6 @@
      "login": "spa5k",
      "name": "Kamran",
      "org": null,
-     "repos": [
-      "dynamo"
-     ]
-    },
-    {
-     "confidence": "high",
-     "contributions": 7,
-     "evidence": "email domain or profile company",
-     "login": "cipheraxat",
-     "name": "Akshat Anand",
-     "org": "barclays",
      "repos": [
       "dynamo"
      ]
@@ -8259,184 +8644,14 @@
       "infra-controller",
       "nv-redfish"
      ]
-    },
-    {
-     "confidence": "unknown",
-     "contributions": 7,
-     "evidence": "",
-     "login": "cdxvy30",
-     "name": "Cody Chen",
-     "org": null,
-     "repos": [
-      "nvcf",
-      "nvkr"
-     ]
-    },
-    {
-     "confidence": "high",
-     "contributions": 7,
-     "evidence": "email domain or profile company",
-     "login": "SebTardif",
-     "name": "Sebastien Tardif",
-     "org": "ncf.ca",
-     "repos": [
-      "nvke",
-      "run-ai"
-     ]
-    },
-    {
-     "confidence": "unknown",
-     "contributions": 6,
-     "evidence": "",
-     "login": "ankitgala007",
-     "name": null,
-     "org": null,
-     "repos": [
-      "dynamo",
-      "run-ai",
-      "workload-map"
-     ]
-    },
-    {
-     "confidence": "high",
-     "contributions": 6,
-     "evidence": "email domain or profile company",
-     "login": "surajssd",
-     "name": "Suraj Deshmukh",
-     "org": "coreweave",
-     "repos": [
-      "dynamo"
-     ]
-    },
-    {
-     "confidence": "unknown",
-     "contributions": 6,
-     "evidence": "",
-     "login": "AllenXu93",
-     "name": null,
-     "org": null,
-     "repos": [
-      "dynamo"
-     ]
-    },
-    {
-     "confidence": "low",
-     "contributions": 6,
-     "evidence": "via web search: LinkedIn (links GitHub ayaangazali): Experience at Stealth; SJSU software engineering student",
-     "login": "ayaangazali",
-     "name": "Ayaan Gazali",
-     "org": "Stealth startup (unnamed)",
-     "repos": [
-      "dynamo"
-     ]
-    },
-    {
-     "confidence": "high",
-     "contributions": 6,
-     "evidence": "email domain or profile company",
-     "login": "livingshade",
-     "name": "Banruo Liu",
-     "org": "University of Illinois Urbana-Champaign",
-     "repos": [
-      "dynamo"
-     ]
-    },
-    {
-     "confidence": "unknown",
-     "contributions": 6,
-     "evidence": "",
-     "login": "lavanyavijayk",
-     "name": "LAVANYA V",
-     "org": null,
-     "repos": [
-      "dynamo"
-     ]
-    },
-    {
-     "confidence": "high",
-     "contributions": 6,
-     "evidence": "microsoft.com commit email; Azure repo commits",
-     "login": "cataggar",
-     "name": "Cameron Taggart",
-     "org": "Microsoft",
-     "repos": [
-      "nv-redfish"
-     ]
-    },
-    {
-     "confidence": "high",
-     "contributions": 6,
-     "evidence": "email domain or profile company",
-     "login": "wsj040303",
-     "name": "ledd",
-     "org": "Southeast University",
-     "repos": [
-      "nvcf"
-     ]
-    },
-    {
-     "confidence": "high",
-     "contributions": 6,
-     "evidence": "email domain or profile company",
-     "login": "ntheanh201",
-     "name": "The Anh Nguyen",
-     "org": "viettelcloud-oss, viettelnetworks",
-     "repos": [
-      "run-ai",
-      "workload-map"
-     ]
-    },
-    {
-     "confidence": "high",
-     "contributions": 6,
-     "evidence": "email domain or profile company",
-     "login": "kevin-kho",
-     "name": null,
-     "org": "sap.com",
-     "repos": [
-      "topograph"
-     ]
-    },
-    {
-     "confidence": "high",
-     "contributions": 6,
-     "evidence": "email domain or profile company",
-     "login": "ManasBhole",
-     "name": "Manas Bhole",
-     "org": "Armada AI",
-     "repos": [
-      "workload-map"
-     ]
-    },
-    {
-     "confidence": "high",
-     "contributions": 6,
-     "evidence": "email domain or profile company",
-     "login": "sarankumar1325",
-     "name": "sarankumar",
-     "org": "goML",
-     "repos": [
-      "workload-map"
-     ]
-    },
-    {
-     "confidence": "high",
-     "contributions": 6,
-     "evidence": "email domain or profile company",
-     "login": "Abhayrkhot",
-     "name": null,
-     "org": "Graduate Student at Northeastern University",
-     "repos": [
-      "workload-map"
-     ]
     }
    ],
    "unattributed": {
-    "contributions": 256,
-    "people": 80
+    "contributions": 270,
+    "people": 82
    }
   },
-  "contributors": 1177,
+  "contributors": 1398,
   "fork_orgs": {
    "forks_90d": 883,
    "internal": 205,
@@ -9197,6 +9412,15 @@
     {
      "confidence": "high",
      "forks": 1,
+     "org": "Backblaze",
+     "people": 1,
+     "repos": [
+      "model-streamer"
+     ]
+    },
+    {
+     "confidence": "high",
+     "forks": 1,
      "org": "Banked",
      "people": 1,
      "repos": [
@@ -9657,6 +9881,15 @@
      "confidence": "high",
      "forks": 1,
      "org": "Inherent Laboratories",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "confidence": "low",
+     "forks": 1,
+     "org": "Iowa State University",
      "people": 1,
      "repos": [
       "dynamo"
@@ -10302,15 +10535,6 @@
      ]
     },
     {
-     "confidence": "high",
-     "forks": 1,
-     "org": "Tessl",
-     "people": 1,
-     "repos": [
-      "dynamo"
-     ]
-    },
-    {
      "confidence": "low",
      "forks": 1,
      "org": "The AI Engineer",
@@ -10574,15 +10798,6 @@
     {
      "confidence": "high",
      "forks": 1,
-     "org": "Verda Cloud",
-     "people": 1,
-     "repos": [
-      "infra-controller"
-     ]
-    },
-    {
-     "confidence": "high",
-     "forks": 1,
      "org": "Vespra",
      "people": 1,
      "repos": [
@@ -10664,14 +10879,14 @@
    ],
    "unattributed": 317
   },
-  "forks": 3079,
-  "merged_prs": 28749,
-  "open_issues": 2969,
-  "open_prs": 2012,
-  "prs_merged_30d": 5390,
-  "releases": 4199,
-  "repos": 27,
-  "stars": 12603,
+  "forks": 3081,
+  "merged_prs": 28754,
+  "open_issues": 2970,
+  "open_prs": 2018,
+  "prs_merged_30d": 5395,
+  "releases": 4205,
+  "repos": 28,
+  "stars": 12618,
   "stars_30d": 15,
   "stars_7d": 15
  }
