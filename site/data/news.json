@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T21:37:31.614705+00:00",
+ "generated_at": "2026-11-27T21:49:53.587750+00:00",
  "items": [
   {
    "first_seen": "2026-11-26T20:16:01.311589+00:00",
@@ -3382,6 +3382,27 @@
    "source": "Yahoo Finance",
    "title": "Foxconn Ecosystem Enabling Token Factory For AI In Spotlight At Hon Hai Tech Day 2026",
    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZzFjbF9zWjdDQUxkeXgyOTI3enJlSEdVREJNWTk0X2szeC1DQnBCc2NzNUx0eFp0WnVQazRObzJFXzZZQW9ORndBdDFuTU9xd0NtdVNYRXVpaDJicVdEdDk5bHNoUmh6OHJYWkpodmQ1Tnhmc2lWck45b25kT1lOdUFMQV8xZmRQMkExV1JaVVVFZlNwQnQyN3ZIQW5uY2hESnFiUGtlOA?oc=5"
+  },
+  {
+   "first_seen": "2026-11-27T21:49:53.587750+00:00",
+   "id": "88fba00b5ba8cba8",
+   "llm": {
+    "category": "business",
+    "importance": "low",
+    "model": "claude-haiku-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Report on a Bengaluru startup helping companies run AI models efficiently, backed by Nvidia; no tracked DSX project is named."
+   },
+   "origin": "google:\"Run:ai\" NVIDIA",
+   "origins": [
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-10-29T07:00:00+00:00",
+   "snippet": "",
+   "source": "NDTV Profit",
+   "title": "Bengaluru Startup Helping Companies Run AI Models More Efficiently; Nvidia Among Backers",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOYjVDYnBRaFJ0bzE2QVpfWXJTMUE3SHBLei1UWDNtS1NEWkxLbEtUSm9jZ1dsQWlxOVBkRDROVWEzeFBrZ21Xb1FtaExqNGlMS1JRaEpPZm5sc0FDVVVSaTNLLVRwZjR0XzNseFRSTEpXQi1na2Q0N2NYdFNkdDlEaTF5SjhZT1dzd2xOSXAyLXFBWkZfc1lQanJCZDFnSmJ2eUlhQ0tWVkhkdWlsejNJem1uRWZ4c28yUzl6S3BRVWx6OGJNVWtyazN3YWNjaWY0b1RxQ0ZZVWw1QjM20gHkAUFVX3lxTFByQWhHbkI4eHlBV1AtcFRzVk9IMFBDbWY1ekRKZW1GMmpUdWVWR0NVWm5LNjluVkN2d1VIMEw3UTZCaFRXRjg5RVl1czR5alBzcnNaNFFMVVJwbTZTbUJqb2Zkc1I0c3ZfR18wWW1FQXMyYW5TV25sMWN4OTRrUnJHMV9GWldXYWRDUG05TEhpLWRfdnVSM2NBQmUxQ1BOXzZNc1d5UlMyMk1wbmxfcTBIaExkWGRUVHB2NVFmeTFRZWNSVm9Qc3ZEaWFndGlBOUZGRmpPYUw0S1ZTb05DSGNEaHljeg?oc=5"
   },
   {
    "first_seen": "2026-11-26T00:14:47.750228+00:00",

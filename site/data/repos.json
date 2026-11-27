@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T21:29:02.610265+00:00",
+ "generated_at": "2026-11-27T21:42:29.541156+00:00",
  "repos": [
   {
    "active_contributors_90d": 346,
@@ -11,19 +11,19 @@
    "commits_30d": 720,
    "commits_total": 8914,
    "commits_weekly": [
+    160,
+    145,
     159,
-    146,
-    158,
-    80,
+    79,
     130,
     156,
     192,
-    174,
+    175,
     180,
-    212,
+    211,
     125,
-    205,
-    93
+    207,
+    91
    ],
    "contributors": 432,
    "created_at": "2025-03-03T18:40:07Z",
@@ -1170,7 +1170,7 @@
    "owner": "ai-dynamo",
    "prs_merged_30d": 885,
    "prs_opened_30d": 1570,
-   "pushed_at": "2026-11-27T21:08:30Z",
+   "pushed_at": "2026-11-27T21:31:47Z",
    "recent_releases": [
     {
      "isPrerelease": false,
@@ -1406,11 +1406,11 @@
    "archived": false,
    "closed_issues": 48,
    "closed_prs": 38,
-   "commits_30d": 77,
+   "commits_30d": 76,
    "commits_total": 557,
    "commits_weekly": [
-    30,
-    44,
+    31,
+    43,
     112,
     30,
     72,
@@ -2491,8 +2491,8 @@
    "commits_total": 216,
    "commits_weekly": [
     15,
-    6,
-    20,
+    7,
+    19,
     1,
     13,
     25,
@@ -2680,13 +2680,13 @@
     237,
     150,
     174,
-    143,
-    158,
-    195,
+    144,
+    157,
+    196,
     173,
     211,
     148,
-    145,
+    144,
     102
    ],
    "contributors": 155,
@@ -2709,7 +2709,7 @@
     {
      "confidence": "low",
      "contributions": 19,
-     "org": "Loft Labs",
+     "org": "vCluster Labs",
      "people": 1
     },
     {
@@ -2901,11 +2901,6 @@
      "org": "Lambda"
     },
     {
-     "confidence": "low",
-     "forks": 1,
-     "org": "Loft Labs"
-    },
-    {
      "confidence": "high",
      "forks": 1,
      "org": "Red Hat Ecosystem Edge engineering"
@@ -2929,6 +2924,11 @@
      "confidence": "high",
      "forks": 1,
      "org": "Tessian"
+    },
+    {
+     "confidence": "low",
+     "forks": 1,
+     "org": "vCluster Labs"
     }
    ],
    "forks": 243,
@@ -3827,15 +3827,15 @@
    "commits_total": 1928,
    "commits_weekly": [
     103,
-    132,
+    131,
     81,
     33,
     53,
     73,
     81,
-    77,
+    78,
     66,
-    86,
+    85,
     80,
     56,
     52
@@ -4361,17 +4361,17 @@
    "commits_30d": 240,
    "commits_total": 1687,
    "commits_weekly": [
-    100,
+    99,
     117,
-    104,
+    105,
+    133,
+    82,
+    164,
+    206,
     134,
-    81,
-    165,
-    205,
-    135,
     90,
-    65,
-    53,
+    66,
+    52,
     53,
     35
    ],
@@ -4898,8 +4898,8 @@
     10,
     18,
     22,
-    12,
-    35,
+    14,
+    33,
     60,
     36,
     31,
@@ -5066,8 +5066,8 @@
     167,
     106,
     102,
-    36,
-    32,
+    37,
+    31,
     47,
     8
    ],
@@ -6070,7 +6070,7 @@
  ],
  "totals": {
   "active_external_90d": 438,
-  "commits_30d": 4167,
+  "commits_30d": 4166,
   "contributor_orgs": {
    "external_contributions": 1612,
    "external_people": 393,
@@ -6190,7 +6190,7 @@
     {
      "confidence": "low",
      "contributions": 19,
-     "org": "Loft Labs",
+     "org": "vCluster Labs",
      "people": 1,
      "repos": [
       "infra-controller"
@@ -8108,7 +8108,7 @@
      "evidence": "via web search: GitHub: ronaldzhanje published a release in the loft-sh/vcluster-nico-gitops repo; employer inferred, not confirmed by LinkedIn or a profile",
      "login": "ronaldzhanje",
      "name": "Ronald Zhanje",
-     "org": "Loft Labs",
+     "org": "vCluster Labs",
      "repos": [
       "infra-controller"
      ]
@@ -9932,15 +9932,6 @@
      ]
     },
     {
-     "confidence": "low",
-     "forks": 1,
-     "org": "Loft Labs",
-     "people": 1,
-     "repos": [
-      "infra-controller"
-     ]
-    },
-    {
      "confidence": "high",
      "forks": 1,
      "org": "Lyceum Technology",
@@ -10784,6 +10775,15 @@
      "people": 1,
      "repos": [
       "attribution"
+     ]
+    },
+    {
+     "confidence": "low",
+     "forks": 1,
+     "org": "vCluster Labs",
+     "people": 1,
+     "repos": [
+      "infra-controller"
      ]
     },
     {
