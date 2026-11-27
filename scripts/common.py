@@ -46,6 +46,7 @@ def http(url, data=None, headers=None, retries=3, timeout=60):
     hdrs.update(headers or {})
     for attempt in range(retries):
         req = urllib.request.Request(url, data=data, headers=hdrs)
+        wait = 5 * (attempt + 1)
         try:
             with urllib.request.urlopen(req, timeout=timeout) as resp:
                 return resp.read(), resp.headers
@@ -55,10 +56,16 @@ def http(url, data=None, headers=None, retries=3, timeout=60):
             )
             if not retryable or attempt == retries - 1:
                 raise
+            # GitHub says how long to back off; search limits reset within a minute.
+            if e.headers.get("Retry-After", "").isdigit():
+                wait = int(e.headers["Retry-After"])
+            elif e.headers.get("X-RateLimit-Remaining") == "0" and e.headers.get("X-RateLimit-Reset", "").isdigit():
+                wait = int(e.headers["X-RateLimit-Reset"]) - time.time()
+            wait = min(max(wait, 1), 90)
         except (urllib.error.URLError, TimeoutError):
             if attempt == retries - 1:
                 raise
-        time.sleep(5 * (attempt + 1))
+        time.sleep(wait)
 
 
 def github_token():

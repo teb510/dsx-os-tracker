@@ -13,6 +13,7 @@ import json
 import os
 import re
 import time
+import urllib.error
 from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
@@ -134,7 +135,9 @@ def signals(gh, login, emails, skip_owners, orgs, nv_patterns=(), assoc=(), cont
     member_of = [o["login"] for o in rest(gh, f"/users/{login}/orgs") or []]
     try:
         found = rest(gh, f"/search/commits?q=author:{login}&per_page=100") or {"items": []}
-    except Exception:  # some accounts aren't searchable
+    except urllib.error.HTTPError as e:
+        if e.code != 422:  # 422: the account isn't searchable. Anything else, retry next run.
+            raise
         found = {"items": []}
     time.sleep(SEARCH_PAUSE)
 
@@ -314,6 +317,20 @@ def web_stage(gh, candidates, cache, cfg, aliases, refresh, claude):
     log(f"Affiliations: web search placed {found} of {len(todo)} ({searches} searches)")
 
 
+def canonical_names(cache):
+    """Use the GitHub organization's own name when a person's domain spells its login (loft.sh, loft-sh).
+
+    Claude and web pages sometimes use a company's former name; the org profile is current.
+    """
+    key = lambda s: re.sub(r"[^a-z0-9]", "", (s or "").lower())
+    names = {key(login): o["name"] for login, o in cache["orgs"].items()
+             if o.get("type") == "Organization" and key(o.get("name")) not in ("", key(login)) and len(key(login)) > 4}
+    for p in cache["people"].values():
+        name = names.get(key(p.get("domain")))
+        if name and p.get("org") and p["org"] != name:
+            p["org"] = name
+
+
 def resolve(gh, candidates, cfg, aliases, skip_owners, nv_patterns=()):
     """candidates: {login: {"emails": set, "n": contributions}} for external people with no org yet.
 
@@ -372,5 +389,6 @@ def resolve(gh, candidates, cfg, aliases, skip_owners, nv_patterns=()):
         web_stage(gh, candidates, cache, cfg, aliases, refresh, claude)
     if claude:
         log(f"Affiliations: Claude spent ${claude.spent:.3f}")
+    canonical_names(cache)
     write_json(CACHE, cache)
     return cache["people"]
