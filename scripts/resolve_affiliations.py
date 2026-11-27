@@ -25,6 +25,7 @@ SEARCH_PAUSE = 2.1  # commit search allows 30 requests a minute
 NV_LOGIN = re.compile(r"(^nv-|-nv$|-nvidia$|^nvidia-|-nvda$)", re.I)
 CONFIDENCE = ["high", "medium", "low", "unknown"]
 VERSION = 2  # bump when the signals change so cached answers get one fresh look
+WEB_VERSION = 2  # bump when the web prompt changes so unknowns get searched again
 
 SCHEMA = {
     "type": "object",
@@ -70,9 +71,17 @@ Rules:
 
 WEB_SYSTEM = """You find the current employer of one open source contributor to NVIDIA's DSX AI Factory projects, using web search.
 
-You get their GitHub login, name, profile fields, and what GitHub activity already suggested. Search for the name together with the login, and the name with terms from their work (Kubernetes, GPU, AI infrastructure). Useful sources: LinkedIn result snippets, personal sites, conference talk pages, company blogs, and pages that link the GitHub account.
+You get their GitHub login, name, profile fields, the repos they contribute to, and what GitHub activity already suggested.
 
-Accept a match only when the identity is clear: the same name plus a link to the GitHub login, or the same name plus a matching location and field. Common names need stronger evidence. Report the current employer, not past ones. A company NVIDIA owns ({aliases}) counts as internal.
+Run these searches, in order, until one settles it:
+1. "<name>" linkedin (add a work term such as Kubernetes, GPU, or AI infrastructure if the name is common)
+2. "<login>" github "<name>"
+3. "<name>" plus a project they contribute to
+LinkedIn result snippets usually show the headline and current employer; that is enough. Personal sites, talk pages, and company blogs also count.
+
+Accept a match when the name matches and the snippet fits their work (cloud, Kubernetes, GPU, AI or HPC infrastructure, the same location if known), or when a page links the GitHub login. Common names need the login or a project link. Report the current employer, not past ones. A company NVIDIA owns ({aliases}) counts as internal.
+
+Use only what the searches return. Never answer from memory; if the searches don't show it, answer unknown.
 
 End your reply with one JSON object on its own line:
 {{"internal": false, "org": "", "domain": "", "confidence": "unknown", "evidence": ""}}
@@ -80,6 +89,7 @@ End your reply with one JSON object on its own line:
 - domain: the employer's main web domain if known, else "".
 - confidence: "high" when a page ties the GitHub account to the employer; "medium" for a clear name, field, and location match; "low" for a plausible but thin match; "unknown" when you cannot tell.
 - evidence: the source type and role, e.g. "LinkedIn: Staff Engineer at CoreWeave". No URLs and no email addresses."""
+
 
 
 def rest(gh, path):
@@ -259,6 +269,8 @@ def web_lookup(client, cfg, aliases, person):
         "confidence": out.get("confidence") if out.get("confidence") in CONFIDENCE else "unknown",
         "evidence": str(out.get("evidence") or ""),
     }
+    if re.search(r"recollection|prior knowledge|from memory|unverified", result["evidence"], re.I):
+        result.update(internal=False, org="", domain="", confidence="unknown")
     if result["org"] and result["evidence"] and not result["evidence"].lower().startswith("via web"):
         result["evidence"] = f"via web search: {result['evidence']}"
     return result, searches
@@ -273,7 +285,8 @@ def web_stage(gh, candidates, cache, cfg, aliases, refresh):
         if not c or c["internal"] or (c["org"] and c["confidence"] != "unknown"):
             return False
         checked = c.get("web_checked_at")
-        return checked is None or NOW - datetime.fromisoformat(checked) > refresh
+        return (checked is None or c.get("web_v") != WEB_VERSION
+                or NOW - datetime.fromisoformat(checked) > refresh)
 
     todo = [l for l in sorted(candidates, key=lambda l: -candidates[l]["n"])
             if candidates[l]["n"] > 0 and needs_web(l)][: cfg.get("affiliation_web_lookups", 150)]
@@ -290,6 +303,7 @@ def web_stage(gh, candidates, cache, cfg, aliases, refresh):
                 "login": login, "name": p.get("name"), "company": p.get("company"), "bio": p.get("bio"),
                 "blog": p.get("blog"), "location": p.get("location"),
                 "github_signals": prior.get("evidence") or "none", "contributions_90d": candidates[login]["n"],
+                "repos": sorted(candidates[login].get("repos", ()))[:5],
             }
             return login, *web_lookup(client, cfg, aliases, person)
         except Exception as e:  # one person shouldn't sink the run
@@ -302,6 +316,7 @@ def web_stage(gh, candidates, cache, cfg, aliases, refresh):
             searches += n
             entry = cache["people"][login]
             entry["web_checked_at"] = NOW.isoformat()
+            entry["web_v"] = WEB_VERSION
             if result and (result["internal"] or (result["org"] and result["confidence"] != "unknown")):
                 entry.update(result, method="web")
                 found += 1

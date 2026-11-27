@@ -500,10 +500,11 @@ def main():
 
     # Contributors first, then forkers, so lookups go to the people doing the work.
     candidates = {}
-    for people in people_by_repo.values():
+    for full, people in people_by_repo.items():
         for key, p in people.items():
             if not p["internal"] and p["org"] is None and "@" not in key:
-                c = candidates.setdefault(key, {"emails": set(), "n": 0, "assoc": set()})
+                c = candidates.setdefault(key, {"emails": set(), "n": 0, "assoc": set(), "repos": set()})
+                c["repos"].add(full)
                 c["emails"] |= p["emails"]
                 c["assoc"] |= p["assoc"]
                 c["n"] += p["n"]
