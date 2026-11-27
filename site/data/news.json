@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T06:34:05.680847+00:00",
+ "generated_at": "2026-11-27T17:58:24.528964+00:00",
  "items": [
   {
    "first_seen": "2026-11-26T20:16:01.311589+00:00",
@@ -225,6 +225,19 @@
    "source": "TIKR.com",
    "title": "Anduril\u2019s Palmer Luckey Thinks \u201cMost AI Is Going to Run Locally.\u201d That\u2019s a Bet on Apple",
    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPTzZEMGZXVF9pU0RabXgyVXZORVBmTjkxY3d2WUNSYnh4aVcxTTMyWnEzRVNVY2lWZHpuM3pGS2F2TWhFdFpiOGNaYkFDWjZLV2NmbzAtajc3aUtoRllEX1ZKTVg2Z05fbkdmRG9nb2JJLVR3MzhYY1p5eVJGdVN6dXVTV3ZXUmQ2eDAwazliTExOT1U2Z3Zzc0FWaXRNQ2lCNlljdHozelNFdHZvVG9Qc1VMa3FRVTVkZ3hfSTZB?oc=5"
+  },
+  {
+   "first_seen": "2026-11-27T17:58:24.528964+00:00",
+   "id": "0a3d59629c6dc926",
+   "origin": "google:\"Run:ai\" NVIDIA",
+   "origins": [
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-11-24T15:15:19+00:00",
+   "snippet": "",
+   "source": "ValueWalk",
+   "title": "Amazon Buys Decart AI Optimization Technology To Arm Trainium Against Nvidia",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE15NTVjeGdpdnlGV1ktak5CTVpoazZ5LWtEQXI2OGJxaHQ5TjZNXzNkYlRySUdFck9XY2RMbG53Z2x2QnVpanZmRjJSQ250VTFmdnBndHBsUVJCR3FfYXZBSEJKSzVIREY4aE5pQnhJWnFMUmo4ODBxdlZxdGxSZw?oc=5"
   },
   {
    "first_seen": "2026-11-26T00:14:47.750228+00:00",
@@ -721,6 +734,19 @@
    "source": "explainx.ai",
    "title": "NVIDIA Dynamo RL: Up to 15x Faster Weight Updates",
    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNOTRfaXZPMkJFaG1ENXM4WFhYYlhUdzR3UDBMWV9FWnliaUNwRzNIak1lSE02Mm51WVdDRkItTDQ1SUFZck5uREtXcEdoUzBzZWplRXhpR0FBM2piUDI0WGlmQXZMRWY1cFRQSXFNUDM5RWJZQndtQm9sVmFDLWxxaEJ1YTRYOVNzRTN1LTRUc3ZSeFZkTFZ1MVZHQnhuNzhQbTdvWHF0Zw?oc=5"
+  },
+  {
+   "first_seen": "2026-11-27T17:58:24.528964+00:00",
+   "id": "4120fcdc611881eb",
+   "origin": "google:\"NVIDIA Dynamo\"",
+   "origins": [
+    "google:\"NVIDIA Dynamo\""
+   ],
+   "published": "2026-11-19T00:00:00+00:00",
+   "snippet": "",
+   "source": "explainx.ai",
+   "title": "Tool-Call Parser in Rust: NVIDIA frontend-crates Guide",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVWo5TG5RbDlmY2pyb2h0UnAwa1dQci1WSlVza0hRb3N0U2NPc05BaUpJdGpxaUJUUEw1VlZocWpKMW1waUkwYXN3OVMybTI5VVQtVE5VMTRUUDdCVVR0QUxMXzRHTDYwQ09tczBvLTYwa1kwNnlKMWVwUC12cVFSRU5wdHRyMmgzd0JLamphT0JuLVY4cEF6Tw?oc=5"
   },
   {
    "first_seen": "2026-11-27T04:37:07.432774+00:00",
@@ -1727,6 +1753,19 @@
    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNa1V0emJMdWg3THROVVktbWExMlhhM0E0RlNGNmVWQm9CbDc4SUxkVjVJWkU1c0RQMVpfZjB2SS1zZHZYenhscV9hMnBWeGhycksyVU5FVjNJUXAxbWhmY2g4RkhXVnlHOV9BVGc4UlNCS0RzWU9RNDFCZ1FzUlVwZm9ZdGJ0M0tHZVBhOUpNV0xTZkdyaF9QRDAtUTJUeUVTT3JXV3lfVWpzUzFTS2FxN3I5cV9OSHZoYlNFREdVMHRxSHZjU2hpVXd3?oc=5"
   },
   {
+   "first_seen": "2026-11-27T17:58:24.528964+00:00",
+   "id": "8cca42ee8280e306",
+   "origin": "google:\"NVIDIA DSX\"",
+   "origins": [
+    "google:\"NVIDIA DSX\""
+   ],
+   "published": "2026-11-11T08:00:00+00:00",
+   "snippet": "",
+   "source": "Data Centre Magazine",
+   "title": "Daikin Applied Unveils 60MW Cooling Design for NVIDIA AI",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQYU5yaG1LZUpwYzhVLXhUM3Brb1hXdjhvM0w1ZHFEVlJDQk10U1R5UElpSUl2bFdMbUQ3dEk5ZWd1ajItYnNTazFoV0lmc2tnTnRlRFBZOFVxR1Rld29XTElmNndzenBsSXRCOGtqS1JKVVVWQUYzRHduY3ltem04Zk9acWpMVGI3M3RreG9hQXNuckpFcUJR?oc=5"
+  },
+  {
    "first_seen": "2026-11-26T00:14:47.750228+00:00",
    "id": "a6754cfa860397c6",
    "llm": {
@@ -2137,6 +2176,19 @@
    "source": "explainx.ai",
    "title": "NVIDIA Invests in 4 Korean AI Startups (Nov 2026)",
    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOb1Y3anZPTlkyeWtQeS00Rm9WMTFRRktIdFFpR2IzOGVMemJQXzB6YW1DblBwRE00MXJibURYZFU2WmxOYTc5emJTVlp0UU1qY3RkUnFKS0lmcUJfWHc4bFozUzVPZkl3a2wwQXAwOVh6X3FuMzlJcDVCYjZIdU41R0NfNk9nTjh0a0c4bzhVenBFeUdoVWpRSmpDc1NXWjdDcWtV?oc=5"
+  },
+  {
+   "first_seen": "2026-11-27T17:58:24.528964+00:00",
+   "id": "c585c2ae23e7adaa",
+   "origin": "google:\"NVIDIA Dynamo\"",
+   "origins": [
+    "google:\"NVIDIA Dynamo\""
+   ],
+   "published": "2026-11-09T08:00:00+00:00",
+   "snippet": "",
+   "source": "explainx.ai",
+   "title": "NVIDIA Dynamo Recipes: Korean Models on B200 (Tested?)",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObkczUlEyQ2trdkp5WjJuQ3lRalpwRzlXd3hrZnRMUHcxdTFKQ3lSbWRwbWVHOHd5bVJ2MmFVVjMwQzg0Z2dCY2FyQVVjNlkzbUg3OVR2NzlZQXlJbDZlcUNBZEx5QjBfaEpMeGZlaS1neTZobUVjdXd6X2hRMGFoRWcyQ1BzX0p1cURZVDVHMDlONDRzMEhsRVZkQmFjSzgxWGlYTEt1eTRPYTJ4WFVrYW81U0M?oc=5"
   },
   {
    "first_seen": "2026-11-26T00:14:47.750228+00:00",
@@ -2743,6 +2795,19 @@
    "source": "varindia",
    "title": "E2E Networks launches Blaze, bringing pay-per-token AI inference to India's Sovereign AI Factory",
    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPX0c1aTJ1UkZ2QzVENWJpTTE3ZHdycEZtcm5EZ2ItakVCTWNCbmFsRjF6VXBDUVlvT0p0YlZHVUpTdnA1V3RfU1JfQ2FXY3JsYlN3R1NUWmdCWFk4TDVhd0J1VTd5Y1NfY21rVmR2WGNScnBSY3hoQVFmMHJVMHVBQkFuN3lEdVhrVlBTOFEyVHBNanlaaVlKU1hmaldaUERjWmZjb1I2TDNRZk10RnpxSUhOZVM5TGNzNWtVaTRYbTAwcnc?oc=5"
+  },
+  {
+   "first_seen": "2026-11-27T17:58:24.528964+00:00",
+   "id": "20256f7f68caf6e3",
+   "origin": "google:\"Infra Controller\" NVIDIA",
+   "origins": [
+    "google:\"Infra Controller\" NVIDIA"
+   ],
+   "published": "2026-11-04T08:00:00+00:00",
+   "snippet": "",
+   "source": "TechGig",
+   "title": "E2E Networks launches Blaze for pay-per-token AI inference",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWi03REYyMmtCODhYZnRGZEFIY19tcW1aM3N1Vkp1cGZEdndPOWxlU013dW1Ecm5FR2poRGJFTk9JZFlwem5IR0ZibHR6cmhBbVlHVkhsdXAzS19TdldvbHh5ZDJYeWFxeEotamozZ21NZklBLWpFVWxqVnY2N0tpYkk0OWRmUGxURGhaQUVWWnROQmp5WC1BallVU1E?oc=5"
   },
   {
    "first_seen": "2026-11-26T00:14:47.750228+00:00",

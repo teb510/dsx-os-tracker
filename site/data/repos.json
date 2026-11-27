@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-11-27T05:17:22.859096+00:00",
+ "generated_at": "2026-11-27T16:45:37.894842+00:00",
  "repos": [
   {
-   "active_contributors_90d": 341,
+   "active_contributors_90d": 345,
    "active_external_90d": 205,
-   "active_internal_90d": 136,
+   "active_internal_90d": 140,
    "archived": false,
-   "closed_issues": 2266,
-   "closed_prs": 4382,
-   "commits_30d": 747,
-   "commits_total": 8911,
+   "closed_issues": 2278,
+   "closed_prs": 4443,
+   "commits_30d": 734,
+   "commits_total": 8912,
    "commits_weekly": [
-    163,
-    130,
-    175,
-    93,
-    117,
+    160,
+    135,
+    173,
+    86,
+    122,
     153,
-    189,
-    174,
-    176,
-    220,
-    132,
-    192,
-    112
+    197,
+    165,
+    182,
+    213,
+    133,
+    194,
+    106
    ],
    "contributors": 432,
    "created_at": "2025-03-03T18:40:07Z",
@@ -32,13 +32,13 @@
    "external_orgs": [
     {
      "confidence": "high",
-     "contributions": 87,
+     "contributions": 86,
      "org": "Aliyun",
      "people": 1
     },
     {
-     "confidence": "medium",
-     "contributions": 70,
+     "confidence": "high",
+     "contributions": 71,
      "org": "DaoCloud",
      "people": 12
     },
@@ -57,31 +57,25 @@
     {
      "confidence": "high",
      "contributions": 14,
-     "org": "nyu.edu",
+     "org": "New York University",
      "people": 1
     },
     {
-     "confidence": "low",
+     "confidence": "high",
      "contributions": 13,
-     "org": "Cognite",
-     "people": 1
-    },
-    {
-     "confidence": "medium",
-     "contributions": 13,
-     "org": "umich.edu",
+     "org": "University of Michigan",
      "people": 1
     },
     {
      "confidence": "high",
      "contributions": 11,
-     "org": "google",
+     "org": "Atoma AI",
      "people": 1
     },
     {
-     "confidence": "low",
+     "confidence": "high",
      "contributions": 11,
-     "org": "Plonky3",
+     "org": "Google",
      "people": 1
     },
     {
@@ -97,7 +91,7 @@
      "people": 1
     },
     {
-     "confidence": "low",
+     "confidence": "medium",
      "contributions": 8,
      "org": "Altera Labs",
      "people": 1
@@ -105,8 +99,14 @@
     {
      "confidence": "low",
      "contributions": 7,
-     "org": "Argus",
-     "people": 1
+     "org": "Microsoft",
+     "people": 2
+    },
+    {
+     "confidence": "medium",
+     "contributions": 7,
+     "org": "University of Illinois Urbana-Champaign",
+     "people": 2
     },
     {
      "confidence": "high",
@@ -121,39 +121,45 @@
      "people": 1
     },
     {
-     "confidence": "low",
+     "confidence": "medium",
      "contributions": 7,
      "org": "Fluid Inference",
      "people": 1
     },
     {
-     "confidence": "high",
-     "contributions": 6,
-     "org": "Baidu && Alibaba && DiDi && Huawei",
-     "people": 1
-    },
-    {
      "confidence": "low",
      "contributions": 6,
-     "org": "InsForge",
+     "org": "Stealth startup (unnamed)",
      "people": 1
     },
     {
-     "confidence": "high",
-     "contributions": 6,
-     "org": "University of Illinois Urbana-Champaign",
-     "people": 1
+     "confidence": "medium",
+     "contributions": 5,
+     "org": "Amazon",
+     "people": 4
+    },
+    {
+     "confidence": "medium",
+     "contributions": 5,
+     "org": "G-Core Labs",
+     "people": 2
     },
     {
      "confidence": "low",
      "contributions": 5,
-     "org": "moirai-internal",
-     "people": 3
+     "org": "UC San Diego",
+     "people": 2
     },
     {
      "confidence": "high",
      "contributions": 5,
      "org": "AWS",
+     "people": 1
+    },
+    {
+     "confidence": "high",
+     "contributions": 5,
+     "org": "Baidu && Alibaba && DiDi && Huawei",
      "people": 1
     },
     {
@@ -169,10 +175,22 @@
      "people": 1
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "contributions": 5,
-     "org": "uchicago.edu",
+     "org": "University of Chicago",
      "people": 1
+    },
+    {
+     "confidence": "high",
+     "contributions": 4,
+     "org": "Prime Intellect",
+     "people": 3
+    },
+    {
+     "confidence": "low",
+     "contributions": 4,
+     "org": "Carnegie Mellon University",
+     "people": 2
     },
     {
      "confidence": "high",
@@ -184,12 +202,6 @@
      "confidence": "high",
      "contributions": 4,
      "org": "Indian Institute of Technology",
-     "people": 1
-    },
-    {
-     "confidence": "medium",
-     "contributions": 4,
-     "org": "microsoft.com",
      "people": 1
     },
     {
@@ -211,6 +223,12 @@
      "people": 1
     },
     {
+     "confidence": "medium",
+     "contributions": 3,
+     "org": "Canva",
+     "people": 3
+    },
+    {
      "confidence": "high",
      "contributions": 3,
      "org": "basetenlabs",
@@ -219,13 +237,19 @@
     {
      "confidence": "high",
      "contributions": 3,
-     "org": "datadoghq.com",
+     "org": "Datadog",
      "people": 2
     },
     {
      "confidence": "medium",
      "contributions": 3,
-     "org": "acorn.io",
+     "org": "Pinterest",
+     "people": 2
+    },
+    {
+     "confidence": "medium",
+     "contributions": 3,
+     "org": "Acorn Labs",
      "people": 1
     },
     {
@@ -235,21 +259,15 @@
      "people": 1
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "contributions": 3,
-     "org": "cau.ac.kr",
-     "people": 1
-    },
-    {
-     "confidence": "low",
-     "contributions": 3,
-     "org": "ESPnet",
+     "org": "Chung-Ang University",
      "people": 1
     },
     {
      "confidence": "high",
      "contributions": 3,
-     "org": "naver",
+     "org": "Naver",
      "people": 1
     },
     {
@@ -257,30 +275,6 @@
      "contributions": 3,
      "org": "Rimo",
      "people": 1
-    },
-    {
-     "confidence": "low",
-     "contributions": 3,
-     "org": "TripGuiders",
-     "people": 1
-    },
-    {
-     "confidence": "medium",
-     "contributions": 2,
-     "org": "Amazon",
-     "people": 2
-    },
-    {
-     "confidence": "high",
-     "contributions": 2,
-     "org": "Canva",
-     "people": 2
-    },
-    {
-     "confidence": "high",
-     "contributions": 2,
-     "org": "primeintellect.ai",
-     "people": 2
     },
     {
      "confidence": "high",
@@ -291,7 +285,7 @@
     {
      "confidence": "high",
      "contributions": 2,
-     "org": "tenstorrent",
+     "org": "Tenstorrent",
      "people": 2
     },
     {
@@ -301,9 +295,9 @@
      "people": 1
     },
     {
-     "confidence": "high",
+     "confidence": "medium",
      "contributions": 2,
-     "org": "alibaba",
+     "org": "Aina",
      "people": 1
     },
     {
@@ -327,7 +321,7 @@
     {
      "confidence": "high",
      "contributions": 2,
-     "org": "dynamia-ai",
+     "org": "Dynamia AI",
      "people": 1
     },
     {
@@ -337,15 +331,9 @@
      "people": 1
     },
     {
-     "confidence": "low",
-     "contributions": 2,
-     "org": "Exea Labs",
-     "people": 1
-    },
-    {
      "confidence": "high",
      "contributions": 2,
-     "org": "H company",
+     "org": "H Company",
      "people": 1
     },
     {
@@ -393,31 +381,31 @@
     {
      "confidence": "high",
      "contributions": 2,
-     "org": "Prime Intellect",
-     "people": 1
-    },
-    {
-     "confidence": "high",
-     "contributions": 2,
-     "org": "radixark.ai",
+     "org": "Peking University",
      "people": 1
     },
     {
      "confidence": "medium",
      "contributions": 2,
-     "org": "tessian.com",
+     "org": "Pilot Company",
+     "people": 1
+    },
+    {
+     "confidence": "high",
+     "contributions": 2,
+     "org": "RadixArk",
+     "people": 1
+    },
+    {
+     "confidence": "high",
+     "contributions": 2,
+     "org": "Tessian",
      "people": 1
     },
     {
      "confidence": "high",
      "contributions": 2,
      "org": "xAI",
-     "people": 1
-    },
-    {
-     "confidence": "low",
-     "contributions": 2,
-     "org": "\u5fc3\u7eaa\u5143\u5236\u4f5c\u7ec4",
      "people": 1
     },
     {
@@ -430,6 +418,12 @@
      "confidence": "high",
      "contributions": 1,
      "org": "Abnormal Security",
+     "people": 1
+    },
+    {
+     "confidence": "high",
+     "contributions": 1,
+     "org": "Alibaba",
      "people": 1
     },
     {
@@ -457,21 +451,27 @@
      "people": 1
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "contributions": 1,
-     "org": "bitdeer.com",
+     "org": "Bitdeer",
      "people": 1
     },
     {
-     "confidence": "medium",
+     "confidence": "low",
      "contributions": 1,
-     "org": "deepinfra.com",
+     "org": "Credochain",
      "people": 1
     },
     {
      "confidence": "high",
      "contributions": 1,
-     "org": "expediagroup.com",
+     "org": "DeepInfra",
+     "people": 1
+    },
+    {
+     "confidence": "high",
+     "contributions": 1,
+     "org": "Expedia Group",
      "people": 1
     },
     {
@@ -483,25 +483,19 @@
     {
      "confidence": "high",
      "contributions": 1,
-     "org": "gcore.com",
-     "people": 1
-    },
-    {
-     "confidence": "high",
-     "contributions": 1,
      "org": "glenmaddern.com",
      "people": 1
     },
     {
      "confidence": "high",
      "contributions": 1,
-     "org": "greennode-ai",
+     "org": "GreenNode",
      "people": 1
     },
     {
      "confidence": "medium",
      "contributions": 1,
-     "org": "groq",
+     "org": "Hewlett Packard Enterprise",
      "people": 1
     },
     {
@@ -513,19 +507,13 @@
     {
      "confidence": "low",
      "contributions": 1,
-     "org": "HPE Ezmeral",
+     "org": "i5Labs",
      "people": 1
     },
     {
      "confidence": "high",
      "contributions": 1,
-     "org": "inherentlaboratories.com",
-     "people": 1
-    },
-    {
-     "confidence": "low",
-     "contributions": 1,
-     "org": "kvcache.ai",
+     "org": "Inherent Laboratories",
      "people": 1
     },
     {
@@ -535,15 +523,9 @@
      "people": 1
     },
     {
-     "confidence": "low",
-     "contributions": 1,
-     "org": "llm-d",
-     "people": 1
-    },
-    {
      "confidence": "medium",
      "contributions": 1,
-     "org": "maxkelsen.com",
+     "org": "Meta",
      "people": 1
     },
     {
@@ -553,9 +535,15 @@
      "people": 1
     },
     {
+     "confidence": "high",
+     "contributions": 1,
+     "org": "Mindbody",
+     "people": 1
+    },
+    {
      "confidence": "medium",
      "contributions": 1,
-     "org": "mindbodyonline.com",
+     "org": "MiQ",
      "people": 1
     },
     {
@@ -565,9 +553,9 @@
      "people": 1
     },
     {
-     "confidence": "low",
+     "confidence": "high",
      "contributions": 1,
-     "org": "ModelTC",
+     "org": "Mirantis @Kubernetes",
      "people": 1
     },
     {
@@ -583,6 +571,12 @@
      "people": 1
     },
     {
+     "confidence": "medium",
+     "contributions": 1,
+     "org": "Nebul",
+     "people": 1
+    },
+    {
      "confidence": "high",
      "contributions": 1,
      "org": "Netcompany",
@@ -595,27 +589,9 @@
      "people": 1
     },
     {
-     "confidence": "low",
-     "contributions": 1,
-     "org": "openenv",
-     "people": 1
-    },
-    {
      "confidence": "high",
      "contributions": 1,
-     "org": "oracle.com",
-     "people": 1
-    },
-    {
-     "confidence": "medium",
-     "contributions": 1,
-     "org": "pilani.bits-pilani.ac.in",
-     "people": 1
-    },
-    {
-     "confidence": "high",
-     "contributions": 1,
-     "org": "Pinterest",
+     "org": "Oracle",
      "people": 1
     },
     {
@@ -634,12 +610,6 @@
      "confidence": "high",
      "contributions": 1,
      "org": "Sagora Labs",
-     "people": 1
-    },
-    {
-     "confidence": "low",
-     "contributions": 1,
-     "org": "SFB833 A3",
      "people": 1
     },
     {
@@ -663,7 +633,7 @@
     {
      "confidence": "medium",
      "contributions": 1,
-     "org": "srmist.edu.in",
+     "org": "SRM Institute of Science and Technology",
      "people": 1
     },
     {
@@ -675,7 +645,19 @@
     {
      "confidence": "high",
      "contributions": 1,
+     "org": "Starling Bank",
+     "people": 1
+    },
+    {
+     "confidence": "high",
+     "contributions": 1,
      "org": "Stealth",
+     "people": 1
+    },
+    {
+     "confidence": "medium",
+     "contributions": 1,
+     "org": "T-Systems",
      "people": 1
     },
     {
@@ -687,13 +669,7 @@
     {
      "confidence": "high",
      "contributions": 1,
-     "org": "Tesla.com",
-     "people": 1
-    },
-    {
-     "confidence": "low",
-     "contributions": 1,
-     "org": "The Abstract Lab",
+     "org": "Tesla",
      "people": 1
     },
     {
@@ -733,48 +709,43 @@
      "people": 1
     },
     {
-     "confidence": "low",
+     "confidence": "medium",
      "contributions": 1,
-     "org": "vLLM",
+     "org": "University of Southern California",
      "people": 1
     },
     {
      "confidence": "high",
      "contributions": 1,
-     "org": "yandex.com",
+     "org": "Yandex.Cloud",
      "people": 1
     }
    ],
-   "external_prs_90d": 217,
+   "external_prs_90d": 216,
    "external_unattributed": {
-    "contributions": 131,
-    "people": 49
+    "contributions": 136,
+    "people": 45
    },
    "fork_orgs": [
     {
-     "confidence": "medium",
+     "confidence": "high",
      "forks": 4,
-     "org": "tenstorrent"
+     "org": "Tenstorrent"
     },
     {
-     "confidence": "high",
-     "forks": 2,
+     "confidence": "medium",
+     "forks": 3,
      "org": "Amazon"
     },
     {
-     "confidence": "high",
-     "forks": 2,
-     "org": "ByteDance"
-    },
-    {
-     "confidence": "low",
-     "forks": 2,
-     "org": "CallGideon"
-    },
-    {
      "confidence": "medium",
      "forks": 2,
-     "org": "google"
+     "org": "Canva"
+    },
+    {
+     "confidence": "high",
+     "forks": 2,
+     "org": "Google"
     },
     {
      "confidence": "high",
@@ -782,19 +753,24 @@
      "org": "Hong Kong University of Science and Technology (Guangzhou)"
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "forks": 2,
      "org": "Intel"
     },
     {
-     "confidence": "low",
+     "confidence": "high",
      "forks": 2,
-     "org": "moirai-internal"
+     "org": "Oracle"
     },
     {
      "confidence": "medium",
+     "forks": 2,
+     "org": "Santa Clara University"
+    },
+    {
+     "confidence": "high",
      "forks": 1,
-     "org": "abes.ac.in"
+     "org": "ABES Engineering College"
     },
     {
      "confidence": "high",
@@ -804,22 +780,22 @@
     {
      "confidence": "high",
      "forks": 1,
-     "org": "abridgeai"
+     "org": "Abridge"
     },
     {
      "confidence": "medium",
      "forks": 1,
-     "org": "acorn.io"
+     "org": "Acorn Labs"
+    },
+    {
+     "confidence": "medium",
+     "forks": 1,
+     "org": "Adobe"
     },
     {
      "confidence": "high",
      "forks": 1,
-     "org": "AI/ML Engineer @eyewa-UAE (backed by General Atlantic))"
-    },
-    {
-     "confidence": "high",
-     "forks": 1,
-     "org": "alibaba"
+     "org": "Alibaba"
     },
     {
      "confidence": "high",
@@ -827,34 +803,24 @@
      "org": "AMD"
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "forks": 1,
-     "org": "anu.edu.au"
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "Argus"
+     "org": "Australian National University"
     },
     {
      "confidence": "medium",
      "forks": 1,
-     "org": "breakingcircuits.com"
+     "org": "Beijing Jiaotong University"
     },
     {
      "confidence": "high",
      "forks": 1,
-     "org": "Canva"
+     "org": "Breaking Circuits, LLC"
     },
     {
      "confidence": "high",
      "forks": 1,
-     "org": "cloudphysician-codehub @inxiteout-ai @compass-lab @a5g-networks @LUK-Lab"
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "Colorado Data Science Team"
+     "org": "ByteDance"
     },
     {
      "confidence": "high",
@@ -864,12 +830,17 @@
     {
      "confidence": "low",
      "forks": 1,
-     "org": "Cusp-Fi"
+     "org": "Credochain"
     },
     {
      "confidence": "medium",
      "forks": 1,
-     "org": "databricks.com"
+     "org": "Cusp-Fi"
+    },
+    {
+     "confidence": "high",
+     "forks": 1,
+     "org": "Databricks"
     },
     {
      "confidence": "high",
@@ -884,62 +855,42 @@
     {
      "confidence": "medium",
      "forks": 1,
-     "org": "droidcraft.org"
+     "org": "Docusign"
     },
     {
      "confidence": "high",
      "forks": 1,
-     "org": "dynamia-ai"
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "E2E-Load-Tests-Org "
+     "org": "Dynamia AI"
     },
     {
      "confidence": "high",
      "forks": 1,
-     "org": "ex-Tencent, ex-Kuro Games"
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "Exea Labs"
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "expediagroup.com"
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "expoundlabs.io"
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "fudaoyuan.icu"
+     "org": "Expedia Group"
     },
     {
      "confidence": "high",
      "forks": 1,
-     "org": "Fuzhou University/Maynooth University"
+     "org": "Eyewa"
     },
     {
      "confidence": "high",
      "forks": 1,
-     "org": "greennode-ai"
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "groq"
+     "org": "Fuzhou University"
     },
     {
      "confidence": "high",
      "forks": 1,
-     "org": "H company"
+     "org": "GreenNode"
+    },
+    {
+     "confidence": "high",
+     "forks": 1,
+     "org": "Groq"
+    },
+    {
+     "confidence": "high",
+     "forks": 1,
+     "org": "H Company"
     },
     {
      "confidence": "high",
@@ -947,44 +898,14 @@
      "org": "Hangzhou Dianzi University"
     },
     {
-     "confidence": "low",
-     "forks": 1,
-     "org": "heddles"
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "Hugging Face"
-    },
-    {
      "confidence": "high",
      "forks": 1,
      "org": "Indian Institute of Technology, Kharagpur"
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "forks": 1,
-     "org": "inherentlaboratories.com"
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "interconnect lab"
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "Katya AI Systems, LLC"
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "kvcache.ai"
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "llm-d"
+     "org": "Inherent Laboratories"
     },
     {
      "confidence": "high",
@@ -999,17 +920,7 @@
     {
      "confidence": "medium",
      "forks": 1,
-     "org": "maxkelsen.com"
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
      "org": "memcodeAI"
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "mennanov.com"
     },
     {
      "confidence": "high",
@@ -1019,17 +930,12 @@
     {
      "confidence": "high",
      "forks": 1,
-     "org": "Mirantis @Kubernetes"
+     "org": "Mirantis"
     },
     {
-     "confidence": "low",
+     "confidence": "medium",
      "forks": 1,
-     "org": "ModelScope"
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "moja global"
+     "org": "MSU Labs"
     },
     {
      "confidence": "high",
@@ -1044,7 +950,7 @@
     {
      "confidence": "high",
      "forks": 1,
-     "org": "naver"
+     "org": "Naver"
     },
     {
      "confidence": "high",
@@ -1054,7 +960,12 @@
     {
      "confidence": "medium",
      "forks": 1,
-     "org": "nukoe.com"
+     "org": "NITK Surathkal"
+    },
+    {
+     "confidence": "high",
+     "forks": 1,
+     "org": "Nukoe"
     },
     {
      "confidence": "high",
@@ -1062,29 +973,19 @@
      "org": "Nutanix"
     },
     {
-     "confidence": "low",
-     "forks": 1,
-     "org": "NVIDIA Corporation"
-    },
-    {
      "confidence": "high",
      "forks": 1,
      "org": "Open Inference Fabric"
     },
     {
-     "confidence": "low",
-     "forks": 1,
-     "org": "openenv"
-    },
-    {
      "confidence": "high",
      "forks": 1,
-     "org": "oracle.com"
+     "org": "Peking University"
     },
     {
-     "confidence": "high",
+     "confidence": "medium",
      "forks": 1,
-     "org": "PERFECT."
+     "org": "Pinterest"
     },
     {
      "confidence": "high",
@@ -1102,14 +1003,9 @@
      "org": "Promo Pigeon"
     },
     {
-     "confidence": "low",
+     "confidence": "high",
      "forks": 1,
-     "org": "PufferAI"
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "radixark.ai"
+     "org": "RadixArk"
     },
     {
      "confidence": "high",
@@ -1119,47 +1015,22 @@
     {
      "confidence": "high",
      "forks": 1,
-     "org": "RedHatOfficial"
-    },
-    {
-     "confidence": "high",
-     "forks": 1,
-     "org": "Santa Clara University"
+     "org": "Red Hat"
     },
     {
      "confidence": "medium",
      "forks": 1,
-     "org": "sci.utah.edu"
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "scu.edu"
+     "org": "Root Signals"
     },
     {
      "confidence": "high",
      "forks": 1,
-     "org": "SEE"
+     "org": "Scaleway"
     },
     {
      "confidence": "high",
      "forks": 1,
      "org": "Shandong University"
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "shuchen.ca"
-    },
-    {
-     "confidence": "high",
-     "forks": 1,
-     "org": "Snyk"
-    },
-    {
-     "confidence": "high",
-     "forks": 1,
-     "org": "Software Engineer at Oracle Database"
     },
     {
      "confidence": "high",
@@ -1169,7 +1040,12 @@
     {
      "confidence": "medium",
      "forks": 1,
-     "org": "srmist.edu.in"
+     "org": "SRM Institute of Science and Technology"
+    },
+    {
+     "confidence": "high",
+     "forks": 1,
+     "org": "Starling Bank"
     },
     {
      "confidence": "high",
@@ -1177,22 +1053,22 @@
      "org": "StarTree"
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "forks": 1,
-     "org": "student.tudelft.nl"
+     "org": "Temple University"
     },
     {
      "confidence": "high",
      "forks": 1,
-     "org": "Temple university"
+     "org": "Tesla"
     },
     {
      "confidence": "high",
      "forks": 1,
-     "org": "Tesla.com"
+     "org": "Tessl"
     },
     {
-     "confidence": "high",
+     "confidence": "low",
      "forks": 1,
      "org": "The AI Engineer"
     },
@@ -1202,6 +1078,11 @@
      "org": "The Chinese University of Hong Kong"
     },
     {
+     "confidence": "medium",
+     "forks": 1,
+     "org": "Together AI"
+    },
+    {
      "confidence": "high",
      "forks": 1,
      "org": "Tongji University"
@@ -1209,17 +1090,12 @@
     {
      "confidence": "high",
      "forks": 1,
-     "org": "toss"
+     "org": "Toss"
     },
     {
      "confidence": "high",
      "forks": 1,
-     "org": "Trilogy AI Center of Excellence"
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "uchicago.edu"
+     "org": "Trilogy"
     },
     {
      "confidence": "high",
@@ -1229,7 +1105,17 @@
     {
      "confidence": "high",
      "forks": 1,
+     "org": "University of Chicago"
+    },
+    {
+     "confidence": "high",
+     "forks": 1,
      "org": "University of Greenwich"
+    },
+    {
+     "confidence": "medium",
+     "forks": 1,
+     "org": "University of Illinois Urbana-Champaign"
     },
     {
      "confidence": "high",
@@ -1242,35 +1128,25 @@
      "org": "Usation Labs"
     },
     {
-     "confidence": "low",
+     "confidence": "high",
      "forks": 1,
-     "org": "vLLM"
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "workato.com"
+     "org": "Workato"
     },
     {
      "confidence": "high",
      "forks": 1,
      "org": "XGo"
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "yandex.com"
     }
    ],
-   "forks": 1914,
+   "forks": 1917,
    "forks_90d": 200,
-   "forks_internal_90d": 20,
-   "forks_unattributed_90d": 68,
+   "forks_internal_90d": 21,
+   "forks_unattributed_90d": 86,
    "full_name": "ai-dynamo/dynamo",
    "homepage": "https://docs.nvidia.com/dynamo/latest",
-   "internal_contributions": 2207,
-   "issues_closed_30d": 352,
-   "issues_opened_30d": 565,
+   "internal_contributions": 2211,
+   "issues_closed_30d": 364,
+   "issues_opened_30d": 570,
    "language": "Rust",
    "language_color": "#dea584",
    "latest_release": {
@@ -1283,12 +1159,12 @@
    "license": "NOASSERTION",
    "merged_prs": 10578,
    "name": "dynamo",
-   "open_issues": 988,
-   "open_prs": 1204,
+   "open_issues": 981,
+   "open_prs": 1150,
    "owner": "ai-dynamo",
    "prs_merged_30d": 883,
-   "prs_opened_30d": 1558,
-   "pushed_at": "2026-11-27T05:14:34Z",
+   "prs_opened_30d": 1565,
+   "pushed_at": "2026-11-27T16:17:50Z",
    "recent_releases": [
     {
      "isPrerelease": false,
@@ -1327,9 +1203,9 @@
     }
    ],
    "releases": 74,
-   "stars": 8581,
-   "stars_30d": 5,
-   "stars_7d": 5,
+   "stars": 8583,
+   "stars_30d": 7,
+   "stars_7d": 7,
    "topics": [
     "diffusion",
     "disaggregated-serving",
@@ -1355,19 +1231,19 @@
    "commits_30d": 18,
    "commits_total": 337,
    "commits_weekly": [
-    8,
-    6,
+    9,
+    5,
     14,
     8,
     7,
     10,
-    13,
-    3,
+    14,
+    2,
     1,
     10,
     0,
-    1,
-    7
+    5,
+    3
    ],
    "contributors": 22,
    "created_at": "2026-01-30T03:49:08Z",
@@ -1420,28 +1296,28 @@
     {
      "confidence": "high",
      "forks": 1,
-     "org": "canonical, ex @fraunhofer-iais"
+     "org": "Canonical"
     },
     {
      "confidence": "high",
      "forks": 1,
-     "org": "k0rdent"
-    },
-    {
-     "confidence": "high",
-     "forks": 1,
-     "org": "kubescape"
+     "org": "Mirantis"
     },
     {
      "confidence": "high",
      "forks": 1,
      "org": "RexCode Digital"
+    },
+    {
+     "confidence": "medium",
+     "forks": 1,
+     "org": "SIGHUP"
     }
    ],
-   "forks": 41,
-   "forks_90d": 11,
+   "forks": 42,
+   "forks_90d": 12,
    "forks_internal_90d": 3,
-   "forks_unattributed_90d": 4,
+   "forks_unattributed_90d": 5,
    "full_name": "dsx-ai-factory/ai-cloud-validation",
    "homepage": "https://www.nvidia.com/en-us/data-center/isv-validation-program/",
    "internal_contributions": 169,
@@ -1519,26 +1395,26 @@
   },
   {
    "active_contributors_90d": 23,
-   "active_external_90d": 9,
-   "active_internal_90d": 14,
+   "active_external_90d": 8,
+   "active_internal_90d": 15,
    "archived": false,
    "closed_issues": 48,
    "closed_prs": 38,
-   "commits_30d": 78,
+   "commits_30d": 77,
    "commits_total": 557,
    "commits_weekly": [
-    39,
-    29,
-    124,
-    35,
-    68,
+    38,
+    30,
+    127,
+    31,
+    69,
+    25,
     26,
-    26,
-    17,
-    17,
     18,
+    16,
+    19,
     22,
-    24,
+    23,
     8
    ],
    "contributors": 24,
@@ -1561,7 +1437,7 @@
     {
      "confidence": "high",
      "contributions": 4,
-     "org": "scherm.com.br",
+     "org": "Scherm",
      "people": 1
     },
     {
@@ -1589,10 +1465,10 @@
      "people": 1
     }
    ],
-   "external_prs_90d": 27,
+   "external_prs_90d": 24,
    "external_unattributed": {
-    "contributions": 17,
-    "people": 2
+    "contributions": 8,
+    "people": 1
    },
    "fork_orgs": [
     {
@@ -1606,14 +1482,14 @@
      "org": "Black Forest Labs"
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "forks": 1,
-     "org": "inf.ufrgs.br"
+     "org": "KTLO AI Labs"
     },
     {
      "confidence": "high",
      "forks": 1,
-     "org": "KTLO AI Labs"
+     "org": "Scherm"
     },
     {
      "confidence": "high",
@@ -1628,12 +1504,12 @@
     {
      "confidence": "high",
      "forks": 1,
-     "org": "University of Texas at Austin"
+     "org": "University of Southern California"
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "forks": 1,
-     "org": "usc.edu"
+     "org": "University of Texas at Austin"
     },
     {
      "confidence": "high",
@@ -1647,7 +1523,7 @@
    "forks_unattributed_90d": 2,
    "full_name": "dsx-ai-factory/attribution",
    "homepage": "",
-   "internal_contributions": 656,
+   "internal_contributions": 665,
    "issues_closed_30d": 20,
    "issues_opened_30d": 17,
    "language": "Python",
@@ -1705,22 +1581,22 @@
    "active_internal_90d": 16,
    "archived": false,
    "closed_issues": 23,
-   "closed_prs": 60,
-   "commits_30d": 25,
+   "closed_prs": 62,
+   "commits_30d": 24,
    "commits_total": 216,
    "commits_weekly": [
-    16,
-    14,
-    26,
-    9,
-    5,
-    4,
+    12,
+    21,
+    20,
+    8,
+    6,
+    3,
     7,
-    10,
+    11,
     8,
     7,
     6,
-    6,
+    5,
     3
    ],
    "contributors": 20,
@@ -1735,7 +1611,7 @@
      "people": 1
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "contributions": 2,
      "org": "IBM",
      "people": 1
@@ -1760,7 +1636,7 @@
    },
    "fork_orgs": [
     {
-     "confidence": "low",
+     "confidence": "medium",
      "forks": 1,
      "org": "Amazon Web Services"
     },
@@ -1782,7 +1658,7 @@
     {
      "confidence": "high",
      "forks": 1,
-     "org": "Serra Consultancy Services"
+     "org": "Serra Consultancy Services Ltd"
     }
    ],
    "forks": 20,
@@ -1810,8 +1686,8 @@
    "open_prs": 14,
    "owner": "dsx-ai-factory",
    "prs_merged_30d": 25,
-   "prs_opened_30d": 44,
-   "pushed_at": "2026-11-25T15:03:43Z",
+   "prs_opened_30d": 46,
+   "pushed_at": "2026-11-27T09:16:26Z",
    "recent_releases": [
     {
      "isPrerelease": false,
@@ -1882,8 +1758,8 @@
     0,
     0,
     1,
-    2,
-    10,
+    3,
+    9,
     3,
     2
    ],
@@ -1893,9 +1769,9 @@
    "description": "Community Posts and Discussions for DSX AI Factory",
    "external_orgs": [
     {
-     "confidence": "medium",
+     "confidence": "high",
      "contributions": 1,
-     "org": "simbian.ai",
+     "org": "Simbian",
      "people": 1
     },
     {
@@ -1912,9 +1788,9 @@
    },
    "fork_orgs": [
     {
-     "confidence": "medium",
+     "confidence": "high",
      "forks": 1,
-     "org": "simbian.ai"
+     "org": "Simbian"
     },
     {
      "confidence": "high",
@@ -2013,17 +1889,17 @@
     {
      "confidence": "high",
      "forks": 1,
-     "org": "Metify.io"
+     "org": "Metify"
     },
     {
      "confidence": "high",
      "forks": 1,
-     "org": "reshaprio @microcks"
+     "org": "Microcks"
     },
     {
      "confidence": "high",
      "forks": 1,
-     "org": "Valuemomentum"
+     "org": "ValueMomentum"
     }
    ],
    "forks": 20,
@@ -2117,8 +1993,8 @@
     1,
     29,
     19,
-    29,
-    1,
+    30,
+    0,
     5,
     4
    ],
@@ -2237,19 +2113,13 @@
     {
      "confidence": "high",
      "contributions": 2,
-     "org": "microsoft.com",
-     "people": 1
+     "org": "Lambda",
+     "people": 2
     },
     {
      "confidence": "high",
-     "contributions": 1,
-     "org": "Lambda.ai",
-     "people": 1
-    },
-    {
-     "confidence": "high",
-     "contributions": 1,
-     "org": "lambdal",
+     "contributions": 2,
+     "org": "Microsoft",
      "people": 1
     }
    ],
@@ -2261,18 +2131,13 @@
    "fork_orgs": [
     {
      "confidence": "high",
-     "forks": 1,
-     "org": "Lambda.ai"
+     "forks": 2,
+     "org": "Lambda"
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "forks": 1,
-     "org": "lambdal"
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "oracle.com"
+     "org": "Oracle"
     },
     {
      "confidence": "high",
@@ -2363,8 +2228,8 @@
    "commits_total": 268,
    "commits_weekly": [
     1,
-    1,
-    6,
+    4,
+    3,
     3,
     8,
     6,
@@ -2382,9 +2247,15 @@
    "description": "NVIDIA Fleet Intelligence Agent - Host agent for GPU telemetry collection and attestation",
    "external_orgs": [
     {
+     "confidence": "medium",
+     "contributions": 5,
+     "org": "HCLTech",
+     "people": 1
+    },
+    {
      "confidence": "high",
      "contributions": 2,
-     "org": "latitude.sh",
+     "org": "Latitude.sh",
      "people": 1
     },
     {
@@ -2396,14 +2267,14 @@
    ],
    "external_prs_90d": 7,
    "external_unattributed": {
-    "contributions": 9,
-    "people": 2
+    "contributions": 4,
+    "people": 1
    },
    "fork_orgs": [
     {
-     "confidence": "medium",
+     "confidence": "high",
      "forks": 1,
-     "org": "cloudengined.com"
+     "org": "Cloudengined"
     },
     {
      "confidence": "high",
@@ -2413,7 +2284,12 @@
     {
      "confidence": "medium",
      "forks": 1,
-     "org": "latitude.sh"
+     "org": "HCLTech"
+    },
+    {
+     "confidence": "high",
+     "forks": 1,
+     "org": "Latitude.sh"
     },
     {
      "confidence": "high",
@@ -2421,7 +2297,7 @@
      "org": "Outschool"
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "forks": 1,
      "org": "Red Hat"
     }
@@ -2429,7 +2305,7 @@
    "forks": 22,
    "forks_90d": 9,
    "forks_internal_90d": 1,
-   "forks_unattributed_90d": 3,
+   "forks_unattributed_90d": 2,
    "full_name": "dsx-ai-factory/fleet-intelligence-agent",
    "homepage": "https://docs.nvidia.com/fleet-intel/agent",
    "internal_contributions": 76,
@@ -2512,8 +2388,8 @@
     1,
     7,
     4,
-    5,
     6,
+    5,
     1,
     3,
     15,
@@ -2605,7 +2481,7 @@
    "archived": false,
    "closed_issues": 45,
    "closed_prs": 31,
-   "commits_30d": 78,
+   "commits_30d": 77,
    "commits_total": 216,
    "commits_weekly": [
     16,
@@ -2613,8 +2489,8 @@
     19,
     2,
     11,
-    22,
     23,
+    22,
     15,
     19,
     18,
@@ -2628,51 +2504,57 @@
    "description": "Hardware health check catalog and evaluation engine for NVIDIA GPU nodes",
    "external_orgs": [
     {
+     "confidence": "medium",
+     "contributions": 4,
+     "org": "HCLTech",
+     "people": 1
+    },
+    {
      "confidence": "high",
      "contributions": 3,
      "org": "RationalityEnhancement @armlabstanford",
      "people": 1
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "contributions": 2,
-     "org": "inf.ufrgs.br",
+     "org": "Oracle",
      "people": 1
     },
     {
      "confidence": "high",
      "contributions": 2,
-     "org": "oracle.com",
+     "org": "Scherm",
      "people": 1
     },
     {
      "confidence": "high",
-     "contributions": 1,
+     "contributions": 2,
      "org": "Serra Consultancy Services",
      "people": 1
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "contributions": 1,
-     "org": "simbian.ai",
+     "org": "Simbian",
      "people": 1
     }
    ],
-   "external_prs_90d": 10,
+   "external_prs_90d": 11,
    "external_unattributed": {
-    "contributions": 5,
-    "people": 2
+    "contributions": 1,
+    "people": 1
    },
    "fork_orgs": [
     {
      "confidence": "high",
-     "forks": 1,
+     "forks": 2,
      "org": "Black Forest Labs"
     },
     {
      "confidence": "medium",
      "forks": 1,
-     "org": "inf.ufrgs.br"
+     "org": "HCLTech"
     },
     {
      "confidence": "high",
@@ -2687,33 +2569,33 @@
     {
      "confidence": "high",
      "forks": 1,
-     "org": "Lambda.ai"
+     "org": "Lambda"
     },
     {
      "confidence": "high",
      "forks": 1,
-     "org": "RationalityEnhancement @armlabstanford"
+     "org": "Scherm"
     },
     {
      "confidence": "high",
      "forks": 1,
-     "org": "Serra Consultancy Services"
+     "org": "Serra Consultancy Services Ltd"
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "forks": 1,
-     "org": "simbian.ai"
+     "org": "Simbian"
     }
    ],
    "forks": 23,
    "forks_90d": 23,
    "forks_internal_90d": 11,
-   "forks_unattributed_90d": 4,
+   "forks_unattributed_90d": 3,
    "full_name": "dsx-ai-factory/health-validation",
    "homepage": "https://docs.nvidia.com/health-validation",
    "internal_contributions": 369,
    "issues_closed_30d": 25,
-   "issues_opened_30d": 48,
+   "issues_opened_30d": 49,
    "language": "Go",
    "language_color": "#00ADD8",
    "latest_release": {
@@ -2726,11 +2608,11 @@
    "license": "Apache-2.0",
    "merged_prs": 229,
    "name": "health-validation",
-   "open_issues": 45,
-   "open_prs": 19,
+   "open_issues": 46,
+   "open_prs": 20,
    "owner": "dsx-ai-factory",
    "prs_merged_30d": 79,
-   "prs_opened_30d": 88,
+   "prs_opened_30d": 89,
    "pushed_at": "2026-11-26T16:57:32Z",
    "recent_releases": [
     {
@@ -2779,27 +2661,27 @@
   },
   {
    "active_contributors_90d": 114,
-   "active_external_90d": 30,
-   "active_internal_90d": 84,
+   "active_external_90d": 29,
+   "active_internal_90d": 85,
    "archived": false,
-   "closed_issues": 2502,
+   "closed_issues": 2505,
    "closed_prs": 877,
-   "commits_30d": 701,
+   "commits_30d": 685,
    "commits_total": 5269,
    "commits_weekly": [
-    133,
-    95,
-    220,
-    180,
-    161,
-    133,
-    162,
-    187,
+    132,
+    93,
+    231,
+    167,
+    165,
+    140,
+    158,
     186,
-    202,
-    143,
-    148,
-    127
+    181,
+    209,
+    139,
+    155,
+    116
    ],
    "contributors": 155,
    "created_at": "2025-11-05T22:23:34Z",
@@ -2808,18 +2690,24 @@
    "external_orgs": [
     {
      "confidence": "high",
-     "contributions": 39,
-     "org": "microsoft.com",
+     "contributions": 40,
+     "org": "Microsoft",
      "people": 1
     },
     {
      "confidence": "high",
-     "contributions": 19,
+     "contributions": 20,
      "org": "Mirantis",
      "people": 3
     },
     {
-     "confidence": "medium",
+     "confidence": "low",
+     "contributions": 19,
+     "org": "Loft Labs",
+     "people": 1
+    },
+    {
+     "confidence": "high",
      "contributions": 7,
      "org": "Red Hat",
      "people": 3
@@ -2833,7 +2721,7 @@
     {
      "confidence": "high",
      "contributions": 5,
-     "org": "Armada AI",
+     "org": "Armada",
      "people": 1
     },
     {
@@ -2857,7 +2745,13 @@
     {
      "confidence": "high",
      "contributions": 2,
-     "org": "adobe",
+     "org": "Adobe",
+     "people": 1
+    },
+    {
+     "confidence": "low",
+     "contributions": 2,
+     "org": "Beyond Horizon Academy",
      "people": 1
     },
     {
@@ -2867,27 +2761,9 @@
      "people": 1
     },
     {
-     "confidence": "low",
-     "contributions": 2,
-     "org": "google",
-     "people": 1
-    },
-    {
      "confidence": "high",
      "contributions": 2,
-     "org": "groq",
-     "people": 1
-    },
-    {
-     "confidence": "low",
-     "contributions": 2,
-     "org": "Istio",
-     "people": 1
-    },
-    {
-     "confidence": "low",
-     "contributions": 1,
-     "org": "ACRT-CR",
+     "org": "Groq",
      "people": 1
     },
     {
@@ -2927,34 +2803,39 @@
      "people": 1
     }
    ],
-   "external_prs_90d": 71,
+   "external_prs_90d": 73,
    "external_unattributed": {
-    "contributions": 38,
+    "contributions": 19,
     "people": 5
    },
    "fork_orgs": [
+    {
+     "confidence": "low",
+     "forks": 3,
+     "org": "Mirantis"
+    },
     {
      "confidence": "high",
      "forks": 3,
      "org": "Red Hat"
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "forks": 2,
      "org": "DaoCloud"
     },
     {
      "confidence": "high",
      "forks": 2,
-     "org": "Mirantis"
+     "org": "Hedgehog"
     },
     {
      "confidence": "high",
      "forks": 1,
-     "org": "adobe"
+     "org": "Adobe"
     },
     {
-     "confidence": "low",
+     "confidence": "medium",
      "forks": 1,
      "org": "Amazon Web Services"
     },
@@ -2971,22 +2852,12 @@
     {
      "confidence": "high",
      "forks": 1,
-     "org": "banked"
+     "org": "Banked"
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "forks": 1,
-     "org": "cloudengined.com"
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "ConnectRPC"
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "containerd"
+     "org": "Cloudengined"
     },
     {
      "confidence": "high",
@@ -2999,29 +2870,14 @@
      "org": "Crusoe"
     },
     {
-     "confidence": "medium",
+     "confidence": "low",
      "forks": 1,
-     "org": "fireeye.com"
+     "org": "GMI Cloud"
     },
     {
      "confidence": "high",
      "forks": 1,
-     "org": "githedgehog"
-    },
-    {
-     "confidence": "high",
-     "forks": 1,
-     "org": "GMISWE"
-    },
-    {
-     "confidence": "high",
-     "forks": 1,
-     "org": "groq"
-    },
-    {
-     "confidence": "high",
-     "forks": 1,
-     "org": "Hedgehog"
+     "org": "Groq"
     },
     {
      "confidence": "high",
@@ -3034,24 +2890,14 @@
      "org": "Intel"
     },
     {
-     "confidence": "low",
-     "forks": 1,
-     "org": "Istio"
-    },
-    {
      "confidence": "high",
      "forks": 1,
-     "org": "lambdal"
-    },
-    {
-     "confidence": "high",
-     "forks": 1,
-     "org": "Mitroko"
+     "org": "Lambda"
     },
     {
      "confidence": "low",
      "forks": 1,
-     "org": "Qualcomm Technologies, Inc."
+     "org": "Loft Labs"
     },
     {
      "confidence": "high",
@@ -3059,9 +2905,9 @@
      "org": "Red Hat Ecosystem Edge engineering"
     },
     {
-     "confidence": "low",
+     "confidence": "medium",
      "forks": 1,
-     "org": "ReportPortal.io"
+     "org": "SIGHUP"
     },
     {
      "confidence": "high",
@@ -3074,25 +2920,25 @@
      "org": "Stony Brook University"
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "forks": 1,
-     "org": "tessian.com"
+     "org": "Tessian"
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "forks": 1,
-     "org": "vialetto.me"
+     "org": "Verda Cloud"
     }
    ],
-   "forks": 243,
+   "forks": 244,
    "forks_90d": 67,
    "forks_internal_90d": 14,
-   "forks_unattributed_90d": 19,
+   "forks_unattributed_90d": 23,
    "full_name": "dsx-ai-factory/infra-controller",
    "homepage": "https://docs.nvidia.com/infra-controller",
-   "internal_contributions": 2831,
-   "issues_closed_30d": 357,
-   "issues_opened_30d": 490,
+   "internal_contributions": 2829,
+   "issues_closed_30d": 360,
+   "issues_opened_30d": 491,
    "language": "Rust",
    "language_color": "#dea584",
    "latest_release": {
@@ -3105,12 +2951,12 @@
    "license": "Apache-2.0",
    "merged_prs": 5145,
    "name": "infra-controller",
-   "open_issues": 944,
-   "open_prs": 167,
+   "open_issues": 942,
+   "open_prs": 174,
    "owner": "dsx-ai-factory",
    "prs_merged_30d": 773,
-   "prs_opened_30d": 861,
-   "pushed_at": "2026-11-27T03:57:10Z",
+   "prs_opened_30d": 868,
+   "pushed_at": "2026-11-27T15:54:44Z",
    "recent_releases": [
     {
      "isPrerelease": false,
@@ -3163,11 +3009,11 @@
    "archived": false,
    "closed_issues": 106,
    "closed_prs": 74,
-   "commits_30d": 137,
+   "commits_30d": 135,
    "commits_total": 451,
    "commits_weekly": [
-    1,
-    5,
+    2,
+    4,
     11,
     0,
     16,
@@ -3188,14 +3034,8 @@
     {
      "confidence": "high",
      "contributions": 4,
-     "org": "google",
+     "org": "Google",
      "people": 2
-    },
-    {
-     "confidence": "low",
-     "contributions": 2,
-     "org": "Data For Change",
-     "people": 1
     },
     {
      "confidence": "high",
@@ -3204,9 +3044,9 @@
      "people": 1
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "contributions": 2,
-     "org": "microsoft.com",
+     "org": "Microsoft",
      "people": 1
     },
     {
@@ -3216,15 +3056,9 @@
      "people": 1
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "contributions": 1,
-     "org": "clarifai.com",
-     "people": 1
-    },
-    {
-     "confidence": "medium",
-     "contributions": 1,
-     "org": "inf.ufrgs.br",
+     "org": "Clarifai",
      "people": 1
     },
     {
@@ -3238,28 +3072,24 @@
      "contributions": 1,
      "org": "python.org",
      "people": 1
+    },
+    {
+     "confidence": "high",
+     "contributions": 1,
+     "org": "Scherm",
+     "people": 1
     }
    ],
    "external_prs_90d": 10,
    "external_unattributed": {
-    "contributions": 2,
-    "people": 1
+    "contributions": 4,
+    "people": 2
    },
    "fork_orgs": [
     {
-     "confidence": "medium",
+     "confidence": "high",
      "forks": 3,
-     "org": "google"
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "CSU-ITMO-2025-2"
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "Data For Change"
+     "org": "Google"
     },
     {
      "confidence": "high",
@@ -3267,24 +3097,24 @@
      "org": "East China Normal University"
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "forks": 1,
-     "org": "habana.ai"
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "inf.ufrgs.br"
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "inferact.ai"
+     "org": "Inferact"
     },
     {
      "confidence": "high",
      "forks": 1,
+     "org": "Intel"
+    },
+    {
+     "confidence": "medium",
+     "forks": 1,
      "org": "redactPIItools.com"
+    },
+    {
+     "confidence": "high",
+     "forks": 1,
+     "org": "Scherm"
     },
     {
      "confidence": "high",
@@ -3295,7 +3125,7 @@
    "forks": 75,
    "forks_90d": 16,
    "forks_internal_90d": 2,
-   "forks_unattributed_90d": 3,
+   "forks_unattributed_90d": 5,
    "full_name": "dsx-ai-factory/model-streamer",
    "homepage": "",
    "internal_contributions": 429,
@@ -3357,9 +3187,9 @@
     }
    ],
    "releases": 29,
-   "stars": 414,
-   "stars_30d": 0,
-   "stars_7d": 0,
+   "stars": 415,
+   "stars_30d": 1,
+   "stars_7d": 1,
    "topics": [],
    "url": "https://github.com/dsx-ai-factory/model-streamer",
    "watchers": 6
@@ -3371,22 +3201,22 @@
    "archived": false,
    "closed_issues": 18,
    "closed_prs": 95,
-   "commits_30d": 65,
+   "commits_30d": 64,
    "commits_total": 402,
    "commits_weekly": [
     11,
-    8,
+    7,
     14,
-    16,
+    15,
     10,
     15,
     23,
     23,
-    15,
-    14,
+    17,
+    12,
     2,
-    29,
-    13
+    30,
+    12
    ],
    "contributors": 18,
    "created_at": "2026-05-21T20:26:37Z",
@@ -3414,7 +3244,7 @@
     {
      "confidence": "high",
      "contributions": 1,
-     "org": "netboxlabs",
+     "org": "NetBox Labs",
      "people": 1
     }
    ],
@@ -3425,9 +3255,9 @@
    },
    "fork_orgs": [
     {
-     "confidence": "high",
+     "confidence": "medium",
      "forks": 1,
-     "org": "CMU Silicon Valley"
+     "org": "Carnegie Mellon University"
     },
     {
      "confidence": "high",
@@ -3437,7 +3267,7 @@
     {
      "confidence": "high",
      "forks": 1,
-     "org": "netboxlabs"
+     "org": "NetBox Labs"
     },
     {
      "confidence": "high",
@@ -3448,12 +3278,17 @@
      "confidence": "high",
      "forks": 1,
      "org": "Red Hat"
+    },
+    {
+     "confidence": "low",
+     "forks": 1,
+     "org": "Together AI"
     }
    ],
    "forks": 21,
    "forks_90d": 8,
    "forks_internal_90d": 1,
-   "forks_unattributed_90d": 2,
+   "forks_unattributed_90d": 1,
    "full_name": "dsx-ai-factory/nv-config-manager",
    "homepage": "https://docs.nvidia.com/switch-infrastructure/config-manager",
    "internal_contributions": 420,
@@ -3472,11 +3307,11 @@
    "merged_prs": 446,
    "name": "nv-config-manager",
    "open_issues": 6,
-   "open_prs": 31,
+   "open_prs": 32,
    "owner": "dsx-ai-factory",
    "prs_merged_30d": 102,
-   "prs_opened_30d": 147,
-   "pushed_at": "2026-11-26T03:33:25Z",
+   "prs_opened_30d": 148,
+   "pushed_at": "2026-11-27T16:12:22Z",
    "recent_releases": [
     {
      "isPrerelease": false,
@@ -3532,18 +3367,18 @@
    "commits_30d": 17,
    "commits_total": 499,
    "commits_weekly": [
+    5,
+    5,
+    15,
     4,
-    6,
-    13,
-    6,
     20,
-    3,
     4,
+    3,
     27,
     7,
     7,
-    1,
-    8,
+    5,
+    4,
     0
    ],
    "contributors": 25,
@@ -3558,9 +3393,9 @@
      "people": 1
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "contributions": 6,
-     "org": "microsoft.com",
+     "org": "Microsoft",
      "people": 1
     },
     {
@@ -3578,7 +3413,7 @@
     {
      "confidence": "high",
      "contributions": 2,
-     "org": "Armada AI",
+     "org": "Armada",
      "people": 1
     }
    ],
@@ -3589,14 +3424,14 @@
    },
    "fork_orgs": [
     {
-     "confidence": "medium",
+     "confidence": "high",
      "forks": 1,
-     "org": "Armada AI"
+     "org": "Armada"
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "forks": 1,
-     "org": "microsoft.com"
+     "org": "Microsoft"
     },
     {
      "confidence": "high",
@@ -3606,7 +3441,7 @@
     {
      "confidence": "high",
      "forks": 1,
-     "org": "Serra Consultancy Services"
+     "org": "Serra Consultancy Services Ltd"
     },
     {
      "confidence": "high",
@@ -3707,8 +3542,8 @@
     4,
     2,
     0,
-    2,
-    2
+    3,
+    1
    ],
    "contributors": 12,
    "created_at": "2026-02-04T21:11:33Z",
@@ -3737,17 +3572,12 @@
      "confidence": "high",
      "forks": 1,
      "org": "Red Hat"
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "sg-benchmarks"
     }
    ],
    "forks": 11,
    "forks_90d": 9,
    "forks_internal_90d": 6,
-   "forks_unattributed_90d": 0,
+   "forks_unattributed_90d": 1,
    "full_name": "dsx-ai-factory/nv-rms",
    "homepage": "https://docs.nvidia.com/rms",
    "internal_contributions": 62,
@@ -3784,8 +3614,8 @@
    "commits_30d": 4,
    "commits_total": 91,
    "commits_weekly": [
-    1,
     2,
+    1,
     0,
     1,
     1,
@@ -3900,8 +3730,8 @@
    "commits_weekly": [
     1,
     2,
-    2,
-    4,
+    3,
+    3,
     0,
     0,
     0,
@@ -3979,24 +3809,24 @@
    "active_external_90d": 25,
    "active_internal_90d": 45,
    "archived": false,
-   "closed_issues": 1191,
+   "closed_issues": 1193,
    "closed_prs": 238,
-   "commits_30d": 296,
-   "commits_total": 1924,
+   "commits_30d": 291,
+   "commits_total": 1926,
    "commits_weekly": [
-    98,
-    125,
-    99,
-    39,
-    49,
-    67,
-    79,
-    81,
-    69,
+    104,
+    121,
+    91,
+    37,
+    53,
+    71,
+    80,
+    78,
+    66,
     84,
-    77,
-    57,
-    57
+    80,
+    55,
+    55
    ],
    "contributors": 65,
    "created_at": "2026-04-01T19:22:14Z",
@@ -4028,45 +3858,33 @@
      "people": 1
     },
     {
-     "confidence": "low",
-     "contributions": 4,
-     "org": "tensorflow",
-     "people": 2
-    },
-    {
-     "confidence": "low",
-     "contributions": 3,
-     "org": "E2E-Load-Tests-Org ",
-     "people": 1
-    },
-    {
      "confidence": "high",
      "contributions": 2,
      "org": "alumni.usp.br",
      "people": 1
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "contributions": 2,
-     "org": "inf.ufrgs.br",
+     "org": "Amrita Vishwa Vidyapeetham",
      "people": 1
     },
     {
      "confidence": "high",
      "contributions": 2,
-     "org": "Tesla.com",
+     "org": "Scherm",
+     "people": 1
+    },
+    {
+     "confidence": "high",
+     "contributions": 2,
+     "org": "Tesla",
      "people": 1
     },
     {
      "confidence": "high",
      "contributions": 1,
-     "org": "airbus",
-     "people": 1
-    },
-    {
-     "confidence": "low",
-     "contributions": 1,
-     "org": "AMD",
+     "org": "Airbus",
      "people": 1
     },
     {
@@ -4076,15 +3894,15 @@
      "people": 1
     },
     {
-     "confidence": "low",
+     "confidence": "medium",
      "contributions": 1,
-     "org": "AWS Educate TW",
+     "org": "IIT Bhilai",
      "people": 1
     },
     {
-     "confidence": "low",
+     "confidence": "high",
      "contributions": 1,
-     "org": "MetaVAI ",
+     "org": "OrbiSky",
      "people": 1
     },
     {
@@ -4096,89 +3914,54 @@
    ],
    "external_prs_90d": 33,
    "external_unattributed": {
-    "contributions": 13,
-    "people": 9
+    "contributions": 19,
+    "people": 12
    },
    "fork_orgs": [
     {
-     "confidence": "low",
-     "forks": 2,
-     "org": "AMD"
+     "confidence": "high",
+     "forks": 1,
+     "org": "Airbus"
     },
     {
      "confidence": "high",
      "forks": 1,
-     "org": "airbus"
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "alumni.usp.br"
+     "org": "Amrita Vishwa Vidyapeetham"
     },
     {
      "confidence": "high",
      "forks": 1,
-     "org": "Ancestry, Prev @ Amazon"
+     "org": "Ancestry"
+    },
+    {
+     "confidence": "high",
+     "forks": 1,
+     "org": "Bitdeer"
     },
     {
      "confidence": "low",
      "forks": 1,
-     "org": "AWS Educate TW"
+     "org": "Comcast"
     },
     {
      "confidence": "medium",
      "forks": 1,
-     "org": "bitdeer.com"
+     "org": "IIT Bhilai"
     },
     {
-     "confidence": "low",
+     "confidence": "high",
      "forks": 1,
-     "org": "E2E-Load-Tests-Org "
+     "org": "MaiCoin"
     },
     {
-     "confidence": "low",
+     "confidence": "high",
      "forks": 1,
-     "org": "HAMi Project"
+     "org": "National Taiwan University"
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "forks": 1,
-     "org": "inf.ufrgs.br"
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "Kubernetes SIGs"
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "maicoin.com"
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "Meshery"
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "MetaVAI "
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "ntu.edu.tw"
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "nuance.com"
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "OpenFGA"
+     "org": "Nuance Communications"
     },
     {
      "confidence": "high",
@@ -4198,6 +3981,11 @@
     {
      "confidence": "high",
      "forks": 1,
+     "org": "Scherm"
+    },
+    {
+     "confidence": "high",
+     "forks": 1,
      "org": "Southeast University"
     },
     {
@@ -4206,19 +3994,19 @@
      "org": "Ssss123ss"
     },
     {
-     "confidence": "low",
+     "confidence": "high",
      "forks": 1,
-     "org": "tensorflow"
+     "org": "Tesla"
     },
     {
      "confidence": "high",
      "forks": 1,
-     "org": "Tesla.com"
+     "org": "Tessian"
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "forks": 1,
-     "org": "tessian.com"
+     "org": "University of S\u00e3o Paulo"
     },
     {
      "confidence": "high",
@@ -4226,49 +4014,51 @@
      "org": "VIT Pune"
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "forks": 1,
-     "org": "vmware.com"
+     "org": "VMware"
     },
     {
      "confidence": "high",
      "forks": 1,
-     "org": "walmart"
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "Xmidt"
+     "org": "Walmart"
     }
    ],
    "forks": 112,
-   "forks_90d": 58,
-   "forks_internal_90d": 11,
-   "forks_unattributed_90d": 18,
+   "forks_90d": 57,
+   "forks_internal_90d": 12,
+   "forks_unattributed_90d": 24,
    "full_name": "dsx-ai-factory/nvcf",
    "homepage": "https://docs.nvidia.com/nvcf/overview",
-   "internal_contributions": 1908,
-   "issues_closed_30d": 295,
-   "issues_opened_30d": 277,
+   "internal_contributions": 1910,
+   "issues_closed_30d": 297,
+   "issues_opened_30d": 280,
    "language": "Go",
    "language_color": "#00ADD8",
    "latest_release": {
     "isPrerelease": false,
-    "name": "src/compute-plane-services/nvsnap/v0.7.4",
-    "publishedAt": "2026-11-27T00:17:38Z",
-    "tagName": "src/compute-plane-services/nvsnap/v0.7.4",
-    "url": "https://github.com/dsx-ai-factory/nvcf/releases/tag/src/compute-plane-services/nvsnap/v0.7.4"
+    "name": "src/control-plane-services/instance-cluster-management/v0.17.1",
+    "publishedAt": "2026-11-27T09:40:18Z",
+    "tagName": "src/control-plane-services/instance-cluster-management/v0.17.1",
+    "url": "https://github.com/dsx-ai-factory/nvcf/releases/tag/src/control-plane-services/instance-cluster-management/v0.17.1"
    },
    "license": "Apache-2.0",
-   "merged_prs": 1732,
+   "merged_prs": 1734,
    "name": "nvcf",
-   "open_issues": 383,
-   "open_prs": 167,
+   "open_issues": 384,
+   "open_prs": 169,
    "owner": "dsx-ai-factory",
-   "prs_merged_30d": 404,
-   "prs_opened_30d": 482,
-   "pushed_at": "2026-11-27T04:54:22Z",
+   "prs_merged_30d": 406,
+   "prs_opened_30d": 486,
+   "pushed_at": "2026-11-27T09:40:17Z",
    "recent_releases": [
+    {
+     "isPrerelease": false,
+     "name": "src/control-plane-services/instance-cluster-management/v0.17.1",
+     "publishedAt": "2026-11-27T09:40:18Z",
+     "tagName": "src/control-plane-services/instance-cluster-management/v0.17.1",
+     "url": "https://github.com/dsx-ai-factory/nvcf/releases/tag/src/control-plane-services/instance-cluster-management/v0.17.1"
+    },
     {
      "isPrerelease": false,
      "name": "src/compute-plane-services/nvsnap/v0.7.4",
@@ -4296,16 +4086,9 @@
      "publishedAt": "2026-11-26T18:23:01Z",
      "tagName": "src/compute-plane-services/nvca/v3.22.0",
      "url": "https://github.com/dsx-ai-factory/nvcf/releases/tag/src/compute-plane-services/nvca/v3.22.0"
-    },
-    {
-     "isPrerelease": false,
-     "name": "deploy/helm/nvca-operator/v1.39.4",
-     "publishedAt": "2026-11-26T09:32:20Z",
-     "tagName": "deploy/helm/nvca-operator/v1.39.4",
-     "url": "https://github.com/dsx-ai-factory/nvcf/releases/tag/deploy/helm/nvca-operator/v1.39.4"
     }
    ],
-   "releases": 3528,
+   "releases": 3529,
    "stars": 272,
    "stars_30d": 1,
    "stars_7d": 1,
@@ -4340,8 +4123,8 @@
     8,
     4,
     2,
-    5,
-    9,
+    6,
+    8,
     6
    ],
    "contributors": 10,
@@ -4350,15 +4133,15 @@
    "description": "",
    "external_orgs": [
     {
-     "confidence": "medium",
+     "confidence": "high",
      "contributions": 2,
-     "org": "inf.ufrgs.br",
+     "org": "Scherm",
      "people": 1
     },
     {
      "confidence": "high",
      "contributions": 1,
-     "org": "bsc.es",
+     "org": "Barcelona Supercomputing Center",
      "people": 1
     },
     {
@@ -4380,35 +4163,35 @@
      "org": "Amazon Web Services"
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "forks": 1,
-     "org": "bsc.es"
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "fb.com"
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "inf.ufrgs.br"
+     "org": "Barcelona Supercomputing Center"
     },
     {
      "confidence": "high",
      "forks": 1,
-     "org": "redactPIItools.com"
+     "org": "Meta"
     },
     {
      "confidence": "medium",
      "forks": 1,
-     "org": "usc.edu"
+     "org": "redactPIItools.com"
+    },
+    {
+     "confidence": "high",
+     "forks": 1,
+     "org": "Scherm"
+    },
+    {
+     "confidence": "high",
+     "forks": 1,
+     "org": "University of Southern California"
     }
    ],
    "forks": 8,
    "forks_90d": 8,
-   "forks_internal_90d": 1,
-   "forks_unattributed_90d": 1,
+   "forks_internal_90d": 2,
+   "forks_unattributed_90d": 0,
    "full_name": "dsx-ai-factory/NVIDIA-Recovery",
    "homepage": "",
    "internal_contributions": 86,
@@ -4459,7 +4242,7 @@
    "commits_30d": 41,
    "commits_total": 334,
    "commits_weekly": [
-    10,
+    4,
     4,
     4,
     2,
@@ -4557,28 +4340,28 @@
    "watchers": 0
   },
   {
-   "active_contributors_90d": 93,
-   "active_external_90d": 19,
+   "active_contributors_90d": 94,
+   "active_external_90d": 20,
    "active_internal_90d": 74,
    "archived": false,
    "closed_issues": 217,
    "closed_prs": 363,
-   "commits_30d": 258,
+   "commits_30d": 250,
    "commits_total": 1687,
    "commits_weekly": [
     104,
-    108,
-    113,
-    146,
-    75,
+    111,
+    115,
     137,
-    205,
-    160,
-    91,
-    62,
-    56,
-    59,
-    38
+    79,
+    155,
+    198,
+    147,
+    95,
+    57,
+    58,
+    57,
+    37
    ],
    "contributors": 81,
    "created_at": "2026-08-04T15:42:58Z",
@@ -4586,7 +4369,7 @@
    "description": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
    "external_orgs": [
     {
-     "confidence": "medium",
+     "confidence": "high",
      "contributions": 7,
      "org": "IBM",
      "people": 1
@@ -4598,9 +4381,9 @@
      "people": 1
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "contributions": 5,
-     "org": "tessian.com",
+     "org": "Tessian",
      "people": 1
     },
     {
@@ -4628,9 +4411,9 @@
      "people": 1
     },
     {
-     "confidence": "low",
+     "confidence": "medium",
      "contributions": 3,
-     "org": "Networkers ",
+     "org": "Networkers",
      "people": 1
     },
     {
@@ -4640,15 +4423,21 @@
      "people": 1
     },
     {
-     "confidence": "low",
-     "contributions": 1,
-     "org": "JetBrains",
-     "people": 1
-    },
-    {
      "confidence": "high",
      "contributions": 1,
      "org": "kubernetes @kubernetes-sigs",
+     "people": 1
+    },
+    {
+     "confidence": "medium",
+     "contributions": 1,
+     "org": "RCOEM",
+     "people": 1
+    },
+    {
+     "confidence": "medium",
+     "contributions": 1,
+     "org": "UC San Diego",
      "people": 1
     },
     {
@@ -4658,7 +4447,7 @@
      "people": 1
     }
    ],
-   "external_prs_90d": 37,
+   "external_prs_90d": 38,
    "external_unattributed": {
     "contributions": 16,
     "people": 7
@@ -4666,38 +4455,43 @@
    "fork_orgs": [
     {
      "confidence": "medium",
-     "forks": 6,
-     "org": "Amazon"
-    },
-    {
-     "confidence": "low",
-     "forks": 4,
+     "forks": 5,
      "org": "Amazon Web Services"
     },
     {
-     "confidence": "medium",
-     "forks": 3,
-     "org": "Red Hat"
+     "confidence": "high",
+     "forks": 4,
+     "org": "Amazon"
     },
     {
-     "confidence": "low",
-     "forks": 2,
-     "org": "Colegio San Caio"
-    },
-    {
-     "confidence": "medium",
+     "confidence": "high",
      "forks": 2,
      "org": "IBM"
     },
     {
      "confidence": "high",
      "forks": 2,
-     "org": "shopee"
+     "org": "Red Hat"
+    },
+    {
+     "confidence": "medium",
+     "forks": 2,
+     "org": "Salesforce"
+    },
+    {
+     "confidence": "high",
+     "forks": 2,
+     "org": "Shopee"
     },
     {
      "confidence": "medium",
      "forks": 1,
-     "org": "22acacia.com"
+     "org": "17LIVE"
+    },
+    {
+     "confidence": "medium",
+     "forks": 1,
+     "org": "aflock.ai"
     },
     {
      "confidence": "high",
@@ -4707,37 +4501,17 @@
     {
      "confidence": "high",
      "forks": 1,
-     "org": "AICareerpath"
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "alum.utoronto.ca"
+     "org": "Apisai"
     },
     {
      "confidence": "high",
      "forks": 1,
-     "org": "Apisai"
+     "org": "ASUS"
     },
     {
      "confidence": "medium",
-     "forks": 1,
-     "org": "asus.com"
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "attentivemobile.com"
-    },
-    {
-     "confidence": "low",
      "forks": 1,
      "org": "Autostructure"
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "AWS Educate TW"
     },
     {
      "confidence": "high",
@@ -4747,22 +4521,17 @@
     {
      "confidence": "high",
      "forks": 1,
-     "org": "bitdeer.com"
-    },
-    {
-     "confidence": "high",
-     "forks": 1,
-     "org": "Building & Learning at @aflock-ai"
+     "org": "Bitdeer"
     },
     {
      "confidence": "medium",
      "forks": 1,
-     "org": "clearvoice.com"
+     "org": "Calderdale College"
     },
     {
      "confidence": "high",
      "forks": 1,
-     "org": "Databricks Alum"
+     "org": "Colegio San Caio"
     },
     {
      "confidence": "high",
@@ -4785,24 +4554,14 @@
      "org": "ELTE University"
     },
     {
-     "confidence": "low",
-     "forks": 1,
-     "org": "Envoy Proxy - CNCF"
-    },
-    {
      "confidence": "high",
      "forks": 1,
      "org": "Firmus AI Infrastructure"
     },
     {
-     "confidence": "low",
-     "forks": 1,
-     "org": "git.kernel.org mirror"
-    },
-    {
      "confidence": "high",
      "forks": 1,
-     "org": "google"
+     "org": "Google"
     },
     {
      "confidence": "high",
@@ -4810,27 +4569,12 @@
      "org": "GoogleDistributedCloud"
     },
     {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "jayvicsanantonio.dev"
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "JetBrains"
-    },
-    {
-     "confidence": "high",
-     "forks": 1,
-     "org": "kubernetes @kubernetes-sigs"
-    },
-    {
      "confidence": "high",
      "forks": 1,
      "org": "MatterWave ai"
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "forks": 1,
      "org": "Mirantis"
     },
@@ -4840,24 +4584,14 @@
      "org": "Mont Cruz Engenharia"
     },
     {
-     "confidence": "high",
+     "confidence": "medium",
      "forks": 1,
-     "org": "MSCS @ NYU, prev SWE @ AT&T"
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "nawaz-dev"
+     "org": "Networkers"
     },
     {
      "confidence": "medium",
      "forks": 1,
-     "org": "ncf.ca"
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "Networkers "
+     "org": "New York University"
     },
     {
      "confidence": "high",
@@ -4865,29 +4599,24 @@
      "org": "OBrienLabs Dev"
     },
     {
+     "confidence": "high",
+     "forks": 1,
+     "org": "Ramstorage Cloud Technology"
+    },
+    {
      "confidence": "medium",
      "forks": 1,
-     "org": "pimento.waw.pl"
+     "org": "RCOEM"
     },
     {
-     "confidence": "high",
-     "forks": 1,
-     "org": "Ramstorage Cloud Technology Co"
-    },
-    {
-     "confidence": "high",
+     "confidence": "medium",
      "forks": 1,
      "org": "redactPIItools.com"
     },
     {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "rokt.com"
-    },
-    {
      "confidence": "high",
      "forks": 1,
-     "org": "ROM ROBOTICS"
+     "org": "ROM Robotics"
     },
     {
      "confidence": "high",
@@ -4897,17 +4626,12 @@
     {
      "confidence": "medium",
      "forks": 1,
-     "org": "somaiya.edu"
+     "org": "SIGHUP"
     },
     {
      "confidence": "high",
      "forks": 1,
      "org": "Stony Brook University"
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "student.calderdale.ac.uk"
     },
     {
      "confidence": "high",
@@ -4917,22 +4641,12 @@
     {
      "confidence": "high",
      "forks": 1,
-     "org": "T-Mobile"
-    },
-    {
-     "confidence": "high",
-     "forks": 1,
-     "org": "TaigiKeyboard"
+     "org": "Tessian"
     },
     {
      "confidence": "medium",
      "forks": 1,
-     "org": "tessian.com"
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "Thecc4re"
+     "org": "UC San Diego"
     },
     {
      "confidence": "high",
@@ -4947,31 +4661,21 @@
     {
      "confidence": "low",
      "forks": 1,
-     "org": "VMware Sample Code"
+     "org": "VotalAI"
     },
     {
      "confidence": "high",
      "forks": 1,
-     "org": "Yahoo!"
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "yahoo.co.in"
-    },
-    {
-     "confidence": "high",
-     "forks": 1,
-     "org": "ZJUT"
+     "org": "Zhejiang University of Technology"
     }
    ],
-   "forks": 177,
-   "forks_90d": 179,
-   "forks_internal_90d": 52,
-   "forks_unattributed_90d": 54,
+   "forks": 178,
+   "forks_90d": 180,
+   "forks_internal_90d": 58,
+   "forks_unattributed_90d": 68,
    "full_name": "dsx-ai-factory/nvke",
    "homepage": "https://docs.nvidia.com/nvke/",
-   "internal_contributions": 2189,
+   "internal_contributions": 2187,
    "issues_closed_30d": 65,
    "issues_opened_30d": 149,
    "language": "Go",
@@ -4987,10 +4691,10 @@
    "merged_prs": 1654,
    "name": "nvke",
    "open_issues": 152,
-   "open_prs": 101,
+   "open_prs": 102,
    "owner": "dsx-ai-factory",
    "prs_merged_30d": 261,
-   "prs_opened_30d": 371,
+   "prs_opened_30d": 372,
    "pushed_at": "2026-11-27T03:36:11Z",
    "recent_releases": [
     {
@@ -5030,9 +4734,9 @@
     }
    ],
    "releases": 8,
-   "stars": 1257,
-   "stars_30d": 0,
-   "stars_7d": 0,
+   "stars": 1261,
+   "stars_30d": 4,
+   "stars_7d": 4,
    "topics": [
     "bare-metal",
     "cluster-api",
@@ -5053,17 +4757,17 @@
    "commits_30d": 109,
    "commits_total": 302,
    "commits_weekly": [
-    14,
-    7,
-    21,
-    22,
-    33,
-    42,
+    13,
+    9,
     20,
-    22,
-    15,
+    21,
     35,
-    31,
+    41,
+    22,
+    19,
+    19,
+    32,
+    30,
     20,
     15
    ],
@@ -5071,32 +4775,34 @@
    "created_at": "2026-10-22T13:07:58Z",
    "default_branch": "main",
    "description": "NVKE telemetry pipeline (NKTP): an OpenTelemetry pipeline for collecting, processing and exporting Kubernetes metrics, logs and traces.",
-   "external_orgs": [],
-   "external_prs_90d": 1,
-   "external_unattributed": {
-    "contributions": 2,
-    "people": 1
-   },
-   "fork_orgs": [
+   "external_orgs": [
     {
      "confidence": "medium",
-     "forks": 1,
-     "org": "alum.utoronto.ca"
-    },
+     "contributions": 2,
+     "org": "HCLTech",
+     "people": 1
+    }
+   ],
+   "external_prs_90d": 1,
+   "external_unattributed": {
+    "contributions": 0,
+    "people": 0
+   },
+   "fork_orgs": [
     {
      "confidence": "high",
      "forks": 1,
      "org": "Amazon"
     },
     {
-     "confidence": "high",
+     "confidence": "medium",
      "forks": 1,
-     "org": "Yahoo!"
+     "org": "HCLTech"
     }
    ],
    "forks": 7,
    "forks_90d": 7,
-   "forks_internal_90d": 3,
+   "forks_internal_90d": 4,
    "forks_unattributed_90d": 1,
    "full_name": "dsx-ai-factory/nvke-telemetry-pipeline",
    "homepage": "",
@@ -5178,17 +4884,17 @@
    "commits_weekly": [
     0,
     6,
-    19,
-    25,
+    21,
+    23,
     11,
     34,
-    54,
-    44,
-    30,
+    56,
+    42,
+    31,
     71,
-    46,
-    58,
-    15
+    45,
+    65,
+    8
    ],
    "contributors": 21,
    "created_at": "2026-09-09T17:26:36Z",
@@ -5208,15 +4914,9 @@
      "people": 1
     },
     {
-     "confidence": "low",
-     "contributions": 6,
-     "org": "AWS Educate TW",
-     "people": 1
-    },
-    {
-     "confidence": "medium",
+     "confidence": "high",
      "contributions": 4,
-     "org": "wharton.upenn.edu",
+     "org": "University of Pennsylvania (Wharton)",
      "people": 1
     },
     {
@@ -5228,24 +4928,14 @@
    ],
    "external_prs_90d": 19,
    "external_unattributed": {
-    "contributions": 2,
-    "people": 2
+    "contributions": 8,
+    "people": 3
    },
    "fork_orgs": [
     {
      "confidence": "high",
      "forks": 1,
      "org": "Amazon"
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "AWS Educate TW"
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "clearvoice.com"
     },
     {
      "confidence": "high",
@@ -5258,7 +4948,12 @@
      "org": "GoogleDistributedCloud"
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
+     "forks": 1,
+     "org": "Microcks"
+    },
+    {
+     "confidence": "high",
      "forks": 1,
      "org": "Mirantis"
     },
@@ -5270,41 +4965,26 @@
     {
      "confidence": "high",
      "forks": 1,
-     "org": "reshaprio @microcks"
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "rokt.com"
+     "org": "Serra Consultancy Services Ltd"
     },
     {
      "confidence": "high",
      "forks": 1,
-     "org": "Serra Consultancy Services"
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "tessian.com"
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "wharton.upenn.edu"
+     "org": "Tessian"
     },
     {
      "confidence": "high",
      "forks": 1,
-     "org": "Yahoo!"
+     "org": "University of Pennsylvania (Wharton)"
     }
    ],
    "forks": 25,
    "forks_90d": 25,
-   "forks_internal_90d": 5,
-   "forks_unattributed_90d": 7,
+   "forks_internal_90d": 7,
+   "forks_unattributed_90d": 9,
    "full_name": "dsx-ai-factory/nvkr",
    "homepage": "https://docs.nvidia.com/nvke/nvkr/",
-   "internal_contributions": 782,
+   "internal_contributions": 783,
    "issues_closed_30d": 65,
    "issues_opened_30d": 99,
    "language": "Go",
@@ -5320,11 +5000,11 @@
    "merged_prs": 413,
    "name": "nvkr",
    "open_issues": 51,
-   "open_prs": 14,
+   "open_prs": 15,
    "owner": "dsx-ai-factory",
    "prs_merged_30d": 210,
-   "prs_opened_30d": 229,
-   "pushed_at": "2026-11-26T14:23:28Z",
+   "prs_opened_30d": 230,
+   "pushed_at": "2026-11-27T08:51:45Z",
    "recent_releases": [
     {
      "isPrerelease": false,
@@ -5356,162 +5036,13 @@
    "watchers": 1
   },
   {
-   "active_contributors_90d": 82,
-   "active_external_90d": 49,
-   "active_internal_90d": 33,
-   "archived": false,
-   "closed_issues": 2,
-   "closed_prs": 0,
-   "commits_30d": 191,
-   "commits_total": 23682,
-   "commits_weekly": [
-    164,
-    51,
-    52,
-    49,
-    26,
-    1747,
-    163,
-    90,
-    125,
-    39,
-    35,
-    41,
-    14
-   ],
-   "contributors": 221,
-   "created_at": "2026-10-02T18:25:59Z",
-   "default_branch": "main",
-   "description": "Open Virtual Network (OVN) SDN Based Kubernetes Networking Platform",
-   "external_orgs": [
-    {
-     "confidence": "high",
-     "contributions": 335,
-     "org": "Red Hat",
-     "people": 40
-    },
-    {
-     "confidence": "low",
-     "contributions": 12,
-     "org": "OVN-Kubernetes",
-     "people": 1
-    },
-    {
-     "confidence": "high",
-     "contributions": 10,
-     "org": "str08.net",
-     "people": 1
-    },
-    {
-     "confidence": "high",
-     "contributions": 3,
-     "org": "dgude-mlt.client.nvidia.com",
-     "people": 1
-    },
-    {
-     "confidence": "high",
-     "contributions": 3,
-     "org": "dtucker.co.uk",
-     "people": 1
-    },
-    {
-     "confidence": "high",
-     "contributions": 1,
-     "org": "Big Tech",
-     "people": 1
-    },
-    {
-     "confidence": "high",
-     "contributions": 1,
-     "org": "google",
-     "people": 1
-    },
-    {
-     "confidence": "high",
-     "contributions": 1,
-     "org": "ovn.org",
-     "people": 1
-    }
-   ],
-   "external_prs_90d": 0,
-   "external_unattributed": {
-    "contributions": 17,
-    "people": 2
-   },
-   "fork_orgs": [],
-   "forks": 1,
-   "forks_90d": 1,
-   "forks_internal_90d": 1,
-   "forks_unattributed_90d": 0,
-   "full_name": "dsx-ai-factory/ovn-kubernetes",
-   "homepage": "",
-   "internal_contributions": 2202,
-   "issues_closed_30d": 0,
-   "issues_opened_30d": 0,
-   "language": "Go",
-   "language_color": "#00ADD8",
-   "latest_release": {
-    "isPrerelease": false,
-    "name": "v2.4.3",
-    "publishedAt": "2026-11-23T01:16:06Z",
-    "tagName": "v2.4.3",
-    "url": "https://github.com/dsx-ai-factory/ovn-kubernetes/releases/tag/v2.4.3"
-   },
-   "license": "Apache-2.0",
-   "merged_prs": 0,
-   "name": "ovn-kubernetes",
-   "open_issues": 0,
-   "open_prs": 0,
-   "owner": "dsx-ai-factory",
-   "prs_merged_30d": 0,
-   "prs_opened_30d": 0,
-   "pushed_at": "2026-11-26T17:24:35Z",
-   "recent_releases": [
-    {
-     "isPrerelease": false,
-     "name": "v2.4.3",
-     "publishedAt": "2026-11-23T01:16:06Z",
-     "tagName": "v2.4.3",
-     "url": "https://github.com/dsx-ai-factory/ovn-kubernetes/releases/tag/v2.4.3"
-    },
-    {
-     "isPrerelease": false,
-     "name": "v2.4.2",
-     "publishedAt": "2026-10-16T08:05:30Z",
-     "tagName": "v2.4.2",
-     "url": "https://github.com/dsx-ai-factory/ovn-kubernetes/releases/tag/v2.4.2"
-    },
-    {
-     "isPrerelease": false,
-     "name": "v2.4.1",
-     "publishedAt": "2026-10-15T14:54:51Z",
-     "tagName": "v2.4.1",
-     "url": "https://github.com/dsx-ai-factory/ovn-kubernetes/releases/tag/v2.4.1"
-    },
-    {
-     "isPrerelease": false,
-     "name": "v2.4.0",
-     "publishedAt": "2026-10-13T21:50:20Z",
-     "tagName": "v2.4.0",
-     "url": "https://github.com/dsx-ai-factory/ovn-kubernetes/releases/tag/v2.4.0"
-    }
-   ],
-   "releases": 4,
-   "stars": 15,
-   "stars_30d": 0,
-   "stars_7d": 0,
-   "topics": [],
-   "url": "https://github.com/dsx-ai-factory/ovn-kubernetes",
-   "watchers": 1
-  },
-  {
    "active_contributors_90d": 59,
-   "active_external_90d": 19,
-   "active_internal_90d": 40,
+   "active_external_90d": 16,
+   "active_internal_90d": 43,
    "archived": false,
    "closed_issues": 143,
    "closed_prs": 285,
-   "commits_30d": 1030,
+   "commits_30d": 1017,
    "commits_total": 2878,
    "commits_weekly": [
     0,
@@ -5534,15 +5065,15 @@
    "description": "Run:ai is the AI workload orchestration platform for Kubernetes. This monorepo contains the control plane services, in-cluster Kubernetes operator/controllers, shared libraries and clients, the installer, and the local dev environment.",
    "external_orgs": [
     {
-     "confidence": "medium",
-     "contributions": 13,
-     "org": "inf.ufrgs.br",
+     "confidence": "high",
+     "contributions": 14,
+     "org": "Scherm",
      "people": 1
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "contributions": 9,
-     "org": "tessian.com",
+     "org": "Tessian",
      "people": 1
     },
     {
@@ -5572,7 +5103,7 @@
     {
      "confidence": "high",
      "contributions": 2,
-     "org": "maymust.com",
+     "org": "MayMust AI",
      "people": 1
     },
     {
@@ -5582,15 +5113,15 @@
      "people": 1
     },
     {
-     "confidence": "high",
+     "confidence": "low",
      "contributions": 1,
-     "org": "NAVER CLOUD",
+     "org": "AMD",
      "people": 1
     },
     {
-     "confidence": "low",
+     "confidence": "high",
      "contributions": 1,
-     "org": "Open Inference Fabric",
+     "org": "NAVER Cloud",
      "people": 1
     },
     {
@@ -5600,16 +5131,16 @@
      "people": 1
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "contributions": 1,
-     "org": "tikalk.com",
+     "org": "Tikal",
      "people": 1
     }
    ],
-   "external_prs_90d": 34,
+   "external_prs_90d": 35,
    "external_unattributed": {
-    "contributions": 53,
-    "people": 7
+    "contributions": 29,
+    "people": 4
    },
    "fork_orgs": [
     {
@@ -5618,14 +5149,19 @@
      "org": "Red Hat"
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "forks": 2,
-     "org": "maymust.com"
+     "org": "Amazon Web Services"
+    },
+    {
+     "confidence": "high",
+     "forks": 2,
+     "org": "MayMust AI"
     },
     {
      "confidence": "high",
      "forks": 1,
-     "org": "adobe"
+     "org": "Adobe"
     },
     {
      "confidence": "high",
@@ -5638,29 +5174,19 @@
      "org": "Alembic Technologies, Inc."
     },
     {
-     "confidence": "high",
+     "confidence": "low",
      "forks": 1,
-     "org": "Amazon Web Services"
+     "org": "AMD"
     },
     {
      "confidence": "high",
      "forks": 1,
-     "org": "Amazon Web Services (AWS)"
+     "org": "Amini"
     },
     {
      "confidence": "high",
      "forks": 1,
-     "org": "AminiTech"
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "anl.gov"
-    },
-    {
-     "confidence": "high",
-     "forks": 1,
-     "org": "AR3SYSTEMS"
+     "org": "AR3 Systems"
     },
     {
      "confidence": "high",
@@ -5668,14 +5194,19 @@
      "org": "archiveproject"
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "forks": 1,
-     "org": "asus.com"
+     "org": "Argonne National Laboratory"
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "forks": 1,
-     "org": "bitdeer.com"
+     "org": "ASUS"
+    },
+    {
+     "confidence": "high",
+     "forks": 1,
+     "org": "Bitdeer"
     },
     {
      "confidence": "high",
@@ -5683,14 +5214,9 @@
      "org": "ByteDance"
     },
     {
-     "confidence": "low",
-     "forks": 1,
-     "org": "campusplage"
-    },
-    {
      "confidence": "high",
      "forks": 1,
-     "org": "CCVS TECH"
+     "org": "CCVS TECH Ltd"
     },
     {
      "confidence": "high",
@@ -5698,19 +5224,9 @@
      "org": "CDW"
     },
     {
-     "confidence": "low",
-     "forks": 1,
-     "org": "Code States"
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "Data For Change"
-    },
-    {
      "confidence": "medium",
      "forks": 1,
-     "org": "diem.com"
+     "org": "Diem"
     },
     {
      "confidence": "high",
@@ -5725,22 +5241,22 @@
     {
      "confidence": "high",
      "forks": 1,
+     "org": "Eindhoven University of Technology"
+    },
+    {
+     "confidence": "high",
+     "forks": 1,
      "org": "evo-agents"
     },
     {
      "confidence": "high",
      "forks": 1,
-     "org": "FAAX UP"
+     "org": "FAAX UP LLC"
     },
     {
-     "confidence": "low",
+     "confidence": "medium",
      "forks": 1,
-     "org": "France Travail (ex P\u00f4le emploi)"
-    },
-    {
-     "confidence": "high",
-     "forks": 1,
-     "org": "Hob Forge @huggingface"
+     "org": "France Travail"
     },
     {
      "confidence": "high",
@@ -5750,22 +5266,7 @@
     {
      "confidence": "high",
      "forks": 1,
-     "org": "HPC-TUE"
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "iluvatar.com"
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "inf.ufrgs.br"
-    },
-    {
-     "confidence": "high",
-     "forks": 1,
-     "org": "kubescape"
+     "org": "Iluvatar CoreX"
     },
     {
      "confidence": "high",
@@ -5773,17 +5274,12 @@
      "org": "LLM Relevance"
     },
     {
-     "confidence": "high",
+     "confidence": "low",
      "forks": 1,
-     "org": "loo-ai"
+     "org": "Microsoft"
     },
     {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "luby.us"
-    },
-    {
-     "confidence": "high",
+     "confidence": "low",
      "forks": 1,
      "org": "ModifyMe"
     },
@@ -5795,37 +5291,22 @@
     {
      "confidence": "high",
      "forks": 1,
-     "org": "NAVER CLOUD"
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "ncf.ca"
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "neevcloud.com"
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "netlox.io"
+     "org": "NAVER Cloud"
     },
     {
      "confidence": "high",
      "forks": 1,
-     "org": "Nunya"
+     "org": "NeevCloud"
+    },
+    {
+     "confidence": "high",
+     "forks": 1,
+     "org": "NetLOX"
     },
     {
      "confidence": "high",
      "forks": 1,
      "org": "OBrienLabs Dev"
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "October"
     },
     {
      "confidence": "high",
@@ -5838,19 +5319,14 @@
      "org": "Okestro"
     },
     {
-     "confidence": "low",
+     "confidence": "high",
      "forks": 1,
-     "org": "Open Inference Fabric"
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "openwitty"
+     "org": "Oracle"
     },
     {
      "confidence": "high",
      "forks": 1,
-     "org": "oracle.com"
+     "org": "PayPal"
     },
     {
      "confidence": "high",
@@ -5858,7 +5334,7 @@
      "org": "Prometrix"
     },
     {
-     "confidence": "high",
+     "confidence": "medium",
      "forks": 1,
      "org": "redactPIItools.com"
     },
@@ -5873,9 +5349,14 @@
      "org": "Roche"
     },
     {
+     "confidence": "medium",
+     "forks": 1,
+     "org": "Salesforce"
+    },
+    {
      "confidence": "high",
      "forks": 1,
-     "org": "Software Engineering Lead @ UZINFOCOM"
+     "org": "Scherm"
     },
     {
      "confidence": "high",
@@ -5885,42 +5366,32 @@
     {
      "confidence": "medium",
      "forks": 1,
-     "org": "subnet.dev"
-    },
-    {
-     "confidence": "high",
-     "forks": 1,
-     "org": "Syncious System Pvt"
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "tessian.com"
+     "org": "Syncious System Pvt Ltd"
     },
     {
      "confidence": "low",
      "forks": 1,
-     "org": "Thecc4re"
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "thinkevolveconsulting.com"
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "tikalk.com"
+     "org": "Synergy"
     },
     {
      "confidence": "high",
      "forks": 1,
-     "org": "tinkoff"
+     "org": "Tessian"
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "forks": 1,
-     "org": "turwy.com"
+     "org": "Think Evolve Consulting"
+    },
+    {
+     "confidence": "high",
+     "forks": 1,
+     "org": "Tikal"
+    },
+    {
+     "confidence": "high",
+     "forks": 1,
+     "org": "Tinkoff"
     },
     {
      "confidence": "high",
@@ -5935,53 +5406,43 @@
     {
      "confidence": "high",
      "forks": 1,
+     "org": "UZINFOCOM"
+    },
+    {
+     "confidence": "high",
+     "forks": 1,
      "org": "Vespra"
     },
     {
      "confidence": "high",
      "forks": 1,
-     "org": "viettelcloud-oss, viettelnetworks"
+     "org": "Viettel"
     },
     {
      "confidence": "low",
      "forks": 1,
-     "org": "VMware Sample Code"
+     "org": "WeCloudData"
     },
     {
      "confidence": "high",
      "forks": 1,
-     "org": "WeCloudData, Beamdata, Elegant by Design"
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "workato.com"
+     "org": "Workato"
     },
     {
      "confidence": "high",
      "forks": 1,
      "org": "WorleyTech"
-    },
-    {
-     "confidence": "high",
-     "forks": 1,
-     "org": "Zeus"
-    },
-    {
-     "confidence": "high",
-     "forks": 1,
-     "org": "\u2709\ufe0f davpierce@paypal.com"
     }
    ],
    "forks": 138,
    "forks_90d": 138,
    "forks_internal_90d": 9,
-   "forks_unattributed_90d": 54,
+   "forks_unattributed_90d": 67,
    "full_name": "dsx-ai-factory/run-ai",
    "homepage": "https://docs.nvidia.com/run-ai/",
-   "internal_contributions": 3772,
+   "internal_contributions": 3795,
    "issues_closed_30d": 121,
-   "issues_opened_30d": 249,
+   "issues_opened_30d": 251,
    "language": "Go",
    "language_color": "#00ADD8",
    "latest_release": {
@@ -5994,11 +5455,11 @@
    "license": "Apache-2.0",
    "merged_prs": 5296,
    "name": "run-ai",
-   "open_issues": 189,
-   "open_prs": 159,
+   "open_issues": 191,
+   "open_prs": 160,
    "owner": "dsx-ai-factory",
    "prs_merged_30d": 2039,
-   "prs_opened_30d": 2191,
+   "prs_opened_30d": 2192,
    "pushed_at": "2026-11-27T02:29:08Z",
    "recent_releases": [
     {
@@ -6055,19 +5516,19 @@
    "commits_30d": 37,
    "commits_total": 599,
    "commits_weekly": [
-    18,
-    17,
+    19,
+    16,
     14,
     2,
     9,
     2,
     3,
-    18,
-    23,
+    20,
+    21,
     11,
     5,
-    6,
-    9
+    7,
+    8
    ],
    "contributors": 30,
    "created_at": "2024-09-25T16:53:37Z",
@@ -6087,27 +5548,27 @@
      "people": 1
     },
     {
+     "confidence": "medium",
+     "contributions": 2,
+     "org": "Carnegie Mellon University",
+     "people": 1
+    },
+    {
      "confidence": "high",
      "contributions": 2,
      "org": "crusoe.ai",
      "people": 1
     },
     {
-     "confidence": "low",
+     "confidence": "high",
      "contributions": 2,
-     "org": "ESPnet",
-     "people": 1
-    },
-    {
-     "confidence": "medium",
-     "contributions": 2,
-     "org": "inf.ufrgs.br",
+     "org": "Scherm",
      "people": 1
     },
     {
      "confidence": "low",
      "contributions": 2,
-     "org": "NVIDIA Corporation",
+     "org": "VDSoft Script Development SRL",
      "people": 1
     },
     {
@@ -6124,53 +5585,53 @@
    },
    "fork_orgs": [
     {
+     "confidence": "medium",
+     "forks": 1,
+     "org": "Carnegie Mellon University"
+    },
+    {
      "confidence": "high",
      "forks": 1,
-     "org": "AI"
+     "org": "Cloudengined"
+    },
+    {
+     "confidence": "high",
+     "forks": 1,
+     "org": "Dremio"
+    },
+    {
+     "confidence": "high",
+     "forks": 1,
+     "org": "Scherm"
+    },
+    {
+     "confidence": "high",
+     "forks": 1,
+     "org": "Shopee"
     },
     {
      "confidence": "medium",
      "forks": 1,
-     "org": "cloudengined.com"
-    },
-    {
-     "confidence": "high",
-     "forks": 1,
-     "org": "Dremio / SAP"
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "ESPnet"
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "inf.ufrgs.br"
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "NVIDIA Corporation"
-    },
-    {
-     "confidence": "high",
-     "forks": 1,
-     "org": "shopee"
+     "org": "SIGHUP"
     },
     {
      "confidence": "high",
      "forks": 1,
      "org": "SUSE"
+    },
+    {
+     "confidence": "low",
+     "forks": 1,
+     "org": "VDSoft Script Development SRL"
     }
    ],
    "forks": 55,
-   "forks_90d": 17,
+   "forks_90d": 16,
    "forks_internal_90d": 3,
-   "forks_unattributed_90d": 6,
+   "forks_unattributed_90d": 5,
    "full_name": "dsx-ai-factory/topograph",
    "homepage": "https://docs.nvidia.com/topograph/",
-   "internal_contributions": 177,
+   "internal_contributions": 175,
    "issues_closed_30d": 16,
    "issues_opened_30d": 17,
    "language": "Go",
@@ -6254,7 +5715,7 @@
    "archived": false,
    "closed_issues": 152,
    "closed_prs": 107,
-   "commits_30d": 77,
+   "commits_30d": 73,
    "commits_total": 322,
    "commits_weekly": [
     8,
@@ -6267,8 +5728,8 @@
     19,
     12,
     12,
-    27,
-    19,
+    29,
+    17,
     15
    ],
    "contributors": 34,
@@ -6279,7 +5740,7 @@
     {
      "confidence": "high",
      "contributions": 6,
-     "org": "Armada AI",
+     "org": "Armada",
      "people": 1
     },
     {
@@ -6307,16 +5768,22 @@
      "people": 1
     },
     {
+     "confidence": "medium",
+     "contributions": 2,
+     "org": "Bar-Ilan University",
+     "people": 1
+    },
+    {
      "confidence": "low",
-     "contributions": 3,
-     "org": "Necoz",
+     "contributions": 2,
+     "org": "Cisco",
      "people": 1
     }
    ],
    "external_prs_90d": 25,
    "external_unattributed": {
-    "contributions": 13,
-    "people": 6
+    "contributions": 12,
+    "people": 5
    },
    "fork_orgs": [
     {
@@ -6327,7 +5794,17 @@
     {
      "confidence": "high",
      "forks": 1,
-     "org": "Armada AI"
+     "org": "Armada"
+    },
+    {
+     "confidence": "medium",
+     "forks": 1,
+     "org": "Bar-Ilan University"
+    },
+    {
+     "confidence": "low",
+     "forks": 1,
+     "org": "Cisco"
     },
     {
      "confidence": "high",
@@ -6337,22 +5814,12 @@
     {
      "confidence": "high",
      "forks": 1,
-     "org": "Graduate Student at Northeastern University"
-    },
-    {
-     "confidence": "high",
-     "forks": 1,
      "org": "JFrog"
     },
     {
      "confidence": "high",
      "forks": 1,
-     "org": "loo-ai"
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "Necoz"
+     "org": "Northeastern University"
     },
     {
      "confidence": "high",
@@ -6362,13 +5829,13 @@
     {
      "confidence": "high",
      "forks": 1,
-     "org": "viettelcloud-oss, viettelnetworks"
+     "org": "Viettel"
     }
    ],
    "forks": 36,
    "forks_90d": 27,
-   "forks_internal_90d": 7,
-   "forks_unattributed_90d": 11,
+   "forks_internal_90d": 9,
+   "forks_unattributed_90d": 9,
    "full_name": "dsx-ai-factory/workload-map",
    "homepage": "",
    "internal_contributions": 308,
@@ -6447,26 +5914,15 @@
   }
  ],
  "totals": {
-  "active_external_90d": 441,
-  "commits_30d": 4284,
+  "active_external_90d": 388,
+  "commits_30d": 4028,
   "contributor_orgs": {
-   "external_contributions": 1652,
-   "external_people": 392,
+   "external_contributions": 1242,
+   "external_people": 343,
    "orgs": [
     {
-     "confidence": "medium",
-     "contributions": 346,
-     "org": "Red Hat",
-     "people": 43,
-     "repos": [
-      "infra-controller",
-      "nv-rms",
-      "ovn-kubernetes"
-     ]
-    },
-    {
      "confidence": "high",
-     "contributions": 87,
+     "contributions": 86,
      "org": "Aliyun",
      "people": 1,
      "repos": [
@@ -6474,8 +5930,8 @@
      ]
     },
     {
-     "confidence": "medium",
-     "contributions": 71,
+     "confidence": "high",
+     "contributions": 72,
      "org": "DaoCloud",
      "people": 13,
      "repos": [
@@ -6484,16 +5940,31 @@
      ]
     },
     {
-     "confidence": "medium",
-     "contributions": 53,
-     "org": "microsoft.com",
-     "people": 5,
+     "confidence": "low",
+     "contributions": 57,
+     "org": "Microsoft",
+     "people": 6,
      "repos": [
       "dynamo",
       "exemplar-performance",
       "infra-controller",
       "model-streamer",
       "nv-redfish"
+     ]
+    },
+    {
+     "confidence": "high",
+     "contributions": 27,
+     "org": "Scherm",
+     "people": 1,
+     "repos": [
+      "NVIDIA-Recovery",
+      "attribution",
+      "health-validation",
+      "model-streamer",
+      "nvcf",
+      "run-ai",
+      "topograph"
      ]
     },
     {
@@ -6511,16 +5982,13 @@
     {
      "confidence": "high",
      "contributions": 26,
-     "org": "scherm.com.br",
-     "people": 1,
+     "org": "Mirantis",
+     "people": 5,
      "repos": [
-      "NVIDIA-Recovery",
-      "attribution",
-      "health-validation",
-      "model-streamer",
-      "nvcf",
-      "run-ai",
-      "topograph"
+      "cluster-api-provider-nico",
+      "dynamo",
+      "infra-controller",
+      "nv-redfish"
      ]
     },
     {
@@ -6531,18 +5999,6 @@
      "repos": [
       "dynamo",
       "model-streamer"
-     ]
-    },
-    {
-     "confidence": "high",
-     "contributions": 25,
-     "org": "Mirantis",
-     "people": 5,
-     "repos": [
-      "cluster-api-provider-nico",
-      "dynamo",
-      "infra-controller",
-      "nv-redfish"
      ]
     },
     {
@@ -6567,14 +6023,11 @@
     },
     {
      "confidence": "low",
-     "contributions": 18,
-     "org": "google",
-     "people": 5,
+     "contributions": 19,
+     "org": "Loft Labs",
+     "people": 1,
      "repos": [
-      "dynamo",
-      "infra-controller",
-      "model-streamer",
-      "ovn-kubernetes"
+      "infra-controller"
      ]
     },
     {
@@ -6587,9 +6040,9 @@
      ]
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "contributions": 16,
-     "org": "tessian.com",
+     "org": "Tessian",
      "people": 1,
      "repos": [
       "dynamo",
@@ -6599,8 +6052,18 @@
     },
     {
      "confidence": "high",
+     "contributions": 15,
+     "org": "Google",
+     "people": 3,
+     "repos": [
+      "dynamo",
+      "model-streamer"
+     ]
+    },
+    {
+     "confidence": "high",
      "contributions": 14,
-     "org": "nyu.edu",
+     "org": "New York University",
      "people": 1,
      "repos": [
       "dynamo"
@@ -6609,7 +6072,7 @@
     {
      "confidence": "high",
      "contributions": 13,
-     "org": "Armada AI",
+     "org": "Armada",
      "people": 2,
      "repos": [
       "infra-controller",
@@ -6618,30 +6081,12 @@
      ]
     },
     {
-     "confidence": "low",
+     "confidence": "high",
      "contributions": 13,
-     "org": "Cognite",
+     "org": "University of Michigan",
      "people": 1,
      "repos": [
       "dynamo"
-     ]
-    },
-    {
-     "confidence": "medium",
-     "contributions": 13,
-     "org": "umich.edu",
-     "people": 1,
-     "repos": [
-      "dynamo"
-     ]
-    },
-    {
-     "confidence": "low",
-     "contributions": 12,
-     "org": "OVN-Kubernetes",
-     "people": 1,
-     "repos": [
-      "ovn-kubernetes"
      ]
     },
     {
@@ -6654,12 +6099,33 @@
      ]
     },
     {
-     "confidence": "low",
+     "confidence": "high",
      "contributions": 11,
-     "org": "Plonky3",
+     "org": "Red Hat",
+     "people": 3,
+     "repos": [
+      "infra-controller",
+      "nv-rms"
+     ]
+    },
+    {
+     "confidence": "high",
+     "contributions": 11,
+     "org": "Atoma AI",
      "people": 1,
      "repos": [
       "dynamo"
+     ]
+    },
+    {
+     "confidence": "medium",
+     "contributions": 11,
+     "org": "HCLTech",
+     "people": 1,
+     "repos": [
+      "fleet-intelligence-agent",
+      "health-validation",
+      "nvke-telemetry-pipeline"
      ]
     },
     {
@@ -6669,15 +6135,6 @@
      "people": 1,
      "repos": [
       "dynamo"
-     ]
-    },
-    {
-     "confidence": "high",
-     "contributions": 10,
-     "org": "str08.net",
-     "people": 1,
-     "repos": [
-      "ovn-kubernetes"
      ]
     },
     {
@@ -6700,7 +6157,7 @@
      ]
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "contributions": 9,
      "org": "IBM",
      "people": 1,
@@ -6722,6 +6179,18 @@
     {
      "confidence": "high",
      "contributions": 9,
+     "org": "Serra Consultancy Services",
+     "people": 1,
+     "repos": [
+      "cluster-api-provider-nico",
+      "health-validation",
+      "nv-redfish",
+      "nvkr"
+     ]
+    },
+    {
+     "confidence": "high",
+     "contributions": 9,
      "org": "thelustrecollective.com",
      "people": 1,
      "repos": [
@@ -6737,28 +6206,16 @@
       "dynamo",
       "infra-controller",
       "nv-rms-client",
-      "nvcf"
+      "run-ai"
      ]
     },
     {
-     "confidence": "low",
+     "confidence": "medium",
      "contributions": 8,
      "org": "Altera Labs",
      "people": 1,
      "repos": [
       "dynamo"
-     ]
-    },
-    {
-     "confidence": "high",
-     "contributions": 8,
-     "org": "Serra Consultancy Services",
-     "people": 1,
-     "repos": [
-      "cluster-api-provider-nico",
-      "health-validation",
-      "nv-redfish",
-      "nvkr"
      ]
     },
     {
@@ -6772,22 +6229,12 @@
      ]
     },
     {
-     "confidence": "low",
+     "confidence": "medium",
      "contributions": 7,
-     "org": "Argus",
-     "people": 1,
+     "org": "University of Illinois Urbana-Champaign",
+     "people": 2,
      "repos": [
       "dynamo"
-     ]
-    },
-    {
-     "confidence": "low",
-     "contributions": 7,
-     "org": "AWS Educate TW",
-     "people": 1,
-     "repos": [
-      "nvcf",
-      "nvkr"
      ]
     },
     {
@@ -6809,7 +6256,7 @@
      ]
     },
     {
-     "confidence": "low",
+     "confidence": "medium",
      "contributions": 7,
      "org": "Fluid Inference",
      "people": 1,
@@ -6828,12 +6275,23 @@
      ]
     },
     {
-     "confidence": "high",
+     "confidence": "low",
      "contributions": 6,
-     "org": "Baidu && Alibaba && DiDi && Huawei",
-     "people": 1,
+     "org": "UC San Diego",
+     "people": 3,
      "repos": [
-      "dynamo"
+      "dynamo",
+      "nvke"
+     ]
+    },
+    {
+     "confidence": "low",
+     "contributions": 6,
+     "org": "Carnegie Mellon University",
+     "people": 2,
+     "repos": [
+      "dynamo",
+      "topograph"
      ]
     },
     {
@@ -6855,15 +6313,6 @@
      ]
     },
     {
-     "confidence": "low",
-     "contributions": 6,
-     "org": "InsForge",
-     "people": 1,
-     "repos": [
-      "dynamo"
-     ]
-    },
-    {
      "confidence": "high",
      "contributions": 6,
      "org": "sap.com",
@@ -6882,9 +6331,9 @@
      ]
     },
     {
-     "confidence": "high",
+     "confidence": "low",
      "contributions": 6,
-     "org": "University of Illinois Urbana-Champaign",
+     "org": "Stealth startup (unnamed)",
      "people": 1,
      "repos": [
       "dynamo"
@@ -6901,10 +6350,19 @@
      ]
     },
     {
-     "confidence": "low",
+     "confidence": "medium",
      "contributions": 5,
-     "org": "moirai-internal",
-     "people": 3,
+     "org": "Amazon",
+     "people": 4,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "confidence": "medium",
+     "contributions": 5,
+     "org": "G-Core Labs",
+     "people": 2,
      "repos": [
       "dynamo"
      ]
@@ -6930,21 +6388,20 @@
     {
      "confidence": "high",
      "contributions": 5,
+     "org": "Baidu && Alibaba && DiDi && Huawei",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "confidence": "high",
+     "contributions": 5,
      "org": "clockwork.io",
      "people": 1,
      "repos": [
       "NVIDIA-Recovery",
       "attribution"
-     ]
-    },
-    {
-     "confidence": "low",
-     "contributions": 5,
-     "org": "ESPnet",
-     "people": 1,
-     "repos": [
-      "dynamo",
-      "topograph"
      ]
     },
     {
@@ -6986,21 +6443,21 @@
      ]
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "contributions": 5,
-     "org": "uchicago.edu",
+     "org": "University of Chicago",
      "people": 1,
      "repos": [
       "dynamo"
      ]
     },
     {
-     "confidence": "low",
+     "confidence": "high",
      "contributions": 4,
-     "org": "tensorflow",
-     "people": 2,
+     "org": "Prime Intellect",
+     "people": 3,
      "repos": [
-      "nvcf"
+      "dynamo"
      ]
     },
     {
@@ -7077,12 +6534,21 @@
      ]
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "contributions": 4,
-     "org": "wharton.upenn.edu",
+     "org": "University of Pennsylvania (Wharton)",
      "people": 1,
      "repos": [
       "nvkr"
+     ]
+    },
+    {
+     "confidence": "medium",
+     "contributions": 3,
+     "org": "Canva",
+     "people": 3,
+     "repos": [
+      "dynamo"
      ]
     },
     {
@@ -7097,7 +6563,7 @@
     {
      "confidence": "high",
      "contributions": 3,
-     "org": "datadoghq.com",
+     "org": "Datadog",
      "people": 2,
      "repos": [
       "dynamo"
@@ -7115,7 +6581,7 @@
     {
      "confidence": "high",
      "contributions": 3,
-     "org": "oracle.com",
+     "org": "Oracle",
      "people": 2,
      "repos": [
       "dynamo",
@@ -7123,9 +6589,18 @@
      ]
     },
     {
+     "confidence": "medium",
+     "contributions": 3,
+     "org": "Pinterest",
+     "people": 2,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
      "confidence": "high",
      "contributions": 3,
-     "org": "Tesla.com",
+     "org": "Tesla",
      "people": 2,
      "repos": [
       "dynamo",
@@ -7135,7 +6610,7 @@
     {
      "confidence": "medium",
      "contributions": 3,
-     "org": "acorn.io",
+     "org": "Acorn Labs",
      "people": 1,
      "repos": [
       "dynamo"
@@ -7160,39 +6635,12 @@
      ]
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "contributions": 3,
-     "org": "cau.ac.kr",
+     "org": "Chung-Ang University",
      "people": 1,
      "repos": [
       "dynamo"
-     ]
-    },
-    {
-     "confidence": "high",
-     "contributions": 3,
-     "org": "dgude-mlt.client.nvidia.com",
-     "people": 1,
-     "repos": [
-      "ovn-kubernetes"
-     ]
-    },
-    {
-     "confidence": "high",
-     "contributions": 3,
-     "org": "dtucker.co.uk",
-     "people": 1,
-     "repos": [
-      "ovn-kubernetes"
-     ]
-    },
-    {
-     "confidence": "low",
-     "contributions": 3,
-     "org": "E2E-Load-Tests-Org ",
-     "people": 1,
-     "repos": [
-      "nvcf"
      ]
     },
     {
@@ -7207,25 +6655,16 @@
     {
      "confidence": "high",
      "contributions": 3,
-     "org": "naver",
+     "org": "Naver",
      "people": 1,
      "repos": [
       "dynamo"
      ]
     },
     {
-     "confidence": "low",
+     "confidence": "medium",
      "contributions": 3,
-     "org": "Necoz",
-     "people": 1,
-     "repos": [
-      "workload-map"
-     ]
-    },
-    {
-     "confidence": "low",
-     "contributions": 3,
-     "org": "Networkers ",
+     "org": "Networkers",
      "people": 1,
      "repos": [
       "nvke"
@@ -7241,15 +6680,6 @@
      ]
     },
     {
-     "confidence": "low",
-     "contributions": 3,
-     "org": "TripGuiders",
-     "people": 1,
-     "repos": [
-      "dynamo"
-     ]
-    },
-    {
      "confidence": "high",
      "contributions": 3,
      "org": "University of Texas at Austin",
@@ -7259,30 +6689,12 @@
      ]
     },
     {
-     "confidence": "medium",
-     "contributions": 2,
-     "org": "Amazon",
-     "people": 2,
-     "repos": [
-      "dynamo"
-     ]
-    },
-    {
      "confidence": "high",
      "contributions": 2,
-     "org": "Canva",
+     "org": "Lambda",
      "people": 2,
      "repos": [
-      "dynamo"
-     ]
-    },
-    {
-     "confidence": "high",
-     "contributions": 2,
-     "org": "primeintellect.ai",
-     "people": 2,
-     "repos": [
-      "dynamo"
+      "exemplar-performance"
      ]
     },
     {
@@ -7297,7 +6709,7 @@
     {
      "confidence": "high",
      "contributions": 2,
-     "org": "tenstorrent",
+     "org": "Tenstorrent",
      "people": 2,
      "repos": [
       "dynamo"
@@ -7306,7 +6718,7 @@
     {
      "confidence": "high",
      "contributions": 2,
-     "org": "adobe",
+     "org": "Adobe",
      "people": 1,
      "repos": [
       "infra-controller"
@@ -7322,9 +6734,9 @@
      ]
     },
     {
-     "confidence": "high",
+     "confidence": "medium",
      "contributions": 2,
-     "org": "alibaba",
+     "org": "Aina",
      "people": 1,
      "repos": [
       "dynamo"
@@ -7342,10 +6754,37 @@
     {
      "confidence": "high",
      "contributions": 2,
+     "org": "Amrita Vishwa Vidyapeetham",
+     "people": 1,
+     "repos": [
+      "nvcf"
+     ]
+    },
+    {
+     "confidence": "high",
+     "contributions": 2,
      "org": "Arizona State University",
      "people": 1,
      "repos": [
       "dynamo"
+     ]
+    },
+    {
+     "confidence": "medium",
+     "contributions": 2,
+     "org": "Bar-Ilan University",
+     "people": 1,
+     "repos": [
+      "workload-map"
+     ]
+    },
+    {
+     "confidence": "low",
+     "contributions": 2,
+     "org": "Beyond Horizon Academy",
+     "people": 1,
+     "repos": [
+      "infra-controller"
      ]
     },
     {
@@ -7367,21 +6806,21 @@
      ]
     },
     {
+     "confidence": "low",
+     "contributions": 2,
+     "org": "Cisco",
+     "people": 1,
+     "repos": [
+      "workload-map"
+     ]
+    },
+    {
      "confidence": "high",
      "contributions": 2,
      "org": "crusoe.ai",
      "people": 1,
      "repos": [
       "topograph"
-     ]
-    },
-    {
-     "confidence": "low",
-     "contributions": 2,
-     "org": "Data For Change",
-     "people": 1,
-     "repos": [
-      "model-streamer"
      ]
     },
     {
@@ -7396,7 +6835,7 @@
     {
      "confidence": "high",
      "contributions": 2,
-     "org": "dynamia-ai",
+     "org": "Dynamia AI",
      "people": 1,
      "repos": [
       "dynamo"
@@ -7430,18 +6869,9 @@
      ]
     },
     {
-     "confidence": "low",
-     "contributions": 2,
-     "org": "Exea Labs",
-     "people": 1,
-     "repos": [
-      "dynamo"
-     ]
-    },
-    {
      "confidence": "high",
      "contributions": 2,
-     "org": "groq",
+     "org": "Groq",
      "people": 1,
      "repos": [
       "infra-controller"
@@ -7450,7 +6880,7 @@
     {
      "confidence": "high",
      "contributions": 2,
-     "org": "H company",
+     "org": "H Company",
      "people": 1,
      "repos": [
       "dynamo"
@@ -7484,15 +6914,6 @@
      ]
     },
     {
-     "confidence": "low",
-     "contributions": 2,
-     "org": "Istio",
-     "people": 1,
-     "repos": [
-      "infra-controller"
-     ]
-    },
-    {
      "confidence": "high",
      "contributions": 2,
      "org": "k0rdent",
@@ -7504,7 +6925,7 @@
     {
      "confidence": "high",
      "contributions": 2,
-     "org": "latitude.sh",
+     "org": "Latitude.sh",
      "people": 1,
      "repos": [
       "fleet-intelligence-agent"
@@ -7531,7 +6952,7 @@
     {
      "confidence": "high",
      "contributions": 2,
-     "org": "maymust.com",
+     "org": "MayMust AI",
      "people": 1,
      "repos": [
       "run-ai"
@@ -7553,15 +6974,6 @@
      "people": 1,
      "repos": [
       "nv-config-manager"
-     ]
-    },
-    {
-     "confidence": "low",
-     "contributions": 2,
-     "org": "NVIDIA Corporation",
-     "people": 1,
-     "repos": [
-      "topograph"
      ]
     },
     {
@@ -7594,16 +7006,7 @@
     {
      "confidence": "high",
      "contributions": 2,
-     "org": "Prime Intellect",
-     "people": 1,
-     "repos": [
-      "dynamo"
-     ]
-    },
-    {
-     "confidence": "high",
-     "contributions": 2,
-     "org": "radixark.ai",
+     "org": "Peking University",
      "people": 1,
      "repos": [
       "dynamo"
@@ -7612,7 +7015,25 @@
     {
      "confidence": "medium",
      "contributions": 2,
-     "org": "simbian.ai",
+     "org": "Pilot Company",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "confidence": "high",
+     "contributions": 2,
+     "org": "RadixArk",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "confidence": "high",
+     "contributions": 2,
+     "org": "Simbian",
      "people": 1,
      "repos": [
       "community",
@@ -7629,18 +7050,18 @@
      ]
     },
     {
-     "confidence": "high",
+     "confidence": "low",
      "contributions": 2,
-     "org": "xAI",
+     "org": "VDSoft Script Development SRL",
      "people": 1,
      "repos": [
-      "dynamo"
+      "topograph"
      ]
     },
     {
-     "confidence": "low",
+     "confidence": "high",
      "contributions": 2,
-     "org": "\u5fc3\u7eaa\u5143\u5236\u4f5c\u7ec4",
+     "org": "xAI",
      "people": 1,
      "repos": [
       "dynamo"
@@ -7665,21 +7086,21 @@
      ]
     },
     {
-     "confidence": "low",
+     "confidence": "high",
      "contributions": 1,
-     "org": "ACRT-CR",
+     "org": "Airbus",
      "people": 1,
      "repos": [
-      "infra-controller"
+      "nvcf"
      ]
     },
     {
      "confidence": "high",
      "contributions": 1,
-     "org": "airbus",
+     "org": "Alibaba",
      "people": 1,
      "repos": [
-      "nvcf"
+      "dynamo"
      ]
     },
     {
@@ -7721,6 +7142,15 @@
     {
      "confidence": "high",
      "contributions": 1,
+     "org": "Barcelona Supercomputing Center",
+     "people": 1,
+     "repos": [
+      "NVIDIA-Recovery"
+     ]
+    },
+    {
+     "confidence": "high",
+     "contributions": 1,
      "org": "Baseten",
      "people": 1,
      "repos": [
@@ -7739,16 +7169,7 @@
     {
      "confidence": "high",
      "contributions": 1,
-     "org": "Big Tech",
-     "people": 1,
-     "repos": [
-      "ovn-kubernetes"
-     ]
-    },
-    {
-     "confidence": "medium",
-     "contributions": 1,
-     "org": "bitdeer.com",
+     "org": "Bitdeer",
      "people": 1,
      "repos": [
       "dynamo"
@@ -7757,16 +7178,7 @@
     {
      "confidence": "high",
      "contributions": 1,
-     "org": "bsc.es",
-     "people": 1,
-     "repos": [
-      "NVIDIA-Recovery"
-     ]
-    },
-    {
-     "confidence": "medium",
-     "contributions": 1,
-     "org": "clarifai.com",
+     "org": "Clarifai",
      "people": 1,
      "repos": [
       "model-streamer"
@@ -7782,9 +7194,9 @@
      ]
     },
     {
-     "confidence": "medium",
+     "confidence": "low",
      "contributions": 1,
-     "org": "deepinfra.com",
+     "org": "Credochain",
      "people": 1,
      "repos": [
       "dynamo"
@@ -7793,7 +7205,16 @@
     {
      "confidence": "high",
      "contributions": 1,
-     "org": "expediagroup.com",
+     "org": "DeepInfra",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "confidence": "high",
+     "contributions": 1,
+     "org": "Expedia Group",
      "people": 1,
      "repos": [
       "dynamo"
@@ -7820,15 +7241,6 @@
     {
      "confidence": "high",
      "contributions": 1,
-     "org": "gcore.com",
-     "people": 1,
-     "repos": [
-      "dynamo"
-     ]
-    },
-    {
-     "confidence": "high",
-     "contributions": 1,
      "org": "glenmaddern.com",
      "people": 1,
      "repos": [
@@ -7838,7 +7250,16 @@
     {
      "confidence": "high",
      "contributions": 1,
-     "org": "greennode-ai",
+     "org": "GreenNode",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "confidence": "medium",
+     "contributions": 1,
+     "org": "Hewlett Packard Enterprise",
      "people": 1,
      "repos": [
       "dynamo"
@@ -7856,28 +7277,28 @@
     {
      "confidence": "low",
      "contributions": 1,
-     "org": "HPE Ezmeral",
+     "org": "i5Labs",
      "people": 1,
      "repos": [
       "dynamo"
+     ]
+    },
+    {
+     "confidence": "medium",
+     "contributions": 1,
+     "org": "IIT Bhilai",
+     "people": 1,
+     "repos": [
+      "nvcf"
      ]
     },
     {
      "confidence": "high",
      "contributions": 1,
-     "org": "inherentlaboratories.com",
+     "org": "Inherent Laboratories",
      "people": 1,
      "repos": [
       "dynamo"
-     ]
-    },
-    {
-     "confidence": "low",
-     "contributions": 1,
-     "org": "JetBrains",
-     "people": 1,
-     "repos": [
-      "nvke"
      ]
     },
     {
@@ -7908,33 +7329,6 @@
      ]
     },
     {
-     "confidence": "low",
-     "contributions": 1,
-     "org": "kvcache.ai",
-     "people": 1,
-     "repos": [
-      "dynamo"
-     ]
-    },
-    {
-     "confidence": "high",
-     "contributions": 1,
-     "org": "Lambda.ai",
-     "people": 1,
-     "repos": [
-      "exemplar-performance"
-     ]
-    },
-    {
-     "confidence": "high",
-     "contributions": 1,
-     "org": "lambdal",
-     "people": 1,
-     "repos": [
-      "exemplar-performance"
-     ]
-    },
-    {
      "confidence": "high",
      "contributions": 1,
      "org": "Linkedin",
@@ -7944,30 +7338,12 @@
      ]
     },
     {
-     "confidence": "low",
-     "contributions": 1,
-     "org": "llm-d",
-     "people": 1,
-     "repos": [
-      "dynamo"
-     ]
-    },
-    {
      "confidence": "medium",
      "contributions": 1,
-     "org": "maxkelsen.com",
+     "org": "Meta",
      "people": 1,
      "repos": [
       "dynamo"
-     ]
-    },
-    {
-     "confidence": "low",
-     "contributions": 1,
-     "org": "MetaVAI ",
-     "people": 1,
-     "repos": [
-      "nvcf"
      ]
     },
     {
@@ -7980,9 +7356,27 @@
      ]
     },
     {
+     "confidence": "high",
+     "contributions": 1,
+     "org": "Mindbody",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
      "confidence": "medium",
      "contributions": 1,
-     "org": "mindbodyonline.com",
+     "org": "MiQ",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "confidence": "high",
+     "contributions": 1,
+     "org": "Mirantis @Kubernetes",
      "people": 1,
      "repos": [
       "dynamo"
@@ -8007,15 +7401,6 @@
      ]
     },
     {
-     "confidence": "low",
-     "contributions": 1,
-     "org": "ModelTC",
-     "people": 1,
-     "repos": [
-      "dynamo"
-     ]
-    },
-    {
      "confidence": "high",
      "contributions": 1,
      "org": "National University of Defense Technology",
@@ -8027,16 +7412,25 @@
     {
      "confidence": "high",
      "contributions": 1,
-     "org": "NAVER CLOUD",
+     "org": "NAVER Cloud",
      "people": 1,
      "repos": [
       "run-ai"
      ]
     },
     {
+     "confidence": "medium",
+     "contributions": 1,
+     "org": "Nebul",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
      "confidence": "high",
      "contributions": 1,
-     "org": "netboxlabs",
+     "org": "NetBox Labs",
      "people": 1,
      "repos": [
       "nv-config-manager"
@@ -8061,30 +7455,21 @@
      ]
     },
     {
-     "confidence": "low",
-     "contributions": 1,
-     "org": "Open Inference Fabric",
-     "people": 1,
-     "repos": [
-      "run-ai"
-     ]
-    },
-    {
-     "confidence": "low",
-     "contributions": 1,
-     "org": "openenv",
-     "people": 1,
-     "repos": [
-      "dynamo"
-     ]
-    },
-    {
      "confidence": "high",
      "contributions": 1,
      "org": "OpenObserve",
      "people": 1,
      "repos": [
       "dsx-exchange"
+     ]
+    },
+    {
+     "confidence": "high",
+     "contributions": 1,
+     "org": "OrbiSky",
+     "people": 1,
+     "repos": [
+      "nvcf"
      ]
     },
     {
@@ -8099,37 +7484,19 @@
     {
      "confidence": "high",
      "contributions": 1,
-     "org": "ovn.org",
+     "org": "python.org",
      "people": 1,
      "repos": [
-      "ovn-kubernetes"
+      "model-streamer"
      ]
     },
     {
      "confidence": "medium",
      "contributions": 1,
-     "org": "pilani.bits-pilani.ac.in",
+     "org": "RCOEM",
      "people": 1,
      "repos": [
-      "dynamo"
-     ]
-    },
-    {
-     "confidence": "high",
-     "contributions": 1,
-     "org": "Pinterest",
-     "people": 1,
-     "repos": [
-      "dynamo"
-     ]
-    },
-    {
-     "confidence": "high",
-     "contributions": 1,
-     "org": "python.org",
-     "people": 1,
-     "repos": [
-      "model-streamer"
+      "nvke"
      ]
     },
     {
@@ -8154,15 +7521,6 @@
      "confidence": "high",
      "contributions": 1,
      "org": "Sagora Labs",
-     "people": 1,
-     "repos": [
-      "dynamo"
-     ]
-    },
-    {
-     "confidence": "low",
-     "contributions": 1,
-     "org": "SFB833 A3",
      "people": 1,
      "repos": [
       "dynamo"
@@ -8207,7 +7565,7 @@
     {
      "confidence": "medium",
      "contributions": 1,
-     "org": "srmist.edu.in",
+     "org": "SRM Institute of Science and Technology",
      "people": 1,
      "repos": [
       "dynamo"
@@ -8217,6 +7575,15 @@
      "confidence": "high",
      "contributions": 1,
      "org": "Stanford University",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "confidence": "high",
+     "contributions": 1,
+     "org": "Starling Bank",
      "people": 1,
      "repos": [
       "dynamo"
@@ -8259,6 +7626,15 @@
      ]
     },
     {
+     "confidence": "medium",
+     "contributions": 1,
+     "org": "T-Systems",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
      "confidence": "high",
      "contributions": 1,
      "org": "Telnyx",
@@ -8268,18 +7644,9 @@
      ]
     },
     {
-     "confidence": "low",
+     "confidence": "high",
      "contributions": 1,
-     "org": "The Abstract Lab",
-     "people": 1,
-     "repos": [
-      "dynamo"
-     ]
-    },
-    {
-     "confidence": "medium",
-     "contributions": 1,
-     "org": "tikalk.com",
+     "org": "Tikal",
      "people": 1,
      "repos": [
       "run-ai"
@@ -8340,9 +7707,9 @@
      ]
     },
     {
-     "confidence": "low",
+     "confidence": "medium",
      "contributions": 1,
-     "org": "vLLM",
+     "org": "University of Southern California",
      "people": 1,
      "repos": [
       "dynamo"
@@ -8351,7 +7718,7 @@
     {
      "confidence": "high",
      "contributions": 1,
-     "org": "yandex.com",
+     "org": "Yandex.Cloud",
      "people": 1,
      "repos": [
       "dynamo"
@@ -8368,13 +7735,13 @@
     }
    ],
    "reclassified_internal": {
-    "pr_email": 228,
-    "resolver": 24
+    "pr_email": 224,
+    "resolver": 32
    },
    "top_external": [
     {
      "confidence": "high",
-     "contributions": 87,
+     "contributions": 86,
      "evidence": "email domain or profile company",
      "login": "xianlubird",
      "name": "Xianlu Bird",
@@ -8385,35 +7752,41 @@
     },
     {
      "confidence": "high",
-     "contributions": 76,
-     "evidence": "email domain or profile company",
-     "login": "tssurya",
-     "name": "Surya Seetharaman",
-     "org": "Red Hat",
-     "repos": [
-      "ovn-kubernetes"
-     ]
-    },
-    {
-     "confidence": "high",
-     "contributions": 47,
-     "evidence": "email domain or profile company",
-     "login": "kyrtapz",
-     "name": "Patryk Diak",
-     "org": "Red Hat",
-     "repos": [
-      "ovn-kubernetes"
-     ]
-    },
-    {
-     "confidence": "high",
-     "contributions": 39,
+     "contributions": 40,
      "evidence": "email domain or profile company",
      "login": "TechWizard9999",
      "name": "Roopesh S",
      "org": "Microsoft",
      "repos": [
       "infra-controller"
+     ]
+    },
+    {
+     "confidence": "high",
+     "contributions": 27,
+     "evidence": "email domain or profile company",
+     "login": "flpanbin",
+     "name": "bin.pan",
+     "org": "DaoCloud",
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "confidence": "high",
+     "contributions": 27,
+     "evidence": "email domain or profile company",
+     "login": "msserpa",
+     "name": "Matheus Serpa",
+     "org": "scherm.com.br",
+     "repos": [
+      "NVIDIA-Recovery",
+      "attribution",
+      "health-validation",
+      "model-streamer",
+      "nvcf",
+      "run-ai",
+      "topograph"
      ]
     },
     {
@@ -8428,34 +7801,6 @@
       "nvke",
       "nvkr",
       "workload-map"
-     ]
-    },
-    {
-     "confidence": "high",
-     "contributions": 26,
-     "evidence": "email domain or profile company",
-     "login": "flpanbin",
-     "name": "bin.pan",
-     "org": "DaoCloud",
-     "repos": [
-      "dynamo"
-     ]
-    },
-    {
-     "confidence": "high",
-     "contributions": 26,
-     "evidence": "email domain or profile company",
-     "login": "msserpa",
-     "name": "Matheus Serpa",
-     "org": "scherm.com.br",
-     "repos": [
-      "NVIDIA-Recovery",
-      "attribution",
-      "health-validation",
-      "model-streamer",
-      "nvcf",
-      "run-ai",
-      "topograph"
      ]
     },
     {
@@ -8483,28 +7828,6 @@
     },
     {
      "confidence": "high",
-     "contributions": 21,
-     "evidence": "email domain or profile company",
-     "login": "qinqon",
-     "name": "Enrique Llorente Pastora",
-     "org": "redhat.com",
-     "repos": [
-      "ovn-kubernetes"
-     ]
-    },
-    {
-     "confidence": "high",
-     "contributions": 20,
-     "evidence": "email domain or profile company",
-     "login": "raphaelvrosa",
-     "name": "Raphael Rosa",
-     "org": "redhat.com",
-     "repos": [
-      "ovn-kubernetes"
-     ]
-    },
-    {
-     "confidence": "high",
      "contributions": 19,
      "evidence": "email domain or profile company",
      "login": "mehrdadmoradi-crusoe",
@@ -8516,34 +7839,23 @@
      ]
     },
     {
-     "confidence": "unknown",
+     "confidence": "low",
      "contributions": 19,
-     "evidence": "",
+     "evidence": "via web search: GitHub: ronaldzhanje published a release in the loft-sh/vcluster-nico-gitops repo; employer inferred, not confirmed by LinkedIn or a profile",
      "login": "ronaldzhanje",
      "name": "Ronald Zhanje",
-     "org": null,
+     "org": "Loft Labs",
      "repos": [
       "infra-controller"
      ]
     },
     {
      "confidence": "high",
-     "contributions": 19,
-     "evidence": "email domain or profile company",
-     "login": "ormergi",
-     "name": "Or Mergi",
-     "org": "redhat.com",
-     "repos": [
-      "ovn-kubernetes"
-     ]
-    },
-    {
-     "confidence": "medium",
      "contributions": 16,
-     "evidence": "commits from an @tessian.com address",
+     "evidence": "tessian.com commit email domain",
      "login": "chethanuk",
      "name": "chethanuk",
-     "org": "tessian.com",
+     "org": "Tessian",
      "repos": [
       "dynamo",
       "nvke",
@@ -8551,25 +7863,14 @@
      ]
     },
     {
-     "confidence": "unknown",
-     "contributions": 16,
-     "evidence": "",
-     "login": "imusmanmalik",
-     "name": "Usman Malik \ud83e\udd85\ud83e\udd77\ud83c\udffb\u2694\ufe0f\u2601\ufe0f\u2388",
-     "org": null,
-     "repos": [
-      "ovn-kubernetes"
-     ]
-    },
-    {
-     "confidence": "unknown",
+     "confidence": "high",
      "contributions": 15,
-     "evidence": "",
-     "login": "camielRunai",
-     "name": "Chen Amiel",
-     "org": null,
+     "evidence": "email domain or profile company",
+     "login": "kurotych",
+     "name": "Anatolii Kurotych",
+     "org": "Mirantis",
      "repos": [
-      "run-ai"
+      "infra-controller"
      ]
     },
     {
@@ -8584,34 +7885,12 @@
      ]
     },
     {
-     "confidence": "high",
-     "contributions": 14,
-     "evidence": "email domain or profile company",
-     "login": "kurotych",
-     "name": "Anatolii Kurotych",
-     "org": "Mirantis",
-     "repos": [
-      "infra-controller"
-     ]
-    },
-    {
-     "confidence": "low",
+     "confidence": "unknown",
      "contributions": 13,
-     "evidence": "6 commits to cognitedata repos (Cognite)",
+     "evidence": "",
      "login": "elizabetht",
      "name": "Elizabeth Thomas",
-     "org": "Cognite",
-     "repos": [
-      "dynamo"
-     ]
-    },
-    {
-     "confidence": "medium",
-     "contributions": 13,
-     "evidence": "commits from an @umich.edu address",
-     "login": "neilkg",
-     "name": "Neil Gollapudi",
-     "org": "umich.edu",
+     "org": null,
      "repos": [
       "dynamo"
      ]
@@ -8619,21 +7898,21 @@
     {
      "confidence": "high",
      "contributions": 13,
-     "evidence": "email domain or profile company",
-     "login": "dcbw",
-     "name": "Dan Williams",
-     "org": "redhat.com",
+     "evidence": "umich.edu commit email domain",
+     "login": "neilkg",
+     "name": "Neil Gollapudi",
+     "org": "University of Michigan",
      "repos": [
-      "ovn-kubernetes"
+      "dynamo"
      ]
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "contributions": 12,
-     "evidence": "commits from an @daocloud.io address",
+     "evidence": "daocloud.io commit email domain",
      "login": "bzsuni",
      "name": null,
-     "org": "daocloud.io",
+     "org": "DaoCloud",
      "repos": [
       "dynamo"
      ]
@@ -8662,39 +7941,6 @@
     },
     {
      "confidence": "high",
-     "contributions": 12,
-     "evidence": "email domain or profile company",
-     "login": "martinkennelly",
-     "name": "Martin Kennelly",
-     "org": "redhat.com",
-     "repos": [
-      "ovn-kubernetes"
-     ]
-    },
-    {
-     "confidence": "high",
-     "contributions": 12,
-     "evidence": "email domain or profile company",
-     "login": "pperiyasamy",
-     "name": "Periyasamy Palanisamy",
-     "org": "redhat.com",
-     "repos": [
-      "ovn-kubernetes"
-     ]
-    },
-    {
-     "confidence": "low",
-     "contributions": 12,
-     "evidence": "9 commits to ovn-kubernetes repos (OVN-Kubernetes)",
-     "login": "fangyuchen86",
-     "name": "Fang YuChen",
-     "org": "OVN-Kubernetes",
-     "repos": [
-      "ovn-kubernetes"
-     ]
-    },
-    {
-     "confidence": "high",
      "contributions": 11,
      "evidence": "email domain or profile company",
      "login": "yifjiang",
@@ -8705,60 +7951,27 @@
      ]
     },
     {
-     "confidence": "low",
+     "confidence": "high",
      "contributions": 11,
-     "evidence": "24 commits to Plonky3 repos (Plonky3)",
+     "evidence": "via web search: LinkedIn: Co-founder & CTO at Atoma AI; personal site linked from GitHub profile confirms co-founder of Atoma; GitHub pins AtomaAI/atoma-infer",
      "login": "jorgeantonio21",
      "name": "Jorge Ant\u00f3nio",
-     "org": "Plonky3",
+     "org": "Atoma AI",
      "repos": [
       "dynamo"
      ]
     },
     {
-     "confidence": "unknown",
+     "confidence": "medium",
      "contributions": 11,
-     "evidence": "",
+     "evidence": "via web search: LinkedIn: works for HCLTech, Frisco TX; ZoomInfo: Observability Architect at HCL Technologies",
      "login": "SelvanayakiGurusamy",
      "name": "Selvanayaki Gurusamy",
-     "org": null,
+     "org": "HCLTech",
      "repos": [
       "fleet-intelligence-agent",
       "health-validation",
       "nvke-telemetry-pipeline"
-     ]
-    },
-    {
-     "confidence": "high",
-     "contributions": 11,
-     "evidence": "email domain or profile company",
-     "login": "jcaamano",
-     "name": "Jaime Caama\u00f1o Ruiz",
-     "org": "redhat.com",
-     "repos": [
-      "ovn-kubernetes"
-     ]
-    },
-    {
-     "confidence": "high",
-     "contributions": 11,
-     "evidence": "email domain or profile company",
-     "login": "Jaanki",
-     "name": "Janki Chhatbar",
-     "org": "redhat.com",
-     "repos": [
-      "ovn-kubernetes"
-     ]
-    },
-    {
-     "confidence": "high",
-     "contributions": 11,
-     "evidence": "email domain or profile company",
-     "login": "arkadeepsen",
-     "name": "Arkadeep Sen (Aurko)",
-     "org": "redhat.com",
-     "repos": [
-      "ovn-kubernetes"
      ]
     },
     {
@@ -8808,17 +8021,6 @@
     },
     {
      "confidence": "high",
-     "contributions": 10,
-     "evidence": "email domain or profile company",
-     "login": "Soli0222",
-     "name": "Soli",
-     "org": "str08.net",
-     "repos": [
-      "ovn-kubernetes"
-     ]
-    },
-    {
-     "confidence": "high",
      "contributions": 9,
      "evidence": "email domain or profile company",
      "login": "Jont828",
@@ -8852,23 +8054,26 @@
      ]
     },
     {
-     "confidence": "unknown",
+     "confidence": "high",
      "contributions": 9,
-     "evidence": "",
-     "login": "benjamingueret",
-     "name": "Ben Gu\u00e9ret",
-     "org": null,
+     "evidence": "email domain or profile company",
+     "login": "omerfsen",
+     "name": "Omer Sen",
+     "org": "Serra Consultancy Services",
      "repos": [
-      "attribution"
+      "cluster-api-provider-nico",
+      "health-validation",
+      "nv-redfish",
+      "nvkr"
      ]
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "contributions": 9,
-     "evidence": "commits from an @ibm.com address",
+     "evidence": "ibm.com commit email domain",
      "login": "pbikki",
      "name": null,
-     "org": "ibm.com",
+     "org": "IBM",
      "repos": [
       "cluster-api-provider-nico",
       "nvke"
@@ -8898,17 +8103,6 @@
      ]
     },
     {
-     "confidence": "high",
-     "contributions": 9,
-     "evidence": "email domain or profile company",
-     "login": "jluhrsen",
-     "name": "Jamo Luhrsen",
-     "org": "Red Hat",
-     "repos": [
-      "ovn-kubernetes"
-     ]
-    },
-    {
      "confidence": "unknown",
      "contributions": 8,
      "evidence": "",
@@ -8920,9 +8114,9 @@
      ]
     },
     {
-     "confidence": "low",
+     "confidence": "medium",
      "contributions": 8,
-     "evidence": "19 commits to altera-laboratories repos (Altera Labs)",
+     "evidence": "Bio: CTO @ Altera Labs; 19 commits to Altera Labs repos",
      "login": "aylonsk",
      "name": "Akira Lonske",
      "org": "Altera Labs",
@@ -8957,48 +8151,12 @@
      "confidence": "high",
      "contributions": 8,
      "evidence": "email domain or profile company",
-     "login": "omerfsen",
-     "name": "Omer Sen",
-     "org": "Serra Consultancy Services",
-     "repos": [
-      "cluster-api-provider-nico",
-      "health-validation",
-      "nv-redfish",
-      "nvkr"
-     ]
-    },
-    {
-     "confidence": "high",
-     "contributions": 8,
-     "evidence": "email domain or profile company",
      "login": "shevchenko-evgeny",
      "name": "Evgeny Shevchenko",
      "org": "Mirantis",
      "repos": [
       "infra-controller",
       "nv-redfish"
-     ]
-    },
-    {
-     "confidence": "high",
-     "contributions": 8,
-     "evidence": "email domain or profile company",
-     "login": "ayushich76",
-     "name": "Ayushi Chouhan",
-     "org": "redhat.com",
-     "repos": [
-      "ovn-kubernetes"
-     ]
-    },
-    {
-     "confidence": "high",
-     "contributions": 8,
-     "evidence": "email domain or profile company",
-     "login": "maiqueb",
-     "name": "Miguel Duarte Barroso",
-     "org": "redhat.com",
-     "repos": [
-      "ovn-kubernetes"
      ]
     },
     {
@@ -9013,12 +8171,12 @@
      ]
     },
     {
-     "confidence": "low",
+     "confidence": "unknown",
      "contributions": 7,
-     "evidence": "35 commits to cmu-argus-2 repos (Argus)",
+     "evidence": "",
      "login": "Baiiiiiiiiii",
      "name": "Yu-Chi (Maggie) Pai",
-     "org": "Argus",
+     "org": null,
      "repos": [
       "dynamo"
      ]
@@ -9055,24 +8213,241 @@
      "repos": [
       "dynamo"
      ]
+    },
+    {
+     "confidence": "medium",
+     "contributions": 7,
+     "evidence": "95 commits to Fluid Inference repos (Fluid Inference)",
+     "login": "Alex-Wengg",
+     "name": "A&W",
+     "org": "Fluid Inference",
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "confidence": "high",
+     "contributions": 7,
+     "evidence": "email domain or profile company",
+     "login": "yankay",
+     "name": "Kay Yan",
+     "org": "daocloud.io",
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "confidence": "high",
+     "contributions": 7,
+     "evidence": "email domain or profile company",
+     "login": "fabiendupont",
+     "name": "Fabien Dupont",
+     "org": "Red Hat",
+     "repos": [
+      "infra-controller",
+      "nv-rms"
+     ]
+    },
+    {
+     "confidence": "high",
+     "contributions": 7,
+     "evidence": "email domain or profile company",
+     "login": "subash-armada",
+     "name": null,
+     "org": "armada.ai",
+     "repos": [
+      "infra-controller",
+      "nv-redfish"
+     ]
+    },
+    {
+     "confidence": "unknown",
+     "contributions": 7,
+     "evidence": "",
+     "login": "cdxvy30",
+     "name": "Cody Chen",
+     "org": null,
+     "repos": [
+      "nvcf",
+      "nvkr"
+     ]
+    },
+    {
+     "confidence": "high",
+     "contributions": 7,
+     "evidence": "email domain or profile company",
+     "login": "SebTardif",
+     "name": "Sebastien Tardif",
+     "org": "ncf.ca",
+     "repos": [
+      "nvke",
+      "run-ai"
+     ]
+    },
+    {
+     "confidence": "unknown",
+     "contributions": 6,
+     "evidence": "",
+     "login": "ankitgala007",
+     "name": null,
+     "org": null,
+     "repos": [
+      "dynamo",
+      "run-ai",
+      "workload-map"
+     ]
+    },
+    {
+     "confidence": "high",
+     "contributions": 6,
+     "evidence": "email domain or profile company",
+     "login": "surajssd",
+     "name": "Suraj Deshmukh",
+     "org": "coreweave",
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "confidence": "unknown",
+     "contributions": 6,
+     "evidence": "",
+     "login": "AllenXu93",
+     "name": null,
+     "org": null,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "confidence": "low",
+     "contributions": 6,
+     "evidence": "via web search: LinkedIn (links GitHub ayaangazali): Experience at Stealth; SJSU software engineering student",
+     "login": "ayaangazali",
+     "name": "Ayaan Gazali",
+     "org": "Stealth startup (unnamed)",
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "confidence": "high",
+     "contributions": 6,
+     "evidence": "email domain or profile company",
+     "login": "livingshade",
+     "name": "Banruo Liu",
+     "org": "University of Illinois Urbana-Champaign",
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "confidence": "unknown",
+     "contributions": 6,
+     "evidence": "",
+     "login": "lavanyavijayk",
+     "name": "LAVANYA V",
+     "org": null,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "confidence": "high",
+     "contributions": 6,
+     "evidence": "microsoft.com commit email; Azure repo commits",
+     "login": "cataggar",
+     "name": "Cameron Taggart",
+     "org": "Microsoft",
+     "repos": [
+      "nv-redfish"
+     ]
+    },
+    {
+     "confidence": "high",
+     "contributions": 6,
+     "evidence": "email domain or profile company",
+     "login": "wsj040303",
+     "name": "ledd",
+     "org": "Southeast University",
+     "repos": [
+      "nvcf"
+     ]
+    },
+    {
+     "confidence": "high",
+     "contributions": 6,
+     "evidence": "email domain or profile company",
+     "login": "ntheanh201",
+     "name": "The Anh Nguyen",
+     "org": "viettelcloud-oss, viettelnetworks",
+     "repos": [
+      "run-ai",
+      "workload-map"
+     ]
+    },
+    {
+     "confidence": "high",
+     "contributions": 6,
+     "evidence": "email domain or profile company",
+     "login": "kevin-kho",
+     "name": null,
+     "org": "sap.com",
+     "repos": [
+      "topograph"
+     ]
+    },
+    {
+     "confidence": "high",
+     "contributions": 6,
+     "evidence": "email domain or profile company",
+     "login": "ManasBhole",
+     "name": "Manas Bhole",
+     "org": "Armada AI",
+     "repos": [
+      "workload-map"
+     ]
+    },
+    {
+     "confidence": "high",
+     "contributions": 6,
+     "evidence": "email domain or profile company",
+     "login": "sarankumar1325",
+     "name": "sarankumar",
+     "org": "goML",
+     "repos": [
+      "workload-map"
+     ]
+    },
+    {
+     "confidence": "high",
+     "contributions": 6,
+     "evidence": "email domain or profile company",
+     "login": "Abhayrkhot",
+     "name": null,
+     "org": "Graduate Student at Northeastern University",
+     "repos": [
+      "workload-map"
+     ]
     }
    ],
    "unattributed": {
-    "contributions": 311,
-    "people": 85
+    "contributions": 256,
+    "people": 80
    }
   },
-  "contributors": 1398,
+  "contributors": 1177,
   "fork_orgs": {
-   "forks_90d": 884,
-   "internal": 192,
+   "forks_90d": 883,
+   "internal": 205,
    "orgs": [
     {
-     "confidence": "medium",
+     "confidence": "high",
      "forks": 14,
      "org": "Red Hat",
      "people": 11,
      "repos": [
+      "dynamo",
       "fleet-intelligence-agent",
       "infra-controller",
       "nv-config-manager",
@@ -9085,21 +8460,9 @@
     },
     {
      "confidence": "medium",
-     "forks": 10,
-     "org": "Amazon",
-     "people": 8,
-     "repos": [
-      "dynamo",
-      "nvke",
-      "nvke-telemetry-pipeline",
-      "nvkr"
-     ]
-    },
-    {
-     "confidence": "low",
-     "forks": 9,
+     "forks": 11,
      "org": "Amazon Web Services",
-     "people": 5,
+     "people": 7,
      "repos": [
       "NVIDIA-Recovery",
       "attribution",
@@ -9111,8 +8474,34 @@
     },
     {
      "confidence": "medium",
+     "forks": 9,
+     "org": "Amazon",
+     "people": 7,
+     "repos": [
+      "dynamo",
+      "nvke",
+      "nvke-telemetry-pipeline",
+      "nvkr"
+     ]
+    },
+    {
+     "confidence": "low",
+     "forks": 8,
+     "org": "Mirantis",
+     "people": 7,
+     "repos": [
+      "ai-cloud-validation",
+      "cluster-api-provider-nico",
+      "dynamo",
+      "infra-controller",
+      "nvke",
+      "nvkr"
+     ]
+    },
+    {
+     "confidence": "high",
      "forks": 7,
-     "org": "inf.ufrgs.br",
+     "org": "Scherm",
      "people": 1,
      "repos": [
       "NVIDIA-Recovery",
@@ -9125,9 +8514,9 @@
      ]
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "forks": 6,
-     "org": "google",
+     "org": "Google",
      "people": 6,
      "repos": [
       "dynamo",
@@ -9136,21 +8525,21 @@
      ]
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "forks": 5,
-     "org": "Mirantis",
-     "people": 4,
+     "org": "Intel",
+     "people": 5,
      "repos": [
-      "cluster-api-provider-nico",
+      "dynamo",
+      "health-validation",
       "infra-controller",
-      "nvke",
-      "nvkr"
+      "model-streamer"
      ]
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "forks": 5,
-     "org": "tessian.com",
+     "org": "Tessian",
      "people": 1,
      "repos": [
       "infra-controller",
@@ -9161,31 +8550,20 @@
      ]
     },
     {
-     "confidence": "low",
+     "confidence": "high",
      "forks": 4,
-     "org": "AMD",
+     "org": "Oracle",
      "people": 4,
      "repos": [
       "dynamo",
-      "infra-controller",
-      "nvcf"
+      "exemplar-performance",
+      "run-ai"
      ]
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "forks": 4,
-     "org": "Intel",
-     "people": 4,
-     "repos": [
-      "dynamo",
-      "health-validation",
-      "infra-controller"
-     ]
-    },
-    {
-     "confidence": "medium",
-     "forks": 4,
-     "org": "tenstorrent",
+     "org": "Tenstorrent",
      "people": 4,
      "repos": [
       "dynamo"
@@ -9193,6 +8571,17 @@
     },
     {
      "confidence": "high",
+     "forks": 4,
+     "org": "Lambda",
+     "people": 3,
+     "repos": [
+      "exemplar-performance",
+      "health-validation",
+      "infra-controller"
+     ]
+    },
+    {
+     "confidence": "medium",
      "forks": 4,
      "org": "redactPIItools.com",
      "people": 1,
@@ -9206,7 +8595,7 @@
     {
      "confidence": "high",
      "forks": 4,
-     "org": "Serra Consultancy Services",
+     "org": "Serra Consultancy Services Ltd",
      "people": 1,
      "repos": [
       "cluster-api-provider-nico",
@@ -9216,43 +8605,13 @@
      ]
     },
     {
-     "confidence": "high",
-     "forks": 3,
-     "org": "ByteDance",
-     "people": 3,
-     "repos": [
-      "dynamo",
-      "run-ai"
-     ]
-    },
-    {
      "confidence": "medium",
-     "forks": 3,
-     "org": "oracle.com",
-     "people": 3,
+     "forks": 4,
+     "org": "SIGHUP",
+     "people": 1,
      "repos": [
-      "dynamo",
-      "exemplar-performance",
-      "run-ai"
-     ]
-    },
-    {
-     "confidence": "medium",
-     "forks": 3,
-     "org": "bitdeer.com",
-     "people": 2,
-     "repos": [
-      "nvcf",
-      "nvke",
-      "run-ai"
-     ]
-    },
-    {
-     "confidence": "high",
-     "forks": 3,
-     "org": "shopee",
-     "people": 2,
-     "repos": [
+      "ai-cloud-validation",
+      "infra-controller",
       "nvke",
       "topograph"
      ]
@@ -9260,18 +8619,70 @@
     {
      "confidence": "low",
      "forks": 3,
-     "org": "AWS Educate TW",
-     "people": 1,
+     "org": "AMD",
+     "people": 3,
      "repos": [
-      "nvcf",
-      "nvke",
-      "nvkr"
+      "dynamo",
+      "infra-controller",
+      "run-ai"
      ]
     },
     {
      "confidence": "medium",
      "forks": 3,
-     "org": "cloudengined.com",
+     "org": "Adobe",
+     "people": 2,
+     "repos": [
+      "dynamo",
+      "infra-controller",
+      "run-ai"
+     ]
+    },
+    {
+     "confidence": "high",
+     "forks": 3,
+     "org": "Bitdeer",
+     "people": 2,
+     "repos": [
+      "nvcf",
+      "nvke",
+      "run-ai"
+     ]
+    },
+    {
+     "confidence": "high",
+     "forks": 3,
+     "org": "Black Forest Labs",
+     "people": 2,
+     "repos": [
+      "attribution",
+      "health-validation"
+     ]
+    },
+    {
+     "confidence": "medium",
+     "forks": 3,
+     "org": "Salesforce",
+     "people": 2,
+     "repos": [
+      "nvke",
+      "run-ai"
+     ]
+    },
+    {
+     "confidence": "high",
+     "forks": 3,
+     "org": "Shopee",
+     "people": 2,
+     "repos": [
+      "nvke",
+      "topograph"
+     ]
+    },
+    {
+     "confidence": "high",
+     "forks": 3,
+     "org": "Cloudengined",
      "people": 1,
      "repos": [
       "fleet-intelligence-agent",
@@ -9291,6 +8702,17 @@
      ]
     },
     {
+     "confidence": "medium",
+     "forks": 3,
+     "org": "HCLTech",
+     "people": 1,
+     "repos": [
+      "fleet-intelligence-agent",
+      "health-validation",
+      "nvke-telemetry-pipeline"
+     ]
+    },
+    {
      "confidence": "high",
      "forks": 3,
      "org": "OBrienLabs Dev",
@@ -9303,19 +8725,8 @@
     },
     {
      "confidence": "high",
-     "forks": 3,
-     "org": "Yahoo!",
-     "people": 1,
-     "repos": [
-      "nvke",
-      "nvke-telemetry-pipeline",
-      "nvkr"
-     ]
-    },
-    {
-     "confidence": "medium",
      "forks": 2,
-     "org": "Armada AI",
+     "org": "Armada",
      "people": 2,
      "repos": [
       "nv-redfish",
@@ -9323,25 +8734,36 @@
      ]
     },
     {
-     "confidence": "low",
+     "confidence": "high",
      "forks": 2,
-     "org": "CallGideon",
+     "org": "ByteDance",
+     "people": 2,
+     "repos": [
+      "dynamo",
+      "run-ai"
+     ]
+    },
+    {
+     "confidence": "medium",
+     "forks": 2,
+     "org": "Canva",
      "people": 2,
      "repos": [
       "dynamo"
      ]
     },
     {
-     "confidence": "low",
+     "confidence": "medium",
      "forks": 2,
-     "org": "Colegio San Caio",
+     "org": "Carnegie Mellon University",
      "people": 2,
      "repos": [
-      "nvke"
+      "nv-config-manager",
+      "topograph"
      ]
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "forks": 2,
      "org": "DaoCloud",
      "people": 2,
@@ -9350,22 +8772,21 @@
      ]
     },
     {
-     "confidence": "low",
+     "confidence": "high",
      "forks": 2,
-     "org": "E2E-Load-Tests-Org ",
+     "org": "Groq",
      "people": 2,
      "repos": [
       "dynamo",
-      "nvcf"
+      "infra-controller"
      ]
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "forks": 2,
-     "org": "groq",
+     "org": "Hedgehog",
      "people": 2,
      "repos": [
-      "dynamo",
       "infra-controller"
      ]
     },
@@ -9379,7 +8800,7 @@
      ]
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "forks": 2,
      "org": "IBM",
      "people": 2,
@@ -9388,19 +8809,9 @@
      ]
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "forks": 2,
-     "org": "lambdal",
-     "people": 2,
-     "repos": [
-      "exemplar-performance",
-      "infra-controller"
-     ]
-    },
-    {
-     "confidence": "medium",
-     "forks": 2,
-     "org": "maymust.com",
+     "org": "MayMust AI",
      "people": 2,
      "repos": [
       "run-ai"
@@ -9409,29 +8820,10 @@
     {
      "confidence": "low",
      "forks": 2,
-     "org": "moirai-internal",
+     "org": "Microsoft",
      "people": 2,
      "repos": [
-      "dynamo"
-     ]
-    },
-    {
-     "confidence": "low",
-     "forks": 2,
-     "org": "NVIDIA Corporation",
-     "people": 2,
-     "repos": [
-      "dynamo",
-      "topograph"
-     ]
-    },
-    {
-     "confidence": "low",
-     "forks": 2,
-     "org": "Open Inference Fabric",
-     "people": 2,
-     "repos": [
-      "dynamo",
+      "nv-redfish",
       "run-ai"
      ]
     },
@@ -9445,9 +8837,18 @@
      ]
     },
     {
+     "confidence": "medium",
+     "forks": 2,
+     "org": "Santa Clara University",
+     "people": 2,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
      "confidence": "high",
      "forks": 2,
-     "org": "Tesla.com",
+     "org": "Tesla",
      "people": 2,
      "repos": [
       "dynamo",
@@ -9455,23 +8856,13 @@
      ]
     },
     {
-     "confidence": "high",
+     "confidence": "low",
      "forks": 2,
-     "org": "adobe",
-     "people": 1,
+     "org": "Together AI",
+     "people": 2,
      "repos": [
-      "infra-controller",
-      "run-ai"
-     ]
-    },
-    {
-     "confidence": "medium",
-     "forks": 2,
-     "org": "alum.utoronto.ca",
-     "people": 1,
-     "repos": [
-      "nvke",
-      "nvke-telemetry-pipeline"
+      "dynamo",
+      "nv-config-manager"
      ]
     },
     {
@@ -9485,33 +8876,13 @@
      ]
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "forks": 2,
-     "org": "asus.com",
+     "org": "ASUS",
      "people": 1,
      "repos": [
       "nvke",
       "run-ai"
-     ]
-    },
-    {
-     "confidence": "high",
-     "forks": 2,
-     "org": "Black Forest Labs",
-     "people": 1,
-     "repos": [
-      "attribution",
-      "health-validation"
-     ]
-    },
-    {
-     "confidence": "medium",
-     "forks": 2,
-     "org": "clearvoice.com",
-     "people": 1,
-     "repos": [
-      "nvke",
-      "nvkr"
      ]
     },
     {
@@ -9522,16 +8893,6 @@
      "repos": [
       "infra-controller",
       "nv-config-manager"
-     ]
-    },
-    {
-     "confidence": "low",
-     "forks": 2,
-     "org": "Data For Change",
-     "people": 1,
-     "repos": [
-      "model-streamer",
-      "run-ai"
      ]
     },
     {
@@ -9557,41 +8918,11 @@
     {
      "confidence": "high",
      "forks": 2,
-     "org": "kubescape",
+     "org": "Microcks",
      "people": 1,
      "repos": [
-      "ai-cloud-validation",
-      "run-ai"
-     ]
-    },
-    {
-     "confidence": "high",
-     "forks": 2,
-     "org": "Lambda.ai",
-     "people": 1,
-     "repos": [
-      "exemplar-performance",
-      "health-validation"
-     ]
-    },
-    {
-     "confidence": "high",
-     "forks": 2,
-     "org": "loo-ai",
-     "people": 1,
-     "repos": [
-      "run-ai",
-      "workload-map"
-     ]
-    },
-    {
-     "confidence": "medium",
-     "forks": 2,
-     "org": "ncf.ca",
-     "people": 1,
-     "repos": [
-      "nvke",
-      "run-ai"
+      "dsx-exchange",
+      "nvkr"
      ]
     },
     {
@@ -9607,16 +8938,6 @@
     {
      "confidence": "high",
      "forks": 2,
-     "org": "reshaprio @microcks",
-     "people": 1,
-     "repos": [
-      "dsx-exchange",
-      "nvkr"
-     ]
-    },
-    {
-     "confidence": "high",
-     "forks": 2,
      "org": "RexCode Digital",
      "people": 1,
      "repos": [
@@ -9625,19 +8946,9 @@
      ]
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "forks": 2,
-     "org": "rokt.com",
-     "people": 1,
-     "repos": [
-      "nvke",
-      "nvkr"
-     ]
-    },
-    {
-     "confidence": "medium",
-     "forks": 2,
-     "org": "simbian.ai",
+     "org": "Simbian",
      "people": 1,
      "repos": [
       "community",
@@ -9665,19 +8976,9 @@
      ]
     },
     {
-     "confidence": "low",
+     "confidence": "high",
      "forks": 2,
-     "org": "Thecc4re",
-     "people": 1,
-     "repos": [
-      "nvke",
-      "run-ai"
-     ]
-    },
-    {
-     "confidence": "medium",
-     "forks": 2,
-     "org": "usc.edu",
+     "org": "University of Southern California",
      "people": 1,
      "repos": [
       "NVIDIA-Recovery",
@@ -9687,7 +8988,7 @@
     {
      "confidence": "high",
      "forks": 2,
-     "org": "viettelcloud-oss, viettelnetworks",
+     "org": "Viettel",
      "people": 1,
      "repos": [
       "run-ai",
@@ -9695,19 +8996,9 @@
      ]
     },
     {
-     "confidence": "low",
+     "confidence": "high",
      "forks": 2,
-     "org": "VMware Sample Code",
-     "people": 1,
-     "repos": [
-      "nvke",
-      "run-ai"
-     ]
-    },
-    {
-     "confidence": "medium",
-     "forks": 2,
-     "org": "workato.com",
+     "org": "Workato",
      "people": 1,
      "repos": [
       "dynamo",
@@ -9717,7 +9008,7 @@
     {
      "confidence": "medium",
      "forks": 1,
-     "org": "22acacia.com",
+     "org": "17LIVE",
      "people": 1,
      "repos": [
       "nvke"
@@ -9733,9 +9024,9 @@
      ]
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "forks": 1,
-     "org": "abes.ac.in",
+     "org": "ABES Engineering College",
      "people": 1,
      "repos": [
       "dynamo"
@@ -9753,7 +9044,7 @@
     {
      "confidence": "high",
      "forks": 1,
-     "org": "abridgeai",
+     "org": "Abridge",
      "people": 1,
      "repos": [
       "dynamo"
@@ -9762,10 +9053,19 @@
     {
      "confidence": "medium",
      "forks": 1,
-     "org": "acorn.io",
+     "org": "Acorn Labs",
      "people": 1,
      "repos": [
       "dynamo"
+     ]
+    },
+    {
+     "confidence": "medium",
+     "forks": 1,
+     "org": "aflock.ai",
+     "people": 1,
+     "repos": [
+      "nvke"
      ]
     },
     {
@@ -9780,34 +9080,7 @@
     {
      "confidence": "high",
      "forks": 1,
-     "org": "AI",
-     "people": 1,
-     "repos": [
-      "topograph"
-     ]
-    },
-    {
-     "confidence": "high",
-     "forks": 1,
-     "org": "AI/ML Engineer @eyewa-UAE (backed by General Atlantic))",
-     "people": 1,
-     "repos": [
-      "dynamo"
-     ]
-    },
-    {
-     "confidence": "high",
-     "forks": 1,
-     "org": "AICareerpath",
-     "people": 1,
-     "repos": [
-      "nvke"
-     ]
-    },
-    {
-     "confidence": "high",
-     "forks": 1,
-     "org": "airbus",
+     "org": "Airbus",
      "people": 1,
      "repos": [
       "nvcf"
@@ -9834,16 +9107,25 @@
     {
      "confidence": "high",
      "forks": 1,
-     "org": "alibaba",
+     "org": "Alibaba",
      "people": 1,
      "repos": [
       "dynamo"
      ]
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "forks": 1,
-     "org": "alumni.usp.br",
+     "org": "Amini",
+     "people": 1,
+     "repos": [
+      "run-ai"
+     ]
+    },
+    {
+     "confidence": "high",
+     "forks": 1,
+     "org": "Amrita Vishwa Vidyapeetham",
      "people": 1,
      "repos": [
       "nvcf"
@@ -9852,46 +9134,10 @@
     {
      "confidence": "high",
      "forks": 1,
-     "org": "Amazon Web Services (AWS)",
-     "people": 1,
-     "repos": [
-      "run-ai"
-     ]
-    },
-    {
-     "confidence": "high",
-     "forks": 1,
-     "org": "AminiTech",
-     "people": 1,
-     "repos": [
-      "run-ai"
-     ]
-    },
-    {
-     "confidence": "high",
-     "forks": 1,
-     "org": "Ancestry, Prev @ Amazon",
+     "org": "Ancestry",
      "people": 1,
      "repos": [
       "nvcf"
-     ]
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "anl.gov",
-     "people": 1,
-     "repos": [
-      "run-ai"
-     ]
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "anu.edu.au",
-     "people": 1,
-     "repos": [
-      "dynamo"
      ]
     },
     {
@@ -9906,7 +9152,7 @@
     {
      "confidence": "high",
      "forks": 1,
-     "org": "AR3SYSTEMS",
+     "org": "AR3 Systems",
      "people": 1,
      "repos": [
       "run-ai"
@@ -9922,9 +9168,18 @@
      ]
     },
     {
-     "confidence": "low",
+     "confidence": "high",
      "forks": 1,
-     "org": "Argus",
+     "org": "Argonne National Laboratory",
+     "people": 1,
+     "repos": [
+      "run-ai"
+     ]
+    },
+    {
+     "confidence": "high",
+     "forks": 1,
+     "org": "Australian National University",
      "people": 1,
      "repos": [
       "dynamo"
@@ -9932,15 +9187,6 @@
     },
     {
      "confidence": "medium",
-     "forks": 1,
-     "org": "attentivemobile.com",
-     "people": 1,
-     "repos": [
-      "nvke"
-     ]
-    },
-    {
-     "confidence": "low",
      "forks": 1,
      "org": "Autostructure",
      "people": 1,
@@ -9951,10 +9197,28 @@
     {
      "confidence": "high",
      "forks": 1,
-     "org": "banked",
+     "org": "Banked",
      "people": 1,
      "repos": [
       "infra-controller"
+     ]
+    },
+    {
+     "confidence": "medium",
+     "forks": 1,
+     "org": "Bar-Ilan University",
+     "people": 1,
+     "repos": [
+      "workload-map"
+     ]
+    },
+    {
+     "confidence": "high",
+     "forks": 1,
+     "org": "Barcelona Supercomputing Center",
+     "people": 1,
+     "repos": [
+      "NVIDIA-Recovery"
      ]
     },
     {
@@ -9978,7 +9242,16 @@
     {
      "confidence": "medium",
      "forks": 1,
-     "org": "breakingcircuits.com",
+     "org": "Beijing Jiaotong University",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "confidence": "high",
+     "forks": 1,
+     "org": "Breaking Circuits, LLC",
      "people": 1,
      "repos": [
       "dynamo"
@@ -9987,34 +9260,16 @@
     {
      "confidence": "medium",
      "forks": 1,
-     "org": "bsc.es",
-     "people": 1,
-     "repos": [
-      "NVIDIA-Recovery"
-     ]
-    },
-    {
-     "confidence": "high",
-     "forks": 1,
-     "org": "Building & Learning at @aflock-ai",
+     "org": "Calderdale College",
      "people": 1,
      "repos": [
       "nvke"
      ]
     },
     {
-     "confidence": "low",
-     "forks": 1,
-     "org": "campusplage",
-     "people": 1,
-     "repos": [
-      "run-ai"
-     ]
-    },
-    {
      "confidence": "high",
      "forks": 1,
-     "org": "canonical, ex @fraunhofer-iais",
+     "org": "Canonical",
      "people": 1,
      "repos": [
       "ai-cloud-validation"
@@ -10023,16 +9278,7 @@
     {
      "confidence": "high",
      "forks": 1,
-     "org": "Canva",
-     "people": 1,
-     "repos": [
-      "dynamo"
-     ]
-    },
-    {
-     "confidence": "high",
-     "forks": 1,
-     "org": "CCVS TECH",
+     "org": "CCVS TECH Ltd",
      "people": 1,
      "repos": [
       "run-ai"
@@ -10048,57 +9294,30 @@
      ]
     },
     {
+     "confidence": "low",
+     "forks": 1,
+     "org": "Cisco",
+     "people": 1,
+     "repos": [
+      "workload-map"
+     ]
+    },
+    {
      "confidence": "high",
      "forks": 1,
-     "org": "cloudphysician-codehub @inxiteout-ai @compass-lab @a5g-networks @LUK-Lab",
+     "org": "Colegio San Caio",
      "people": 1,
      "repos": [
-      "dynamo"
-     ]
-    },
-    {
-     "confidence": "high",
-     "forks": 1,
-     "org": "CMU Silicon Valley",
-     "people": 1,
-     "repos": [
-      "nv-config-manager"
+      "nvke"
      ]
     },
     {
      "confidence": "low",
      "forks": 1,
-     "org": "Code States",
+     "org": "Comcast",
      "people": 1,
      "repos": [
-      "run-ai"
-     ]
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "Colorado Data Science Team",
-     "people": 1,
-     "repos": [
-      "dynamo"
-     ]
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "ConnectRPC",
-     "people": 1,
-     "repos": [
-      "infra-controller"
-     ]
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "containerd",
-     "people": 1,
-     "repos": [
-      "infra-controller"
+      "nvcf"
      ]
     },
     {
@@ -10131,14 +9350,14 @@
     {
      "confidence": "low",
      "forks": 1,
-     "org": "CSU-ITMO-2025-2",
+     "org": "Credochain",
      "people": 1,
      "repos": [
-      "model-streamer"
+      "dynamo"
      ]
     },
     {
-     "confidence": "low",
+     "confidence": "medium",
      "forks": 1,
      "org": "Cusp-Fi",
      "people": 1,
@@ -10149,16 +9368,7 @@
     {
      "confidence": "high",
      "forks": 1,
-     "org": "Databricks Alum",
-     "people": 1,
-     "repos": [
-      "nvke"
-     ]
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "databricks.com",
+     "org": "Databricks",
      "people": 1,
      "repos": [
       "dynamo"
@@ -10194,7 +9404,7 @@
     {
      "confidence": "medium",
      "forks": 1,
-     "org": "diem.com",
+     "org": "Diem",
      "people": 1,
      "repos": [
       "run-ai"
@@ -10210,6 +9420,15 @@
      ]
     },
     {
+     "confidence": "medium",
+     "forks": 1,
+     "org": "Docusign",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
      "confidence": "high",
      "forks": 1,
      "org": "Dongguk University",
@@ -10221,19 +9440,10 @@
     {
      "confidence": "high",
      "forks": 1,
-     "org": "Dremio / SAP",
+     "org": "Dremio",
      "people": 1,
      "repos": [
       "topograph"
-     ]
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "droidcraft.org",
-     "people": 1,
-     "repos": [
-      "dynamo"
      ]
     },
     {
@@ -10248,7 +9458,7 @@
     {
      "confidence": "high",
      "forks": 1,
-     "org": "dynamia-ai",
+     "org": "Dynamia AI",
      "people": 1,
      "repos": [
       "dynamo"
@@ -10275,28 +9485,19 @@
     {
      "confidence": "high",
      "forks": 1,
+     "org": "Eindhoven University of Technology",
+     "people": 1,
+     "repos": [
+      "run-ai"
+     ]
+    },
+    {
+     "confidence": "high",
+     "forks": 1,
      "org": "ELTE University",
      "people": 1,
      "repos": [
       "nvke"
-     ]
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "Envoy Proxy - CNCF",
-     "people": 1,
-     "repos": [
-      "nvke"
-     ]
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "ESPnet",
-     "people": 1,
-     "repos": [
-      "topograph"
      ]
     },
     {
@@ -10311,34 +9512,7 @@
     {
      "confidence": "high",
      "forks": 1,
-     "org": "ex-Tencent, ex-Kuro Games",
-     "people": 1,
-     "repos": [
-      "dynamo"
-     ]
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "Exea Labs",
-     "people": 1,
-     "repos": [
-      "dynamo"
-     ]
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "expediagroup.com",
-     "people": 1,
-     "repos": [
-      "dynamo"
-     ]
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "expoundlabs.io",
+     "org": "Expedia Group",
      "people": 1,
      "repos": [
       "dynamo"
@@ -10347,7 +9521,16 @@
     {
      "confidence": "high",
      "forks": 1,
-     "org": "FAAX UP",
+     "org": "Eyewa",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "confidence": "high",
+     "forks": 1,
+     "org": "FAAX UP LLC",
      "people": 1,
      "repos": [
       "run-ai"
@@ -10356,43 +9539,16 @@
     {
      "confidence": "medium",
      "forks": 1,
-     "org": "fb.com",
-     "people": 1,
-     "repos": [
-      "NVIDIA-Recovery"
-     ]
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "fireeye.com",
-     "people": 1,
-     "repos": [
-      "infra-controller"
-     ]
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "France Travail (ex P\u00f4le emploi)",
+     "org": "France Travail",
      "people": 1,
      "repos": [
       "run-ai"
      ]
     },
     {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "fudaoyuan.icu",
-     "people": 1,
-     "repos": [
-      "dynamo"
-     ]
-    },
-    {
      "confidence": "high",
      "forks": 1,
-     "org": "Fuzhou University/Maynooth University",
+     "org": "Fuzhou University",
      "people": 1,
      "repos": [
       "dynamo"
@@ -10401,25 +9557,7 @@
     {
      "confidence": "low",
      "forks": 1,
-     "org": "git.kernel.org mirror",
-     "people": 1,
-     "repos": [
-      "nvke"
-     ]
-    },
-    {
-     "confidence": "high",
-     "forks": 1,
-     "org": "githedgehog",
-     "people": 1,
-     "repos": [
-      "infra-controller"
-     ]
-    },
-    {
-     "confidence": "high",
-     "forks": 1,
-     "org": "GMISWE",
+     "org": "GMI Cloud",
      "people": 1,
      "repos": [
       "infra-controller"
@@ -10437,16 +9575,7 @@
     {
      "confidence": "high",
      "forks": 1,
-     "org": "Graduate Student at Northeastern University",
-     "people": 1,
-     "repos": [
-      "workload-map"
-     ]
-    },
-    {
-     "confidence": "high",
-     "forks": 1,
-     "org": "greennode-ai",
+     "org": "GreenNode",
      "people": 1,
      "repos": [
       "dynamo"
@@ -10455,28 +9584,10 @@
     {
      "confidence": "high",
      "forks": 1,
-     "org": "H company",
+     "org": "H Company",
      "people": 1,
      "repos": [
       "dynamo"
-     ]
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "habana.ai",
-     "people": 1,
-     "repos": [
-      "model-streamer"
-     ]
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "HAMi Project",
-     "people": 1,
-     "repos": [
-      "nvcf"
      ]
     },
     {
@@ -10486,33 +9597,6 @@
      "people": 1,
      "repos": [
       "dynamo"
-     ]
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "heddles",
-     "people": 1,
-     "repos": [
-      "dynamo"
-     ]
-    },
-    {
-     "confidence": "high",
-     "forks": 1,
-     "org": "Hedgehog",
-     "people": 1,
-     "repos": [
-      "infra-controller"
-     ]
-    },
-    {
-     "confidence": "high",
-     "forks": 1,
-     "org": "Hob Forge @huggingface",
-     "people": 1,
-     "repos": [
-      "run-ai"
      ]
     },
     {
@@ -10527,24 +9611,6 @@
     {
      "confidence": "high",
      "forks": 1,
-     "org": "HPC-TUE",
-     "people": 1,
-     "repos": [
-      "run-ai"
-     ]
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "Hugging Face",
-     "people": 1,
-     "repos": [
-      "dynamo"
-     ]
-    },
-    {
-     "confidence": "high",
-     "forks": 1,
      "org": "IIIT Lucknow",
      "people": 1,
      "repos": [
@@ -10554,7 +9620,16 @@
     {
      "confidence": "medium",
      "forks": 1,
-     "org": "iluvatar.com",
+     "org": "IIT Bhilai",
+     "people": 1,
+     "repos": [
+      "nvcf"
+     ]
+    },
+    {
+     "confidence": "high",
+     "forks": 1,
+     "org": "Iluvatar CoreX",
      "people": 1,
      "repos": [
       "run-ai"
@@ -10570,57 +9645,21 @@
      ]
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "forks": 1,
-     "org": "inferact.ai",
+     "org": "Inferact",
      "people": 1,
      "repos": [
       "model-streamer"
      ]
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "forks": 1,
-     "org": "inherentlaboratories.com",
+     "org": "Inherent Laboratories",
      "people": 1,
      "repos": [
       "dynamo"
-     ]
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "interconnect lab",
-     "people": 1,
-     "repos": [
-      "dynamo"
-     ]
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "Istio",
-     "people": 1,
-     "repos": [
-      "infra-controller"
-     ]
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "jayvicsanantonio.dev",
-     "people": 1,
-     "repos": [
-      "nvke"
-     ]
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "JetBrains",
-     "people": 1,
-     "repos": [
-      "nvke"
      ]
     },
     {
@@ -10635,52 +9674,7 @@
     {
      "confidence": "high",
      "forks": 1,
-     "org": "k0rdent",
-     "people": 1,
-     "repos": [
-      "ai-cloud-validation"
-     ]
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "Katya AI Systems, LLC",
-     "people": 1,
-     "repos": [
-      "dynamo"
-     ]
-    },
-    {
-     "confidence": "high",
-     "forks": 1,
-     "org": "kubernetes @kubernetes-sigs",
-     "people": 1,
-     "repos": [
-      "nvke"
-     ]
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "Kubernetes SIGs",
-     "people": 1,
-     "repos": [
-      "nvcf"
-     ]
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "kvcache.ai",
-     "people": 1,
-     "repos": [
-      "dynamo"
-     ]
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "latitude.sh",
+     "org": "Latitude.sh",
      "people": 1,
      "repos": [
       "fleet-intelligence-agent"
@@ -10696,15 +9690,6 @@
      ]
     },
     {
-     "confidence": "low",
-     "forks": 1,
-     "org": "llm-d",
-     "people": 1,
-     "repos": [
-      "dynamo"
-     ]
-    },
-    {
      "confidence": "high",
      "forks": 1,
      "org": "lod-tech",
@@ -10714,12 +9699,12 @@
      ]
     },
     {
-     "confidence": "medium",
+     "confidence": "low",
      "forks": 1,
-     "org": "luby.us",
+     "org": "Loft Labs",
      "people": 1,
      "repos": [
-      "run-ai"
+      "infra-controller"
      ]
     },
     {
@@ -10732,9 +9717,9 @@
      ]
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "forks": 1,
-     "org": "maicoin.com",
+     "org": "MaiCoin",
      "people": 1,
      "repos": [
       "nvcf"
@@ -10761,15 +9746,6 @@
     {
      "confidence": "medium",
      "forks": 1,
-     "org": "maxkelsen.com",
-     "people": 1,
-     "repos": [
-      "dynamo"
-     ]
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
      "org": "memcodeAI",
      "people": 1,
      "repos": [
@@ -10777,36 +9753,18 @@
      ]
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "forks": 1,
-     "org": "mennanov.com",
+     "org": "Meta",
      "people": 1,
      "repos": [
-      "dynamo"
-     ]
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "Meshery",
-     "people": 1,
-     "repos": [
-      "nvcf"
-     ]
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "MetaVAI ",
-     "people": 1,
-     "repos": [
-      "nvcf"
+      "NVIDIA-Recovery"
      ]
     },
     {
      "confidence": "high",
      "forks": 1,
-     "org": "Metify.io",
+     "org": "Metify",
      "people": 1,
      "repos": [
       "dsx-exchange"
@@ -10822,57 +9780,12 @@
      ]
     },
     {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "microsoft.com",
-     "people": 1,
-     "repos": [
-      "nv-redfish"
-     ]
-    },
-    {
-     "confidence": "high",
-     "forks": 1,
-     "org": "Mirantis @Kubernetes",
-     "people": 1,
-     "repos": [
-      "dynamo"
-     ]
-    },
-    {
-     "confidence": "high",
-     "forks": 1,
-     "org": "Mitroko",
-     "people": 1,
-     "repos": [
-      "infra-controller"
-     ]
-    },
-    {
      "confidence": "low",
-     "forks": 1,
-     "org": "ModelScope",
-     "people": 1,
-     "repos": [
-      "dynamo"
-     ]
-    },
-    {
-     "confidence": "high",
      "forks": 1,
      "org": "ModifyMe",
      "people": 1,
      "repos": [
       "run-ai"
-     ]
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "moja global",
-     "people": 1,
-     "repos": [
-      "dynamo"
      ]
     },
     {
@@ -10885,12 +9798,12 @@
      ]
     },
     {
-     "confidence": "high",
+     "confidence": "medium",
      "forks": 1,
-     "org": "MSCS @ NYU, prev SWE @ AT&T",
+     "org": "MSU Labs",
      "people": 1,
      "repos": [
-      "nvke"
+      "dynamo"
      ]
     },
     {
@@ -10900,6 +9813,15 @@
      "people": 1,
      "repos": [
       "dynamo"
+     ]
+    },
+    {
+     "confidence": "high",
+     "forks": 1,
+     "org": "National Taiwan University",
+     "people": 1,
+     "repos": [
+      "nvcf"
      ]
     },
     {
@@ -10923,7 +9845,7 @@
     {
      "confidence": "high",
      "forks": 1,
-     "org": "naver",
+     "org": "Naver",
      "people": 1,
      "repos": [
       "dynamo"
@@ -10932,34 +9854,7 @@
     {
      "confidence": "high",
      "forks": 1,
-     "org": "NAVER CLOUD",
-     "people": 1,
-     "repos": [
-      "run-ai"
-     ]
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "nawaz-dev",
-     "people": 1,
-     "repos": [
-      "nvke"
-     ]
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "Necoz",
-     "people": 1,
-     "repos": [
-      "workload-map"
-     ]
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "neevcloud.com",
+     "org": "NAVER Cloud",
      "people": 1,
      "repos": [
       "run-ai"
@@ -10968,7 +9863,16 @@
     {
      "confidence": "high",
      "forks": 1,
-     "org": "netboxlabs",
+     "org": "NeevCloud",
+     "people": 1,
+     "repos": [
+      "run-ai"
+     ]
+    },
+    {
+     "confidence": "high",
+     "forks": 1,
+     "org": "NetBox Labs",
      "people": 1,
      "repos": [
       "nv-config-manager"
@@ -10984,18 +9888,18 @@
      ]
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "forks": 1,
-     "org": "netlox.io",
+     "org": "NetLOX",
      "people": 1,
      "repos": [
       "run-ai"
      ]
     },
     {
-     "confidence": "low",
+     "confidence": "medium",
      "forks": 1,
-     "org": "Networkers ",
+     "org": "Networkers",
      "people": 1,
      "repos": [
       "nvke"
@@ -11004,25 +9908,16 @@
     {
      "confidence": "medium",
      "forks": 1,
-     "org": "ntu.edu.tw",
+     "org": "New York University",
      "people": 1,
      "repos": [
-      "nvcf"
+      "nvke"
      ]
     },
     {
      "confidence": "medium",
      "forks": 1,
-     "org": "nuance.com",
-     "people": 1,
-     "repos": [
-      "nvcf"
-     ]
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "nukoe.com",
+     "org": "NITK Surathkal",
      "people": 1,
      "repos": [
       "dynamo"
@@ -11031,10 +9926,28 @@
     {
      "confidence": "high",
      "forks": 1,
-     "org": "Nunya",
+     "org": "Northeastern University",
      "people": 1,
      "repos": [
-      "run-ai"
+      "workload-map"
+     ]
+    },
+    {
+     "confidence": "high",
+     "forks": 1,
+     "org": "Nuance Communications",
+     "people": 1,
+     "repos": [
+      "nvcf"
+     ]
+    },
+    {
+     "confidence": "high",
+     "forks": 1,
+     "org": "Nukoe",
+     "people": 1,
+     "repos": [
+      "dynamo"
      ]
     },
     {
@@ -11044,15 +9957,6 @@
      "people": 1,
      "repos": [
       "dynamo"
-     ]
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "October",
-     "people": 1,
-     "repos": [
-      "run-ai"
      ]
     },
     {
@@ -11074,30 +9978,12 @@
      ]
     },
     {
-     "confidence": "low",
+     "confidence": "high",
      "forks": 1,
-     "org": "openenv",
+     "org": "Open Inference Fabric",
      "people": 1,
      "repos": [
       "dynamo"
-     ]
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "OpenFGA",
-     "people": 1,
-     "repos": [
-      "nvcf"
-     ]
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "openwitty",
-     "people": 1,
-     "repos": [
-      "run-ai"
      ]
     },
     {
@@ -11121,7 +10007,16 @@
     {
      "confidence": "high",
      "forks": 1,
-     "org": "PERFECT.",
+     "org": "PayPal",
+     "people": 1,
+     "repos": [
+      "run-ai"
+     ]
+    },
+    {
+     "confidence": "high",
+     "forks": 1,
+     "org": "Peking University",
      "people": 1,
      "repos": [
       "dynamo"
@@ -11130,10 +10025,10 @@
     {
      "confidence": "medium",
      "forks": 1,
-     "org": "pimento.waw.pl",
+     "org": "Pinterest",
      "people": 1,
      "repos": [
-      "nvke"
+      "dynamo"
      ]
     },
     {
@@ -11173,27 +10068,9 @@
      ]
     },
     {
-     "confidence": "low",
+     "confidence": "high",
      "forks": 1,
-     "org": "PufferAI",
-     "people": 1,
-     "repos": [
-      "dynamo"
-     ]
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "Qualcomm Technologies, Inc.",
-     "people": 1,
-     "repos": [
-      "infra-controller"
-     ]
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "radixark.ai",
+     "org": "RadixArk",
      "people": 1,
      "repos": [
       "dynamo"
@@ -11202,19 +10079,19 @@
     {
      "confidence": "high",
      "forks": 1,
-     "org": "Ramstorage Cloud Technology Co",
+     "org": "Ramstorage Cloud Technology",
      "people": 1,
      "repos": [
       "nvke"
      ]
     },
     {
-     "confidence": "high",
+     "confidence": "medium",
      "forks": 1,
-     "org": "RationalityEnhancement @armlabstanford",
+     "org": "RCOEM",
      "people": 1,
      "repos": [
-      "health-validation"
+      "nvke"
      ]
     },
     {
@@ -11238,28 +10115,10 @@
     {
      "confidence": "high",
      "forks": 1,
-     "org": "RedHatOfficial",
-     "people": 1,
-     "repos": [
-      "dynamo"
-     ]
-    },
-    {
-     "confidence": "high",
-     "forks": 1,
      "org": "Reins AI",
      "people": 1,
      "repos": [
       "run-ai"
-     ]
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "ReportPortal.io",
-     "people": 1,
-     "repos": [
-      "infra-controller"
      ]
     },
     {
@@ -11274,16 +10133,16 @@
     {
      "confidence": "high",
      "forks": 1,
-     "org": "ROM ROBOTICS",
+     "org": "ROM Robotics",
      "people": 1,
      "repos": [
       "nvke"
      ]
     },
     {
-     "confidence": "high",
+     "confidence": "medium",
      "forks": 1,
-     "org": "Santa Clara University",
+     "org": "Root Signals",
      "people": 1,
      "repos": [
       "dynamo"
@@ -11299,39 +10158,12 @@
      ]
     },
     {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "sci.utah.edu",
-     "people": 1,
-     "repos": [
-      "dynamo"
-     ]
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "scu.edu",
-     "people": 1,
-     "repos": [
-      "dynamo"
-     ]
-    },
-    {
      "confidence": "high",
      "forks": 1,
-     "org": "SEE",
+     "org": "Scaleway",
      "people": 1,
      "repos": [
       "dynamo"
-     ]
-    },
-    {
-     "confidence": "low",
-     "forks": 1,
-     "org": "sg-benchmarks",
-     "people": 1,
-     "repos": [
-      "nv-rms"
      ]
     },
     {
@@ -11341,51 +10173,6 @@
      "people": 1,
      "repos": [
       "dynamo"
-     ]
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "shuchen.ca",
-     "people": 1,
-     "repos": [
-      "dynamo"
-     ]
-    },
-    {
-     "confidence": "high",
-     "forks": 1,
-     "org": "Snyk",
-     "people": 1,
-     "repos": [
-      "dynamo"
-     ]
-    },
-    {
-     "confidence": "high",
-     "forks": 1,
-     "org": "Software Engineer at Oracle Database",
-     "people": 1,
-     "repos": [
-      "dynamo"
-     ]
-    },
-    {
-     "confidence": "high",
-     "forks": 1,
-     "org": "Software Engineering Lead @ UZINFOCOM",
-     "people": 1,
-     "repos": [
-      "run-ai"
-     ]
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "somaiya.edu",
-     "people": 1,
-     "repos": [
-      "nvke"
      ]
     },
     {
@@ -11436,7 +10223,7 @@
     {
      "confidence": "medium",
      "forks": 1,
-     "org": "srmist.edu.in",
+     "org": "SRM Institute of Science and Technology",
      "people": 1,
      "repos": [
       "dynamo"
@@ -11454,37 +10241,19 @@
     {
      "confidence": "high",
      "forks": 1,
+     "org": "Starling Bank",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "confidence": "high",
+     "forks": 1,
      "org": "StarTree",
      "people": 1,
      "repos": [
       "dynamo"
-     ]
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "student.calderdale.ac.uk",
-     "people": 1,
-     "repos": [
-      "nvke"
-     ]
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "student.tudelft.nl",
-     "people": 1,
-     "repos": [
-      "dynamo"
-     ]
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "subnet.dev",
-     "people": 1,
-     "repos": [
-      "run-ai"
      ]
     },
     {
@@ -11506,9 +10275,18 @@
      ]
     },
     {
-     "confidence": "high",
+     "confidence": "medium",
      "forks": 1,
-     "org": "Syncious System Pvt",
+     "org": "Syncious System Pvt Ltd",
+     "people": 1,
+     "repos": [
+      "run-ai"
+     ]
+    },
+    {
+     "confidence": "low",
+     "forks": 1,
+     "org": "Synergy",
      "people": 1,
      "repos": [
       "run-ai"
@@ -11517,25 +10295,16 @@
     {
      "confidence": "high",
      "forks": 1,
-     "org": "T-Mobile",
+     "org": "Temple University",
      "people": 1,
      "repos": [
-      "nvke"
+      "dynamo"
      ]
     },
     {
      "confidence": "high",
      "forks": 1,
-     "org": "TaigiKeyboard",
-     "people": 1,
-     "repos": [
-      "nvke"
-     ]
-    },
-    {
-     "confidence": "high",
-     "forks": 1,
-     "org": "Temple university",
+     "org": "Tessl",
      "people": 1,
      "repos": [
       "dynamo"
@@ -11543,15 +10312,6 @@
     },
     {
      "confidence": "low",
-     "forks": 1,
-     "org": "tensorflow",
-     "people": 1,
-     "repos": [
-      "nvcf"
-     ]
-    },
-    {
-     "confidence": "high",
      "forks": 1,
      "org": "The AI Engineer",
      "people": 1,
@@ -11578,18 +10338,9 @@
      ]
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "forks": 1,
-     "org": "thinkevolveconsulting.com",
-     "people": 1,
-     "repos": [
-      "run-ai"
-     ]
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "tikalk.com",
+     "org": "Think Evolve Consulting",
      "people": 1,
      "repos": [
       "run-ai"
@@ -11598,7 +10349,16 @@
     {
      "confidence": "high",
      "forks": 1,
-     "org": "tinkoff",
+     "org": "Tikal",
+     "people": 1,
+     "repos": [
+      "run-ai"
+     ]
+    },
+    {
+     "confidence": "high",
+     "forks": 1,
+     "org": "Tinkoff",
      "people": 1,
      "repos": [
       "run-ai"
@@ -11616,7 +10376,7 @@
     {
      "confidence": "high",
      "forks": 1,
-     "org": "toss",
+     "org": "Toss",
      "people": 1,
      "repos": [
       "dynamo"
@@ -11625,7 +10385,7 @@
     {
      "confidence": "high",
      "forks": 1,
-     "org": "Trilogy AI Center of Excellence",
+     "org": "Trilogy",
      "people": 1,
      "repos": [
       "dynamo"
@@ -11634,19 +10394,10 @@
     {
      "confidence": "medium",
      "forks": 1,
-     "org": "turwy.com",
+     "org": "UC San Diego",
      "people": 1,
      "repos": [
-      "run-ai"
-     ]
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "uchicago.edu",
-     "people": 1,
-     "repos": [
-      "dynamo"
+      "nvke"
      ]
     },
     {
@@ -11670,7 +10421,25 @@
     {
      "confidence": "high",
      "forks": 1,
+     "org": "University of Chicago",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "confidence": "high",
+     "forks": 1,
      "org": "University of Greenwich",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "confidence": "medium",
+     "forks": 1,
+     "org": "University of Illinois Urbana-Champaign",
      "people": 1,
      "repos": [
       "dynamo"
@@ -11697,10 +10466,28 @@
     {
      "confidence": "high",
      "forks": 1,
+     "org": "University of Pennsylvania (Wharton)",
+     "people": 1,
+     "repos": [
+      "nvkr"
+     ]
+    },
+    {
+     "confidence": "high",
+     "forks": 1,
      "org": "University of Rochester",
      "people": 1,
      "repos": [
       "exemplar-performance"
+     ]
+    },
+    {
+     "confidence": "high",
+     "forks": 1,
+     "org": "University of S\u00e3o Paulo",
+     "people": 1,
+     "repos": [
+      "nvcf"
      ]
     },
     {
@@ -11742,6 +10529,15 @@
     {
      "confidence": "high",
      "forks": 1,
+     "org": "UZINFOCOM",
+     "people": 1,
+     "repos": [
+      "run-ai"
+     ]
+    },
+    {
+     "confidence": "high",
+     "forks": 1,
      "org": "Vacasa",
      "people": 1,
      "repos": [
@@ -11751,7 +10547,7 @@
     {
      "confidence": "high",
      "forks": 1,
-     "org": "Valuemomentum",
+     "org": "ValueMomentum",
      "people": 1,
      "repos": [
       "dsx-exchange"
@@ -11767,21 +10563,30 @@
      ]
     },
     {
+     "confidence": "low",
+     "forks": 1,
+     "org": "VDSoft Script Development SRL",
+     "people": 1,
+     "repos": [
+      "topograph"
+     ]
+    },
+    {
+     "confidence": "high",
+     "forks": 1,
+     "org": "Verda Cloud",
+     "people": 1,
+     "repos": [
+      "infra-controller"
+     ]
+    },
+    {
      "confidence": "high",
      "forks": 1,
      "org": "Vespra",
      "people": 1,
      "repos": [
       "run-ai"
-     ]
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "vialetto.me",
-     "people": 1,
-     "repos": [
-      "infra-controller"
      ]
     },
     {
@@ -11794,48 +10599,39 @@
      ]
     },
     {
+     "confidence": "high",
+     "forks": 1,
+     "org": "VMware",
+     "people": 1,
+     "repos": [
+      "nvcf"
+     ]
+    },
+    {
      "confidence": "low",
      "forks": 1,
-     "org": "vLLM",
+     "org": "VotalAI",
      "people": 1,
      "repos": [
-      "dynamo"
+      "nvke"
      ]
     },
     {
-     "confidence": "medium",
+     "confidence": "high",
      "forks": 1,
-     "org": "vmware.com",
+     "org": "Walmart",
      "people": 1,
      "repos": [
       "nvcf"
      ]
     },
     {
-     "confidence": "high",
+     "confidence": "low",
      "forks": 1,
-     "org": "walmart",
-     "people": 1,
-     "repos": [
-      "nvcf"
-     ]
-    },
-    {
-     "confidence": "high",
-     "forks": 1,
-     "org": "WeCloudData, Beamdata, Elegant by Design",
+     "org": "WeCloudData",
      "people": 1,
      "repos": [
       "run-ai"
-     ]
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "wharton.upenn.edu",
-     "people": 1,
-     "repos": [
-      "nvkr"
      ]
     },
     {
@@ -11857,71 +10653,26 @@
      ]
     },
     {
-     "confidence": "low",
+     "confidence": "high",
      "forks": 1,
-     "org": "Xmidt",
-     "people": 1,
-     "repos": [
-      "nvcf"
-     ]
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "yahoo.co.in",
+     "org": "Zhejiang University of Technology",
      "people": 1,
      "repos": [
       "nvke"
-     ]
-    },
-    {
-     "confidence": "medium",
-     "forks": 1,
-     "org": "yandex.com",
-     "people": 1,
-     "repos": [
-      "dynamo"
-     ]
-    },
-    {
-     "confidence": "high",
-     "forks": 1,
-     "org": "Zeus",
-     "people": 1,
-     "repos": [
-      "run-ai"
-     ]
-    },
-    {
-     "confidence": "high",
-     "forks": 1,
-     "org": "ZJUT",
-     "people": 1,
-     "repos": [
-      "nvke"
-     ]
-    },
-    {
-     "confidence": "high",
-     "forks": 1,
-     "org": "\u2709\ufe0f davpierce@paypal.com",
-     "people": 1,
-     "repos": [
-      "run-ai"
      ]
     }
    ],
-   "unattributed": 263
+   "unattributed": 317
   },
-  "forks": 3074,
-  "merged_prs": 28747,
-  "open_issues": 2974,
-  "open_prs": 2052,
-  "prs_merged_30d": 5388,
-  "releases": 4202,
-  "repos": 28,
-  "stars": 12611,
-  "stars_30d": 8,
-  "stars_7d": 8
+  "forks": 3079,
+  "merged_prs": 28749,
+  "open_issues": 2969,
+  "open_prs": 2012,
+  "prs_merged_30d": 5390,
+  "releases": 4199,
+  "repos": 27,
+  "stars": 12603,
+  "stars_30d": 15,
+  "stars_7d": 15
  }
 }
