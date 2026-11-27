@@ -473,11 +473,13 @@ def main():
     for people in people_by_repo.values():
         for key, p in people.items():
             if not p["internal"] and p["org"] is None and "@" not in key:
-                candidates.setdefault(key, set()).update(p["emails"])
+                c = candidates.setdefault(key, {"emails": set(), "n": 0})
+                c["emails"] |= p["emails"]
+                c["n"] += p["n"]
     for forks in forks_by_repo.values():
         for f in forks:
             if f["type"] == "User":
-                candidates.setdefault(f["login"], set())
+                candidates.setdefault(f["login"], {"emails": set(), "n": 0})
     skip = {o.lower() for o in cfg["orgs"]} | {x.split("/")[0].lower() for x in cfg.get("extra_repos", [])}
     resolved = resolve(gh, candidates, cfg.get("classifier", {}), ALIASES, skip)
     org_names = {}

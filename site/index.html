@@ -99,21 +99,10 @@
     <section class="card" id="orgs-card" hidden>
       <figcaption>
         <h2>Who contributes from outside NVIDIA</h2>
-        <p class="hint">External commits and PRs in the last 90 days. Organization comes from a work email, the GitHub profile, or where the person commits elsewhere, resolved by Claude; best effort.</p>
+        <p class="hint">External commits and PRs in the last 90 days. Organization comes from a work email, the GitHub profile, where the person commits elsewhere, or a web search, resolved by Claude. Best effort: hover an organization for the evidence.</p>
       </figcaption>
       <p class="headline" id="orgs-headline"></p>
       <p class="hint" id="orgs-sub"></p>
-      <h3 class="sub-h">Share of external contributions by organization</h3>
-      <div class="chart" id="chart-orgs"></div>
-      <div class="card-head sub-head">
-        <h3 class="sub-h">By repository</h3>
-        <div class="seg" id="orgs-mode" role="group" aria-label="Include NVIDIA">
-          <button data-mode="ext" type="button" class="on">External only</button>
-          <button data-mode="all" type="button">Include NVIDIA</button>
-        </div>
-      </div>
-      <div class="legend" id="repo-orgs-legend"></div>
-      <div class="chart" id="chart-repo-orgs"></div>
       <div id="top-ext-wrap" hidden>
         <h3 class="sub-h">Top external contributors</h3>
         <div class="table-wrap">
@@ -124,6 +113,8 @@
         </div>
         <button type="button" class="ghost more" id="top-ext-more" hidden></button>
       </div>
+      <h3 class="sub-h">Share of external contributions by organization</h3>
+      <div class="chart" id="chart-orgs"></div>
     </section>
 
     <section class="card" id="forks-card" hidden>

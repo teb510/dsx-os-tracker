@@ -13,6 +13,7 @@ import os
 import re
 import time
 from collections import Counter
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
 
 from common import DATA, log, read_json, write_json
@@ -63,6 +64,20 @@ Rules:
 - Commits to NVIDIA's public open source orgs alone do not make someone an NVIDIA employee; many outside contributors work in them.
 - Commits to a company's customer, production, or internal-tooling repos are strong evidence of employment there.
 - Do not guess. Prefer "unknown" to a weak inference."""
+
+
+WEB_SYSTEM = """You find the current employer of one open source contributor to NVIDIA's DSX AI Factory projects, using web search.
+
+You get their GitHub login, name, profile fields, and what GitHub activity already suggested. Search for the name together with the login, and the name with terms from their work (Kubernetes, GPU, AI infrastructure). Useful sources: LinkedIn result snippets, personal sites, conference talk pages, company blogs, and pages that link the GitHub account.
+
+Accept a match only when the identity is clear: the same name plus a link to the GitHub login, or the same name plus a matching location and field. Common names need stronger evidence. Report the current employer, not past ones. A company NVIDIA owns ({aliases}) counts as internal.
+
+End your reply with one JSON object on its own line:
+{{"internal": false, "org": "", "domain": "", "confidence": "unknown", "evidence": ""}}
+- org: the employer's common company name, or "" if unknown or internal.
+- domain: the employer's main web domain if known, else "".
+- confidence: "high" when a page ties the GitHub account to the employer; "medium" for a clear name, field, and location match; "low" for a plausible but thin match; "unknown" when you cannot tell.
+- evidence: the source type and role, e.g. "LinkedIn: Staff Engineer at CoreWeave". No URLs and no email addresses."""
 
 
 def rest(gh, path):
@@ -169,8 +184,91 @@ def classify(batch, cfg, aliases):
     return {p.pop("login"): p for p in json.loads(text)["people"]}
 
 
+def web_lookup(client, cfg, aliases, person):
+    """One person, one web-searching Claude call. Returns (result, searches used)."""
+    messages = [{"role": "user", "content": json.dumps(person, ensure_ascii=False)}]
+    searches = 0
+    for _ in range(3):  # resume server-side pauses a few times at most
+        response = client.beta.messages.create(
+            model=cfg.get("affiliation_web_model", cfg["model"]),
+            max_tokens=16000,
+            betas=["server-side-fallback-2026-07-01"],
+            fallbacks="default",
+            system=WEB_SYSTEM.format(aliases=", ".join(sorted(aliases))),
+            output_config={"effort": "medium"},
+            tools=[{"type": "web_search_20260209", "name": "web_search", "max_uses": 3}],
+            messages=messages,
+        )
+        use = getattr(response.usage, "server_tool_use", None)
+        searches += getattr(use, "web_search_requests", 0) or 0
+        if response.stop_reason != "pause_turn":
+            break
+        messages = messages[:1] + [{"role": "assistant", "content": response.content}]
+    if response.stop_reason != "end_turn":
+        raise RuntimeError(f"stop_reason={response.stop_reason}")
+    text = "\n".join(b.text for b in response.content if b.type == "text")
+    found = re.findall(r"\{[^{}]*\}", text)
+    if not found:
+        raise RuntimeError("no JSON in reply")
+    out = json.loads(found[-1])
+    result = {
+        "internal": bool(out.get("internal")),
+        "org": str(out.get("org") or ""),
+        "domain": str(out.get("domain") or ""),
+        "confidence": out.get("confidence") if out.get("confidence") in CONFIDENCE else "unknown",
+        "evidence": str(out.get("evidence") or ""),
+    }
+    if result["org"] and result["evidence"] and not result["evidence"].lower().startswith("via web"):
+        result["evidence"] = f"via web search: {result['evidence']}"
+    return result, searches
+
+
+def web_stage(gh, candidates, cache, cfg, aliases, refresh):
+    """Web-search the heaviest contributors that GitHub signals left unknown."""
+    import anthropic
+
+    def needs_web(login):
+        c = cache["people"].get(login)
+        if not c or c["internal"] or (c["org"] and c["confidence"] != "unknown"):
+            return False
+        checked = c.get("web_checked_at")
+        return checked is None or NOW - datetime.fromisoformat(checked) > refresh
+
+    todo = [l for l in sorted(candidates, key=lambda l: -candidates[l]["n"])
+            if candidates[l]["n"] > 0 and needs_web(l)][: cfg.get("affiliation_web_lookups", 150)]
+    log(f"Affiliations: web search for {len(todo)} contributors")
+    if not todo:
+        return
+    client = anthropic.Anthropic()
+
+    def one(login):
+        try:
+            p = rest(gh, f"/users/{login}") or {}
+            prior = cache["people"][login]
+            person = {
+                "login": login, "name": p.get("name"), "company": p.get("company"), "bio": p.get("bio"),
+                "blog": p.get("blog"), "location": p.get("location"),
+                "github_signals": prior.get("evidence") or "none", "contributions_90d": candidates[login]["n"],
+            }
+            return login, *web_lookup(client, cfg, aliases, person)
+        except Exception as e:  # one person shouldn't sink the run
+            log(f"    {login}: {e}")
+            return login, None, 0
+
+    found = searches = 0
+    with ThreadPoolExecutor(max_workers=6) as pool:
+        for login, result, n in pool.map(one, todo):
+            searches += n
+            entry = cache["people"][login]
+            entry["web_checked_at"] = NOW.isoformat()
+            if result and (result["internal"] or (result["org"] and result["confidence"] != "unknown")):
+                entry.update(result, method="web")
+                found += 1
+    log(f"Affiliations: web search placed {found} of {len(todo)} ({searches} searches)")
+
+
 def resolve(gh, candidates, cfg, aliases, skip_owners):
-    """candidates: {login: set(commit emails)} for external people with no org yet.
+    """candidates: {login: {"emails": set, "n": contributions}} for external people with no org yet.
 
     Returns the full cache of {login: {internal, org, domain, confidence, evidence, checked_at}}.
     """
@@ -184,14 +282,15 @@ def resolve(gh, candidates, cfg, aliases, skip_owners):
         return (c is None or NOW - datetime.fromisoformat(c["checked_at"]) > refresh
                 or (use_claude and c.get("method") == "heuristic"))
 
-    stale = [l for l in candidates if is_stale(l)]
+    # Heaviest contributors first; forkers (n = 0) after them.
+    stale = [l for l in sorted(candidates, key=lambda l: -candidates[l]["n"]) if is_stale(l)]
     stale = stale[: cfg.get("affiliation_max_lookups", 500)]
     log(f"Affiliations: {len(candidates)} unattributed, {len(stale)} to look up")
 
     sigs = []
     for i, login in enumerate(stale):
         try:
-            sigs.append(signals(gh, login, candidates[login], skip_owners, cache["orgs"]))
+            sigs.append(signals(gh, login, candidates[login]["emails"], skip_owners, cache["orgs"]))
         except Exception as e:  # one profile shouldn't sink the run
             log(f"    {login}: {e}")
         if i % 50 == 49:
@@ -213,5 +312,7 @@ def resolve(gh, candidates, cfg, aliases, skip_owners):
             cache["people"][login] = {**r, "checked_at": NOW.isoformat()}
     known = sum(1 for r in results.values() if r["internal"] or r["org"])
     log(f"Affiliations: resolved {known} of {len(results)} looked up")
+    if use_claude:
+        web_stage(gh, candidates, cache, cfg, aliases, refresh)
     write_json(CACHE, cache)
     return cache["people"]
