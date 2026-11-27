@@ -26,6 +26,10 @@ Pushes to `main` redeploy the site without re-collecting.
 - **Feature sizes and roadmap status** are Claude's judgment from PR and issue activity, not an official roadmap.
 - **External contributors, 90d** in the header is summed per repo, so someone active in two repos counts twice.
 
+## Cost
+
+All Claude calls use Claude Haiku 5.5 and go through `Claude` in `scripts/common.py`, which tallies spend from each response's token usage and stops calling once a per-run cap is reached (`classifier.budget_usd`: news $0.02, affiliations $0.03, roadmaps $0.25). Roadmaps refresh weekly (`features_refresh_hours: 168`), and web-search attribution is off (`affiliation_web_lookups: 0`). Expected spend is about $1 to $2 a month; the caps bound the worst case near $2.60. Work cut off by a cap resumes on the next run.
+
 ## Configuration
 
 Edit `config.json` to add orgs or repos, exclude repos, or change news queries and the classifier model. To drop news mentions containing certain terms, set the `NEWS_EXCLUDE_TERMS` secret to a comma-separated list.

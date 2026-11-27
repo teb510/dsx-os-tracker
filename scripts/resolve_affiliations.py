@@ -17,7 +17,7 @@ from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
 
-from common import DATA, log, read_json, write_json
+from common import DATA, Claude, log, read_json, write_json
 
 NOW = datetime.now(timezone.utc)
 CACHE = DATA / "affiliations.json"
@@ -216,15 +216,10 @@ def heuristic(sig, aliases):
     return {"internal": False, "org": "", "domain": "", "confidence": "unknown", "evidence": ""}
 
 
-def classify(batch, cfg, aliases):
-    import anthropic  # only needed when a key is set
-
-    client = anthropic.Anthropic()
-    response = client.beta.messages.create(
-        model=cfg["model"],
+def classify(claude, batch, cfg, aliases):
+    response = claude.create(
+        cfg["model"],
         max_tokens=16000,
-        betas=["server-side-fallback-2026-07-01"],
-        fallbacks="default",
         system=SYSTEM.format(aliases=", ".join(sorted(aliases))),
         output_config={"effort": "low", "format": {"type": "json_schema", "schema": SCHEMA}},
         messages=[{"role": "user", "content": json.dumps(batch, ensure_ascii=False)}],
@@ -235,16 +230,14 @@ def classify(batch, cfg, aliases):
     return {p.pop("login"): p for p in json.loads(text)["people"]}
 
 
-def web_lookup(client, cfg, aliases, person):
+def web_lookup(claude, cfg, aliases, person):
     """One person, one web-searching Claude call. Returns (result, searches used)."""
     messages = [{"role": "user", "content": json.dumps(person, ensure_ascii=False)}]
     searches = 0
     for _ in range(3):  # resume server-side pauses a few times at most
-        response = client.beta.messages.create(
-            model=cfg.get("affiliation_web_model", cfg["model"]),
+        response = claude.create(
+            cfg.get("affiliation_web_model", cfg["model"]),
             max_tokens=16000,
-            betas=["server-side-fallback-2026-07-01"],
-            fallbacks="default",
             system=WEB_SYSTEM.format(aliases=", ".join(sorted(aliases))),
             output_config={"effort": "medium"},
             tools=[{"type": "web_search_20260209", "name": "web_search", "max_uses": 3}],
@@ -276,10 +269,8 @@ def web_lookup(client, cfg, aliases, person):
     return result, searches
 
 
-def web_stage(gh, candidates, cache, cfg, aliases, refresh):
-    """Web-search the heaviest contributors that GitHub signals left unknown."""
-    import anthropic
-
+def web_stage(gh, candidates, cache, cfg, aliases, refresh, claude):
+    """Web-search the heaviest contributors that GitHub signals left unknown. Off unless configured."""
     def needs_web(login):
         c = cache["people"].get(login)
         if not c or c["internal"] or (c["org"] and c["confidence"] != "unknown"):
@@ -293,8 +284,6 @@ def web_stage(gh, candidates, cache, cfg, aliases, refresh):
     log(f"Affiliations: web search for {len(todo)} contributors")
     if not todo:
         return
-    client = anthropic.Anthropic()
-
     def one(login):
         try:
             p = rest(gh, f"/users/{login}") or {}
@@ -305,7 +294,7 @@ def web_stage(gh, candidates, cache, cfg, aliases, refresh):
                 "github_signals": prior.get("evidence") or "none", "contributions_90d": candidates[login]["n"],
                 "repos": sorted(candidates[login].get("repos", ()))[:5],
             }
-            return login, *web_lookup(client, cfg, aliases, person)
+            return login, *web_lookup(claude, cfg, aliases, person)
         except Exception as e:  # one person shouldn't sink the run
             log(f"    {login}: {e}")
             return login, None, 0
@@ -314,6 +303,8 @@ def web_stage(gh, candidates, cache, cfg, aliases, refresh):
     with ThreadPoolExecutor(max_workers=6) as pool:
         for login, result, n in pool.map(one, todo):
             searches += n
+            if result is None:  # failed calls get retried next run
+                continue
             entry = cache["people"][login]
             entry["web_checked_at"] = NOW.isoformat()
             entry["web_v"] = WEB_VERSION
@@ -353,12 +344,13 @@ def resolve(gh, candidates, cfg, aliases, skip_owners, nv_patterns=()):
         if i % 50 == 49:
             log(f"    {i + 1}/{len(stale)} looked up")
 
+    claude = Claude(cfg["budget_usd"]["affiliations"]) if use_claude else None
     results = {}
     for start in range(0, len(sigs), 25):
         batch = sigs[start:start + 25]
         if use_claude:
             try:
-                results.update({k: {**v, "method": "claude"} for k, v in classify(batch, cfg, aliases).items()})
+                results.update({k: {**v, "method": "claude"} for k, v in classify(claude, batch, cfg, aliases).items()})
                 continue
             except Exception as e:
                 log(f"    batch {start // 25}: {e}; using heuristic")
@@ -376,7 +368,9 @@ def resolve(gh, candidates, cfg, aliases, skip_owners, nv_patterns=()):
         cache["people"][login] = new
     known = sum(1 for r in results.values() if r["internal"] or r["org"])
     log(f"Affiliations: resolved {known} of {len(results)} looked up")
-    if use_claude:
-        web_stage(gh, candidates, cache, cfg, aliases, refresh)
+    if use_claude and cfg.get("affiliation_web_lookups", 0) > 0:
+        web_stage(gh, candidates, cache, cfg, aliases, refresh, claude)
+    if claude:
+        log(f"Affiliations: Claude spent ${claude.spent:.3f}")
     write_json(CACHE, cache)
     return cache["people"]

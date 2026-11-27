@@ -8,7 +8,7 @@ import os
 
 import anthropic
 
-from common import DATA, load_config, log, read_json, write_json
+from common import DATA, Claude, OverBudget, load_config, log, read_json, write_json
 
 CATEGORIES = [
     "launch", "release", "partnership", "customer_adoption", "business",
@@ -67,7 +67,7 @@ def main():
 
     todo = [n for n in news["items"] if "llm" not in n]
     log(f"Classifying {len(todo)} items")
-    client = anthropic.Anthropic()
+    claude = Claude(cfg["budget_usd"]["news"])
     by_id = {n["id"]: n for n in news["items"]}
     size = cfg["batch_size"]
 
@@ -79,15 +79,16 @@ def main():
             for n in batch
         ]
         try:
-            response = client.beta.messages.create(
-                model=cfg["model"],
+            response = claude.create(
+                cfg["model"],
                 max_tokens=16000,
-                betas=["server-side-fallback-2026-07-01"],
-                fallbacks="default",
                 system=system,
                 output_config={"effort": "low", "format": {"type": "json_schema", "schema": SCHEMA}},
                 messages=[{"role": "user", "content": json.dumps(payload, ensure_ascii=False)}],
             )
+        except OverBudget as e:
+            log(f"  budget reached ({e}); leaving the rest for tomorrow")
+            break
         except anthropic.APIStatusError as e:
             log(f"  batch {start // size}: API error {e.status_code}; leaving unclassified")
             continue
@@ -107,6 +108,7 @@ def main():
             n["llm"] = result
         log(f"  batch {start // size}: {len(batch)} items")
 
+    log(f"News classification spent ${claude.spent:.3f}")
     write_json(DATA / "news.json", news)
 
 

@@ -4,6 +4,7 @@ import json
 import os
 import subprocess
 import sys
+import threading
 import time
 import urllib.error
 import urllib.request
@@ -88,3 +89,47 @@ class GitHub:
     def rest(self, path):
         raw, headers = http(f"https://api.github.com{path}", headers=self.headers)
         return (json.loads(raw) if raw else None), headers
+
+
+# List prices per million tokens (input, output). Haiku's rate rises past 100K prompt tokens.
+PRICES = {
+    "claude-haiku-5-5": (0.10, 0.50),
+    "claude-sonnet-5-5": (2.00, 10.00),
+    "claude-opus-5-5": (4.00, 20.00),
+}
+WEB_SEARCH_PRICE = 0.01
+
+
+class OverBudget(Exception):
+    pass
+
+
+class Claude:
+    """Anthropic client that tallies spend and refuses calls once a per-run dollar cap is hit."""
+
+    def __init__(self, cap_usd):
+        import anthropic
+
+        self.client = anthropic.Anthropic()
+        self.cap = cap_usd
+        self.spent = 0.0
+        self.lock = threading.Lock()
+
+    def create(self, model, **kwargs):
+        with self.lock:
+            if self.spent >= self.cap:
+                raise OverBudget(f"spent ${self.spent:.3f} of ${self.cap:.3f}")
+        if model.startswith("claude-haiku"):  # no server-side refusal fallback on Haiku
+            response = self.client.messages.create(model=model, **kwargs)
+        else:
+            response = self.client.beta.messages.create(
+                model=model, betas=["server-side-fallback-2026-07-01"], fallbacks="default", **kwargs)
+        u = response.usage
+        rate_in, rate_out = PRICES.get(model, PRICES["claude-opus-5-5"])
+        if model.startswith("claude-haiku") and u.input_tokens > 100_000:
+            rate_in, rate_out = 0.50, 2.50
+        searches = getattr(getattr(u, "server_tool_use", None), "web_search_requests", 0) or 0
+        cost = (u.input_tokens * rate_in + u.output_tokens * rate_out) / 1e6 + searches * WEB_SEARCH_PRICE
+        with self.lock:
+            self.spent += cost
+        return response

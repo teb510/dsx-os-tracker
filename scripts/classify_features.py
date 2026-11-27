@@ -14,7 +14,7 @@ from datetime import datetime, timedelta, timezone
 
 import anthropic
 
-from common import DATA, ROOT, load_config, log, read_json, write_json
+from common import DATA, ROOT, Claude, OverBudget, load_config, log, read_json, write_json
 
 NOW = datetime.now(timezone.utc)
 SIZES = ["XXL", "XL", "L", "M", "S"]
@@ -101,7 +101,7 @@ def enrich(features, work):
     return features
 
 
-def classify(client, cfg, repo, work, previous):
+def classify(claude, cfg, repo, work, previous):
     payload = {
         "repo": repo["full_name"],
         "description": repo["description"],
@@ -112,11 +112,9 @@ def classify(client, cfg, repo, work, previous):
         "open_issues": work["issues"],
     }
     prior = [{k: f[k] for k in ("id", "title", "size", "status")} for f in (previous or {}).get("features", [])]
-    response = client.beta.messages.create(
-        model=cfg["model"],
+    response = claude.create(
+        cfg.get("features_model", cfg["model"]),
         max_tokens=16000,
-        betas=["server-side-fallback-2026-07-01"],
-        fallbacks="default",
         system=SYSTEM,
         output_config={"effort": cfg.get("features_effort", "medium"), "format": {"type": "json_schema", "schema": SCHEMA}},
         messages=[{"role": "user", "content": json.dumps({**payload, "previous_features": prior}, ensure_ascii=False)}],
@@ -158,12 +156,12 @@ def main():
         todo.append(full)
     log(f"Classifying features for {len(todo)} repos")
 
-    client = anthropic.Anthropic()
+    claude = Claude(cfg["budget_usd"]["features"])
 
     def one(full):
         try:
-            return full, classify(client, cfg, repos[full], work[full], previous.get(full))
-        except (anthropic.APIError, RuntimeError, json.JSONDecodeError) as e:
+            return full, classify(claude, cfg, repos[full], work[full], previous.get(full))
+        except (anthropic.APIError, OverBudget, RuntimeError, json.JSONDecodeError) as e:
             log(f"  {full}: {e}; keeping previous roadmap")
             return full, None
 
@@ -172,6 +170,7 @@ def main():
             if result:
                 previous[full] = result
 
+    log(f"Feature classification spent ${claude.spent:.3f}")
     # Drop repos that are no longer tracked.
     out["repos"] = {k: v for k, v in previous.items() if k in repos}
     out["generated_at"] = NOW.isoformat()
