@@ -18,7 +18,12 @@ const CAT_LABEL = {
   analysis_opinion: "Analysis", community: "Community", other: "Other",
 };
 
-let DATA = { repos: [], totals: {}, history: {}, news: [] };
+const SIZES = ["XXL", "XL", "L", "M", "S"];
+const WEIGHT = { XXL: 16, XL: 8, L: 4, M: 2, S: 1 };
+const STATUS_LABEL = { shipped: "Shipped", in_progress: "In progress", planned: "Planned", proposed: "Proposed" };
+const pct = (x) => (x == null || !isFinite(x) ? "–" : Math.round(x * 100) + "%");
+
+let DATA = { repos: [], totals: {}, history: {}, news: [], features: {} };
 
 /* ---------- theme ---------- */
 (function theme() {
@@ -106,7 +111,7 @@ function lineChart(host, points, { label = "Stars" } = {}) {
 const clip = (s, n) => (s.length > n ? s.slice(0, n - 1) + "…" : s);
 
 /* Horizontal bars; series = [{key, label, color}] stacked left to right. */
-function hbar(host, rows, series, { onClick } = {}) {
+function hbar(host, rows, series, { onClick, format = fmt, tip } = {}) {
   host.innerHTML = "";
   if (!rows.length) { host.innerHTML = `<div class="empty">No data</div>`; return; }
   const W = widthOf(host), rowH = 26, m = { t: 4, r: 48, b: 4, l: Math.min(170, Math.round(W * 0.36)) };
@@ -136,8 +141,9 @@ function hbar(host, rows, series, { onClick } = {}) {
       }, g);
       cx += w;
     });
-    el("text", { x: cx + 6, y: y + rowH / 2 + 4, class: "val" }, g).textContent = fmt(total(r));
+    el("text", { x: cx + 6, y: y + rowH / 2 + 4, class: "val" }, g).textContent = format(total(r));
     g.addEventListener("pointermove", (e) => {
+      if (tip) return showTip(tip(r), e.clientX, e.clientY);
       const parts = series.map((s) => `${s.label}: <b>${fmt(r[s.key] || 0)}</b>`).join("<br>");
       showTip(`<b>${esc(r.label)}</b><br>${parts}`, e.clientX, e.clientY);
     });
@@ -200,6 +206,49 @@ function historyDelta(getter, days) {
   return a == null || b == null ? null : { value: b - a, since: base };
 }
 
+/* ---------- feature helpers ---------- */
+const featuresOf = (r) => DATA.features[r.full_name]?.features || [];
+const inFlight = (f) => f.status === "in_progress" || f.status === "planned";
+const sizeBadge = (size) => `<span class="sz sz-${esc(size).toLowerCase()}" title="Size ${esc(size)}">${esc(size)}</span>`;
+// Biggest first, then in progress before planned, then most recent activity.
+const STATUS_RANK = { in_progress: 0, planned: 1, shipped: 2, proposed: 3 };
+const byImpact = (a, b) => (WEIGHT[b.size] || 0) - (WEIGHT[a.size] || 0)
+  || (STATUS_RANK[a.status] ?? 9) - (STATUS_RANK[b.status] ?? 9)
+  || (b.last_activity || "").localeCompare(a.last_activity || "");
+const weightOf = (fs) => fs.reduce((s, f) => s + (WEIGHT[f.size] || 0), 0);
+const flightWeight = (r) => weightOf(featuresOf(r).filter(inFlight));
+
+function biggestInFlight(r) {
+  const fs = featuresOf(r);
+  const pick = (st) => fs.filter((f) => f.status === st).sort(byImpact)[0];
+  return pick("in_progress") || pick("planned");
+}
+
+function sizeCounts(fs, sizes = ["XXL", "XL", "L"]) {
+  return sizes.map((s) => [s, fs.filter((f) => f.size === s).length]).filter(([, n]) => n).map(([s, n]) => `${n} ${s}`).join(" · ");
+}
+
+const refUrl = (r, n) => `${r.url}/issues/${n}`;
+function refLinks(r, refs, max = 6) {
+  const links = (refs || []).slice(0, max).map((x) =>
+    `<a href="${esc(refUrl(r, x.number))}" target="_blank" rel="noopener" title="${esc(x.title)}${x.state ? ` (${esc(x.state)})` : ""}">#${esc(x.number)}</a>`);
+  if ((refs || []).length > max) links.push(`<span class="dim">+${refs.length - max}</span>`);
+  return links.join("");
+}
+
+function jumpToRoadmap(name) {
+  if ($("#detail").open) $("#detail").close();
+  const sel = $("#roadmap-repo");
+  if (sel.value && sel.value !== name) { sel.value = ""; renderRoadmaps(); }
+  const d = document.getElementById(`roadmap-${name}`);
+  if (!d) return;
+  d.open = true;
+  d.scrollIntoView({ behavior: "smooth", block: "start" });
+  d.classList.add("flash");
+  setTimeout(() => d.classList.remove("flash"), 1600);
+  history.replaceState(null, "", `#roadmap-${name}`);
+}
+
 /* ---------- sections ---------- */
 function renderKpis() {
   const t = DATA.totals;
@@ -243,12 +292,100 @@ function renderCharts() {
   ];
   $("#contrib-legend").innerHTML = series.map((s) => `<span style="--c:${s.color}">${s.label}</span>`).join("");
   hbar($("#chart-contrib"), contrib, series, { onClick: (r) => openDetail(r.repo) });
+  renderOrgs();
+}
+
+function renderOrgs() {
+  const co = DATA.totals.contributor_orgs;
+  $("#orgs-card").hidden = !co?.external_people;
+  if (!co?.external_people) return;
+  const total = co.external_people;
+  const ind = co.individuals || { people: 0, contributions: 0 };
+  $("#orgs-headline").innerHTML = `<b>${pct((total - ind.people) / total)}</b> from ${fmt(co.orgs.length)} organizations, <b>${pct(ind.people / total)}</b> individuals <span class="dim">· ${fmt(total)} external contributors</span>`;
+  const series = [
+    { key: "org", label: "Organization", color: "var(--s1)" },
+    { key: "ind", label: "Individuals", color: "var(--s2)" },
+  ];
+  $("#orgs-legend").innerHTML = series.map((s) => `<span style="--c:${s.color}">${s.label}</span>`).join("");
+  const rows = co.orgs.slice(0, 15).map((o) => ({ label: o.org, org: o.people, src: o }));
+  rows.push({ label: "Individuals", ind: ind.people, src: { ...ind, repos: [] } });
+  hbar($("#chart-orgs"), rows, series, {
+    format: (v) => pct(v / total),
+    tip: (r) => {
+      const o = r.src, repos = o.repos || [];
+      return `<b>${esc(r.label)}</b><br>People: <b>${fmt(o.people)}</b> (${pct(o.people / total)})<br>Contributions: <b>${fmt(o.contributions)}</b>`
+        + (repos.length ? `<br>Repos: ${esc(repos.slice(0, 6).join(", "))}${repos.length > 6 ? ` +${repos.length - 6}` : ""}` : "");
+    },
+  });
+}
+
+function renderFlight() {
+  const has = DATA.repos.some((r) => featuresOf(r).length);
+  $("#flight-card").hidden = !has;
+  if (!has) return;
+  const sizes = $("#flight-l").checked ? ["XXL", "XL", "L"] : ["XXL", "XL"];
+  const rows = [];
+  for (const r of DATA.repos) for (const f of featuresOf(r)) if (inFlight(f) && sizes.includes(f.size)) rows.push({ r, f });
+  rows.sort((a, b) => byImpact(a.f, b.f));
+  const MAX = 30;
+  $("#flight-hint").textContent = `${rows.length} ${sizes.join(", ")} features in progress or planned across all projects${rows.length > MAX ? `, top ${MAX} shown` : ""}. Click one for that project's roadmap.`;
+  $("#flight-list").innerHTML = rows.slice(0, MAX).map(({ r, f }) => `
+    <li data-jump="${esc(r.name)}" tabindex="0">
+      <div>${sizeBadge(f.size)}</div>
+      <div><div class="repo">${esc(r.name)}${f.theme ? ` · ${esc(f.theme)}` : ""}</div>
+        <div class="title">${esc(f.title)}</div>
+        ${f.summary ? `<div class="summary">${esc(f.summary)}</div>` : ""}</div>
+      <div class="meta"><span class="status ${esc(f.status)}">${STATUS_LABEL[f.status] || esc(f.status)}</span><br>
+        ${fmt((f.refs || []).length)} refs${f.last_activity ? ` · ${ago(f.last_activity)}` : ""}</div>
+    </li>`).join("") || `<li><div></div><div class="dim">No features of this size in flight.</div></li>`;
+}
+
+let minSize = "M";
+const COLS = [["shipped", "Shipped, recent"], ["in_progress", "Now"], ["planned", "Next"], ["proposed", "Later"]];
+function renderRoadmaps() {
+  const repos = DATA.repos.filter((r) => featuresOf(r).length);
+  $("#roadmaps").hidden = !repos.length;
+  if (!repos.length) return;
+  const open = new Set([...document.querySelectorAll("#roadmap-list details[open]")].map((d) => d.id));
+  const repoF = $("#roadmap-repo").value, min = WEIGHT[minSize];
+  const card = (r, f) => `
+    <div class="fcard">
+      <div class="top">${sizeBadge(f.size)}${f.theme ? `<span>${esc(f.theme)}</span>` : ""}${f.milestone ? `<span class="tag">${esc(f.milestone)}</span>` : ""}</div>
+      <div class="title">${esc(f.title)}</div>
+      ${f.summary ? `<div class="summary">${esc(f.summary)}</div>` : ""}
+      ${f.refs?.length ? `<div class="refs">${refLinks(r, f.refs)}</div>` : ""}
+    </div>`;
+  $("#roadmap-list").innerHTML = repos
+    .filter((r) => !repoF || r.name === repoF)
+    .sort((a, b) => weightOf(featuresOf(b)) - weightOf(featuresOf(a)))
+    .map((r) => {
+      const fs = featuresOf(r), info = DATA.features[r.full_name];
+      const shown = fs.filter((f) => (WEIGHT[f.size] || 0) >= min);
+      const counts = SIZES.map((s) => [s, fs.filter((f) => f.size === s).length]).filter(([, n]) => n)
+        .map(([s, n]) => `<span>${sizeBadge(s)}${n}</span>`).join("");
+      const owner = r.owner !== "dsx-ai-factory" ? `${esc(r.owner)}/` : "";
+      const id = `roadmap-${r.name}`;
+      const cols = COLS.map(([st, label]) => {
+        const items = shown.filter((f) => f.status === st).sort(byImpact);
+        return `<div class="rm-col"><h4>${label} <span class="dim">${items.length}</span></h4>${items.map((f) => card(r, f)).join("") || `<p class="dim">Nothing at this size.</p>`}</div>`;
+      }).join("");
+      const hidden = fs.length - shown.length;
+      return `<details class="rm" id="${esc(id)}"${open.has(id) || repoF ? " open" : ""}>
+        <summary><div class="rm-head"><b>${owner}${esc(r.name)}</b><span class="counts">${counts}</span></div>
+          ${info.summary ? `<p class="rm-sum">${esc(info.summary)}</p>` : ""}</summary>
+        <div class="rm-cols">${cols}</div>
+        ${hidden ? `<p class="rm-more">${hidden} smaller ${hidden === 1 ? "feature" : "features"} hidden by the size filter.</p>` : ""}
+      </details>`;
+    }).join("");
+  const gen = DATA.featuresGenerated;
+  $("#roadmap-hint").textContent = `Features grouped and sized by Claude from open and recently merged PRs, issues, and milestones${gen ? `, as of ${day(gen)}` : ""}. Now is in progress, Next is planned, Later is proposed.`;
 }
 
 let sortKey = "stars", sortAsc = false;
 function renderTable() {
   const q = $("#filter").value.trim().toLowerCase();
-  const val = (r, k) => (k === "latest_release" ? r.latest_release?.publishedAt || "" : k === "name" ? r.name.toLowerCase() : r[k] ?? -Infinity);
+  const val = (r, k) => (k === "latest_release" ? r.latest_release?.publishedAt || ""
+    : k === "name" ? r.name.toLowerCase() : k === "feature_weight" ? flightWeight(r) : r[k] ?? -Infinity);
   const rows = DATA.repos
     .filter((r) => !q || (r.full_name + " " + r.description + " " + r.topics.join(" ")).toLowerCase().includes(q))
     .sort((a, b) => {
@@ -261,8 +398,13 @@ function renderTable() {
     const tr = document.createElement("tr");
     const d7 = r.stars_7d == null ? `<span class="dim">–</span>` : r.stars_7d > 0 ? `<span class="pos">+${fmt(r.stars_7d)}</span>` : fmt(r.stars_7d);
     const owner = r.owner !== "dsx-ai-factory" ? `${esc(r.owner)}/` : "";
+    const top = biggestInFlight(r);
+    const flight = top
+      ? `${sizeBadge(top.size)}<span class="ft" title="${esc(top.title)}">${esc(top.title)}</span><small>${esc(sizeCounts(featuresOf(r).filter(inFlight))) || "&nbsp;"}</small>`
+      : `<span class="dim">–</span>`;
     tr.innerHTML = `
       <td class="l name">${owner}${esc(r.name)}<small>${esc(r.description)}</small></td>
+      <td class="l flight">${flight}</td>
       <td>${fmt(r.stars)}</td><td>${d7}</td><td>${fmt(r.forks)}</td>
       <td>${fmt(r.open_prs)}</td><td>${fmt(r.prs_merged_30d)}</td><td>${fmt(r.open_issues)}</td>
       <td>${fmt(r.contributors)}</td><td>${fmt(r.active_external_90d)}</td><td>${fmt(r.commits_30d)}</td>
@@ -270,6 +412,7 @@ function renderTable() {
       <td class="l">${r.latest_release ? `${esc(r.latest_release.tagName)} <span class="dim">${day(r.latest_release.publishedAt)}</span>` : `<span class="dim">–</span>`}</td>
       <td class="l">${ago(r.pushed_at)}</td>`;
     tr.querySelector(".spark-cell").appendChild(sparkline(r.commits_weekly));
+    if (top) tr.querySelector(".flight").addEventListener("click", (e) => { e.stopPropagation(); jumpToRoadmap(r.name); });
     tr.addEventListener("click", () => openDetail(r));
     tbody.appendChild(tr);
   }
@@ -288,6 +431,19 @@ function openDetail(r) {
   $("#d-desc").textContent = [r.description, r.language, r.license].filter(Boolean).join(" · ");
   const stat = (v, l) => `<div><b>${fmt(v)}</b><span>${l}</span></div>`;
   const releases = r.recent_releases.map((x) => `<li><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.name || x.tagName)}</a> <span class="dim">${day(x.publishedAt)}${x.isPrerelease ? " · pre-release" : ""}</span></li>`).join("");
+  const flying = featuresOf(r).filter(inFlight).sort(byImpact).slice(0, 8);
+  const roadmap = flying.length ? `<h3>Roadmap: in flight</h3>
+    <ul class="feat">${flying.map((f) => `<li>${sizeBadge(f.size)}<span>${esc(f.title)} <span class="dim">${STATUS_LABEL[f.status]}</span></span></li>`).join("")}</ul>
+    <p><a href="#roadmap-${esc(r.name)}" data-jump="${esc(r.name)}">Full roadmap →</a></p>` : "";
+  let orgs = "";
+  if (r.external_orgs) {
+    const ext = r.external_orgs.reduce((s, o) => s + o.people, 0) + (r.external_individuals?.people || 0);
+    const line = (name, o) => `<li>${esc(name)} <span class="dim">${fmt(o.people)} ${o.people === 1 ? "person" : "people"} (${pct(o.people / ext)}) · ${fmt(o.contributions)} contributions</span></li>`;
+    const items = r.external_orgs.slice(0, 12).map((o) => line(o.org, o));
+    if (r.external_individuals?.people) items.push(line("Individuals", r.external_individuals));
+    if (r.external_orgs.length > 12) items.push(`<li class="dim">+${r.external_orgs.length - 12} more organizations</li>`);
+    orgs = `<h3>External contributors by organization, 90d</h3>${items.length ? `<ul>${items.join("")}</ul>` : `<p class="dim">No external contributors in the last 90 days.</p>`}`;
+  }
   const news = newsFor(r.name).slice(0, 8).map((n) => `<li><a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a> <span class="dim">${esc(n.source)} · ${day(n.published)}</span></li>`).join("");
   $("#d-body").innerHTML = `
     <div class="stats">
@@ -297,8 +453,10 @@ function openDetail(r) {
       ${stat(r.issues_closed_30d, "Issues closed, 30d")}${stat(r.contributors, "Contributors")}${stat(r.active_external_90d, "External, 90d")}
       ${stat(r.external_prs_90d, "External PRs, 90d")}${stat(r.commits_total, "Commits")}${stat(r.releases, "Releases")}
     </div>
+    ${roadmap}
     <h3>Weekly commits, last 13 weeks</h3><div class="chart" id="d-commits"></div>
     <h3>Stars over time</h3><div class="chart" id="d-stars"></div>
+    ${orgs}
     <h3>Recent releases</h3>${releases ? `<ul>${releases}</ul>` : `<p class="dim">No releases yet.</p>`}
     <h3>Related news</h3>${news ? `<ul>${news}</ul>` : `<p class="dim">No classified news tied to this repo yet.</p>`}
     <p class="hint">Created ${day(r.created_at)} · last push ${ago(r.pushed_at)}${r.topics.length ? " · " + r.topics.map(esc).join(", ") : ""}</p>`;
@@ -357,22 +515,30 @@ async function load(name, fallback) {
 }
 
 (async function main() {
-  const [repos, history, news] = await Promise.all([
+  const [repos, history, news, features] = await Promise.all([
     load("repos", { repos: [], totals: {} }),
     load("history", {}),
     load("news", { items: [] }),
+    load("features", { repos: {} }),
   ]);
-  DATA = { repos: repos.repos, totals: repos.totals, generated: repos.generated_at, history, news: news.items };
+  DATA = {
+    repos: repos.repos, totals: repos.totals, generated: repos.generated_at, history, news: news.items,
+    features: features.repos || {}, featuresGenerated: features.generated_at,
+  };
   $("#updated").textContent = repos.generated_at ? `Updated ${new Date(repos.generated_at).toLocaleString("en-US", { dateStyle: "medium", timeStyle: "short" })}` : "No data yet";
 
   const cats = [...new Set(DATA.news.map((n) => n.llm?.category).filter(Boolean))].sort();
   $("#news-cat").innerHTML += cats.map((c) => `<option value="${c}">${CAT_LABEL[c] || c}</option>`).join("");
   $("#news-repo").innerHTML += DATA.repos.map((r) => r.name).sort().map((n) => `<option>${esc(n)}</option>`).join("");
+  $("#roadmap-repo").innerHTML += DATA.repos.filter((r) => featuresOf(r).length).map((r) => r.name).sort().map((n) => `<option>${esc(n)}</option>`).join("");
 
   renderKpis();
+  renderFlight();
   renderCharts();
   renderTable();
+  renderRoadmaps();
   renderNews();
+  if (location.hash.startsWith("#roadmap-")) jumpToRoadmap(decodeURIComponent(location.hash.slice(9)));
 
   $("#filter").addEventListener("input", renderTable);
   document.querySelectorAll("#repos th[data-k]").forEach((th) => th.addEventListener("click", () => {
@@ -380,11 +546,27 @@ async function load(name, fallback) {
     else { sortKey = th.dataset.k; sortAsc = th.dataset.k === "name"; }
     renderTable();
   }));
-  document.querySelectorAll(".seg button").forEach((b) => b.addEventListener("click", () => {
+  document.querySelectorAll("#imp-seg button").forEach((b) => b.addEventListener("click", () => {
     impFilter = b.dataset.imp;
-    document.querySelectorAll(".seg button").forEach((x) => x.classList.toggle("on", x === b));
+    document.querySelectorAll("#imp-seg button").forEach((x) => x.classList.toggle("on", x === b));
     renderNews();
   }));
+  document.querySelectorAll("#size-seg button").forEach((b) => b.addEventListener("click", () => {
+    minSize = b.dataset.size;
+    document.querySelectorAll("#size-seg button").forEach((x) => x.classList.toggle("on", x === b));
+    renderRoadmaps();
+  }));
+  $("#roadmap-repo").addEventListener("change", renderRoadmaps);
+  $("#flight-l").addEventListener("change", renderFlight);
+  // Anything marked data-jump (flight rows, dialog links) opens that repo's roadmap.
+  document.addEventListener("click", (e) => {
+    const t = e.target.closest("[data-jump]");
+    if (t) { e.preventDefault(); jumpToRoadmap(t.dataset.jump); }
+  });
+  document.addEventListener("keydown", (e) => {
+    const t = e.target.closest?.("li[data-jump]");
+    if (t && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); jumpToRoadmap(t.dataset.jump); }
+  });
   ["#news-cat", "#news-repo", "#news-irrelevant"].forEach((s) => $(s).addEventListener("change", renderNews));
   let resizeTimer;
   addEventListener("resize", () => {

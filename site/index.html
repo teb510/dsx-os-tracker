@@ -24,6 +24,17 @@
   <main class="wrap">
     <section class="kpis" id="kpis" aria-label="Totals"></section>
 
+    <section class="card" id="flight-card" hidden>
+      <div class="card-head">
+        <div>
+          <h2>Biggest work in flight</h2>
+          <p class="hint" id="flight-hint"></p>
+        </div>
+        <label class="check"><input type="checkbox" id="flight-l"> Include L</label>
+      </div>
+      <ul class="flight-list" id="flight-list"></ul>
+    </section>
+
     <section class="grid2">
       <figure class="card">
         <figcaption>
@@ -54,6 +65,7 @@
           <thead>
             <tr>
               <th data-k="name" class="l">Repository</th>
+              <th data-k="feature_weight" class="l">Biggest in flight</th>
               <th data-k="stars">Stars</th>
               <th data-k="stars_7d">Δ 7d</th>
               <th data-k="forks">Forks</th>
@@ -82,6 +94,36 @@
       <div class="chart" id="chart-contrib"></div>
     </section>
 
+    <section class="card" id="orgs-card" hidden>
+      <figcaption>
+        <h2>External contributors by organization</h2>
+        <p class="hint">Distinct external commit and PR authors in the last 90 days, counted once across repos. Organization comes from a work email domain or the GitHub company field; personal email domains and blank profiles count as individuals.</p>
+      </figcaption>
+      <p class="headline" id="orgs-headline"></p>
+      <div class="legend" id="orgs-legend"></div>
+      <div class="chart" id="chart-orgs"></div>
+    </section>
+
+    <section class="card" id="roadmaps" hidden>
+      <div class="card-head">
+        <div>
+          <h2>Roadmaps</h2>
+          <p class="hint" id="roadmap-hint"></p>
+        </div>
+        <div class="filters">
+          <div class="seg" id="size-seg" role="group" aria-label="Minimum feature size">
+            <button data-size="S" type="button">S+</button>
+            <button data-size="M" type="button" class="on">M+</button>
+            <button data-size="L" type="button">L+</button>
+            <button data-size="XL" type="button">XL+</button>
+            <button data-size="XXL" type="button">XXL</button>
+          </div>
+          <select id="roadmap-repo" aria-label="Repository"><option value="">All repos</option></select>
+        </div>
+      </div>
+      <div id="roadmap-list"></div>
+    </section>
+
     <section class="card" id="news">
       <div class="card-head">
         <div>
@@ -89,7 +131,7 @@
           <p class="hint" id="news-hint"></p>
         </div>
         <div class="filters">
-          <div class="seg" role="group" aria-label="Importance">
+          <div class="seg" id="imp-seg" role="group" aria-label="Importance">
             <button data-imp="high" type="button">High</button>
             <button data-imp="medium" type="button" class="on">Medium+</button>
             <button data-imp="all" type="button">All</button>
@@ -117,7 +159,7 @@
   <div class="tip" id="tip" role="tooltip" hidden></div>
 
   <footer class="wrap foot">
-    Data from the GitHub API, Google News, Hacker News, and NVIDIA blogs. News relevance and importance are classified by Claude.
+    Data from the GitHub API, Google News, Hacker News, and NVIDIA blogs. News relevance and importance, and project features and roadmaps, are classified by Claude.
     <a href="https://github.com/teb510/dsx-os-tracker" target="_blank" rel="noopener">Source</a>
   </footer>
 

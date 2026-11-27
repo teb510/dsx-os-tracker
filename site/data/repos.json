@@ -1,40 +1,371 @@
 {
- "generated_at": "2026-11-26T20:18:28.142556+00:00",
+ "generated_at": "2026-11-27T03:22:20.746728+00:00",
  "repos": [
   {
    "active_contributors_90d": 282,
    "active_external_90d": 183,
    "active_internal_90d": 99,
    "archived": false,
-   "closed_issues": 2264,
+   "closed_issues": 2266,
    "closed_prs": 4382,
-   "commits_30d": 759,
-   "commits_total": 8909,
+   "commits_30d": 749,
+   "commits_total": 8911,
    "commits_weekly": [
-    156,
-    126,
-    174,
-    114,
-    94,
-    169,
+    162,
+    130,
+    171,
+    99,
+    115,
+    155,
+    187,
     173,
-    179,
-    182,
-    214,
-    133,
-    190,
-    130
+    177,
+    221,
+    131,
+    193,
+    113
    ],
    "contributors": 432,
    "created_at": "2025-03-03T18:40:07Z",
    "default_branch": "main",
    "description": "A Datacenter Scale Distributed Inference Serving Framework",
-   "external_prs_90d": 66,
+   "external_individuals": {
+    "contributions": 770,
+    "people": 90
+   },
+   "external_orgs": [
+    {
+     "contributions": 51,
+     "org": "DaoCloud",
+     "people": 11
+    },
+    {
+     "contributions": 15,
+     "org": "coreweave",
+     "people": 9
+    },
+    {
+     "contributions": 15,
+     "org": "intel.com",
+     "people": 7
+    },
+    {
+     "contributions": 3,
+     "org": "basetenlabs",
+     "people": 2
+    },
+    {
+     "contributions": 3,
+     "org": "datadoghq.com",
+     "people": 2
+    },
+    {
+     "contributions": 2,
+     "org": "SK Telecom",
+     "people": 2
+    },
+    {
+     "contributions": 2,
+     "org": "Tenstorrent",
+     "people": 2
+    },
+    {
+     "contributions": 72,
+     "org": "Aliyun",
+     "people": 1
+    },
+    {
+     "contributions": 9,
+     "org": "nyu.edu",
+     "people": 1
+    },
+    {
+     "contributions": 6,
+     "org": "University of Illinois Urbana-Champaign",
+     "people": 1
+    },
+    {
+     "contributions": 5,
+     "org": "barclays",
+     "people": 1
+    },
+    {
+     "contributions": 5,
+     "org": "cornell.edu",
+     "people": 1
+    },
+    {
+     "contributions": 5,
+     "org": "docker.com",
+     "people": 1
+    },
+    {
+     "contributions": 4,
+     "org": "Baidu && Alibaba && DiDi && Huawei",
+     "people": 1
+    },
+    {
+     "contributions": 3,
+     "org": "ai and things",
+     "people": 1
+    },
+    {
+     "contributions": 3,
+     "org": "anyscale.com",
+     "people": 1
+    },
+    {
+     "contributions": 3,
+     "org": "AWS",
+     "people": 1
+    },
+    {
+     "contributions": 3,
+     "org": "Hanoi University of Science and Technology",
+     "people": 1
+    },
+    {
+     "contributions": 3,
+     "org": "HKUST",
+     "people": 1
+    },
+    {
+     "contributions": 3,
+     "org": "Indian Institute of Technology",
+     "people": 1
+    },
+    {
+     "contributions": 3,
+     "org": "MIT manipal",
+     "people": 1
+    },
+    {
+     "contributions": 3,
+     "org": "OctoML",
+     "people": 1
+    },
+    {
+     "contributions": 3,
+     "org": "Software Engineer @Microsoft",
+     "people": 1
+    },
+    {
+     "contributions": 3,
+     "org": "The AI Engineer",
+     "people": 1
+    },
+    {
+     "contributions": 2,
+     "org": "Arizona State University",
+     "people": 1
+    },
+    {
+     "contributions": 2,
+     "org": "cloudphysician-codehub @inxiteout-ai @compass-lab @a5g-networks @LUK-Lab",
+     "people": 1
+    },
+    {
+     "contributions": 2,
+     "org": "eventloop.live",
+     "people": 1
+    },
+    {
+     "contributions": 2,
+     "org": "Google",
+     "people": 1
+    },
+    {
+     "contributions": 2,
+     "org": "Int21-AI",
+     "people": 1
+    },
+    {
+     "contributions": 2,
+     "org": "inworld.ai",
+     "people": 1
+    },
+    {
+     "contributions": 2,
+     "org": "mifegui.xyz",
+     "people": 1
+    },
+    {
+     "contributions": 2,
+     "org": "PaddlePaddle",
+     "people": 1
+    },
+    {
+     "contributions": 2,
+     "org": "Prime Intellect",
+     "people": 1
+    },
+    {
+     "contributions": 2,
+     "org": "Rimo",
+     "people": 1
+    },
+    {
+     "contributions": 2,
+     "org": "Tongji University",
+     "people": 1
+    },
+    {
+     "contributions": 2,
+     "org": "xAI",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "452 Code Inn",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "Amazon",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "amzn",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "baseten.co",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "berkeley.edu",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "canva.com",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "fireworks.ai",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "gcore.com",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "glenmaddern.com",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "greennode-ai",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "layerscale.ai",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "Linkedin",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "Metrum AI",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "naver",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "Netcompany",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "Nuvo",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "Oracle",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "Paloa Labs",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "Pinterest",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "primeintellect.ai",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "radixark.ai",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "rogerw.io",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "Sagora Labs",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "Stanford University",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "Telnyx",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "Tesla",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "UC Davis",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "UCAS",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "Yandex.Cloud",
+     "people": 1
+    }
+   ],
+   "external_prs_90d": 68,
    "forks": 1913,
    "full_name": "ai-dynamo/dynamo",
    "homepage": "https://docs.nvidia.com/dynamo/latest",
-   "issues_closed_30d": 362,
-   "issues_opened_30d": 589,
+   "issues_closed_30d": 352,
+   "issues_opened_30d": 565,
    "language": "Rust",
    "language_color": "#dea584",
    "latest_release": {
@@ -45,14 +376,14 @@
     "url": "https://github.com/ai-dynamo/dynamo/releases/tag/v1.7.0"
    },
    "license": "NOASSERTION",
-   "merged_prs": 10576,
+   "merged_prs": 10578,
    "name": "dynamo",
-   "open_issues": 984,
-   "open_prs": 1196,
+   "open_issues": 988,
+   "open_prs": 1202,
    "owner": "ai-dynamo",
-   "prs_merged_30d": 910,
-   "prs_opened_30d": 1612,
-   "pushed_at": "2026-11-26T20:00:50Z",
+   "prs_merged_30d": 883,
+   "prs_opened_30d": 1556,
+   "pushed_at": "2026-11-27T02:15:45Z",
    "recent_releases": [
     {
      "isPrerelease": false,
@@ -91,9 +422,9 @@
     }
    ],
    "releases": 74,
-   "stars": 8576,
-   "stars_30d": null,
-   "stars_7d": null,
+   "stars": 8579,
+   "stars_30d": 3,
+   "stars_7d": 3,
    "topics": [
     "diffusion",
     "disaggregated-serving",
@@ -125,8 +456,8 @@
     8,
     7,
     10,
-    12,
-    4,
+    13,
+    3,
     1,
     10,
     0,
@@ -137,6 +468,37 @@
    "created_at": "2026-01-30T03:49:08Z",
    "default_branch": "main",
    "description": "Validation and management tools for NVIDIA AI Cloud environments.",
+   "external_individuals": {
+    "contributions": 4,
+    "people": 3
+   },
+   "external_orgs": [
+    {
+     "contributions": 13,
+     "org": "RexCode Digital",
+     "people": 1
+    },
+    {
+     "contributions": 2,
+     "org": "canonical, ex @fraunhofer-iais",
+     "people": 1
+    },
+    {
+     "contributions": 2,
+     "org": "k0rdent",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "kubescape",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "Kubesimplify",
+     "people": 1
+    }
+   ],
    "external_prs_90d": 37,
    "forks": 41,
    "full_name": "dsx-ai-factory/ai-cloud-validation",
@@ -200,8 +562,8 @@
    ],
    "releases": 11,
    "stars": 40,
-   "stars_30d": null,
-   "stars_7d": null,
+   "stars_30d": 0,
+   "stars_7d": 0,
    "topics": [
     "gpu",
     "kubernetes",
@@ -220,27 +582,58 @@
    "archived": false,
    "closed_issues": 48,
    "closed_prs": 38,
-   "commits_30d": 80,
+   "commits_30d": 78,
    "commits_total": 557,
    "commits_weekly": [
-    37,
+    39,
     29,
     123,
-    38,
-    59,
-    35,
+    36,
+    68,
     26,
-    16,
+    26,
     17,
-    19,
-    16,
-    28,
-    10
+    17,
+    18,
+    22,
+    24,
+    8
    ],
    "contributors": 24,
    "created_at": "2026-06-12T21:39:16Z",
    "default_branch": "main",
    "description": "NVIDIA Attribution",
+   "external_individuals": {
+    "contributions": 28,
+    "people": 7
+   },
+   "external_orgs": [
+    {
+     "contributions": 3,
+     "org": "University of Texas at Austin",
+     "people": 1
+    },
+    {
+     "contributions": 2,
+     "org": "oracle @facebook",
+     "people": 1
+    },
+    {
+     "contributions": 2,
+     "org": "RationalityEnhancement @armlabstanford",
+     "people": 1
+    },
+    {
+     "contributions": 2,
+     "org": "University of North Texas",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "suse.com",
+     "people": 1
+    }
+   ],
    "external_prs_90d": 66,
    "forks": 14,
    "full_name": "dsx-ai-factory/attribution",
@@ -262,8 +655,8 @@
    "open_issues": 28,
    "open_prs": 23,
    "owner": "dsx-ai-factory",
-   "prs_merged_30d": 87,
-   "prs_opened_30d": 107,
+   "prs_merged_30d": 83,
+   "prs_opened_30d": 101,
    "pushed_at": "2026-11-25T21:16:04Z",
    "recent_releases": [
     {
@@ -290,8 +683,8 @@
    ],
    "releases": 3,
    "stars": 47,
-   "stars_30d": null,
-   "stars_7d": null,
+   "stars_30d": 0,
+   "stars_7d": 0,
    "topics": [],
    "url": "https://github.com/dsx-ai-factory/attribution",
    "watchers": 0
@@ -312,9 +705,9 @@
     9,
     5,
     4,
-    6,
+    7,
     10,
-    9,
+    8,
     7,
     6,
     6,
@@ -324,11 +717,32 @@
    "created_at": "2026-08-04T16:55:16Z",
    "default_branch": "main",
    "description": "cluster-api-provider-nico",
+   "external_individuals": {
+    "contributions": 3,
+    "people": 3
+   },
+   "external_orgs": [
+    {
+     "contributions": 3,
+     "org": "Firmus",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "Mirantis",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "Serra Consultancy Services",
+     "people": 1
+    }
+   ],
    "external_prs_90d": 9,
    "forks": 20,
    "full_name": "dsx-ai-factory/cluster-api-provider-nico",
    "homepage": "",
-   "issues_closed_30d": 11,
+   "issues_closed_30d": 10,
    "issues_opened_30d": 17,
    "language": "Go",
    "language_color": "#00ADD8",
@@ -345,8 +759,8 @@
    "open_issues": 16,
    "open_prs": 14,
    "owner": "dsx-ai-factory",
-   "prs_merged_30d": 28,
-   "prs_opened_30d": 46,
+   "prs_merged_30d": 25,
+   "prs_opened_30d": 44,
    "pushed_at": "2026-11-25T15:03:43Z",
    "recent_releases": [
     {
@@ -387,8 +801,8 @@
    ],
    "releases": 23,
    "stars": 25,
-   "stars_30d": null,
-   "stars_7d": null,
+   "stars_30d": 0,
+   "stars_7d": 0,
    "topics": [
     "bare-metal",
     "cluster-api",
@@ -401,8 +815,8 @@
   },
   {
    "active_contributors_90d": 10,
-   "active_external_90d": 5,
-   "active_internal_90d": 5,
+   "active_external_90d": 4,
+   "active_internal_90d": 6,
    "archived": false,
    "closed_issues": 17,
    "closed_prs": 4,
@@ -427,6 +841,17 @@
    "created_at": "2026-08-24T15:04:20Z",
    "default_branch": "main",
    "description": "Community Posts and Discussions for DSX AI Factory",
+   "external_individuals": {
+    "contributions": 13,
+    "people": 3
+   },
+   "external_orgs": [
+    {
+     "contributions": 1,
+     "org": "Sveltos",
+     "people": 1
+    }
+   ],
    "external_prs_90d": 39,
    "forks": 9,
    "full_name": "dsx-ai-factory/community",
@@ -442,14 +867,14 @@
    "open_issues": 2,
    "open_prs": 5,
    "owner": "dsx-ai-factory",
-   "prs_merged_30d": 18,
+   "prs_merged_30d": 17,
    "prs_opened_30d": 23,
    "pushed_at": "2026-11-25T23:15:40Z",
    "recent_releases": [],
    "releases": 0,
-   "stars": 2,
-   "stars_30d": null,
-   "stars_7d": null,
+   "stars": 3,
+   "stars_30d": 1,
+   "stars_7d": 1,
    "topics": [],
    "url": "https://github.com/dsx-ai-factory/community",
    "watchers": 0
@@ -461,7 +886,7 @@
    "archived": false,
    "closed_issues": 10,
    "closed_prs": 11,
-   "commits_30d": 6,
+   "commits_30d": 4,
    "commits_total": 107,
    "commits_weekly": [
     1,
@@ -482,6 +907,22 @@
    "created_at": "2026-05-06T21:53:43Z",
    "default_branch": "main",
    "description": "DSX Exchange",
+   "external_individuals": {
+    "contributions": 7,
+    "people": 1
+   },
+   "external_orgs": [
+    {
+     "contributions": 1,
+     "org": "OpenObserve",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "reshaprio @microcks",
+     "people": 1
+    }
+   ],
    "external_prs_90d": 12,
    "forks": 20,
    "full_name": "dsx-ai-factory/dsx-exchange",
@@ -503,7 +944,7 @@
    "open_issues": 3,
    "open_prs": 5,
    "owner": "dsx-ai-factory",
-   "prs_merged_30d": 6,
+   "prs_merged_30d": 4,
    "prs_opened_30d": 5,
    "pushed_at": "2026-11-23T19:24:54Z",
    "recent_releases": [
@@ -545,33 +986,33 @@
    ],
    "releases": 57,
    "stars": 31,
-   "stars_30d": null,
-   "stars_7d": null,
+   "stars_30d": 0,
+   "stars_7d": 0,
    "topics": [],
    "url": "https://github.com/dsx-ai-factory/dsx-exchange",
    "watchers": 2
   },
   {
-   "active_contributors_90d": 12,
+   "active_contributors_90d": 11,
    "active_external_90d": 1,
-   "active_internal_90d": 11,
+   "active_internal_90d": 10,
    "archived": false,
    "closed_issues": 11,
    "closed_prs": 16,
    "commits_30d": 52,
    "commits_total": 243,
    "commits_weekly": [
-    8,
+    3,
     3,
     6,
     15,
-    4,
-    4,
+    5,
+    3,
     1,
-    14,
-    31,
-    24,
-    9,
+    29,
+    19,
+    29,
+    1,
     5,
     4
    ],
@@ -579,6 +1020,11 @@
    "created_at": "2025-11-25T10:33:22Z",
    "default_branch": "main",
    "description": "Github Action infrastructure for DSX",
+   "external_individuals": {
+    "contributions": 5,
+    "people": 1
+   },
+   "external_orgs": [],
    "external_prs_90d": 37,
    "forks": 12,
    "full_name": "dsx-ai-factory/dsx-github-actions",
@@ -600,8 +1046,8 @@
    "open_issues": 1,
    "open_prs": 5,
    "owner": "dsx-ai-factory",
-   "prs_merged_30d": 25,
-   "prs_opened_30d": 27,
+   "prs_merged_30d": 24,
+   "prs_opened_30d": 26,
    "pushed_at": "2026-11-26T01:14:26Z",
    "recent_releases": [
     {
@@ -642,8 +1088,8 @@
    ],
    "releases": 81,
    "stars": 8,
-   "stars_30d": null,
-   "stars_7d": null,
+   "stars_30d": 0,
+   "stars_7d": 0,
    "topics": [],
    "url": "https://github.com/dsx-ai-factory/dsx-github-actions",
    "watchers": 0
@@ -664,8 +1110,8 @@
     1,
     0,
     1,
-    0,
-    3,
+    2,
+    1,
     1,
     1,
     0,
@@ -676,6 +1122,22 @@
    "created_at": "2025-04-18T20:26:20Z",
    "default_branch": "main",
    "description": "Exemplar Performance provides recipes in ready-to-use templates for evaluating performance of specific AI use cases across hardware and software combinations.",
+   "external_individuals": {
+    "contributions": 3,
+    "people": 3
+   },
+   "external_orgs": [
+    {
+     "contributions": 2,
+     "org": "Microsoft",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "Lambda.ai",
+     "people": 1
+    }
+   ],
    "external_prs_90d": 4,
    "forks": 39,
    "full_name": "dsx-ai-factory/exemplar-performance",
@@ -739,8 +1201,8 @@
    ],
    "releases": 37,
    "stars": 123,
-   "stars_30d": null,
-   "stars_7d": null,
+   "stars_30d": 0,
+   "stars_7d": 0,
    "topics": [],
    "url": "https://github.com/dsx-ai-factory/exemplar-performance",
    "watchers": 10
@@ -752,27 +1214,43 @@
    "archived": false,
    "closed_issues": 8,
    "closed_prs": 44,
-   "commits_30d": 13,
+   "commits_30d": 12,
    "commits_total": 268,
    "commits_weekly": [
     1,
     1,
-    7,
+    6,
     3,
-    7,
-    7,
-    0,
-    0,
     8,
-    1,
-    4,
-    4,
+    6,
+    0,
+    0,
+    9,
+    2,
+    3,
+    3,
     0
    ],
    "contributors": 13,
    "created_at": "2025-08-27T22:10:50Z",
    "default_branch": "main",
    "description": "NVIDIA Fleet Intelligence Agent - Host agent for GPU telemetry collection and attestation",
+   "external_individuals": {
+    "contributions": 40,
+    "people": 4
+   },
+   "external_orgs": [
+    {
+     "contributions": 2,
+     "org": "latitude.sh",
+     "people": 1
+    },
+    {
+     "contributions": 2,
+     "org": "Outschool",
+     "people": 1
+    }
+   ],
    "external_prs_90d": 35,
    "forks": 22,
    "full_name": "dsx-ai-factory/fleet-intelligence-agent",
@@ -794,8 +1272,8 @@
    "open_issues": 0,
    "open_prs": 21,
    "owner": "dsx-ai-factory",
-   "prs_merged_30d": 13,
-   "prs_opened_30d": 17,
+   "prs_merged_30d": 12,
+   "prs_opened_30d": 16,
    "pushed_at": "2026-11-23T15:46:48Z",
    "recent_releases": [
     {
@@ -836,8 +1314,8 @@
    ],
    "releases": 128,
    "stars": 63,
-   "stars_30d": null,
-   "stars_7d": null,
+   "stars_30d": 0,
+   "stars_7d": 0,
    "topics": [],
    "url": "https://github.com/dsx-ai-factory/fleet-intelligence-agent",
    "watchers": 4
@@ -849,33 +1327,38 @@
    "archived": false,
    "closed_issues": 6,
    "closed_prs": 11,
-   "commits_30d": 33,
+   "commits_30d": 29,
    "commits_total": 115,
    "commits_weekly": [
-    3,
-    2,
+    4,
+    1,
     7,
     4,
     5,
     6,
-    0,
-    4,
-    14,
-    7,
-    5,
+    1,
+    3,
+    15,
+    6,
+    6,
     8,
-    6
+    5
    ],
    "contributors": 7,
    "created_at": "2026-06-24T19:06:37Z",
    "default_branch": "main",
    "description": "Fleet Intelligence out-of-band collector for gathering server BMC inventory, attestation and telemetry",
+   "external_individuals": {
+    "contributions": 2,
+    "people": 1
+   },
+   "external_orgs": [],
    "external_prs_90d": 22,
    "forks": 3,
    "full_name": "dsx-ai-factory/fleet-intelligence-oob-collector",
    "homepage": "https://docs.nvidia.com/fleet-intel/oob-collector",
-   "issues_closed_30d": 5,
-   "issues_opened_30d": 6,
+   "issues_closed_30d": 4,
+   "issues_opened_30d": 4,
    "language": "Rust",
    "language_color": "#dea584",
    "latest_release": {
@@ -891,8 +1374,8 @@
    "open_issues": 1,
    "open_prs": 2,
    "owner": "dsx-ai-factory",
-   "prs_merged_30d": 33,
-   "prs_opened_30d": 35,
+   "prs_merged_30d": 29,
+   "prs_opened_30d": 32,
    "pushed_at": "2026-11-25T22:29:27Z",
    "recent_releases": [
     {
@@ -926,8 +1409,8 @@
    ],
    "releases": 4,
    "stars": 10,
-   "stars_30d": null,
-   "stars_7d": null,
+   "stars_30d": 0,
+   "stars_7d": 0,
    "topics": [],
    "url": "https://github.com/dsx-ai-factory/fleet-intelligence-oob-collector",
    "watchers": 1
@@ -939,33 +1422,59 @@
    "archived": false,
    "closed_issues": 45,
    "closed_prs": 31,
-   "commits_30d": 82,
+   "commits_30d": 78,
    "commits_total": 216,
    "commits_weekly": [
-    13,
-    12,
-    17,
-    4,
+    16,
+    7,
+    19,
+    2,
     11,
     22,
-    17,
-    21,
-    16,
-    17,
+    23,
     15,
-    14,
-    26
+    19,
+    17,
+    17,
+    10,
+    25
    ],
    "contributors": 28,
    "created_at": "2026-07-09T21:08:54Z",
    "default_branch": "main",
    "description": "Hardware health check catalog and evaluation engine for NVIDIA GPU nodes",
+   "external_individuals": {
+    "contributions": 29,
+    "people": 10
+   },
+   "external_orgs": [
+    {
+     "contributions": 2,
+     "org": "Oracle",
+     "people": 1
+    },
+    {
+     "contributions": 2,
+     "org": "RationalityEnhancement @armlabstanford",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "Intel",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "Serra Consultancy Services",
+     "people": 1
+    }
+   ],
    "external_prs_90d": 47,
    "forks": 23,
    "full_name": "dsx-ai-factory/health-validation",
    "homepage": "https://docs.nvidia.com/health-validation",
-   "issues_closed_30d": 26,
-   "issues_opened_30d": 49,
+   "issues_closed_30d": 25,
+   "issues_opened_30d": 48,
    "language": "Go",
    "language_color": "#00ADD8",
    "latest_release": {
@@ -981,8 +1490,8 @@
    "open_issues": 45,
    "open_prs": 19,
    "owner": "dsx-ai-factory",
-   "prs_merged_30d": 84,
-   "prs_opened_30d": 90,
+   "prs_merged_30d": 79,
+   "prs_opened_30d": 88,
    "pushed_at": "2026-11-26T16:57:32Z",
    "recent_releases": [
     {
@@ -1023,8 +1532,8 @@
    ],
    "releases": 6,
    "stars": 30,
-   "stars_30d": null,
-   "stars_7d": null,
+   "stars_30d": 0,
+   "stars_7d": 0,
    "topics": [],
    "url": "https://github.com/dsx-ai-factory/health-validation",
    "watchers": 0
@@ -1034,35 +1543,101 @@
    "active_external_90d": 33,
    "active_internal_90d": 71,
    "archived": false,
-   "closed_issues": 2496,
+   "closed_issues": 2500,
    "closed_prs": 877,
-   "commits_30d": 713,
+   "commits_30d": 703,
    "commits_total": 5269,
    "commits_weekly": [
-    134,
-    98,
-    200,
-    211,
-    148,
-    135,
-    164,
-    178,
-    190,
-    184,
-    164,
-    149,
-    137
+    133,
+    95,
+    219,
+    181,
+    157,
+    136,
+    163,
+    183,
+    187,
+    203,
+    145,
+    147,
+    128
    ],
    "contributors": 155,
    "created_at": "2025-11-05T22:23:34Z",
    "default_branch": "main",
    "description": "NVIDIA Infra Controller - Hardware Lifecycle Management and multitenant networking",
+   "external_individuals": {
+    "contributions": 66,
+    "people": 20
+   },
+   "external_orgs": [
+    {
+     "contributions": 14,
+     "org": "Mirantis",
+     "people": 2
+    },
+    {
+     "contributions": 23,
+     "org": "Microsoft",
+     "people": 1
+    },
+    {
+     "contributions": 4,
+     "org": "amd",
+     "people": 1
+    },
+    {
+     "contributions": 3,
+     "org": "IIIT Lucknow",
+     "people": 1
+    },
+    {
+     "contributions": 3,
+     "org": "vt.edu",
+     "people": 1
+    },
+    {
+     "contributions": 2,
+     "org": "armada.ai",
+     "people": 1
+    },
+    {
+     "contributions": 2,
+     "org": "crusoecloud",
+     "people": 1
+    },
+    {
+     "contributions": 2,
+     "org": "e2enetworks.com",
+     "people": 1
+    },
+    {
+     "contributions": 2,
+     "org": "groq",
+     "people": 1
+    },
+    {
+     "contributions": 2,
+     "org": "redhat.com",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "krak3n.io",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "ori.co",
+     "people": 1
+    }
+   ],
    "external_prs_90d": 64,
    "forks": 243,
    "full_name": "dsx-ai-factory/infra-controller",
    "homepage": "https://docs.nvidia.com/infra-controller",
-   "issues_closed_30d": 367,
-   "issues_opened_30d": 516,
+   "issues_closed_30d": 355,
+   "issues_opened_30d": 490,
    "language": "Rust",
    "language_color": "#dea584",
    "latest_release": {
@@ -1075,12 +1650,12 @@
    "license": "Apache-2.0",
    "merged_prs": 5145,
    "name": "infra-controller",
-   "open_issues": 949,
+   "open_issues": 946,
    "open_prs": 167,
    "owner": "dsx-ai-factory",
-   "prs_merged_30d": 818,
-   "prs_opened_30d": 943,
-   "pushed_at": "2026-11-26T19:12:54Z",
+   "prs_merged_30d": 773,
+   "prs_opened_30d": 861,
+   "pushed_at": "2026-11-27T02:09:18Z",
    "recent_releases": [
     {
      "isPrerelease": false,
@@ -1120,16 +1695,16 @@
    ],
    "releases": 27,
    "stars": 353,
-   "stars_30d": null,
-   "stars_7d": null,
+   "stars_30d": 0,
+   "stars_7d": 0,
    "topics": [],
    "url": "https://github.com/dsx-ai-factory/infra-controller",
    "watchers": 15
   },
   {
    "active_contributors_90d": 19,
-   "active_external_90d": 11,
-   "active_internal_90d": 8,
+   "active_external_90d": 10,
+   "active_internal_90d": 9,
    "archived": false,
    "closed_issues": 106,
    "closed_prs": 74,
@@ -1154,6 +1729,27 @@
    "created_at": "2024-07-28T13:29:46Z",
    "default_branch": "master",
    "description": "",
+   "external_individuals": {
+    "contributions": 18,
+    "people": 7
+   },
+   "external_orgs": [
+    {
+     "contributions": 3,
+     "org": "google",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "Alluxio",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "python.org",
+     "people": 1
+    }
+   ],
    "external_prs_90d": 56,
    "forks": 75,
    "full_name": "dsx-ai-factory/model-streamer",
@@ -1217,8 +1813,8 @@
    ],
    "releases": 29,
    "stars": 414,
-   "stars_30d": null,
-   "stars_7d": null,
+   "stars_30d": 0,
+   "stars_7d": 0,
    "topics": [],
    "url": "https://github.com/dsx-ai-factory/model-streamer",
    "watchers": 6
@@ -1230,32 +1826,58 @@
    "archived": false,
    "closed_issues": 18,
    "closed_prs": 95,
-   "commits_30d": 66,
+   "commits_30d": 65,
    "commits_total": 402,
    "commits_weekly": [
     11,
-    7,
-    15,
+    8,
+    14,
     16,
     10,
-    10,
-    25,
+    14,
+    24,
     23,
-    16,
-    13,
-    5,
-    25,
-    17
+    15,
+    14,
+    2,
+    28,
+    14
    ],
    "contributors": 18,
    "created_at": "2026-05-21T20:26:37Z",
    "default_branch": "main",
    "description": "NVIDIA Switch Infrastructure - Config Manager",
+   "external_individuals": {
+    "contributions": 134,
+    "people": 2
+   },
+   "external_orgs": [
+    {
+     "contributions": 6,
+     "org": "crusoecloud",
+     "people": 1
+    },
+    {
+     "contributions": 2,
+     "org": "CMU Silicon Valley",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "netboxlabs",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "networktocode",
+     "people": 1
+    }
+   ],
    "external_prs_90d": 50,
    "forks": 21,
    "full_name": "dsx-ai-factory/nv-config-manager",
    "homepage": "https://docs.nvidia.com/switch-infrastructure/config-manager",
-   "issues_closed_30d": 8,
+   "issues_closed_30d": 7,
    "issues_opened_30d": 9,
    "language": "Python",
    "language_color": "#3572A5",
@@ -1272,8 +1894,8 @@
    "open_issues": 6,
    "open_prs": 31,
    "owner": "dsx-ai-factory",
-   "prs_merged_30d": 106,
-   "prs_opened_30d": 150,
+   "prs_merged_30d": 102,
+   "prs_opened_30d": 147,
    "pushed_at": "2026-11-26T03:33:25Z",
    "recent_releases": [
     {
@@ -1314,8 +1936,8 @@
    ],
    "releases": 7,
    "stars": 47,
-   "stars_30d": null,
-   "stars_7d": null,
+   "stars_30d": 0,
+   "stars_7d": 0,
    "topics": [],
    "url": "https://github.com/dsx-ai-factory/nv-config-manager",
    "watchers": 0
@@ -1327,27 +1949,53 @@
    "archived": false,
    "closed_issues": 21,
    "closed_prs": 21,
-   "commits_30d": 18,
+   "commits_30d": 17,
    "commits_total": 499,
    "commits_weekly": [
     3,
     7,
     13,
     6,
-    17,
-    6,
+    20,
     3,
-    25,
-    10,
-    6,
+    4,
+    27,
+    7,
+    7,
     1,
-    9,
+    8,
     0
    ],
    "contributors": 25,
    "created_at": "2025-12-02T20:59:22Z",
    "default_branch": "main",
    "description": "NVIDIA's Redfish next generation redfish crate",
+   "external_individuals": {
+    "contributions": 6,
+    "people": 1
+   },
+   "external_orgs": [
+    {
+     "contributions": 9,
+     "org": "thelustrecollective.com",
+     "people": 1
+    },
+    {
+     "contributions": 4,
+     "org": "Mirantis",
+     "people": 1
+    },
+    {
+     "contributions": 4,
+     "org": "Serra Consultancy Services",
+     "people": 1
+    },
+    {
+     "contributions": 2,
+     "org": "armada.ai",
+     "people": 1
+    }
+   ],
    "external_prs_90d": 53,
    "forks": 24,
    "full_name": "dsx-ai-factory/nv-redfish",
@@ -1367,11 +2015,11 @@
    "merged_prs": 282,
    "name": "nv-redfish",
    "open_issues": 0,
-   "open_prs": 2,
+   "open_prs": 5,
    "owner": "dsx-ai-factory",
-   "prs_merged_30d": 21,
-   "prs_opened_30d": 21,
-   "pushed_at": "2026-11-24T10:25:22Z",
+   "prs_merged_30d": 18,
+   "prs_opened_30d": 23,
+   "pushed_at": "2026-11-27T03:03:08Z",
    "recent_releases": [
     {
      "isPrerelease": false,
@@ -1411,8 +2059,8 @@
    ],
    "releases": 52,
    "stars": 42,
-   "stars_30d": null,
-   "stars_7d": null,
+   "stars_30d": 0,
+   "stars_7d": 0,
    "topics": [],
    "url": "https://github.com/dsx-ai-factory/nv-redfish",
    "watchers": 3
@@ -1429,8 +2077,8 @@
    "commits_weekly": [
     0,
     4,
-    0,
     1,
+    0,
     1,
     0,
     9,
@@ -1445,6 +2093,17 @@
    "created_at": "2026-02-04T21:11:33Z",
    "default_branch": "main",
    "description": "NVIDIA Rack Management Service",
+   "external_individuals": {
+    "contributions": 3,
+    "people": 2
+   },
+   "external_orgs": [
+    {
+     "contributions": 4,
+     "org": "Red Hat",
+     "people": 1
+    }
+   ],
    "external_prs_90d": 26,
    "forks": 11,
    "full_name": "dsx-ai-factory/nv-rms",
@@ -1466,8 +2125,8 @@
    "recent_releases": [],
    "releases": 0,
    "stars": 32,
-   "stars_30d": null,
-   "stars_7d": null,
+   "stars_30d": 0,
+   "stars_7d": 0,
    "topics": [],
    "url": "https://github.com/dsx-ai-factory/nv-rms",
    "watchers": 2
@@ -1482,7 +2141,7 @@
    "commits_30d": 4,
    "commits_total": 91,
    "commits_weekly": [
-    2,
+    1,
     2,
     0,
     1,
@@ -1500,6 +2159,17 @@
    "created_at": "2026-02-04T21:12:58Z",
    "default_branch": "main",
    "description": "NVIDIA Rack Management Service Rust language client crate",
+   "external_individuals": {
+    "contributions": 6,
+    "people": 1
+   },
+   "external_orgs": [
+    {
+     "contributions": 1,
+     "org": "amd",
+     "people": 1
+    }
+   ],
    "external_prs_90d": 4,
    "forks": 15,
    "full_name": "dsx-ai-factory/nv-rms-client",
@@ -1563,8 +2233,8 @@
    ],
    "releases": 26,
    "stars": 14,
-   "stars_30d": null,
-   "stars_7d": null,
+   "stars_30d": 0,
+   "stars_7d": 0,
    "topics": [],
    "url": "https://github.com/dsx-ai-factory/nv-rms-client",
    "watchers": 2
@@ -1577,26 +2247,31 @@
    "closed_issues": 0,
    "closed_prs": 3,
    "commits_30d": 21,
-   "commits_total": 54,
+   "commits_total": 55,
    "commits_weekly": [
-    0,
-    3,
+    1,
+    2,
     2,
     4,
     0,
     0,
     0,
-    1,
-    10,
-    4,
-    7,
     3,
-    4
+    9,
+    4,
+    6,
+    3,
+    5
    ],
    "contributors": 5,
    "created_at": "2026-07-07T22:24:15Z",
    "default_branch": "main",
    "description": "Collection of libraries for bare-metal telemetry collection",
+   "external_individuals": {
+    "contributions": 0,
+    "people": 0
+   },
+   "external_orgs": [],
    "external_prs_90d": 1,
    "forks": 6,
    "full_name": "dsx-ai-factory/nv-telemetry",
@@ -1613,14 +2288,14 @@
     "url": "https://github.com/dsx-ai-factory/nv-telemetry/releases/tag/v0.2.0"
    },
    "license": "Apache-2.0",
-   "merged_prs": 61,
+   "merged_prs": 62,
    "name": "nv-telemetry",
    "open_issues": 1,
-   "open_prs": 2,
+   "open_prs": 1,
    "owner": "dsx-ai-factory",
-   "prs_merged_30d": 25,
-   "prs_opened_30d": 26,
-   "pushed_at": "2026-11-24T05:36:50Z",
+   "prs_merged_30d": 22,
+   "prs_opened_30d": 22,
+   "pushed_at": "2026-11-27T01:49:46Z",
    "recent_releases": [
     {
      "isPrerelease": false,
@@ -1639,65 +2314,120 @@
    ],
    "releases": 2,
    "stars": 11,
-   "stars_30d": null,
-   "stars_7d": null,
+   "stars_30d": 0,
+   "stars_7d": 0,
    "topics": [],
    "url": "https://github.com/dsx-ai-factory/nv-telemetry",
    "watchers": 2
   },
   {
-   "active_contributors_90d": 62,
-   "active_external_90d": 29,
+   "active_contributors_90d": 61,
+   "active_external_90d": 28,
    "active_internal_90d": 33,
    "archived": false,
    "closed_issues": 1191,
    "closed_prs": 238,
-   "commits_30d": 300,
-   "commits_total": 1922,
+   "commits_30d": 298,
+   "commits_total": 1924,
    "commits_weekly": [
-    93,
-    120,
-    111,
-    42,
-    40,
-    75,
-    71,
-    88,
+    98,
+    126,
+    102,
+    39,
+    49,
+    66,
+    80,
+    81,
     68,
     83,
-    68,
-    66,
-    59
+    79,
+    57,
+    57
    ],
    "contributors": 65,
    "created_at": "2026-04-01T19:22:14Z",
    "default_branch": "main",
    "description": "Platform for deploying and routing GPU-accelerated inference, streaming, and batch workloads at scale.",
-   "external_prs_90d": 55,
+   "external_individuals": {
+    "contributions": 148,
+    "people": 21
+   },
+   "external_orgs": [
+    {
+     "contributions": 5,
+     "org": "Auth0",
+     "people": 1
+    },
+    {
+     "contributions": 4,
+     "org": "rexcode.co.uk",
+     "people": 1
+    },
+    {
+     "contributions": 3,
+     "org": "Prometrix",
+     "people": 1
+    },
+    {
+     "contributions": 2,
+     "org": "Southeast University",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "airbus",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "soudaburgerllc",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "Tesla.com",
+     "people": 1
+    }
+   ],
+   "external_prs_90d": 53,
    "forks": 112,
    "full_name": "dsx-ai-factory/nvcf",
    "homepage": "https://docs.nvidia.com/nvcf/overview",
-   "issues_closed_30d": 305,
-   "issues_opened_30d": 287,
+   "issues_closed_30d": 295,
+   "issues_opened_30d": 276,
    "language": "Go",
    "language_color": "#00ADD8",
    "latest_release": {
     "isPrerelease": false,
-    "name": "deploy/helm/nvca-operator/v1.40.0",
-    "publishedAt": "2026-11-26T18:23:49Z",
-    "tagName": "deploy/helm/nvca-operator/v1.40.0",
-    "url": "https://github.com/dsx-ai-factory/nvcf/releases/tag/deploy/helm/nvca-operator/v1.40.0"
+    "name": "src/compute-plane-services/nvsnap/v0.7.4",
+    "publishedAt": "2026-11-27T00:17:38Z",
+    "tagName": "src/compute-plane-services/nvsnap/v0.7.4",
+    "url": "https://github.com/dsx-ai-factory/nvcf/releases/tag/src/compute-plane-services/nvsnap/v0.7.4"
    },
    "license": "Apache-2.0",
-   "merged_prs": 1730,
+   "merged_prs": 1732,
    "name": "nvcf",
    "open_issues": 382,
    "open_prs": 166,
    "owner": "dsx-ai-factory",
-   "prs_merged_30d": 416,
-   "prs_opened_30d": 501,
-   "pushed_at": "2026-11-26T18:24:39Z",
+   "prs_merged_30d": 404,
+   "prs_opened_30d": 481,
+   "pushed_at": "2026-11-27T03:21:28Z",
    "recent_releases": [
+    {
+     "isPrerelease": false,
+     "name": "src/compute-plane-services/nvsnap/v0.7.4",
+     "publishedAt": "2026-11-27T00:17:38Z",
+     "tagName": "src/compute-plane-services/nvsnap/v0.7.4",
+     "url": "https://github.com/dsx-ai-factory/nvcf/releases/tag/src/compute-plane-services/nvsnap/v0.7.4"
+    },
+    {
+     "isPrerelease": false,
+     "name": "src/compute-plane-services/nvsnap/v0.7.3",
+     "publishedAt": "2026-11-26T21:00:05Z",
+     "tagName": "src/compute-plane-services/nvsnap/v0.7.3",
+     "url": "https://github.com/dsx-ai-factory/nvcf/releases/tag/src/compute-plane-services/nvsnap/v0.7.3"
+    },
     {
      "isPrerelease": false,
      "name": "deploy/helm/nvca-operator/v1.40.0",
@@ -1718,26 +2448,12 @@
      "publishedAt": "2026-11-26T09:32:20Z",
      "tagName": "deploy/helm/nvca-operator/v1.39.4",
      "url": "https://github.com/dsx-ai-factory/nvcf/releases/tag/deploy/helm/nvca-operator/v1.39.4"
-    },
-    {
-     "isPrerelease": false,
-     "name": "src/compute-plane-services/nvca/v3.21.3",
-     "publishedAt": "2026-11-26T09:31:25Z",
-     "tagName": "src/compute-plane-services/nvca/v3.21.3",
-     "url": "https://github.com/dsx-ai-factory/nvcf/releases/tag/src/compute-plane-services/nvca/v3.21.3"
-    },
-    {
-     "isPrerelease": false,
-     "name": "src/invocation-plane-services/grpc-proxy/v1.40.3",
-     "publishedAt": "2026-11-26T06:06:27Z",
-     "tagName": "src/invocation-plane-services/grpc-proxy/v1.40.3",
-     "url": "https://github.com/dsx-ai-factory/nvcf/releases/tag/src/invocation-plane-services/grpc-proxy/v1.40.3"
     }
    ],
-   "releases": 3526,
-   "stars": 271,
-   "stars_30d": null,
-   "stars_7d": null,
+   "releases": 3528,
+   "stars": 272,
+   "stars_30d": 1,
+   "stars_7d": 1,
    "topics": [
     "cloud-functions",
     "gpu",
@@ -1766,10 +2482,10 @@
     0,
     0,
     0,
-    6,
-    6,
-    1,
-    6,
+    8,
+    4,
+    2,
+    5,
     9,
     6
    ],
@@ -1777,6 +2493,11 @@
    "created_at": "2026-10-19T14:06:06Z",
    "default_branch": "main",
    "description": "",
+   "external_individuals": {
+    "contributions": 11,
+    "people": 6
+   },
+   "external_orgs": [],
    "external_prs_90d": 33,
    "forks": 8,
    "full_name": "dsx-ai-factory/NVIDIA-Recovery",
@@ -1798,8 +2519,8 @@
    "open_issues": 1,
    "open_prs": 24,
    "owner": "dsx-ai-factory",
-   "prs_merged_30d": 24,
-   "prs_opened_30d": 52,
+   "prs_merged_30d": 22,
+   "prs_opened_30d": 50,
    "pushed_at": "2026-11-25T21:32:41Z",
    "recent_releases": [
     {
@@ -1812,8 +2533,8 @@
    ],
    "releases": 1,
    "stars": 27,
-   "stars_30d": null,
-   "stars_7d": null,
+   "stars_30d": 0,
+   "stars_7d": 0,
    "topics": [],
    "url": "https://github.com/dsx-ai-factory/NVIDIA-Recovery",
    "watchers": 0
@@ -1828,24 +2549,29 @@
    "commits_30d": 41,
    "commits_total": 334,
    "commits_weekly": [
-    18,
-    0,
-    6,
-    4,
     14,
-    7,
+    4,
+    4,
     2,
-    12,
-    12,
-    20,
-    11,
+    15,
+    6,
     2,
-    4
+    15,
+    9,
+    23,
+    8,
+    3,
+    3
    ],
    "contributors": 18,
    "created_at": "2026-09-18T00:25:35Z",
    "default_branch": "master",
    "description": "",
+   "external_individuals": {
+    "contributions": 0,
+    "people": 0
+   },
+   "external_orgs": [],
    "external_prs_90d": 36,
    "forks": 3,
    "full_name": "dsx-ai-factory/nvidia-workload-identity",
@@ -1867,8 +2593,8 @@
    "open_issues": 0,
    "open_prs": 1,
    "owner": "dsx-ai-factory",
-   "prs_merged_30d": 52,
-   "prs_opened_30d": 57,
+   "prs_merged_30d": 51,
+   "prs_opened_30d": 56,
    "pushed_at": "2026-11-23T23:31:23Z",
    "recent_releases": [
     {
@@ -1909,8 +2635,8 @@
    ],
    "releases": 24,
    "stars": 6,
-   "stars_30d": null,
-   "stars_7d": null,
+   "stars_30d": 0,
+   "stars_7d": 0,
    "topics": [],
    "url": "https://github.com/dsx-ai-factory/nvidia-workload-identity",
    "watchers": 0
@@ -1922,33 +2648,74 @@
    "archived": false,
    "closed_issues": 217,
    "closed_prs": 363,
-   "commits_30d": 262,
+   "commits_30d": 258,
    "commits_total": 1687,
    "commits_weekly": [
     102,
-    111,
-    118,
+    109,
+    114,
     146,
-    73,
-    131,
-    201,
-    167,
-    89,
-    63,
-    55,
-    64,
-    42
+    75,
+    137,
+    205,
+    159,
+    92,
+    59,
+    59,
+    59,
+    38
    ],
    "contributors": 81,
    "created_at": "2026-08-04T15:42:58Z",
    "default_branch": "main",
    "description": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
+   "external_individuals": {
+    "contributions": 175,
+    "people": 21
+   },
+   "external_orgs": [
+    {
+     "contributions": 15,
+     "org": "Yahoo!",
+     "people": 1
+    },
+    {
+     "contributions": 4,
+     "org": "Docker",
+     "people": 1
+    },
+    {
+     "contributions": 3,
+     "org": "MSCS @ NYU, prev SWE @ AT&T",
+     "people": 1
+    },
+    {
+     "contributions": 2,
+     "org": "Agentic Institute",
+     "people": 1
+    },
+    {
+     "contributions": 2,
+     "org": "Stony Brook University",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "ELTE University",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "ncf.ca",
+     "people": 1
+    }
+   ],
    "external_prs_90d": 58,
    "forks": 177,
    "full_name": "dsx-ai-factory/nvke",
    "homepage": "https://docs.nvidia.com/nvke/",
-   "issues_closed_30d": 67,
-   "issues_opened_30d": 154,
+   "issues_closed_30d": 65,
+   "issues_opened_30d": 149,
    "language": "Go",
    "language_color": "#00ADD8",
    "latest_release": {
@@ -1964,9 +2731,9 @@
    "open_issues": 152,
    "open_prs": 101,
    "owner": "dsx-ai-factory",
-   "prs_merged_30d": 279,
-   "prs_opened_30d": 390,
-   "pushed_at": "2026-11-26T09:07:03Z",
+   "prs_merged_30d": 261,
+   "prs_opened_30d": 371,
+   "pushed_at": "2026-11-27T02:10:33Z",
    "recent_releases": [
     {
      "isPrerelease": false,
@@ -2006,8 +2773,8 @@
    ],
    "releases": 8,
    "stars": 1257,
-   "stars_30d": null,
-   "stars_7d": null,
+   "stars_30d": 0,
+   "stars_7d": 0,
    "topics": [
     "bare-metal",
     "cluster-api",
@@ -2029,23 +2796,28 @@
    "commits_total": 302,
    "commits_weekly": [
     14,
-    6,
-    19,
-    25,
-    31,
-    41,
-    23,
+    7,
     21,
-    16,
+    22,
     33,
+    42,
+    20,
+    22,
+    15,
+    35,
     31,
-    21,
-    16
+    20,
+    15
    ],
    "contributors": 11,
    "created_at": "2026-10-22T13:07:58Z",
    "default_branch": "main",
    "description": "NVKE telemetry pipeline (NKTP): an OpenTelemetry pipeline for collecting, processing and exporting Kubernetes metrics, logs and traces.",
+   "external_individuals": {
+    "contributions": 24,
+    "people": 2
+   },
+   "external_orgs": [],
    "external_prs_90d": 70,
    "forks": 7,
    "full_name": "dsx-ai-factory/nvke-telemetry-pipeline",
@@ -2067,8 +2839,8 @@
    "open_issues": 8,
    "open_prs": 13,
    "owner": "dsx-ai-factory",
-   "prs_merged_30d": 120,
-   "prs_opened_30d": 141,
+   "prs_merged_30d": 118,
+   "prs_opened_30d": 140,
    "pushed_at": "2026-11-26T05:36:37Z",
    "recent_releases": [
     {
@@ -2109,8 +2881,8 @@
    ],
    "releases": 8,
    "stars": 14,
-   "stars_30d": null,
-   "stars_7d": null,
+   "stars_30d": 0,
+   "stars_7d": 0,
    "topics": [],
    "url": "https://github.com/dsx-ai-factory/nvke-telemetry-pipeline",
    "watchers": 1
@@ -2122,33 +2894,59 @@
    "archived": false,
    "closed_issues": 70,
    "closed_prs": 31,
-   "commits_30d": 211,
+   "commits_30d": 209,
    "commits_total": 413,
    "commits_weekly": [
     0,
-    3,
-    22,
+    6,
+    19,
     25,
-    7,
-    36,
-    50,
-    49,
-    18,
-    80,
+    11,
+    34,
+    54,
     44,
-    53,
-    26
+    30,
+    71,
+    46,
+    55,
+    18
    ],
    "contributors": 21,
    "created_at": "2026-09-09T17:26:36Z",
    "default_branch": "main",
    "description": "NVIDIA Kubernetes Recipes (NVKR). Build system and published Definitions for NVKE node OS images, packages and components.",
+   "external_individuals": {
+    "contributions": 8,
+    "people": 3
+   },
+   "external_orgs": [
+    {
+     "contributions": 9,
+     "org": "Stony Brook University",
+     "people": 1
+    },
+    {
+     "contributions": 4,
+     "org": "microcks.io",
+     "people": 1
+    },
+    {
+     "contributions": 2,
+     "org": "Serra Consultancy Services",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "Yahoo!",
+     "people": 1
+    }
+   ],
    "external_prs_90d": 22,
    "forks": 25,
    "full_name": "dsx-ai-factory/nvkr",
    "homepage": "https://docs.nvidia.com/nvke/nvkr/",
    "issues_closed_30d": 65,
-   "issues_opened_30d": 100,
+   "issues_opened_30d": 99,
    "language": "Go",
    "language_color": "#00ADD8",
    "latest_release": {
@@ -2164,8 +2962,8 @@
    "open_issues": 51,
    "open_prs": 14,
    "owner": "dsx-ai-factory",
-   "prs_merged_30d": 219,
-   "prs_opened_30d": 231,
+   "prs_merged_30d": 210,
+   "prs_opened_30d": 229,
    "pushed_at": "2026-11-26T14:23:28Z",
    "recent_releases": [
     {
@@ -2185,8 +2983,8 @@
    ],
    "releases": 2,
    "stars": 47,
-   "stars_30d": null,
-   "stars_7d": null,
+   "stars_30d": 0,
+   "stars_7d": 0,
    "topics": [
     "bare-metal",
     "gpu",
@@ -2204,27 +3002,68 @@
    "archived": false,
    "closed_issues": 2,
    "closed_prs": 0,
-   "commits_30d": 193,
+   "commits_30d": 191,
    "commits_total": 23682,
    "commits_weekly": [
-    162,
-    53,
+    164,
+    51,
     52,
     49,
-    25,
+    26,
     1747,
-    153,
-    98,
-    115,
-    48,
+    159,
+    94,
+    125,
     39,
-    39,
-    16
+    35,
+    40,
+    15
    ],
    "contributors": 221,
    "created_at": "2026-10-02T18:25:59Z",
    "default_branch": "main",
    "description": "Open Virtual Network (OVN) SDN Based Kubernetes Networking Platform",
+   "external_individuals": {
+    "contributions": 29,
+    "people": 3
+   },
+   "external_orgs": [
+    {
+     "contributions": 335,
+     "org": "Red Hat",
+     "people": 40
+    },
+    {
+     "contributions": 10,
+     "org": "str08.net",
+     "people": 1
+    },
+    {
+     "contributions": 3,
+     "org": "dgude-mlt.client.nvidia.com",
+     "people": 1
+    },
+    {
+     "contributions": 3,
+     "org": "dtucker.co.uk",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "Big Tech",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "google.com",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "ovn.org",
+     "people": 1
+    }
+   ],
    "external_prs_90d": 0,
    "forks": 1,
    "full_name": "dsx-ai-factory/ovn-kubernetes",
@@ -2281,21 +3120,21 @@
    ],
    "releases": 4,
    "stars": 15,
-   "stars_30d": null,
-   "stars_7d": null,
+   "stars_30d": 0,
+   "stars_7d": 0,
    "topics": [],
    "url": "https://github.com/dsx-ai-factory/ovn-kubernetes",
    "watchers": 1
   },
   {
    "active_contributors_90d": 52,
-   "active_external_90d": 35,
-   "active_internal_90d": 17,
+   "active_external_90d": 26,
+   "active_internal_90d": 26,
    "archived": false,
    "closed_issues": 143,
-   "closed_prs": 283,
-   "commits_30d": 1045,
-   "commits_total": 2870,
+   "closed_prs": 285,
+   "commits_30d": 1053,
+   "commits_total": 2878,
    "commits_weekly": [
     0,
     88,
@@ -2307,20 +3146,46 @@
     254,
     235,
     264,
-    330,
-    208,
-    189
+    360,
+    194,
+    181
    ],
    "contributors": 52,
    "created_at": "2026-08-25T14:43:10Z",
    "default_branch": "main",
    "description": "Run:ai is the AI workload orchestration platform for Kubernetes. This monorepo contains the control plane services, in-cluster Kubernetes operator/controllers, shared libraries and clients, the installer, and the local dev environment.",
-   "external_prs_90d": 99,
+   "external_individuals": {
+    "contributions": 294,
+    "people": 22
+   },
+   "external_orgs": [
+    {
+     "contributions": 3,
+     "org": "kubescape",
+     "people": 1
+    },
+    {
+     "contributions": 2,
+     "org": "cdw.com",
+     "people": 1
+    },
+    {
+     "contributions": 2,
+     "org": "Maymust",
+     "people": 1
+    },
+    {
+     "contributions": 2,
+     "org": "viettelcloud-oss, viettelnetworks",
+     "people": 1
+    }
+   ],
+   "external_prs_90d": 94,
    "forks": 138,
    "full_name": "dsx-ai-factory/run-ai",
    "homepage": "https://docs.nvidia.com/run-ai/",
    "issues_closed_30d": 121,
-   "issues_opened_30d": 248,
+   "issues_opened_30d": 249,
    "language": "Go",
    "language_color": "#00ADD8",
    "latest_release": {
@@ -2331,14 +3196,14 @@
     "url": "https://github.com/dsx-ai-factory/run-ai/releases/tag/3.0.26"
    },
    "license": "Apache-2.0",
-   "merged_prs": 5282,
+   "merged_prs": 5296,
    "name": "run-ai",
-   "open_issues": 188,
-   "open_prs": 164,
+   "open_issues": 189,
+   "open_prs": 159,
    "owner": "dsx-ai-factory",
-   "prs_merged_30d": 2158,
-   "prs_opened_30d": 2313,
-   "pushed_at": "2026-11-26T20:19:36Z",
+   "prs_merged_30d": 2039,
+   "prs_opened_30d": 2191,
+   "pushed_at": "2026-11-27T02:29:08Z",
    "recent_releases": [
     {
      "isPrerelease": false,
@@ -2378,8 +3243,8 @@
    ],
    "releases": 29,
    "stars": 786,
-   "stars_30d": null,
-   "stars_7d": null,
+   "stars_30d": 0,
+   "stars_7d": 0,
    "topics": [],
    "url": "https://github.com/dsx-ai-factory/run-ai",
    "watchers": 2
@@ -2391,33 +3256,59 @@
    "archived": false,
    "closed_issues": 93,
    "closed_prs": 27,
-   "commits_30d": 41,
+   "commits_30d": 38,
    "commits_total": 599,
    "commits_weekly": [
-    15,
-    21,
-    11,
-    5,
+    17,
+    18,
+    14,
+    2,
     9,
     2,
     3,
-    10,
-    30,
-    12,
+    14,
+    27,
+    11,
     5,
-    5,
-    10
+    6,
+    9
    ],
    "contributors": 30,
    "created_at": "2024-09-25T16:53:37Z",
    "default_branch": "main",
    "description": "A toolkit for discovering cluster network topology.",
+   "external_individuals": {
+    "contributions": 69,
+    "people": 6
+   },
+   "external_orgs": [
+    {
+     "contributions": 5,
+     "org": "SUSE",
+     "people": 1
+    },
+    {
+     "contributions": 4,
+     "org": "sap.com",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "crusoe.ai",
+     "people": 1
+    },
+    {
+     "contributions": 1,
+     "org": "student.uni-tuebingen.de",
+     "people": 1
+    }
+   ],
    "external_prs_90d": 31,
    "forks": 55,
    "full_name": "dsx-ai-factory/topograph",
    "homepage": "https://docs.nvidia.com/topograph/",
-   "issues_closed_30d": 21,
-   "issues_opened_30d": 18,
+   "issues_closed_30d": 16,
+   "issues_opened_30d": 17,
    "language": "Go",
    "language_color": "#00ADD8",
    "latest_release": {
@@ -2433,8 +3324,8 @@
    "open_issues": 20,
    "open_prs": 15,
    "owner": "dsx-ai-factory",
-   "prs_merged_30d": 42,
-   "prs_opened_30d": 47,
+   "prs_merged_30d": 36,
+   "prs_opened_30d": 40,
    "pushed_at": "2026-11-26T18:10:43Z",
    "recent_releases": [
     {
@@ -2474,9 +3365,9 @@
     }
    ],
    "releases": 7,
-   "stars": 212,
-   "stars_30d": null,
-   "stars_7d": null,
+   "stars": 213,
+   "stars_30d": 1,
+   "stars_7d": 1,
    "topics": [
     "cncf",
     "gpu",
@@ -2494,8 +3385,8 @@
   },
   {
    "active_contributors_90d": 23,
-   "active_external_90d": 17,
-   "active_internal_90d": 6,
+   "active_external_90d": 16,
+   "active_internal_90d": 7,
    "archived": false,
    "closed_issues": 152,
    "closed_prs": 107,
@@ -2520,6 +3411,37 @@
    "created_at": "2025-07-23T14:25:02Z",
    "default_branch": "main",
    "description": "Translation layer that maps any Kubernetes framework's Custom Resource Definitions (CRDs) into a standardized, generic structure.",
+   "external_individuals": {
+    "contributions": 101,
+    "people": 11
+   },
+   "external_orgs": [
+    {
+     "contributions": 6,
+     "org": "Armada AI",
+     "people": 1
+    },
+    {
+     "contributions": 6,
+     "org": "goML",
+     "people": 1
+    },
+    {
+     "contributions": 6,
+     "org": "Graduate Student at Northeastern University",
+     "people": 1
+    },
+    {
+     "contributions": 6,
+     "org": "Stony Brook University",
+     "people": 1
+    },
+    {
+     "contributions": 2,
+     "org": "viettelcloud-oss, viettelnetworks",
+     "people": 1
+    }
+   ],
    "external_prs_90d": 44,
    "forks": 36,
    "full_name": "dsx-ai-factory/workload-map",
@@ -2583,8 +3505,8 @@
    ],
    "releases": 24,
    "stars": 100,
-   "stars_30d": null,
-   "stars_7d": null,
+   "stars_30d": 0,
+   "stars_7d": 0,
    "topics": [
     "inference",
     "k8s",
@@ -2599,18 +3521,1045 @@
   }
  ],
  "totals": {
-  "active_external_90d": 487,
-  "commits_30d": 4354,
+  "active_external_90d": 474,
+  "commits_30d": 4314,
+  "contributor_orgs": {
+   "external_people": 413,
+   "individuals": {
+    "contributions": 1942,
+    "people": 212
+   },
+   "orgs": [
+    {
+     "contributions": 341,
+     "org": "Red Hat",
+     "people": 41,
+     "repos": [
+      "infra-controller",
+      "nv-rms",
+      "ovn-kubernetes"
+     ]
+    },
+    {
+     "contributions": 51,
+     "org": "DaoCloud",
+     "people": 11,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 15,
+     "org": "coreweave",
+     "people": 9,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 16,
+     "org": "Intel",
+     "people": 8,
+     "repos": [
+      "dynamo",
+      "health-validation"
+     ]
+    },
+    {
+     "contributions": 19,
+     "org": "Mirantis",
+     "people": 3,
+     "repos": [
+      "cluster-api-provider-nico",
+      "infra-controller",
+      "nv-redfish"
+     ]
+    },
+    {
+     "contributions": 6,
+     "org": "Google",
+     "people": 3,
+     "repos": [
+      "dynamo",
+      "model-streamer",
+      "ovn-kubernetes"
+     ]
+    },
+    {
+     "contributions": 25,
+     "org": "Microsoft",
+     "people": 2,
+     "repos": [
+      "exemplar-performance",
+      "infra-controller"
+     ]
+    },
+    {
+     "contributions": 10,
+     "org": "Armada AI",
+     "people": 2,
+     "repos": [
+      "infra-controller",
+      "nv-redfish",
+      "workload-map"
+     ]
+    },
+    {
+     "contributions": 3,
+     "org": "basetenlabs",
+     "people": 2,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 3,
+     "org": "datadoghq.com",
+     "people": 2,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 3,
+     "org": "Oracle",
+     "people": 2,
+     "repos": [
+      "dynamo",
+      "health-validation"
+     ]
+    },
+    {
+     "contributions": 2,
+     "org": "SK Telecom",
+     "people": 2,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 2,
+     "org": "Tenstorrent",
+     "people": 2,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 2,
+     "org": "Tesla",
+     "people": 2,
+     "repos": [
+      "dynamo",
+      "nvcf"
+     ]
+    },
+    {
+     "contributions": 72,
+     "org": "Aliyun",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 17,
+     "org": "RexCode Digital",
+     "people": 1,
+     "repos": [
+      "ai-cloud-validation",
+      "nvcf"
+     ]
+    },
+    {
+     "contributions": 17,
+     "org": "Stony Brook University",
+     "people": 1,
+     "repos": [
+      "nvke",
+      "nvkr",
+      "workload-map"
+     ]
+    },
+    {
+     "contributions": 10,
+     "org": "str08.net",
+     "people": 1,
+     "repos": [
+      "ovn-kubernetes"
+     ]
+    },
+    {
+     "contributions": 9,
+     "org": "docker.com",
+     "people": 1,
+     "repos": [
+      "dynamo",
+      "nvke"
+     ]
+    },
+    {
+     "contributions": 9,
+     "org": "nyu.edu",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 9,
+     "org": "thelustrecollective.com",
+     "people": 1,
+     "repos": [
+      "nv-redfish"
+     ]
+    },
+    {
+     "contributions": 8,
+     "org": "crusoecloud",
+     "people": 1,
+     "repos": [
+      "infra-controller",
+      "nv-config-manager"
+     ]
+    },
+    {
+     "contributions": 8,
+     "org": "Serra Consultancy Services",
+     "people": 1,
+     "repos": [
+      "cluster-api-provider-nico",
+      "health-validation",
+      "nv-redfish",
+      "nvkr"
+     ]
+    },
+    {
+     "contributions": 6,
+     "org": "goML",
+     "people": 1,
+     "repos": [
+      "workload-map"
+     ]
+    },
+    {
+     "contributions": 6,
+     "org": "Graduate Student at Northeastern University",
+     "people": 1,
+     "repos": [
+      "workload-map"
+     ]
+    },
+    {
+     "contributions": 6,
+     "org": "suse.com",
+     "people": 1,
+     "repos": [
+      "attribution",
+      "topograph"
+     ]
+    },
+    {
+     "contributions": 6,
+     "org": "University of Illinois Urbana-Champaign",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 5,
+     "org": "amd",
+     "people": 1,
+     "repos": [
+      "infra-controller",
+      "nv-rms-client"
+     ]
+    },
+    {
+     "contributions": 5,
+     "org": "Auth0",
+     "people": 1,
+     "repos": [
+      "nvcf"
+     ]
+    },
+    {
+     "contributions": 5,
+     "org": "barclays",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 5,
+     "org": "cornell.edu",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 5,
+     "org": "reshaprio @microcks",
+     "people": 1,
+     "repos": [
+      "dsx-exchange",
+      "nvkr"
+     ]
+    },
+    {
+     "contributions": 4,
+     "org": "Baidu && Alibaba && DiDi && Huawei",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 4,
+     "org": "kubescape",
+     "people": 1,
+     "repos": [
+      "ai-cloud-validation",
+      "run-ai"
+     ]
+    },
+    {
+     "contributions": 4,
+     "org": "RationalityEnhancement @armlabstanford",
+     "people": 1,
+     "repos": [
+      "attribution",
+      "health-validation"
+     ]
+    },
+    {
+     "contributions": 4,
+     "org": "sap.com",
+     "people": 1,
+     "repos": [
+      "topograph"
+     ]
+    },
+    {
+     "contributions": 4,
+     "org": "viettelcloud-oss, viettelnetworks",
+     "people": 1,
+     "repos": [
+      "run-ai",
+      "workload-map"
+     ]
+    },
+    {
+     "contributions": 3,
+     "org": "ai and things",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 3,
+     "org": "anyscale.com",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 3,
+     "org": "AWS",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 3,
+     "org": "dgude-mlt.client.nvidia.com",
+     "people": 1,
+     "repos": [
+      "ovn-kubernetes"
+     ]
+    },
+    {
+     "contributions": 3,
+     "org": "dtucker.co.uk",
+     "people": 1,
+     "repos": [
+      "ovn-kubernetes"
+     ]
+    },
+    {
+     "contributions": 3,
+     "org": "Firmus",
+     "people": 1,
+     "repos": [
+      "cluster-api-provider-nico"
+     ]
+    },
+    {
+     "contributions": 3,
+     "org": "Hanoi University of Science and Technology",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 3,
+     "org": "HKUST",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 3,
+     "org": "IIIT Lucknow",
+     "people": 1,
+     "repos": [
+      "infra-controller"
+     ]
+    },
+    {
+     "contributions": 3,
+     "org": "Indian Institute of Technology",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 3,
+     "org": "MIT manipal",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 3,
+     "org": "MSCS @ NYU, prev SWE @ AT&T",
+     "people": 1,
+     "repos": [
+      "nvke"
+     ]
+    },
+    {
+     "contributions": 3,
+     "org": "OctoML",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 3,
+     "org": "Prometrix",
+     "people": 1,
+     "repos": [
+      "nvcf"
+     ]
+    },
+    {
+     "contributions": 3,
+     "org": "Software Engineer @Microsoft",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 3,
+     "org": "The AI Engineer",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 3,
+     "org": "University of Texas at Austin",
+     "people": 1,
+     "repos": [
+      "attribution"
+     ]
+    },
+    {
+     "contributions": 3,
+     "org": "vt.edu",
+     "people": 1,
+     "repos": [
+      "infra-controller"
+     ]
+    },
+    {
+     "contributions": 2,
+     "org": "Agentic Institute",
+     "people": 1,
+     "repos": [
+      "nvke"
+     ]
+    },
+    {
+     "contributions": 2,
+     "org": "Arizona State University",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 2,
+     "org": "canonical, ex @fraunhofer-iais",
+     "people": 1,
+     "repos": [
+      "ai-cloud-validation"
+     ]
+    },
+    {
+     "contributions": 2,
+     "org": "cdw.com",
+     "people": 1,
+     "repos": [
+      "run-ai"
+     ]
+    },
+    {
+     "contributions": 2,
+     "org": "cloudphysician-codehub @inxiteout-ai @compass-lab @a5g-networks @LUK-Lab",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 2,
+     "org": "CMU Silicon Valley",
+     "people": 1,
+     "repos": [
+      "nv-config-manager"
+     ]
+    },
+    {
+     "contributions": 2,
+     "org": "e2enetworks.com",
+     "people": 1,
+     "repos": [
+      "infra-controller"
+     ]
+    },
+    {
+     "contributions": 2,
+     "org": "eventloop.live",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 2,
+     "org": "groq",
+     "people": 1,
+     "repos": [
+      "infra-controller"
+     ]
+    },
+    {
+     "contributions": 2,
+     "org": "Int21-AI",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 2,
+     "org": "inworld.ai",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 2,
+     "org": "k0rdent",
+     "people": 1,
+     "repos": [
+      "ai-cloud-validation"
+     ]
+    },
+    {
+     "contributions": 2,
+     "org": "latitude.sh",
+     "people": 1,
+     "repos": [
+      "fleet-intelligence-agent"
+     ]
+    },
+    {
+     "contributions": 2,
+     "org": "Maymust",
+     "people": 1,
+     "repos": [
+      "run-ai"
+     ]
+    },
+    {
+     "contributions": 2,
+     "org": "mifegui.xyz",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 2,
+     "org": "oracle @facebook",
+     "people": 1,
+     "repos": [
+      "attribution"
+     ]
+    },
+    {
+     "contributions": 2,
+     "org": "Outschool",
+     "people": 1,
+     "repos": [
+      "fleet-intelligence-agent"
+     ]
+    },
+    {
+     "contributions": 2,
+     "org": "PaddlePaddle",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 2,
+     "org": "Prime Intellect",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 2,
+     "org": "Rimo",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 2,
+     "org": "Southeast University",
+     "people": 1,
+     "repos": [
+      "nvcf"
+     ]
+    },
+    {
+     "contributions": 2,
+     "org": "Tongji University",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 2,
+     "org": "University of North Texas",
+     "people": 1,
+     "repos": [
+      "attribution"
+     ]
+    },
+    {
+     "contributions": 2,
+     "org": "xAI",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 1,
+     "org": "452 Code Inn",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 1,
+     "org": "airbus",
+     "people": 1,
+     "repos": [
+      "nvcf"
+     ]
+    },
+    {
+     "contributions": 1,
+     "org": "Alluxio",
+     "people": 1,
+     "repos": [
+      "model-streamer"
+     ]
+    },
+    {
+     "contributions": 1,
+     "org": "Amazon",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 1,
+     "org": "amzn",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 1,
+     "org": "baseten.co",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 1,
+     "org": "berkeley.edu",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 1,
+     "org": "Big Tech",
+     "people": 1,
+     "repos": [
+      "ovn-kubernetes"
+     ]
+    },
+    {
+     "contributions": 1,
+     "org": "canva.com",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 1,
+     "org": "crusoe.ai",
+     "people": 1,
+     "repos": [
+      "topograph"
+     ]
+    },
+    {
+     "contributions": 1,
+     "org": "ELTE University",
+     "people": 1,
+     "repos": [
+      "nvke"
+     ]
+    },
+    {
+     "contributions": 1,
+     "org": "fireworks.ai",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 1,
+     "org": "gcore.com",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 1,
+     "org": "glenmaddern.com",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 1,
+     "org": "greennode-ai",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 1,
+     "org": "krak3n.io",
+     "people": 1,
+     "repos": [
+      "infra-controller"
+     ]
+    },
+    {
+     "contributions": 1,
+     "org": "Kubesimplify",
+     "people": 1,
+     "repos": [
+      "ai-cloud-validation"
+     ]
+    },
+    {
+     "contributions": 1,
+     "org": "Lambda.ai",
+     "people": 1,
+     "repos": [
+      "exemplar-performance"
+     ]
+    },
+    {
+     "contributions": 1,
+     "org": "layerscale.ai",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 1,
+     "org": "Linkedin",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 1,
+     "org": "Metrum AI",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 1,
+     "org": "naver",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 1,
+     "org": "ncf.ca",
+     "people": 1,
+     "repos": [
+      "nvke"
+     ]
+    },
+    {
+     "contributions": 1,
+     "org": "netboxlabs",
+     "people": 1,
+     "repos": [
+      "nv-config-manager"
+     ]
+    },
+    {
+     "contributions": 1,
+     "org": "Netcompany",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 1,
+     "org": "networktocode",
+     "people": 1,
+     "repos": [
+      "nv-config-manager"
+     ]
+    },
+    {
+     "contributions": 1,
+     "org": "Nuvo",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 1,
+     "org": "OpenObserve",
+     "people": 1,
+     "repos": [
+      "dsx-exchange"
+     ]
+    },
+    {
+     "contributions": 1,
+     "org": "ori.co",
+     "people": 1,
+     "repos": [
+      "infra-controller"
+     ]
+    },
+    {
+     "contributions": 1,
+     "org": "ovn.org",
+     "people": 1,
+     "repos": [
+      "ovn-kubernetes"
+     ]
+    },
+    {
+     "contributions": 1,
+     "org": "Paloa Labs",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 1,
+     "org": "Pinterest",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 1,
+     "org": "primeintellect.ai",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 1,
+     "org": "python.org",
+     "people": 1,
+     "repos": [
+      "model-streamer"
+     ]
+    },
+    {
+     "contributions": 1,
+     "org": "radixark.ai",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 1,
+     "org": "rogerw.io",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 1,
+     "org": "Sagora Labs",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 1,
+     "org": "soudaburgerllc",
+     "people": 1,
+     "repos": [
+      "nvcf"
+     ]
+    },
+    {
+     "contributions": 1,
+     "org": "Stanford University",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 1,
+     "org": "student.uni-tuebingen.de",
+     "people": 1,
+     "repos": [
+      "topograph"
+     ]
+    },
+    {
+     "contributions": 1,
+     "org": "Sveltos",
+     "people": 1,
+     "repos": [
+      "community"
+     ]
+    },
+    {
+     "contributions": 1,
+     "org": "Telnyx",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 1,
+     "org": "UC Davis",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 1,
+     "org": "UCAS",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "contributions": 1,
+     "org": "Yandex.Cloud",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    }
+   ]
+  },
   "contributors": 1398,
   "forks": 3073,
-  "merged_prs": 28728,
-  "open_issues": 2974,
-  "open_prs": 2044,
-  "prs_merged_30d": 5660,
-  "releases": 4200,
+  "merged_prs": 28747,
+  "open_issues": 2976,
+  "open_prs": 2047,
+  "prs_merged_30d": 5388,
+  "releases": 4202,
   "repos": 28,
-  "stars": 12603,
-  "stars_30d": null,
-  "stars_7d": null
+  "stars": 12609,
+  "stars_30d": 6,
+  "stars_7d": 6
  }
 }

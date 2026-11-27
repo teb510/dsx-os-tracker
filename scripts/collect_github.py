@@ -14,6 +14,7 @@ TODAY = NOW.date().isoformat()
 D30 = (NOW - timedelta(days=30)).date().isoformat()
 D90 = NOW - timedelta(days=90)
 WEEKS = 13
+ALIASES = set()  # org_key()s that count as internal; filled from config in main()
 
 REPO_QUERY = """
 query($owner: String!, $name: String!, $q_pr_opened: String!, $q_pr_merged: String!,
@@ -85,15 +86,80 @@ def list_repos(gh, cfg):
     return sorted({n for n in names if n not in excluded}, key=str.lower)
 
 
-def is_internal(hint, email=None, company=None, association=None):
-    """Heuristic: org members/owners, company field, or corporate email domain."""
+def is_internal(hint, email=None, company=None, association=None, aliases=()):
+    """Heuristic: org members/owners, company field, corporate email domain, or an acquired company."""
     if association in ("MEMBER", "OWNER"):
         return True
     if company and hint in company.lower():
         return True
     if email and email.lower().endswith(f"@{hint}.com"):
         return True
-    return False
+    org = org_of(email, company)
+    return bool(org) and org_key(org) in aliases
+
+
+# Personal mail providers and placeholders: an address here says nothing about an employer.
+PERSONAL_DOMAINS = {
+    "gmail.com", "googlemail.com", "outlook.com", "hotmail.com", "live.com", "msn.com",
+    "yahoo.com", "ymail.com", "icloud.com", "me.com", "mac.com", "aol.com", "protonmail.com",
+    "proton.me", "pm.me", "fastmail.com", "hey.com", "duck.com", "gmx.de", "gmx.net", "web.de",
+    "mail.ru", "yandex.ru", "qq.com", "163.com", "126.com", "foxmail.com", "naver.com",
+    "mail.com", "email.com", "engineer.com", "usa.com", "zoho.com", "tutanota.com", "seznam.cz",
+    "users.noreply.github.com", "localhost",
+}
+GENERIC_TLDS = (".com", ".net", ".org", ".io", ".co", ".dev", ".cloud", ".tech")
+NO_COMPANY = {"", "-", "none", "n/a", "na", "self", "self-employed", "freelance", "freelancer",
+              "independent", "student", "personal", "home", "private", "me", "myself"}
+COMPANY_SUFFIX = re.compile(r"[,.]?\s+(inc|inc\.|llc|ltd|ltd\.|gmbh|corp|corp\.|corporation|co\.|s\.a\.)$", re.I)
+
+
+def org_of(email=None, company=None):
+    """Best guess at an external contributor's organization, or None for individuals."""
+    domain = (email or "").rsplit("@", 1)[-1].lower() if "@" in (email or "") else ""
+    if domain and domain not in PERSONAL_DOMAINS and not domain.endswith((".local", ".lan", ".internal")):
+        return domain
+    name = re.sub(r"\s+", " ", (company or "").strip().lstrip("@").strip())
+    name = COMPANY_SUFFIX.sub("", name).strip()
+    if name.lower() in NO_COMPANY:
+        return None
+    return name
+
+
+def org_key(org):
+    """Merge spellings of one org: "redhat.com", "Red Hat", and "@redhat" all become "redhat"."""
+    org = org.lower()
+    for tld in GENERIC_TLDS:
+        if org.endswith(tld):
+            org = org[: -len(tld)]
+            break
+    return re.sub(r"[^a-z0-9]", "", org)
+
+
+def add_person(people, key, internal, email=None, company=None, n=1):
+    p = people.setdefault(key, {"internal": False, "org": None, "n": 0})
+    p["internal"] = p["internal"] or internal
+    p["org"] = p["org"] or org_of(email, company)
+    p["n"] += n
+
+
+def org_breakdown(people):
+    """Counts for external people: per organization, plus unaffiliated individuals."""
+    orgs, solo = {}, {"people": 0, "contributions": 0}
+    for p in people.values():
+        if p["internal"]:
+            continue
+        if p["org"] is None:
+            solo["people"] += 1
+            solo["contributions"] += p["n"]
+            continue
+        o = orgs.setdefault(org_key(p["org"]), {"org": p["org"], "people": 0, "contributions": 0})
+        # Prefer a written-out company name ("Red Hat") over a bare domain.
+        if "." in o["org"] and "." not in p["org"]:
+            o["org"] = p["org"]
+        o["people"] += 1
+        o["contributions"] += p["n"]
+    ranked = sorted(orgs.values(), key=lambda o: (-o["people"], -o["contributions"], o["org"].lower()))
+    return ranked, solo
 
 
 def is_bot(login):
@@ -133,8 +199,8 @@ def commit_activity(gh, owner, name, hint):
                 continue
             key = login or a.get("email")
             if key:
-                internal = is_internal(hint, a.get("email"), user.get("company"))
-                authors[key] = authors.get(key, False) or internal
+                internal = is_internal(hint, a.get("email"), user.get("company"), aliases=ALIASES)
+                add_person(authors, key, internal, a.get("email"), user.get("company"))
         if not hist["pageInfo"]["hasNextPage"]:
             break
         after = hist["pageInfo"]["endCursor"]
@@ -156,7 +222,7 @@ def collect_repo(gh, full, hint):
     branch = r["defaultBranchRef"] or {}
     target = branch.get("target") or {}
 
-    pr_authors = {}
+    people = {}
     external_prs_90 = 0
     for pr in r["recentPRs"]["nodes"]:
         created = datetime.fromisoformat(pr["createdAt"].replace("Z", "+00:00"))
@@ -164,16 +230,17 @@ def collect_repo(gh, full, hint):
         login = author.get("login")
         if created < D90 or not login or is_bot(login) or "id" in author:
             continue
-        internal = is_internal(hint, company=author.get("company"), association=pr["authorAssociation"])
-        pr_authors[login] = pr_authors.get(login, False) or internal
+        internal = is_internal(hint, company=author.get("company"), association=pr["authorAssociation"], aliases=ALIASES)
+        add_person(people, login, internal, company=author.get("company"))
         if not internal:
             external_prs_90 += 1
 
     weekly, commit_authors = commit_activity(gh, owner, name, hint)
-    people = dict(commit_authors)
-    for login, internal in pr_authors.items():
-        people[login] = people.get(login, False) or internal
-    active_internal = sum(1 for v in people.values() if v)
+    for key, p in commit_authors.items():
+        add_person(people, key, p["internal"], company=None, n=p["n"])
+        people[key]["org"] = people[key]["org"] or p["org"]
+    active_internal = sum(1 for p in people.values() if p["internal"])
+    external_orgs, external_individuals = org_breakdown(people)
 
     latest = next((x for x in r["releases"]["nodes"] if x["publishedAt"]), None)
 
@@ -215,6 +282,9 @@ def collect_repo(gh, full, hint):
         "active_internal_90d": active_internal,
         "active_external_90d": len(people) - active_internal,
         "external_prs_90d": external_prs_90,
+        "external_orgs": external_orgs,
+        "external_individuals": external_individuals,
+        "_people": people,
     }
 
 
@@ -230,6 +300,7 @@ def delta(history, full, current, days):
 def main():
     cfg = load_config()
     hint = cfg.get("internal_org_hint", "nvidia").lower()
+    ALIASES.update(org_key(a) for a in cfg.get("internal_org_aliases", []))
     gh = GitHub()
     names = list_repos(gh, cfg)
     log(f"Tracking {len(names)} repos")
@@ -242,6 +313,25 @@ def main():
         except Exception as e:  # keep going; one bad repo shouldn't sink the run
             log(f"    failed: {e}")
 
+    # Dedupe people across repos for the org-level view.
+    everyone = {}
+    for r in repos:
+        for key, p in r.pop("_people").items():
+            add_person(everyone, key, p["internal"], n=p["n"])
+            everyone[key]["org"] = everyone[key]["org"] or p["org"]
+            if not p["internal"] and p["org"]:
+                everyone[key].setdefault("repos", set()).add(r["name"])
+    orgs, solo = org_breakdown(everyone)
+    for o in orgs:
+        o["repos"] = sorted({n for p in everyone.values()
+                             if not p["internal"] and p["org"] and org_key(p["org"]) == org_key(o["org"])
+                             for n in p.get("repos", ())})
+    contributor_orgs = {
+        "external_people": sum(1 for p in everyone.values() if not p["internal"]),
+        "individuals": solo,
+        "orgs": orgs,
+    }
+
     history = read_json(DATA / "history.json", {})
     for r in repos:
         r["stars_7d"] = delta(history, r["full_name"], r["stars"], 7)
@@ -251,6 +341,7 @@ def main():
             "prs_merged_30d", "commits_30d", "active_external_90d", "releases"]
     totals = {k: sum(r[k] for r in repos) for k in keys}
     totals["repos"] = len(repos)
+    totals["contributor_orgs"] = contributor_orgs
     for k in ("stars_7d", "stars_30d"):
         vals = [r[k] for r in repos if r[k] is not None]
         totals[k] = sum(vals) if vals else None
