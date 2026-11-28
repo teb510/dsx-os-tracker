@@ -170,6 +170,11 @@
    "name": "AkshayCA1729",
    "type": "User"
   },
+  "AlbertJin1997": {
+   "blog": "",
+   "name": "AlbertJin1997",
+   "type": "User"
+  },
   "AlbertZhaoCA": {
    "blog": "",
    "name": "Albert Zhao",
@@ -1280,6 +1285,11 @@
    "name": "Microsoft Docs",
    "type": "Organization"
   },
+  "Mindgreppers": {
+   "blog": "http://www.hackerspaces.org/wiki/infinity",
+   "name": "Mindgrep Technologies @ Infinity Hackbase",
+   "type": "Organization"
+  },
   "Mirantis": {
    "blog": "https://mirantis.com/",
    "name": "Mirantis Inc.",
@@ -1708,6 +1718,11 @@
   "Shahid-2705": {
    "blog": "",
    "name": "Shahid-2705",
+   "type": "User"
+  },
+  "Shahid0324-GIT": {
+   "blog": "",
+   "name": "Mohammed Shahid",
    "type": "User"
   },
   "Shivkumar13": {
@@ -5775,6 +5790,11 @@
    "name": "Pantsbuild",
    "type": "Organization"
   },
+  "parseablehq": {
+   "blog": "https://parseable.com",
+   "name": "Parseable",
+   "type": "Organization"
+  },
   "patcarter883": {
    "blog": "",
    "name": "patcarter883",
@@ -7019,6 +7039,11 @@
    "blog": "",
    "name": "TrustlyPlatform",
    "type": "Organization"
+  },
+  "tstromberg": {
+   "blog": "http://atomdrift.org/",
+   "name": "Thomas Str\u00f6mberg",
+   "type": "User"
   },
   "tursodatabase": {
    "blog": "https://turso.tech",
@@ -9530,6 +9555,16 @@
    "org": "",
    "v": 2
   },
+  "adeyholar": {
+   "checked_at": "2026-11-28T15:38:39.522004+00:00",
+   "confidence": "low",
+   "domain": "",
+   "evidence": "bio describes a senior network engineer with Palo Alto, Fortinet, and Cisco experience, but no current employer is named; commit domain is a foundation-style personal domain",
+   "internal": false,
+   "method": "claude",
+   "org": "",
+   "v": 2
+  },
   "adi0106": {
    "checked_at": "2026-11-27T03:54:41.535906+00:00",
    "confidence": "high",
@@ -11143,6 +11178,16 @@
    "org": "",
    "v": 2
   },
+  "dylanzenner": {
+   "checked_at": "2026-11-28T15:38:39.522004+00:00",
+   "confidence": "high",
+   "domain": "",
+   "evidence": "explicit profile company field names Singlewire Software; commit email is gmail.com only",
+   "internal": false,
+   "method": "claude",
+   "org": "Singlewire Software",
+   "v": 2
+  },
   "dynamo-ops": {
    "checked_at": "2026-11-27T03:54:41.535906+00:00",
    "confidence": "low",
@@ -11632,6 +11677,16 @@
    "org": "CoreWeave",
    "v": 2
   },
+  "gurjotkaur20": {
+   "checked_at": "2026-11-28T15:38:39.522004+00:00",
+   "confidence": "high",
+   "domain": "mindgrep.com",
+   "evidence": "mindgrep.com commit email domain and 50 commits to Mindgreppers org repos (Mindgrep Technologies)",
+   "internal": false,
+   "method": "claude",
+   "org": "Mindgrep Technologies",
+   "v": 2
+  },
   "gvialetto": {
    "checked_at": "2026-11-27T16:45:37.894697+00:00",
    "confidence": "unknown",
@@ -11766,13 +11821,14 @@
    "v": 2
   },
   "hhzhang16": {
-   "checked_at": "2026-11-27T03:54:41.535906+00:00",
+   "checked_at": "2026-11-28T15:38:39.522004+00:00",
    "confidence": "unknown",
    "domain": "",
-   "evidence": "no signals",
+   "evidence": "189 commits to NVIDIA org repos but no corporate email, profile company, or association; the NVIDIA signal is heavy but the employer is not established from public data, so NVIDIA employment is not confirmed",
    "internal": false,
    "method": "claude",
    "org": "",
+   "v": 2,
    "web_checked_at": "2026-11-27T04:41:09.187566+00:00"
   },
   "hienluu": {
@@ -12317,6 +12373,16 @@
    "domain": "",
    "evidence": "Profile company @NVIDIA, nvidia.com domain",
    "internal": true,
+   "method": "claude",
+   "org": "",
+   "v": 2
+  },
+  "jinpengfei": {
+   "checked_at": "2026-11-28T15:38:39.522004+00:00",
+   "confidence": "unknown",
+   "domain": "",
+   "evidence": "profile company field is only a city-like string with no clear employer; personal email domains (163.com, qq.com) and no org commits",
+   "internal": false,
    "method": "claude",
    "org": "",
    "v": 2
@@ -13236,6 +13302,16 @@
    "internal": true,
    "method": "claude",
    "org": "",
+   "v": 2
+  },
+  "medyagh": {
+   "checked_at": "2026-11-28T15:38:39.522004+00:00",
+   "confidence": "medium",
+   "domain": "google.com",
+   "evidence": "google.com commit email domain and ex-googler bio; the bio says ex-Googler, so current employment is uncertain",
+   "internal": false,
+   "method": "claude",
+   "org": "Google",
    "v": 2
   },
   "meet101": {

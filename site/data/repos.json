@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-11-27T21:42:29.541156+00:00",
+ "generated_at": "2026-11-28T15:38:39.522097+00:00",
  "repos": [
   {
-   "active_contributors_90d": 346,
-   "active_external_90d": 206,
-   "active_internal_90d": 140,
+   "active_contributors_90d": 345,
+   "active_external_90d": 207,
+   "active_internal_90d": 138,
    "archived": false,
-   "closed_issues": 2280,
-   "closed_prs": 4443,
-   "commits_30d": 720,
-   "commits_total": 8914,
+   "closed_issues": 2292,
+   "closed_prs": 4459,
+   "commits_30d": 693,
+   "commits_total": 8915,
    "commits_weekly": [
-    160,
-    145,
-    159,
-    79,
-    130,
-    156,
-    192,
-    175,
-    180,
-    211,
+    165,
+    142,
+    163,
+    71,
+    137,
+    169,
+    178,
+    174,
+    186,
+    212,
     125,
-    207,
-    91
+    209,
+    76
    ],
    "contributors": 432,
    "created_at": "2025-03-03T18:40:07Z",
@@ -38,7 +38,7 @@
     },
     {
      "confidence": "high",
-     "contributions": 71,
+     "contributions": 72,
      "org": "DaoCloud",
      "people": 12
     },
@@ -56,7 +56,7 @@
     },
     {
      "confidence": "high",
-     "contributions": 14,
+     "contributions": 17,
      "org": "New York University",
      "people": 1
     },
@@ -76,12 +76,6 @@
      "confidence": "high",
      "contributions": 11,
      "org": "Google",
-     "people": 1
-    },
-    {
-     "confidence": "high",
-     "contributions": 10,
-     "org": "Hanoi University of Science and Technology",
      "people": 1
     },
     {
@@ -166,6 +160,12 @@
      "confidence": "high",
      "contributions": 5,
      "org": "Docker",
+     "people": 1
+    },
+    {
+     "confidence": "high",
+     "contributions": 5,
+     "org": "Hanoi University of Science and Technology",
      "people": 1
     },
     {
@@ -273,6 +273,12 @@
     {
      "confidence": "high",
      "contributions": 3,
+     "org": "Paloa Labs",
+     "people": 1
+    },
+    {
+     "confidence": "high",
+     "contributions": 3,
      "org": "Rimo",
      "people": 1
     },
@@ -370,12 +376,6 @@
      "confidence": "high",
      "contributions": 2,
      "org": "PaddlePaddle",
-     "people": 1
-    },
-    {
-     "confidence": "high",
-     "contributions": 2,
-     "org": "Paloa Labs",
      "people": 1
     },
     {
@@ -727,10 +727,10 @@
      "people": 1
     }
    ],
-   "external_prs_90d": 216,
+   "external_prs_90d": 217,
    "external_unattributed": {
-    "contributions": 137,
-    "people": 45
+    "contributions": 151,
+    "people": 46
    },
    "fork_orgs": [
     {
@@ -1150,9 +1150,9 @@
    "forks_unattributed_90d": 86,
    "full_name": "ai-dynamo/dynamo",
    "homepage": "https://docs.nvidia.com/dynamo/latest",
-   "internal_contributions": 2212,
-   "issues_closed_30d": 366,
-   "issues_opened_30d": 572,
+   "internal_contributions": 2198,
+   "issues_closed_30d": 360,
+   "issues_opened_30d": 558,
    "language": "Rust",
    "language_color": "#dea584",
    "latest_release": {
@@ -1165,12 +1165,12 @@
    "license": "NOASSERTION",
    "merged_prs": 10580,
    "name": "dynamo",
-   "open_issues": 981,
-   "open_prs": 1153,
+   "open_issues": 973,
+   "open_prs": 1147,
    "owner": "ai-dynamo",
-   "prs_merged_30d": 885,
-   "prs_opened_30d": 1570,
-   "pushed_at": "2026-11-27T21:31:47Z",
+   "prs_merged_30d": 839,
+   "prs_opened_30d": 1513,
+   "pushed_at": "2026-11-28T12:13:40Z",
    "recent_releases": [
     {
      "isPrerelease": false,
@@ -1209,9 +1209,9 @@
     }
    ],
    "releases": 74,
-   "stars": 8583,
-   "stars_30d": 7,
-   "stars_7d": 7,
+   "stars": 8585,
+   "stars_30d": 9,
+   "stars_7d": 9,
    "topics": [
     "diffusion",
     "disaggregated-serving",
@@ -1328,7 +1328,7 @@
    "homepage": "https://www.nvidia.com/en-us/data-center/isv-validation-program/",
    "internal_contributions": 169,
    "issues_closed_30d": 3,
-   "issues_opened_30d": 5,
+   "issues_opened_30d": 4,
    "language": "Python",
    "language_color": "#3572A5",
    "latest_release": {
@@ -1345,7 +1345,7 @@
    "open_prs": 18,
    "owner": "dsx-ai-factory",
    "prs_merged_30d": 18,
-   "prs_opened_30d": 23,
+   "prs_opened_30d": 22,
    "pushed_at": "2026-11-25T20:18:04Z",
    "recent_releases": [
     {
@@ -1400,27 +1400,27 @@
    "watchers": 3
   },
   {
-   "active_contributors_90d": 23,
-   "active_external_90d": 8,
+   "active_contributors_90d": 24,
+   "active_external_90d": 9,
    "active_internal_90d": 15,
    "archived": false,
    "closed_issues": 48,
    "closed_prs": 38,
-   "commits_30d": 76,
+   "commits_30d": 73,
    "commits_total": 557,
    "commits_weekly": [
     31,
     43,
-    112,
-    30,
-    72,
-    26,
-    22,
-    22,
+    113,
+    29,
+    74,
+    24,
+    23,
+    21,
     13,
     23,
-    18,
-    24,
+    19,
+    23,
     6
    ],
    "contributors": 24,
@@ -1469,9 +1469,15 @@
      "contributions": 2,
      "org": "University of North Texas",
      "people": 1
+    },
+    {
+     "confidence": "high",
+     "contributions": 1,
+     "org": "Serra Consultancy Services",
+     "people": 1
     }
    ],
-   "external_prs_90d": 24,
+   "external_prs_90d": 25,
    "external_unattributed": {
     "contributions": 8,
     "people": 1
@@ -1500,6 +1506,11 @@
     {
      "confidence": "high",
      "forks": 1,
+     "org": "Serra Consultancy Services Ltd"
+    },
+    {
+     "confidence": "high",
+     "forks": 1,
      "org": "SUSE"
     },
     {
@@ -1523,15 +1534,15 @@
      "org": "vCluster"
     }
    ],
-   "forks": 14,
-   "forks_90d": 14,
+   "forks": 15,
+   "forks_90d": 15,
    "forks_internal_90d": 3,
    "forks_unattributed_90d": 2,
    "full_name": "dsx-ai-factory/attribution",
    "homepage": "",
    "internal_contributions": 665,
    "issues_closed_30d": 20,
-   "issues_opened_30d": 17,
+   "issues_opened_30d": 18,
    "language": "Python",
    "language_color": "#3572A5",
    "latest_release": {
@@ -1544,11 +1555,11 @@
    "license": "Apache-2.0",
    "merged_prs": 264,
    "name": "attribution",
-   "open_issues": 28,
-   "open_prs": 23,
+   "open_issues": 29,
+   "open_prs": 24,
    "owner": "dsx-ai-factory",
-   "prs_merged_30d": 83,
-   "prs_opened_30d": 101,
+   "prs_merged_30d": 79,
+   "prs_opened_30d": 100,
    "pushed_at": "2026-11-25T21:16:04Z",
    "recent_releases": [
     {
@@ -1588,12 +1599,12 @@
    "archived": false,
    "closed_issues": 23,
    "closed_prs": 62,
-   "commits_30d": 23,
+   "commits_30d": 22,
    "commits_total": 216,
    "commits_weekly": [
     10,
-    28,
-    11,
+    30,
+    9,
     8,
     6,
     3,
@@ -1674,8 +1685,8 @@
    "full_name": "dsx-ai-factory/cluster-api-provider-nico",
    "homepage": "",
    "internal_contributions": 189,
-   "issues_closed_30d": 11,
-   "issues_opened_30d": 17,
+   "issues_closed_30d": 9,
+   "issues_opened_30d": 15,
    "language": "Go",
    "language_color": "#00ADD8",
    "latest_release": {
@@ -1691,7 +1702,7 @@
    "open_issues": 15,
    "open_prs": 14,
    "owner": "dsx-ai-factory",
-   "prs_merged_30d": 25,
+   "prs_merged_30d": 23,
    "prs_opened_30d": 46,
    "pushed_at": "2026-11-27T09:16:26Z",
    "recent_releases": [
@@ -1764,9 +1775,9 @@
     0,
     0,
     2,
-    4,
-    7,
-    3,
+    6,
+    6,
+    2,
     2
    ],
    "contributors": 7,
@@ -1845,15 +1856,15 @@
    "commits_total": 107,
    "commits_weekly": [
     1,
-    4,
-    7,
+    6,
+    5,
     0,
     1,
     1,
     1,
     1,
-    2,
-    1,
+    3,
+    0,
     2,
     0,
     1
@@ -1933,7 +1944,7 @@
    "open_prs": 5,
    "owner": "dsx-ai-factory",
    "prs_merged_30d": 4,
-   "prs_opened_30d": 5,
+   "prs_opened_30d": 4,
    "pushed_at": "2026-11-23T19:24:54Z",
    "recent_releases": [
     {
@@ -1987,10 +1998,10 @@
    "archived": false,
    "closed_issues": 11,
    "closed_prs": 16,
-   "commits_30d": 45,
+   "commits_30d": 44,
    "commits_total": 243,
    "commits_weekly": [
-    3,
+    2,
     3,
     7,
     14,
@@ -2001,8 +2012,8 @@
     20,
     29,
     0,
-    5,
-    4
+    8,
+    1
    ],
    "contributors": 13,
    "created_at": "2025-11-25T10:33:22Z",
@@ -2039,7 +2050,7 @@
    "open_issues": 1,
    "open_prs": 5,
    "owner": "dsx-ai-factory",
-   "prs_merged_30d": 24,
+   "prs_merged_30d": 23,
    "prs_opened_30d": 26,
    "pushed_at": "2026-11-26T01:14:26Z",
    "recent_releases": [
@@ -2101,8 +2112,8 @@
     0,
     0,
     1,
-    0,
     1,
+    0,
     2,
     2,
     0,
@@ -2332,8 +2343,8 @@
    "open_issues": 0,
    "open_prs": 21,
    "owner": "dsx-ai-factory",
-   "prs_merged_30d": 12,
-   "prs_opened_30d": 16,
+   "prs_merged_30d": 10,
+   "prs_opened_30d": 14,
    "pushed_at": "2026-11-23T15:46:48Z",
    "recent_releases": [
     {
@@ -2387,18 +2398,18 @@
    "archived": false,
    "closed_issues": 6,
    "closed_prs": 11,
-   "commits_30d": 28,
+   "commits_30d": 27,
    "commits_total": 115,
    "commits_weekly": [
-    4,
+    3,
     2,
     8,
     2,
     6,
     5,
     1,
-    5,
-    15,
+    6,
+    14,
     5,
     8,
     5,
@@ -2422,7 +2433,7 @@
    "full_name": "dsx-ai-factory/fleet-intelligence-oob-collector",
    "homepage": "https://docs.nvidia.com/fleet-intel/oob-collector",
    "internal_contributions": 147,
-   "issues_closed_30d": 4,
+   "issues_closed_30d": 3,
    "issues_opened_30d": 4,
    "language": "Rust",
    "language_color": "#dea584",
@@ -2439,8 +2450,8 @@
    "open_issues": 1,
    "open_prs": 2,
    "owner": "dsx-ai-factory",
-   "prs_merged_30d": 29,
-   "prs_opened_30d": 32,
+   "prs_merged_30d": 28,
+   "prs_opened_30d": 31,
    "pushed_at": "2026-11-25T22:29:27Z",
    "recent_releases": [
     {
@@ -2487,22 +2498,22 @@
    "archived": false,
    "closed_issues": 45,
    "closed_prs": 31,
-   "commits_30d": 75,
+   "commits_30d": 74,
    "commits_total": 216,
    "commits_weekly": [
     15,
     7,
     19,
     1,
-    13,
+    14,
     25,
-    26,
+    25,
     11,
-    21,
-    13,
-    15,
-    16,
-    19
+    23,
+    12,
+    14,
+    17,
+    18
    ],
    "contributors": 28,
    "created_at": "2026-07-09T21:08:54Z",
@@ -2600,7 +2611,7 @@
    "full_name": "dsx-ai-factory/health-validation",
    "homepage": "https://docs.nvidia.com/health-validation",
    "internal_contributions": 369,
-   "issues_closed_30d": 25,
+   "issues_closed_30d": 23,
    "issues_opened_30d": 49,
    "language": "Go",
    "language_color": "#00ADD8",
@@ -2617,8 +2628,8 @@
    "open_issues": 46,
    "open_prs": 20,
    "owner": "dsx-ai-factory",
-   "prs_merged_30d": 79,
-   "prs_opened_30d": 89,
+   "prs_merged_30d": 76,
+   "prs_opened_30d": 83,
    "pushed_at": "2026-11-26T16:57:32Z",
    "recent_releases": [
     {
@@ -2672,22 +2683,22 @@
    "archived": false,
    "closed_issues": 2505,
    "closed_prs": 877,
-   "commits_30d": 672,
+   "commits_30d": 654,
    "commits_total": 5269,
    "commits_weekly": [
-    140,
-    85,
-    237,
-    150,
-    174,
-    144,
+    127,
+    95,
+    227,
+    146,
+    187,
+    138,
     157,
-    196,
-    173,
-    211,
-    148,
-    144,
-    102
+    201,
+    171,
+    208,
+    149,
+    157,
+    81
    ],
    "contributors": 155,
    "created_at": "2025-11-05T22:23:34Z",
@@ -2937,9 +2948,9 @@
    "forks_unattributed_90d": 23,
    "full_name": "dsx-ai-factory/infra-controller",
    "homepage": "https://docs.nvidia.com/infra-controller",
-   "internal_contributions": 2827,
-   "issues_closed_30d": 360,
-   "issues_opened_30d": 491,
+   "internal_contributions": 2826,
+   "issues_closed_30d": 342,
+   "issues_opened_30d": 464,
    "language": "Rust",
    "language_color": "#dea584",
    "latest_release": {
@@ -2953,11 +2964,11 @@
    "merged_prs": 5145,
    "name": "infra-controller",
    "open_issues": 942,
-   "open_prs": 175,
+   "open_prs": 176,
    "owner": "dsx-ai-factory",
-   "prs_merged_30d": 773,
-   "prs_opened_30d": 869,
-   "pushed_at": "2026-11-27T19:56:24Z",
+   "prs_merged_30d": 736,
+   "prs_opened_30d": 827,
+   "pushed_at": "2026-11-28T04:36:04Z",
    "recent_releases": [
     {
      "isPrerelease": false,
@@ -3010,7 +3021,7 @@
    "archived": false,
    "closed_issues": 106,
    "closed_prs": 74,
-   "commits_30d": 135,
+   "commits_30d": 133,
    "commits_total": 451,
    "commits_weekly": [
     2,
@@ -3141,7 +3152,7 @@
    "full_name": "dsx-ai-factory/model-streamer",
    "homepage": "",
    "internal_contributions": 429,
-   "issues_closed_30d": 25,
+   "issues_closed_30d": 22,
    "issues_opened_30d": 26,
    "language": "C++",
    "language_color": "#f34b7d",
@@ -3158,8 +3169,8 @@
    "open_issues": 24,
    "open_prs": 9,
    "owner": "dsx-ai-factory",
-   "prs_merged_30d": 45,
-   "prs_opened_30d": 60,
+   "prs_merged_30d": 41,
+   "prs_opened_30d": 56,
    "pushed_at": "2026-11-26T18:35:37Z",
    "recent_releases": [
     {
@@ -3213,21 +3224,21 @@
    "archived": false,
    "closed_issues": 18,
    "closed_prs": 97,
-   "commits_30d": 63,
-   "commits_total": 403,
+   "commits_30d": 62,
+   "commits_total": 404,
    "commits_weekly": [
     13,
     5,
     15,
     14,
     10,
-    15,
-    27,
-    20,
+    16,
+    28,
+    18,
     17,
     12,
     2,
-    35,
+    36,
     7
    ],
    "contributors": 18,
@@ -3303,28 +3314,35 @@
    "forks_unattributed_90d": 1,
    "full_name": "dsx-ai-factory/nv-config-manager",
    "homepage": "https://docs.nvidia.com/switch-infrastructure/config-manager",
-   "internal_contributions": 423,
+   "internal_contributions": 425,
    "issues_closed_30d": 7,
    "issues_opened_30d": 9,
    "language": "Python",
    "language_color": "#3572A5",
    "latest_release": {
     "isPrerelease": false,
-    "name": "NVIDIA Config Manager 1.4.2",
-    "publishedAt": "2026-11-16T15:32:49Z",
-    "tagName": "1.4.2",
-    "url": "https://github.com/dsx-ai-factory/nv-config-manager/releases/tag/1.4.2"
+    "name": "NVIDIA Config Manager 1.4.3",
+    "publishedAt": "2026-11-28T00:40:32Z",
+    "tagName": "1.4.3",
+    "url": "https://github.com/dsx-ai-factory/nv-config-manager/releases/tag/1.4.3"
    },
    "license": "Apache-2.0",
-   "merged_prs": 447,
+   "merged_prs": 448,
    "name": "nv-config-manager",
    "open_issues": 6,
    "open_prs": 32,
    "owner": "dsx-ai-factory",
-   "prs_merged_30d": 103,
-   "prs_opened_30d": 151,
-   "pushed_at": "2026-11-27T21:23:14Z",
+   "prs_merged_30d": 99,
+   "prs_opened_30d": 144,
+   "pushed_at": "2026-11-28T01:17:25Z",
    "recent_releases": [
+    {
+     "isPrerelease": false,
+     "name": "NVIDIA Config Manager 1.4.3",
+     "publishedAt": "2026-11-28T00:40:32Z",
+     "tagName": "1.4.3",
+     "url": "https://github.com/dsx-ai-factory/nv-config-manager/releases/tag/1.4.3"
+    },
     {
      "isPrerelease": false,
      "name": "NVIDIA Config Manager 1.4.2",
@@ -3352,16 +3370,9 @@
      "publishedAt": "2026-08-10T18:58:05Z",
      "tagName": "1.3.1",
      "url": "https://github.com/dsx-ai-factory/nv-config-manager/releases/tag/1.3.1"
-    },
-    {
-     "isPrerelease": false,
-     "name": "NVIDIA Config Manager 1.3.0",
-     "publishedAt": "2026-08-04T18:22:42Z",
-     "tagName": "1.3.0",
-     "url": "https://github.com/dsx-ai-factory/nv-config-manager/releases/tag/1.3.0"
     }
    ],
-   "releases": 7,
+   "releases": 8,
    "stars": 47,
    "stars_30d": 0,
    "stars_7d": 0,
@@ -3376,21 +3387,21 @@
    "archived": false,
    "closed_issues": 21,
    "closed_prs": 21,
-   "commits_30d": 17,
+   "commits_30d": 16,
    "commits_total": 499,
    "commits_weekly": [
-    6,
-    4,
+    8,
+    2,
     15,
     5,
     19,
     4,
-    3,
-    27,
+    5,
+    25,
     10,
     4,
-    7,
-    2,
+    8,
+    1,
     0
    ],
    "contributors": 25,
@@ -3467,7 +3478,7 @@
    "forks_unattributed_90d": 0,
    "full_name": "dsx-ai-factory/nv-redfish",
    "homepage": "",
-   "internal_contributions": 205,
+   "internal_contributions": 204,
    "issues_closed_30d": 2,
    "issues_opened_30d": 1,
    "language": "Rust",
@@ -3554,8 +3565,8 @@
     4,
     2,
     1,
-    2,
-    1
+    3,
+    0
    ],
    "contributors": 12,
    "created_at": "2026-02-04T21:11:33Z",
@@ -3626,16 +3637,16 @@
    "commits_30d": 4,
    "commits_total": 91,
    "commits_weekly": [
-    1,
-    1,
+    2,
+    0,
     1,
     0,
     1,
     4,
     2,
     3,
-    0,
-    4,
+    1,
+    3,
     0,
     0,
     0
@@ -3737,21 +3748,21 @@
    "archived": false,
    "closed_issues": 0,
    "closed_prs": 3,
-   "commits_30d": 20,
+   "commits_30d": 19,
    "commits_total": 55,
    "commits_weekly": [
     1,
     4,
-    1,
-    3,
+    2,
+    2,
     0,
     0,
     0,
-    3,
-    9,
-    6,
     4,
-    3,
+    8,
+    6,
+    6,
+    1,
     5
    ],
    "contributors": 5,
@@ -3789,8 +3800,8 @@
    "open_issues": 1,
    "open_prs": 1,
    "owner": "dsx-ai-factory",
-   "prs_merged_30d": 22,
-   "prs_opened_30d": 22,
+   "prs_merged_30d": 19,
+   "prs_opened_30d": 20,
    "pushed_at": "2026-11-27T01:49:46Z",
    "recent_releases": [
     {
@@ -3823,22 +3834,22 @@
    "archived": false,
    "closed_issues": 1193,
    "closed_prs": 238,
-   "commits_30d": 293,
-   "commits_total": 1928,
+   "commits_30d": 288,
+   "commits_total": 1930,
    "commits_weekly": [
-    103,
-    131,
-    81,
-    33,
-    53,
-    73,
-    81,
+    109,
+    136,
+    71,
+    31,
+    57,
+    72,
     78,
-    66,
-    85,
-    80,
-    56,
-    52
+    79,
+    68,
+    91,
+    76,
+    55,
+    50
    ],
    "contributors": 65,
    "created_at": "2026-04-01T19:22:14Z",
@@ -3924,9 +3935,9 @@
      "people": 1
     }
    ],
-   "external_prs_90d": 33,
+   "external_prs_90d": 34,
    "external_unattributed": {
-    "contributions": 19,
+    "contributions": 20,
     "people": 12
    },
    "fork_orgs": [
@@ -4042,28 +4053,42 @@
    "forks_unattributed_90d": 24,
    "full_name": "dsx-ai-factory/nvcf",
    "homepage": "https://docs.nvidia.com/nvcf/overview",
-   "internal_contributions": 1911,
-   "issues_closed_30d": 297,
-   "issues_opened_30d": 281,
+   "internal_contributions": 1909,
+   "issues_closed_30d": 295,
+   "issues_opened_30d": 273,
    "language": "Go",
    "language_color": "#00ADD8",
    "latest_release": {
     "isPrerelease": false,
-    "name": "src/compute-plane-services/nvsnap/v0.8.0",
-    "publishedAt": "2026-11-27T19:28:31Z",
-    "tagName": "src/compute-plane-services/nvsnap/v0.8.0",
-    "url": "https://github.com/dsx-ai-factory/nvcf/releases/tag/src/compute-plane-services/nvsnap/v0.8.0"
+    "name": "src/compute-plane-services/nvsnap/v0.10.0",
+    "publishedAt": "2026-11-28T02:09:01Z",
+    "tagName": "src/compute-plane-services/nvsnap/v0.10.0",
+    "url": "https://github.com/dsx-ai-factory/nvcf/releases/tag/src/compute-plane-services/nvsnap/v0.10.0"
    },
    "license": "Apache-2.0",
-   "merged_prs": 1736,
+   "merged_prs": 1738,
    "name": "nvcf",
    "open_issues": 385,
-   "open_prs": 170,
+   "open_prs": 171,
    "owner": "dsx-ai-factory",
-   "prs_merged_30d": 408,
-   "prs_opened_30d": 489,
-   "pushed_at": "2026-11-27T20:26:16Z",
+   "prs_merged_30d": 396,
+   "prs_opened_30d": 465,
+   "pushed_at": "2026-11-28T09:29:10Z",
    "recent_releases": [
+    {
+     "isPrerelease": false,
+     "name": "src/compute-plane-services/nvsnap/v0.10.0",
+     "publishedAt": "2026-11-28T02:09:01Z",
+     "tagName": "src/compute-plane-services/nvsnap/v0.10.0",
+     "url": "https://github.com/dsx-ai-factory/nvcf/releases/tag/src/compute-plane-services/nvsnap/v0.10.0"
+    },
+    {
+     "isPrerelease": false,
+     "name": "src/compute-plane-services/nvsnap/v0.9.0",
+     "publishedAt": "2026-11-28T00:51:08Z",
+     "tagName": "src/compute-plane-services/nvsnap/v0.9.0",
+     "url": "https://github.com/dsx-ai-factory/nvcf/releases/tag/src/compute-plane-services/nvsnap/v0.9.0"
+    },
     {
      "isPrerelease": false,
      "name": "src/compute-plane-services/nvsnap/v0.8.0",
@@ -4084,23 +4109,9 @@
      "publishedAt": "2026-11-27T09:40:18Z",
      "tagName": "src/control-plane-services/instance-cluster-management/v0.17.1",
      "url": "https://github.com/dsx-ai-factory/nvcf/releases/tag/src/control-plane-services/instance-cluster-management/v0.17.1"
-    },
-    {
-     "isPrerelease": false,
-     "name": "src/compute-plane-services/nvsnap/v0.7.4",
-     "publishedAt": "2026-11-27T00:17:38Z",
-     "tagName": "src/compute-plane-services/nvsnap/v0.7.4",
-     "url": "https://github.com/dsx-ai-factory/nvcf/releases/tag/src/compute-plane-services/nvsnap/v0.7.4"
-    },
-    {
-     "isPrerelease": false,
-     "name": "src/compute-plane-services/nvsnap/v0.7.3",
-     "publishedAt": "2026-11-26T21:00:05Z",
-     "tagName": "src/compute-plane-services/nvsnap/v0.7.3",
-     "url": "https://github.com/dsx-ai-factory/nvcf/releases/tag/src/compute-plane-services/nvsnap/v0.7.3"
     }
    ],
-   "releases": 3531,
+   "releases": 3533,
    "stars": 272,
    "stars_30d": 1,
    "stars_7d": 1,
@@ -4122,8 +4133,8 @@
    "archived": false,
    "closed_issues": 2,
    "closed_prs": 20,
-   "commits_30d": 22,
-   "commits_total": 34,
+   "commits_30d": 23,
+   "commits_total": 35,
    "commits_weekly": [
     0,
     0,
@@ -4137,7 +4148,7 @@
     2,
     6,
     9,
-    5
+    6
    ],
    "contributors": 10,
    "created_at": "2026-10-19T14:06:06Z",
@@ -4206,7 +4217,7 @@
    "forks_unattributed_90d": 0,
    "full_name": "dsx-ai-factory/NVIDIA-Recovery",
    "homepage": "",
-   "internal_contributions": 86,
+   "internal_contributions": 87,
    "issues_closed_30d": 2,
    "issues_opened_30d": 2,
    "language": "Python",
@@ -4219,14 +4230,14 @@
     "url": "https://github.com/dsx-ai-factory/NVIDIA-Recovery/releases/tag/v1.0.1"
    },
    "license": "Apache-2.0",
-   "merged_prs": 33,
+   "merged_prs": 34,
    "name": "NVIDIA-Recovery",
    "open_issues": 1,
-   "open_prs": 24,
+   "open_prs": 23,
    "owner": "dsx-ai-factory",
-   "prs_merged_30d": 22,
+   "prs_merged_30d": 23,
    "prs_opened_30d": 50,
-   "pushed_at": "2026-11-25T21:32:41Z",
+   "pushed_at": "2026-11-28T12:00:30Z",
    "recent_releases": [
     {
      "isPrerelease": false,
@@ -4251,20 +4262,20 @@
    "archived": false,
    "closed_issues": 14,
    "closed_prs": 14,
-   "commits_30d": 40,
+   "commits_30d": 38,
    "commits_total": 334,
    "commits_weekly": [
-    2,
-    4,
-    4,
-    2,
-    15,
-    8,
     0,
-    15,
-    10,
-    27,
-    3,
+    4,
+    6,
+    0,
+    17,
+    6,
+    1,
+    14,
+    13,
+    26,
+    1,
     4,
     2
    ],
@@ -4287,7 +4298,7 @@
    "homepage": "",
    "internal_contributions": 190,
    "issues_closed_30d": 11,
-   "issues_opened_30d": 11,
+   "issues_opened_30d": 10,
    "language": "Go",
    "language_color": "#00ADD8",
    "latest_release": {
@@ -4303,8 +4314,8 @@
    "open_issues": 0,
    "open_prs": 1,
    "owner": "dsx-ai-factory",
-   "prs_merged_30d": 51,
-   "prs_opened_30d": 56,
+   "prs_merged_30d": 50,
+   "prs_opened_30d": 52,
    "pushed_at": "2026-11-23T23:31:23Z",
    "recent_releases": [
     {
@@ -4358,22 +4369,22 @@
    "archived": false,
    "closed_issues": 217,
    "closed_prs": 363,
-   "commits_30d": 240,
+   "commits_30d": 234,
    "commits_total": 1687,
    "commits_weekly": [
-    99,
-    117,
-    105,
-    133,
-    82,
-    164,
-    206,
-    134,
-    90,
-    66,
-    52,
+    110,
+    109,
+    112,
+    120,
+    94,
+    160,
+    207,
+    125,
+    93,
+    63,
+    54,
     53,
-    35
+    32
    ],
    "contributors": 81,
    "created_at": "2026-08-04T15:42:58Z",
@@ -4476,6 +4487,11 @@
      "org": "Amazon"
     },
     {
+     "confidence": "medium",
+     "forks": 2,
+     "org": "Google"
+    },
+    {
      "confidence": "high",
      "forks": 2,
      "org": "IBM"
@@ -4573,11 +4589,6 @@
     {
      "confidence": "high",
      "forks": 1,
-     "org": "Google"
-    },
-    {
-     "confidence": "high",
-     "forks": 1,
      "org": "GoogleDistributedCloud"
     },
     {
@@ -4643,6 +4654,11 @@
     {
      "confidence": "high",
      "forks": 1,
+     "org": "Singlewire Software"
+    },
+    {
+     "confidence": "high",
+     "forks": 1,
      "org": "Stony Brook University"
     },
     {
@@ -4681,15 +4697,15 @@
      "org": "Zhejiang University of Technology"
     }
    ],
-   "forks": 178,
-   "forks_90d": 180,
+   "forks": 180,
+   "forks_90d": 182,
    "forks_internal_90d": 58,
    "forks_unattributed_90d": 68,
    "full_name": "dsx-ai-factory/nvke",
    "homepage": "https://docs.nvidia.com/nvke/",
-   "internal_contributions": 2185,
-   "issues_closed_30d": 65,
-   "issues_opened_30d": 149,
+   "internal_contributions": 2179,
+   "issues_closed_30d": 62,
+   "issues_opened_30d": 142,
    "language": "Go",
    "language_color": "#00ADD8",
    "latest_release": {
@@ -4705,8 +4721,8 @@
    "open_issues": 152,
    "open_prs": 102,
    "owner": "dsx-ai-factory",
-   "prs_merged_30d": 261,
-   "prs_opened_30d": 372,
+   "prs_merged_30d": 242,
+   "prs_opened_30d": 348,
    "pushed_at": "2026-11-27T03:36:11Z",
    "recent_releases": [
     {
@@ -4746,9 +4762,9 @@
     }
    ],
    "releases": 8,
-   "stars": 1261,
-   "stars_30d": 4,
-   "stars_7d": 4,
+   "stars": 1262,
+   "stars_30d": 5,
+   "stars_7d": 5,
    "topics": [
     "bare-metal",
     "cluster-api",
@@ -4766,21 +4782,21 @@
    "archived": false,
    "closed_issues": 2,
    "closed_prs": 12,
-   "commits_30d": 108,
+   "commits_30d": 102,
    "commits_total": 302,
    "commits_weekly": [
-    12,
+    13,
     10,
-    22,
-    17,
-    40,
+    23,
+    15,
+    41,
     39,
-    21,
+    20,
     17,
     19,
-    37,
-    27,
-    20,
+    39,
+    26,
+    19,
     13
    ],
    "contributors": 11,
@@ -4836,8 +4852,8 @@
    "open_issues": 8,
    "open_prs": 13,
    "owner": "dsx-ai-factory",
-   "prs_merged_30d": 118,
-   "prs_opened_30d": 140,
+   "prs_merged_30d": 116,
+   "prs_opened_30d": 136,
    "pushed_at": "2026-11-26T05:36:37Z",
    "recent_releases": [
     {
@@ -4891,22 +4907,22 @@
    "archived": false,
    "closed_issues": 70,
    "closed_prs": 31,
-   "commits_30d": 209,
+   "commits_30d": 205,
    "commits_total": 413,
    "commits_weekly": [
     0,
-    10,
-    18,
-    22,
-    14,
-    33,
-    60,
+    16,
+    13,
+    21,
+    16,
     36,
+    61,
+    30,
     31,
-    74,
-    42,
-    66,
-    7
+    78,
+    41,
+    65,
+    5
    ],
    "contributors": 21,
    "created_at": "2026-09-09T17:26:36Z",
@@ -4997,8 +5013,8 @@
    "full_name": "dsx-ai-factory/nvkr",
    "homepage": "https://docs.nvidia.com/nvke/nvkr/",
    "internal_contributions": 783,
-   "issues_closed_30d": 65,
-   "issues_opened_30d": 99,
+   "issues_closed_30d": 64,
+   "issues_opened_30d": 98,
    "language": "Go",
    "language_color": "#00ADD8",
    "latest_release": {
@@ -5014,8 +5030,8 @@
    "open_issues": 51,
    "open_prs": 15,
    "owner": "dsx-ai-factory",
-   "prs_merged_30d": 210,
-   "prs_opened_30d": 230,
+   "prs_merged_30d": 209,
+   "prs_opened_30d": 225,
    "pushed_at": "2026-11-27T08:51:45Z",
    "recent_releases": [
     {
@@ -5054,22 +5070,22 @@
    "archived": false,
    "closed_issues": 2,
    "closed_prs": 0,
-   "commits_30d": 192,
+   "commits_30d": 158,
    "commits_total": 23686,
    "commits_weekly": [
-    184,
+    182,
     26,
     65,
-    34,
-    28,
+    35,
+    27,
     1757,
-    167,
-    106,
-    102,
+    168,
+    105,
+    103,
     37,
     31,
     47,
-    8
+    7
    ],
    "contributors": 221,
    "created_at": "2026-10-02T18:25:59Z",
@@ -5191,13 +5207,13 @@
    "watchers": 1
   },
   {
-   "active_contributors_90d": 59,
-   "active_external_90d": 16,
+   "active_contributors_90d": 60,
+   "active_external_90d": 17,
    "active_internal_90d": 43,
    "archived": false,
    "closed_issues": 143,
    "closed_prs": 285,
-   "commits_30d": 1017,
+   "commits_30d": 999,
    "commits_total": 2878,
    "commits_weekly": [
     0,
@@ -5221,7 +5237,7 @@
    "external_orgs": [
     {
      "confidence": "high",
-     "contributions": 14,
+     "contributions": 16,
      "org": "Scherm",
      "people": 1
     },
@@ -5276,6 +5292,12 @@
     {
      "confidence": "high",
      "contributions": 1,
+     "org": "Mindgrep Technologies",
+     "people": 1
+    },
+    {
+     "confidence": "high",
+     "contributions": 1,
      "org": "NAVER Cloud",
      "people": 1
     },
@@ -5292,7 +5314,7 @@
      "people": 1
     }
    ],
-   "external_prs_90d": 35,
+   "external_prs_90d": 38,
    "external_unattributed": {
     "contributions": 29,
     "people": 4
@@ -5421,6 +5443,11 @@
     {
      "confidence": "high",
      "forks": 1,
+     "org": "hpc-777"
+    },
+    {
+     "confidence": "high",
+     "forks": 1,
      "org": "Iluvatar CoreX"
     },
     {
@@ -5432,6 +5459,11 @@
      "confidence": "low",
      "forks": 1,
      "org": "Microsoft"
+    },
+    {
+     "confidence": "high",
+     "forks": 1,
+     "org": "Mindgrep Technologies"
     },
     {
      "confidence": "low",
@@ -5589,15 +5621,15 @@
      "org": "WorleyTech"
     }
    ],
-   "forks": 138,
-   "forks_90d": 138,
+   "forks": 141,
+   "forks_90d": 141,
    "forks_internal_90d": 9,
-   "forks_unattributed_90d": 67,
+   "forks_unattributed_90d": 68,
    "full_name": "dsx-ai-factory/run-ai",
    "homepage": "https://docs.nvidia.com/run-ai/",
-   "internal_contributions": 3795,
-   "issues_closed_30d": 121,
-   "issues_opened_30d": 251,
+   "internal_contributions": 3792,
+   "issues_closed_30d": 118,
+   "issues_opened_30d": 245,
    "language": "Go",
    "language_color": "#00ADD8",
    "latest_release": {
@@ -5610,12 +5642,12 @@
    "license": "Apache-2.0",
    "merged_prs": 5296,
    "name": "run-ai",
-   "open_issues": 191,
-   "open_prs": 160,
+   "open_issues": 193,
+   "open_prs": 163,
    "owner": "dsx-ai-factory",
-   "prs_merged_30d": 2039,
-   "prs_opened_30d": 2192,
-   "pushed_at": "2026-11-27T02:29:08Z",
+   "prs_merged_30d": 1967,
+   "prs_opened_30d": 2122,
+   "pushed_at": "2026-11-28T14:25:22Z",
    "recent_releases": [
     {
      "isPrerelease": false,
@@ -5654,12 +5686,12 @@
     }
    ],
    "releases": 29,
-   "stars": 786,
-   "stars_30d": 0,
-   "stars_7d": 0,
+   "stars": 787,
+   "stars_30d": 1,
+   "stars_7d": 1,
    "topics": [],
    "url": "https://github.com/dsx-ai-factory/run-ai",
-   "watchers": 2
+   "watchers": 3
   },
   {
    "active_contributors_90d": 19,
@@ -5671,16 +5703,16 @@
    "commits_30d": 36,
    "commits_total": 599,
    "commits_weekly": [
-    18,
+    17,
     16,
     14,
-    2,
-    9,
-    2,
-    4,
-    19,
+    3,
+    8,
+    3,
+    3,
     22,
-    10,
+    20,
+    9,
     5,
     7,
     8
@@ -5788,7 +5820,7 @@
    "homepage": "https://docs.nvidia.com/topograph/",
    "internal_contributions": 175,
    "issues_closed_30d": 16,
-   "issues_opened_30d": 17,
+   "issues_opened_30d": 14,
    "language": "Go",
    "language_color": "#00ADD8",
    "latest_release": {
@@ -5804,8 +5836,8 @@
    "open_issues": 20,
    "open_prs": 15,
    "owner": "dsx-ai-factory",
-   "prs_merged_30d": 36,
-   "prs_opened_30d": 40,
+   "prs_merged_30d": 34,
+   "prs_opened_30d": 36,
    "pushed_at": "2026-11-26T18:10:43Z",
    "recent_releases": [
     {
@@ -5993,9 +6025,9 @@
    "forks_unattributed_90d": 9,
    "full_name": "dsx-ai-factory/workload-map",
    "homepage": "",
-   "internal_contributions": 308,
+   "internal_contributions": 307,
    "issues_closed_30d": 39,
-   "issues_opened_30d": 61,
+   "issues_opened_30d": 60,
    "language": "Go",
    "language_color": "#00ADD8",
    "latest_release": {
@@ -6011,8 +6043,8 @@
    "open_issues": 64,
    "open_prs": 21,
    "owner": "dsx-ai-factory",
-   "prs_merged_30d": 100,
-   "prs_opened_30d": 125,
+   "prs_merged_30d": 92,
+   "prs_opened_30d": 115,
    "pushed_at": "2026-11-26T13:56:07Z",
    "recent_releases": [
     {
@@ -6069,11 +6101,11 @@
   }
  ],
  "totals": {
-  "active_external_90d": 438,
-  "commits_30d": 4166,
+  "active_external_90d": 441,
+  "commits_30d": 4035,
   "contributor_orgs": {
-   "external_contributions": 1612,
-   "external_people": 393,
+   "external_contributions": 1631,
+   "external_people": 395,
    "orgs": [
     {
      "confidence": "high",
@@ -6097,7 +6129,7 @@
     },
     {
      "confidence": "high",
-     "contributions": 72,
+     "contributions": 73,
      "org": "DaoCloud",
      "people": 13,
      "repos": [
@@ -6120,7 +6152,7 @@
     },
     {
      "confidence": "high",
-     "contributions": 27,
+     "contributions": 29,
      "org": "Scherm",
      "people": 1,
      "repos": [
@@ -6207,6 +6239,15 @@
     },
     {
      "confidence": "high",
+     "contributions": 17,
+     "org": "New York University",
+     "people": 1,
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "confidence": "high",
      "contributions": 16,
      "org": "Google",
      "people": 4,
@@ -6225,15 +6266,6 @@
       "dynamo",
       "nvke",
       "run-ai"
-     ]
-    },
-    {
-     "confidence": "high",
-     "contributions": 14,
-     "org": "New York University",
-     "people": 1,
-     "repos": [
-      "dynamo"
      ]
     },
     {
@@ -6288,10 +6320,14 @@
     {
      "confidence": "high",
      "contributions": 10,
-     "org": "Hanoi University of Science and Technology",
+     "org": "Serra Consultancy Services",
      "people": 1,
      "repos": [
-      "dynamo"
+      "attribution",
+      "cluster-api-provider-nico",
+      "health-validation",
+      "nv-redfish",
+      "nvkr"
      ]
     },
     {
@@ -6339,18 +6375,6 @@
      "people": 1,
      "repos": [
       "dsx-exchange",
-      "nvkr"
-     ]
-    },
-    {
-     "confidence": "high",
-     "contributions": 9,
-     "org": "Serra Consultancy Services",
-     "people": 1,
-     "repos": [
-      "cluster-api-provider-nico",
-      "health-validation",
-      "nv-redfish",
       "nvkr"
      ]
     },
@@ -6568,6 +6592,15 @@
      "repos": [
       "NVIDIA-Recovery",
       "attribution"
+     ]
+    },
+    {
+     "confidence": "high",
+     "contributions": 5,
+     "org": "Hanoi University of Science and Technology",
+     "people": 1,
+     "repos": [
+      "dynamo"
      ]
     },
     {
@@ -6852,6 +6885,15 @@
      "people": 1,
      "repos": [
       "nvke"
+     ]
+    },
+    {
+     "confidence": "high",
+     "contributions": 3,
+     "org": "Paloa Labs",
+     "people": 1,
+     "repos": [
+      "dynamo"
      ]
     },
     {
@@ -7173,15 +7215,6 @@
      "confidence": "high",
      "contributions": 2,
      "org": "PaddlePaddle",
-     "people": 1,
-     "repos": [
-      "dynamo"
-     ]
-    },
-    {
-     "confidence": "high",
-     "contributions": 2,
-     "org": "Paloa Labs",
      "people": 1,
      "repos": [
       "dynamo"
@@ -7576,6 +7609,15 @@
      ]
     },
     {
+     "confidence": "high",
+     "contributions": 1,
+     "org": "Mindgrep Technologies",
+     "people": 1,
+     "repos": [
+      "run-ai"
+     ]
+    },
+    {
      "confidence": "medium",
      "contributions": 1,
      "org": "MiQ",
@@ -7955,7 +7997,7 @@
     }
    ],
    "reclassified_internal": {
-    "pr_email": 224,
+    "pr_email": 223,
     "resolver": 32
    },
    "top_external": [
@@ -8005,18 +8047,7 @@
     },
     {
      "confidence": "high",
-     "contributions": 27,
-     "evidence": "email domain or profile company",
-     "login": "flpanbin",
-     "name": "bin.pan",
-     "org": "DaoCloud",
-     "repos": [
-      "dynamo"
-     ]
-    },
-    {
-     "confidence": "high",
-     "contributions": 27,
+     "contributions": 29,
      "evidence": "email domain or profile company",
      "login": "msserpa",
      "name": "Matheus Serpa",
@@ -8029,6 +8060,17 @@
       "nvcf",
       "run-ai",
       "topograph"
+     ]
+    },
+    {
+     "confidence": "high",
+     "contributions": 28,
+     "evidence": "email domain or profile company",
+     "login": "flpanbin",
+     "name": "bin.pan",
+     "org": "DaoCloud",
+     "repos": [
+      "dynamo"
      ]
     },
     {
@@ -8126,6 +8168,17 @@
     },
     {
      "confidence": "high",
+     "contributions": 17,
+     "evidence": "email domain or profile company",
+     "login": "JasperChan929",
+     "name": "WENZHI CHEN (SII)",
+     "org": "nyu.edu",
+     "repos": [
+      "dynamo"
+     ]
+    },
+    {
+     "confidence": "high",
      "contributions": 16,
      "evidence": "tessian.com commit email domain",
      "login": "chethanuk",
@@ -8149,12 +8202,12 @@
      ]
     },
     {
-     "confidence": "high",
-     "contributions": 14,
-     "evidence": "email domain or profile company",
-     "login": "JasperChan929",
-     "name": "WENZHI CHEN (SII)",
-     "org": "nyu.edu",
+     "confidence": "unknown",
+     "contributions": 13,
+     "evidence": "",
+     "login": "elizabetht",
+     "name": "Elizabeth Thomas",
+     "org": null,
      "repos": [
       "dynamo"
      ]
@@ -8163,8 +8216,8 @@
      "confidence": "unknown",
      "contributions": 13,
      "evidence": "",
-     "login": "elizabetht",
-     "name": "Elizabeth Thomas",
+     "login": "hhzhang16",
+     "name": null,
      "org": null,
      "repos": [
       "dynamo"
@@ -8338,17 +8391,6 @@
      ]
     },
     {
-     "confidence": "high",
-     "contributions": 10,
-     "evidence": "email domain or profile company",
-     "login": "nguyenthai-duong",
-     "name": null,
-     "org": "Hanoi University of Science and Technology",
-     "repos": [
-      "dynamo"
-     ]
-    },
-    {
      "confidence": "unknown",
      "contributions": 10,
      "evidence": "",
@@ -8357,6 +8399,21 @@
      "org": null,
      "repos": [
       "dynamo"
+     ]
+    },
+    {
+     "confidence": "high",
+     "contributions": 10,
+     "evidence": "email domain or profile company",
+     "login": "omerfsen",
+     "name": "Omer Sen",
+     "org": "Serra Consultancy Services",
+     "repos": [
+      "attribution",
+      "cluster-api-provider-nico",
+      "health-validation",
+      "nv-redfish",
+      "nvkr"
      ]
     },
     {
@@ -8414,20 +8471,6 @@
      "repos": [
       "dynamo",
       "nvke"
-     ]
-    },
-    {
-     "confidence": "high",
-     "contributions": 9,
-     "evidence": "email domain or profile company",
-     "login": "omerfsen",
-     "name": "Omer Sen",
-     "org": "Serra Consultancy Services",
-     "repos": [
-      "cluster-api-provider-nico",
-      "health-validation",
-      "nv-redfish",
-      "nvkr"
      ]
     },
     {
@@ -8647,13 +8690,13 @@
     }
    ],
    "unattributed": {
-    "contributions": 270,
-    "people": 82
+    "contributions": 285,
+    "people": 83
    }
   },
   "contributors": 1398,
   "fork_orgs": {
-   "forks_90d": 883,
+   "forks_90d": 889,
    "internal": 205,
    "orgs": [
     {
@@ -8714,6 +8757,17 @@
      ]
     },
     {
+     "confidence": "medium",
+     "forks": 7,
+     "org": "Google",
+     "people": 7,
+     "repos": [
+      "dynamo",
+      "model-streamer",
+      "nvke"
+     ]
+    },
+    {
      "confidence": "high",
      "forks": 7,
      "org": "Scherm",
@@ -8730,17 +8784,6 @@
     },
     {
      "confidence": "high",
-     "forks": 6,
-     "org": "Google",
-     "people": 6,
-     "repos": [
-      "dynamo",
-      "model-streamer",
-      "nvke"
-     ]
-    },
-    {
-     "confidence": "high",
      "forks": 5,
      "org": "Intel",
      "people": 5,
@@ -8749,6 +8792,19 @@
       "health-validation",
       "infra-controller",
       "model-streamer"
+     ]
+    },
+    {
+     "confidence": "high",
+     "forks": 5,
+     "org": "Serra Consultancy Services Ltd",
+     "people": 1,
+     "repos": [
+      "attribution",
+      "cluster-api-provider-nico",
+      "health-validation",
+      "nv-redfish",
+      "nvkr"
      ]
     },
     {
@@ -8805,18 +8861,6 @@
       "model-streamer",
       "nvke",
       "run-ai"
-     ]
-    },
-    {
-     "confidence": "high",
-     "forks": 4,
-     "org": "Serra Consultancy Services Ltd",
-     "people": 1,
-     "repos": [
-      "cluster-api-provider-nico",
-      "health-validation",
-      "nv-redfish",
-      "nvkr"
      ]
     },
     {
@@ -9835,6 +9879,15 @@
     {
      "confidence": "high",
      "forks": 1,
+     "org": "hpc-777",
+     "people": 1,
+     "repos": [
+      "run-ai"
+     ]
+    },
+    {
+     "confidence": "high",
+     "forks": 1,
      "org": "IIIT Lucknow",
      "people": 1,
      "repos": [
@@ -10001,6 +10054,15 @@
      "people": 1,
      "repos": [
       "dynamo"
+     ]
+    },
+    {
+     "confidence": "high",
+     "forks": 1,
+     "org": "Mindgrep Technologies",
+     "people": 1,
+     "repos": [
+      "run-ai"
      ]
     },
     {
@@ -10397,6 +10459,15 @@
      "people": 1,
      "repos": [
       "dynamo"
+     ]
+    },
+    {
+     "confidence": "high",
+     "forks": 1,
+     "org": "Singlewire Software",
+     "people": 1,
+     "repos": [
+      "nvke"
      ]
     },
     {
@@ -10877,17 +10948,17 @@
      ]
     }
    ],
-   "unattributed": 317
+   "unattributed": 318
   },
-  "forks": 3081,
-  "merged_prs": 28754,
-  "open_issues": 2970,
-  "open_prs": 2018,
-  "prs_merged_30d": 5395,
-  "releases": 4205,
+  "forks": 3087,
+  "merged_prs": 28758,
+  "open_issues": 2965,
+  "open_prs": 2017,
+  "prs_merged_30d": 5172,
+  "releases": 4208,
   "repos": 28,
-  "stars": 12618,
-  "stars_30d": 15,
-  "stars_7d": 15
+  "stars": 12622,
+  "stars_30d": 19,
+  "stars_7d": 19
  }
 }

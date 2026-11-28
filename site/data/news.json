@@ -1,6 +1,27 @@
 {
- "generated_at": "2026-11-27T21:49:53.587750+00:00",
+ "generated_at": "2026-11-28T15:47:09.841595+00:00",
  "items": [
+  {
+   "first_seen": "2026-11-28T15:47:09.841595+00:00",
+   "id": "f297e4225459de6c",
+   "llm": {
+    "category": "other",
+    "importance": "low",
+    "model": "claude-haiku-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Local Butte County Giving Tuesday coverage with no connection to NVIDIA or tracked projects."
+   },
+   "origin": "google:\"NVIDIA Cloud Functions\" OR NVCF",
+   "origins": [
+    "google:\"NVIDIA Cloud Functions\" OR NVCF"
+   ],
+   "published": "2026-11-28T12:01:40+00:00",
+   "snippet": "",
+   "source": "Chico Enterprise-Record",
+   "title": "Giving Tuesday benefits citizens in Butte County, beyond",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOT2ZrMXlUYkI0UnlGSXBacG9leUpNdmhuZzNpY3ZkYW96eDMxaTE4N2hlU2NIMFlpa1F4TTJ6d0wzMjAzU1VCMldlVWhCd0htRUZPcmhwcmlUeHUyWEhSa1Fpa2FSV05NUDIxNGZCZGMwOHM4bDhxYmM1MV8tWHJUVjlTODZJbXAyTGFN?oc=5"
+  },
   {
    "first_seen": "2026-11-26T20:16:01.311589+00:00",
    "id": "17819fca9ff04333",
@@ -1332,6 +1353,27 @@
    "source": "FourWeekMBA",
    "title": "Luminal Gets $25M to Run AI Beyond Nvidia; 3 Rounds Hit $75M",
    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPTUVrZDNCVGp0NzlQQlJUUnlqMGNaUVE1NW1sbGQ3SkMxTERUZXNoakN4b2NadHRSX1ZkVWkzeU5mUWcxeEl2cm5oV1M1eFIzdjFJV19hV0xnMloyQjFVN3ZicTBFczBsdnR3YWxMS0NIY2FTMlQ0RXJIeHNzYnN3VXhPUDJuYzRxbl9nZlN3?oc=5"
+  },
+  {
+   "first_seen": "2026-11-28T15:47:09.841595+00:00",
+   "id": "db604136bd89f4a3",
+   "llm": {
+    "category": "analysis_opinion",
+    "importance": "low",
+    "model": "claude-haiku-5-5",
+    "relevant": false,
+    "repos": [],
+    "summary": "Speculative commentary on NVIDIA's leadership and US-China AI race, not about any tracked project."
+   },
+   "origin": "google:\"Run:ai\" NVIDIA",
+   "origins": [
+    "google:\"Run:ai\" NVIDIA"
+   ],
+   "published": "2026-11-14T08:00:00+00:00",
+   "snippet": "",
+   "source": "The Business Times",
+   "title": "Nvidia crisis: \u2018Emperor\u2019 Huang\u2019s downfall may blow US-China AI race wide open",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNk04TVBIX1QzTzdrNmRnUkF5eFlKZjVrMGlaaGZQNzBlbU4zLTNRY3VOUG4zUHJDdDIyMDhYZjFibk1xZGR1WldXa2twZ2RWaDZkNTQ1eWR1Q3ptRFJjZEgzWEJFcjM1eUVtZDdYTGFldFVhWTV5Rm5LZXYtV2trX3gxRHlzMXFjMGd4T2dhUUowaFJhaVNBTW1rU1lBVDNtQXY1WTRzbnhpclI4cXdnblBUZl9QX0pkV1BuV3NzUGs?oc=5"
   },
   {
    "first_seen": "2026-11-26T00:14:47.750228+00:00",
